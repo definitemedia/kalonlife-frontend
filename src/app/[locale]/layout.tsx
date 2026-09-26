@@ -1,5 +1,16 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Noto_Sans_Devanagari, Noto_Sans_Telugu } from "next/font/google";
+import {
+  Inter,
+  Noto_Sans_Bengali,
+  Noto_Sans_Devanagari,
+  Noto_Sans_Gujarati,
+  Noto_Sans_Gurmukhi,
+  Noto_Sans_Kannada,
+  Noto_Sans_Malayalam,
+  Noto_Sans_Oriya,
+  Noto_Sans_Tamil,
+  Noto_Sans_Telugu,
+} from "next/font/google";
 import { hasLocale } from "next-intl";
 import { NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -30,6 +41,68 @@ const telugu = Noto_Sans_Telugu({
   variable: "--font-telugu",
   display: "swap",
 });
+
+const tamil = Noto_Sans_Tamil({
+  subsets: ["tamil"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-tamil",
+  display: "swap",
+});
+
+const kannada = Noto_Sans_Kannada({
+  subsets: ["kannada"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-kannada",
+  display: "swap",
+});
+
+const malayalam = Noto_Sans_Malayalam({
+  subsets: ["malayalam"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-malayalam",
+  display: "swap",
+});
+
+const bengali = Noto_Sans_Bengali({
+  subsets: ["bengali"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-bengali",
+  display: "swap",
+});
+
+const gujarati = Noto_Sans_Gujarati({
+  subsets: ["gujarati"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-gujarati",
+  display: "swap",
+});
+
+const odia = Noto_Sans_Oriya({
+  subsets: ["oriya"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-odia",
+  display: "swap",
+});
+
+const gurmukhi = Noto_Sans_Gurmukhi({
+  subsets: ["gurmukhi"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-gurmukhi",
+  display: "swap",
+});
+
+const localeFonts = [
+  inter.variable,
+  devanagari.variable,
+  telugu.variable,
+  tamil.variable,
+  kannada.variable,
+  malayalam.variable,
+  bengali.variable,
+  gujarati.variable,
+  odia.variable,
+  gurmukhi.variable,
+].join(" ");
 
 export const viewport: Viewport = {
   themeColor: "#042F34",
@@ -87,7 +160,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${inter.variable} ${devanagari.variable} ${telugu.variable}`}
+      className={localeFonts}
     >
       <body>
         <NextIntlClientProvider>

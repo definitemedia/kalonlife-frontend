@@ -39,6 +39,7 @@ export async function buildMetadata(
       absoluteLocalizedUrl(code, path),
     ]),
   );
+  languages["x-default"] = absoluteLocalizedUrl("en", path);
 
   return {
     title: routeKey === "home" ? { absolute: site.name } : title,

@@ -139,12 +139,79 @@ select {
   margin-inline-start: auto;
 }
 
-.locale-switcher select {
+.locale-switcher {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.locale-switcher-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
   padding: var(--space-2) var(--space-3);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-pill);
   background: var(--color-surface);
+  color: var(--color-primary);
+  font: inherit;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.locale-switcher-icon {
+  width: 1.05rem;
+  height: 1.05rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.locale-switcher-menu {
+  position: absolute;
+  z-index: 30;
+  inset-inline-end: 0;
+  top: calc(100% + var(--space-2));
+  display: grid;
+  min-width: 11.5rem;
+  max-height: min(22rem, 70vh);
+  margin: 0;
+  padding: var(--space-2);
+  overflow: auto;
+  list-style: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-overlay);
+}
+
+.locale-switcher-option {
+  display: block;
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
   color: var(--color-text);
+  font: inherit;
+  font-size: var(--text-sm);
+  line-height: 1.4;
+  text-align: start;
+  cursor: pointer;
+}
+
+.locale-switcher-option:hover,
+.locale-switcher-option:focus-visible {
+  background: var(--color-neutral);
+}
+
+.locale-switcher-option[aria-selected="true"] {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  font-weight: var(--weight-semibold);
 }
 
 .menu-toggle {
@@ -312,6 +379,24 @@ select {
   .nav-group-panel {
     position: static;
     min-width: 0;
+    margin-top: var(--space-2);
+    box-shadow: none;
+    background: var(--color-neutral);
+  }
+
+  .locale-switcher,
+  .locale-switcher-trigger {
+    width: 100%;
+  }
+
+  .locale-switcher-trigger {
+    justify-content: flex-start;
+  }
+
+  .locale-switcher-menu {
+    position: static;
+    width: 100%;
+    max-height: 16rem;
     margin-top: var(--space-2);
     box-shadow: none;
     background: var(--color-neutral);

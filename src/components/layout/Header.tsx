@@ -79,9 +79,9 @@ export function Header() {
                 {t(item.label)}
               </Link>
             ))}
+          <LocaleSwitcher onSelect={close} />
         </nav>
         <div className="header-tools">
-          <LocaleSwitcher />
           <button
             type="button"
             className="menu-toggle"

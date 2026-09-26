@@ -14,12 +14,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: absoluteLocalizedUrl(locale, route.path),
         lastModified,
         alternates: {
-          languages: Object.fromEntries(
-            routing.locales.map((code) => [
-              site.hrefLang[code],
-              absoluteLocalizedUrl(code, route.path),
-            ]),
-          ),
+          languages: {
+            ...Object.fromEntries(
+              routing.locales.map((code) => [
+                site.hrefLang[code],
+                absoluteLocalizedUrl(code, route.path),
+              ]),
+            ),
+            "x-default": absoluteLocalizedUrl("en", route.path),
+          },
         },
       })),
     );

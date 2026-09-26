@@ -1,5 +1,8 @@
 :root {
-  --font-sans: var(--font-inter), var(--font-devanagari), var(--font-telugu), system-ui, sans-serif;
+  --font-sans:
+    var(--font-inter), var(--font-devanagari), var(--font-telugu), var(--font-tamil),
+    var(--font-kannada), var(--font-malayalam), var(--font-bengali), var(--font-gujarati),
+    var(--font-odia), var(--font-gurmukhi), system-ui, sans-serif;
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-body: 1rem;
@@ -15,4 +18,9 @@
   --weight-semibold: 600;
   --weight-bold: 700;
   --tracking-heading: -0.02em;
+}
+
+html:not([lang="en"]) {
+  --leading-body: 1.75;
+  --leading-heading: 1.35;
 }

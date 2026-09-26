@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "siteName": "Kalonlife International",
+    "defaultDescription": "Kalonlife International ही पोषण उत्पादने आणि आरोग्य कार्यक्रम देणारी एक आरोग्य कंपनी आहे."
+  },
+  "hero": {
+    "eyebrow": "आरोग्य समुदाय",
+    "heading": "एकत्र आरोग्य समुदाय घडवूया",
+    "description": "निरोगी जीवन एकत्र घडवणाऱ्या हजारो लोकांसोबत सामील व्हा. तुमच्या आरोग्य प्रवासाच्या प्रत्येक टप्प्यावर आमचा समुदाय तुमच्यासोबत आहे.",
+    "primaryCta": "Kalonlife जाणून घ्या",
+    "secondaryCta": "आमची उत्पादने पाहा",
+    "portraitAlt": "झाडांनी वेढलेल्या वाटेवर एकत्र चालणारे एक भारतीय जोडपे; जवळ विश्रांती घेणारे एक कुटुंब"
+  },
+  "about": {
+    "eyebrow": "आम्ही कोण",
+    "heading": "Kalonlife बद्दल",
+    "lead": "Kalonlife International India Private Limited ही उच्च दर्जाची पोषण पूरके, नावीन्यपूर्ण आरोग्य उत्पादने आणि अर्थपूर्ण व्यवसाय संधी यांद्वारे जीवन सुधारण्यासाठी समर्पित आरोग्य संस्था आहे.",
+    "belief": "खरी यश हे आरोग्य, आर्थिक वाढ आणि वैयक्तिक विकास यांच्या संतुलित जीवनातून येते या विश्वासावर, Kalonlife व्यक्ती आणि समुदायांवर सकारात्मक परिणाम घडवू इच्छिते.",
+    "images": {
+      "stretch": "झाडांमध्ये बाहेर शरीर ताणणारी एक भारतीय महिला",
+      "family": "घरी एकत्र जेवण वाटून घेणारे एक भारतीय कुटुंब",
+      "nutrition": "ताजी फळे, पालेभाज्या आणि सुकामेवा एका ताटात मांडणारे हात",
+      "conversation": "उद्यानातील बाकावर गप्पा मारणाऱ्या दोन भारतीय महिला",
+      "walk": "ताज्या भाज्यांच्या पिशवीसह चालणारा एक भारतीय पुरुष"
+    }
+  },
+  "purpose": {
+    "eyebrow": "आमचा हेतू",
+    "heading": "ध्येय आणि दृष्टी",
+    "missionTitle": "आमचे ध्येय",
+    "mission": "उत्तम आरोग्य, आर्थिक स्वातंत्र्य आणि वैयक्तिक वाढ साध्य करण्यासाठी लोकांना सक्षम करणारे व्यासपीठ तयार करून उच्च दर्जाची आरोग्य व पोषण उत्पादने देणे.",
+    "visionTitle": "आमची दृष्टी",
+    "vision": "नावीन्यपूर्ण आरोग्य उपाय आणि मजबूत उद्योजकीय परिसंस्थेद्वारे जीवन बदलणारा, जागतिक स्तरावर ओळखला जाणारा आरोग्य ब्रँड बनणे."
+  },
+  "philosophy": {
+    "eyebrow": "आमची मूल्ये",
+    "heading": "आमचे तत्त्वज्ञान",
+    "intro": "Kalonlife मध्ये, आम्ही जे काही करतो ते मार्गदर्शन करणाऱ्या मूळ तत्त्वांवर आमचा विश्वास आहे.",
+    "health": {
+      "title": "आरोग्य प्रथम",
+      "description": "आरोग्य हे यशाचा पाया आहे",
+      "imageAlt": "बागेत बाहेर योग करणारी एक भारतीय महिला"
+    },
+    "integrity": {
+      "title": "प्रामाणिकपणा",
+      "description": "गुणवत्ता आणि प्रामाणिकपणा दीर्घकालीन विश्वास घडवतात",
+      "imageAlt": "ताजे पोषण घटक तपासणारे एक भारतीय आरोग्य व्यावसायिक"
+    },
+    "community": {
+      "title": "समुदाय",
+      "description": "सक्षम व्यक्ती मजबूत समुदाय घडवतात",
+      "imageAlt": "उद्यानात एकत्र चालणाऱ्या भारतीय प्रौढांचा गट"
+    },
+    "growth": {
+      "title": "वाढ",
+      "description": "उद्योजकता जीवन बदलू शकते",
+      "imageAlt": "घरातील कामाच्या जागेत नोंदी पाहणारे एक भारतीय उद्योजक"
+    },
+    "closing": "आधुनिक जीवनशैलीला आधार देण्यासाठी आणि एकूण आरोग्य वाढवण्यासाठी काळजीपूर्वक निवडलेल्या घटकांपासून आणि प्रगत सूत्रांपासून आमची उत्पादने तयार केली जातात."
+  },
+  "offers": {
+    "eyebrow": "उत्पादने आणि सेवा",
+    "heading": "आम्ही काय देतो",
+    "intro": "Kalonlife आरोग्य उपायांच्या विस्तृत श्रेणीवर लक्ष केंद्रित करते:",
+    "previous": "मागील सेवा",
+    "next": "पुढील सेवा",
+    "carousel": "आरोग्य सेवा",
+    "supplements": {
+      "title": "पोषण पूरके",
+      "description": "उत्तम आरोग्य आणि उत्साहासाठी विज्ञानआधारित पूरके",
+      "imageAlt": "नाश्त्यावेळी पाण्यासोबत पोषण पूरक घेणारी एक भारतीय महिला"
+    },
+    "meal": {
+      "title": "जेवण बदली पोषण",
+      "description": "सक्रिय जीवनशैलीसाठी संतुलित, सोयीस्कर पोषण",
+      "imageAlt": "उजळ स्वयंपाकघरात हिरवा स्मूदी ओतणारा एक भारतीय पुरुष"
+    },
+    "herbal": {
+      "title": "औषधी आरोग्य उत्पादने",
+      "description": "सर्वांगीण आरोग्यासाठी नैसर्गिक औषधी अर्क",
+      "imageAlt": "कापडावर मांडलेली ताजी औषधी वनस्पती, हळद आणि वनस्पती घटक"
+    },
+    "care": {
+      "title": "वैयक्तिक काळजी उपाय",
+      "description": "उत्तम त्वचा काळजी आणि वैयक्तिक काळजीच्या गरजा",
+      "imageAlt": "सोप्या त्वचा काळजी दिनचर्येचा भाग म्हणून क्रीम लावणारी एक भारतीय महिला"
+    },
+    "programs": {
+      "title": "आरोग्य जीवनशैली कार्यक्रम",
+      "description": "सर्वात निरोगी जीवन जगण्यास मदत करणारे मार्गदर्शित कार्यक्रम",
+      "imageAlt": "उद्यानात एकत्र शरीर ताणणारे दोन भारतीय प्रौढ"
+    },
+    "guidance": {
+      "title": "आहार आणि पोषण मार्गदर्शन",
+      "description": "तुमच्या वैयक्तिक आरोग्य उद्दिष्टांनुसार तज्ञांचा सल्ला",
+      "imageAlt": "फळांच्या वाटीजवळ ग्राहकाशी बोलणारे एक भारतीय पोषण व्यावसायिक"
+    }
+  },
+  "commitment": {
+    "eyebrow": "आमचे वचन",
+    "heading": "आमची बांधिलकी",
+    "intro": "प्रत्येक टप्प्यावर उत्कृष्टता देण्यासाठी Kalonlife वचनबद्ध आहे.",
+    "imageAlt": "उजळ, शांत वातावरणात हसणारे एक भारतीय आरोग्य व्यावसायिक",
+    "standards": { "title": "उच्च मानके", "description": "उत्पादन गुणवत्ता आणि सुरक्षिततेची उच्च मानके जपणे." },
+    "ethics": { "title": "नैतिक पद्धती", "description": "सर्व कार्यांमध्ये नैतिक व्यवसाय पद्धतींचा प्रसार करणे." },
+    "community": { "title": "समुदाय वाढ", "description": "समुदाय वाढ आणि आरोग्य शिक्षणाला पाठिंबा देणे." },
+    "opportunities": { "title": "दीर्घकालीन संधी", "description": "उद्योजकांसाठी दीर्घकालीन संधी निर्माण करणे." }
+  },
+  "choose": {
+    "eyebrow": "आमचे वेगळेपण",
+    "heading": "Kalonlife का निवडावे?",
+    "intro": "Kalonlife निवडणे म्हणजे आरोग्य, नावीन्य आणि जीवन बदलणाऱ्या संधींसाठी वचनबद्ध ब्रँडचा भाग होणे.",
+    "quality": {
+      "title": "उत्तम गुणवत्ता",
+      "description": "उच्च दर्जाचे घटक आणि प्रगत पोषण विज्ञानाचा वापर करून काळजीपूर्वक तयार केलेली उत्पादने.",
+      "imageAlt": "हळद आणि पोषण कॅप्सूल तपासणारा एक भारतीय पुरुष"
+    },
+    "science": {
+      "title": "विज्ञान आणि निसर्ग",
+      "description": "सुरक्षित, परिणामकारक परिणामांसाठी आधुनिक पोषण विज्ञान आणि नैसर्गिक औषधी अर्क यांची जोड.",
+      "imageAlt": "तुळस, हळद, शेवगा आणि औषधी पेयाचा ग्लास"
+    },
+    "ethics": {
+      "title": "नैतिक व्यवसाय",
+      "description": "दीर्घकालीन विश्वास घडवणारी पारदर्शक व्यवस्था आणि न्याय्य बक्षीस रचना.",
+      "imageAlt": "चहा घेत बोलणारे दोन भारतीय व्यावसायिक"
+    },
+    "platform": {
+      "title": "उद्योजकीय व्यासपीठ",
+      "description": "तुमचा स्वतःचा व्यवसाय उभा करा, नेतृत्व कौशल्ये विकसित करा आणि स्थिर उत्पन्नाचे मार्ग तयार करा.",
+      "imageAlt": "लाकडी टेबलावर व्यवसाय आराखडा लिहिणारी एक भारतीय महिला"
+    },
+    "global": {
+      "title": "जागतिक दृष्टी",
+      "description": "आरोग्य आणि समृद्धीसाठी समर्पित नेत्यांचा मजबूत समुदाय जोपासत जागतिक विस्तार.",
+      "imageAlt": "उजळ खिडकीजवळ बोलणारे तीन भारतीय प्रौढ"
+    },
+    "community": {
+      "title": "समुदाय परिणाम",
+      "description": "व्यवसायापेक्षा अधिक — आरोग्य सुधारण्यासाठी आणि समुदाय उंचावण्यासाठी वचनबद्ध एक चळवळ.",
+      "imageAlt": "बागेत ताजी पालेभाजी वाटून घेणारे एक भारतीय कुटुंब"
+    }
+  },
+  "nav": {
+    "skip": "मुख्य मजकुराकडे जा",
+    "language": "भाषा",
+    "openMenu": "मेनू उघडा",
+    "closeMenu": "मेनू बंद करा",
+    "primary": "प्राथमिक",
+    "home": "मुख्यपृष्ठ",
+    "shop": "दुकान",
+    "company": "कंपनी",
+    "about": "आमच्याबद्दल",
+    "whyChooseUs": "आम्हाला का निवडावे",
+    "chairmanMessage": "अध्यक्षांचा संदेश",
+    "consultDietician": "तुमच्या आहारतज्ञांचा सल्ला घ्या",
+    "articles": "लेख",
+    "login": "लॉगिन",
+    "cart": "कार्ट"
+  },
+  "footer": {
+    "tagline": "जीवनाला सक्षम करणे, आरोग्य समृद्ध करणे.",
+    "company": "कंपनी",
+    "about": "आमच्याबद्दल",
+    "whyChooseUs": "आम्हाला का निवडावे",
+    "chairmanMessage": "अध्यक्षांचा संदेश",
+    "products": "उत्पादने",
+    "contact": "आमच्याशी संपर्क साधा",
+    "dieticianLogin": "आहारतज्ञ लॉगिन",
+    "wellnessHub": "आरोग्य केंद्र",
+    "quickLinks": "जलद दुवे",
+    "terms": "वापर अटी",
+    "privacy": "गोपनीयता धोरण",
+    "disclaimer": "उत्पादन अस्वीकरण",
+    "shipping": "शिपिंग धोरण",
+    "returns": "परतावा आणि परतावा रक्कम धोरण",
+    "addressHeading": "कंपनीचा पत्ता",
+    "rights": "Kalonlife International India Pvt Ltd. सर्व हक्क राखीव."
+  },
+  "notFound": { "title": "पृष्ठ सापडले नाही" },
+  "routes": {
+    "home": { "title": "मुख्यपृष्ठ", "description": "Kalonlife International आरोग्य आणि पोषण." },
+    "shop": { "title": "दुकान", "description": "Kalonlife आरोग्य आणि पोषण उत्पादने खरेदी करा." },
+    "about": { "title": "आमच्याबद्दल", "description": "Kalonlife International India Private Limited बद्दल." },
+    "whyChooseUs": { "title": "आम्हाला का निवडावे", "description": "लोक Kalonlife का निवडतात." },
+    "chairmanMessage": { "title": "अध्यक्षांचा संदेश", "description": "Kalonlife International च्या अध्यक्षांचा संदेश." },
+    "contact": { "title": "आमच्याशी संपर्क साधा", "description": "Kalonlife International शी संपर्क साधा." },
+    "terms": { "title": "वापर अटी", "description": "Kalonlife International च्या वापर अटी." },
+    "privacy": { "title": "गोपनीयता धोरण", "description": "Kalonlife International चे गोपनीयता धोरण." },
+    "shipping": { "title": "शिपिंग धोरण", "description": "Kalonlife ऑर्डरसाठी शिपिंग धोरण." },
+    "returns": { "title": "परतावा आणि परतावा रक्कम धोरण", "description": "Kalonlife ऑर्डरसाठी परतावा आणि परतावा रक्कम धोरण." },
+    "disclaimer": { "title": "उत्पादन अस्वीकरण", "description": "Kalonlife आरोग्य उत्पादनांचे अस्वीकरण." },
+    "cart": { "title": "कार्ट", "description": "तुमची Kalonlife खरेदी टोपली." },
+    "categories": { "title": "श्रेणी", "description": "Kalonlife उत्पादन श्रेणी." },
+    "product": { "title": "उत्पादन", "description": "Kalonlife उत्पादन तपशील." },
+    "articles": { "title": "लेख", "description": "Kalonlife चे आरोग्य लेख." },
+    "article": { "title": "लेख", "description": "एक Kalonlife आरोग्य लेख." },
+    "orderForm": { "title": "ऑर्डर फॉर्म", "description": "Kalonlife ऑर्डर फॉर्म." },
+    "connectWithAssociate": { "title": "सहकाऱ्याशी संपर्क साधा", "description": "Kalonlife सहकाऱ्याशी संपर्क साधा." },
+    "consultDietician": { "title": "तुमच्या आहारतज्ञांचा सल्ला घ्या", "description": "Kalonlife आहारतज्ञांचा सल्ला घ्या." },
+    "login": { "title": "लॉगिन", "description": "Kalonlife मध्ये लॉगिन करा." },
+    "forgotPassword": { "title": "पासवर्ड विसरलात", "description": "तुमचा Kalonlife पासवर्ड रीसेट करा." },
+    "customerRegister": { "title": "खाते तयार करा", "description": "Kalonlife ग्राहक खाते तयार करा." },
+    "paymentSuccess": { "title": "पेमेंट यशस्वी", "description": "Kalonlife पेमेंट पुष्टी." },
+    "paymentFailure": { "title": "पेमेंट अयशस्वी", "description": "Kalonlife पेमेंट पूर्ण होऊ शकले नाही." },
+    "dieticianLogin": { "title": "आहारतज्ञ लॉगिन", "description": "Kalonlife आहारतज्ञ लॉगिन." },
+    "wellnessHub": { "title": "आरोग्य केंद्र", "description": "Kalonlife आरोग्य केंद्र." },
+    "wellnessHubAbout": { "title": "आरोग्य केंद्राबद्दल", "description": "Kalonlife आरोग्य केंद्राबद्दल." },
+    "wellnessHubConcept": { "title": "आरोग्य केंद्र संकल्पना", "description": "Kalonlife आरोग्य केंद्र संकल्पना." },
+    "wellnessHubServices": { "title": "आरोग्य केंद्र सेवा", "description": "Kalonlife आरोग्य केंद्रातील सेवा." },
+    "wellnessHubService": { "title": "आरोग्य केंद्र सेवा", "description": "एक Kalonlife आरोग्य केंद्र सेवा." },
+    "wellnessHubProducts": { "title": "आरोग्य केंद्र उत्पादने", "description": "Kalonlife आरोग्य केंद्रातील उत्पादने." },
+    "wellnessHubConsultation": { "title": "सल्लामसलत", "description": "Kalonlife येथे आरोग्य केंद्र सल्लामसलत." },
+    "wellnessHubFranchise": { "title": "फ्रँचायझी", "description": "Kalonlife आरोग्य केंद्र फ्रँचायझी." },
+    "wellnessHubDistributor": { "title": "वितरक", "description": "Kalonlife आरोग्य केंद्र वितरक." },
+    "wellnessHubLocate": { "title": "केंद्र शोधा", "description": "Kalonlife आरोग्य केंद्र शोधा." },
+    "wellnessHubStories": { "title": "कथा", "description": "Kalonlife आरोग्य केंद्राच्या कथा." },
+    "wellnessHubEvents": { "title": "कार्यक्रम", "description": "Kalonlife आरोग्य केंद्राचे कार्यक्रम." },
+    "wellnessHubTraining": { "title": "प्रशिक्षण", "description": "Kalonlife आरोग्य केंद्रातील प्रशिक्षण." },
+    "wellnessHubBlog": { "title": "ब्लॉग", "description": "Kalonlife आरोग्य केंद्र ब्लॉग." },
+    "wellnessHubContact": { "title": "आरोग्य केंद्र संपर्क", "description": "Kalonlife आरोग्य केंद्राशी संपर्क साधा." },
+    "wellnessHubLogin": { "title": "आरोग्य केंद्र लॉगिन", "description": "Kalonlife आरोग्य केंद्रात लॉगिन करा." }
+  }
+}

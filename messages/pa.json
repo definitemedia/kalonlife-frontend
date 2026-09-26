@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "siteName": "Kalonlife International",
+    "defaultDescription": "Kalonlife International ਇੱਕ ਤੰਦਰੁਸਤੀ ਕੰਪਨੀ ਹੈ ਜੋ ਪੋਸ਼ਣ ਉਤਪਾਦ ਅਤੇ ਤੰਦਰੁਸਤੀ ਪ੍ਰੋਗਰਾਮ ਦਿੰਦੀ ਹੈ।"
+  },
+  "hero": {
+    "eyebrow": "ਤੰਦਰੁਸਤੀ ਭਾਈਚਾਰੇ",
+    "heading": "ਇਕੱਠੇ ਤੰਦਰੁਸਤੀ ਭਾਈਚਾਰੇ ਬਣਾਈਏ",
+    "description": "ਹਜ਼ਾਰਾਂ ਲੋਕਾਂ ਨਾਲ ਜੁੜੋ ਜੋ ਇਕੱਠੇ ਸਿਹਤਮੰਦ ਜ਼ਿੰਦਗੀ ਬਣਾ ਰਹੇ ਹਨ। ਤੁਹਾਡੀ ਤੰਦਰੁਸਤੀ ਯਾਤਰਾ ਦੇ ਹਰ ਕਦਮ ਉੱਤੇ ਸਾਡਾ ਭਾਈਚਾਰਾ ਤੁਹਾਡੇ ਨਾਲ ਹੈ।",
+    "primaryCta": "Kalonlife ਜਾਣੋ",
+    "secondaryCta": "ਸਾਡੇ ਉਤਪਾਦ ਵੇਖੋ",
+    "portraitAlt": "ਰੁੱਖਾਂ ਨਾਲ ਘਿਰੇ ਰਾਹ ਉੱਤੇ ਇਕੱਠੇ ਤੁਰਦਾ ਇੱਕ ਭਾਰਤੀ ਜੋੜਾ; ਨੇੜੇ ਆਰਾਮ ਕਰਦਾ ਇੱਕ ਪਰਿਵਾਰ"
+  },
+  "about": {
+    "eyebrow": "ਅਸੀਂ ਕੌਣ ਹਾਂ",
+    "heading": "Kalonlife ਬਾਰੇ",
+    "lead": "Kalonlife International India Private Limited ਇੱਕ ਤੰਦਰੁਸਤੀ ਸੰਸਥਾ ਹੈ ਜੋ ਉੱਚ ਗੁਣਵੱਤਾ ਵਾਲੇ ਪੋਸ਼ਣ ਸਪਲੀਮੈਂਟ, ਨਵੇਂ ਤੰਦਰੁਸਤੀ ਉਤਪਾਦ ਅਤੇ ਅਰਥਪੂਰਨ ਕਾਰੋਬਾਰੀ ਮੌਕਿਆਂ ਰਾਹੀਂ ਜ਼ਿੰਦਗੀ ਸੁਧਾਰਨ ਲਈ ਵਚਨਬੱਧ ਹੈ।",
+    "belief": "ਇਸ ਵਿਸ਼ਵਾਸ ਉੱਤੇ ਕਿ ਸੱਚੀ ਸਫਲਤਾ ਸਿਹਤ, ਆਰਥਿਕ ਵਾਧੇ ਅਤੇ ਨਿੱਜੀ ਵਿਕਾਸ ਦੀ ਸੰਤੁਲਿਤ ਜ਼ਿੰਦਗੀ ਤੋਂ ਆਉਂਦੀ ਹੈ, Kalonlife ਵਿਅਕਤੀਆਂ ਅਤੇ ਭਾਈਚਾਰਿਆਂ ਉੱਤੇ ਸਕਾਰਾਤਮਕ ਅਸਰ ਬਣਾਉਣਾ ਚਾਹੁੰਦੀ ਹੈ।",
+    "images": {
+      "stretch": "ਰੁੱਖਾਂ ਵਿਚਕਾਰ ਬਾਹਰ ਸਰੀਰ ਖਿੱਚਦੀ ਇੱਕ ਭਾਰਤੀ ਔਰਤ",
+      "family": "ਘਰ ਵਿੱਚ ਇਕੱਠੇ ਖਾਣਾ ਵੰਡਦਾ ਇੱਕ ਭਾਰਤੀ ਪਰਿਵਾਰ",
+      "nutrition": "ਤਾਜ਼ੇ ਫਲ, ਸਬਜ਼ੀਆਂ ਅਤੇ ਮੇਵਿਆਂ ਨੂੰ ਇੱਕ ਥਾਲੀ ਵਿੱਚ ਸਜਾਉਂਦੇ ਹੱਥ",
+      "conversation": "ਪਾਰਕ ਦੀ ਬੈਂਚ ਉੱਤੇ ਗੱਲ ਕਰਦੀਆਂ ਦੋ ਭਾਰਤੀ ਔਰਤਾਂ",
+      "walk": "ਤਾਜ਼ੀਆਂ ਸਬਜ਼ੀਆਂ ਦੀ ਥੈਲੀ ਨਾਲ ਤੁਰਦਾ ਇੱਕ ਭਾਰਤੀ ਪੁਰਸ਼"
+    }
+  },
+  "purpose": {
+    "eyebrow": "ਸਾਡਾ ਮਕਸਦ",
+    "heading": "ਮਿਸ਼ਨ ਅਤੇ ਦ੍ਰਿਸ਼ਟੀ",
+    "missionTitle": "ਸਾਡਾ ਮਿਸ਼ਨ",
+    "mission": "ਬਿਹਤਰ ਸਿਹਤ, ਆਰਥਿਕ ਆਜ਼ਾਦੀ ਅਤੇ ਨਿੱਜੀ ਵਿਕਾਸ ਲਈ ਲੋਕਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣ ਵਾਲਾ ਪਲੇਟਫਾਰਮ ਬਣਾ ਕੇ ਉੱਚ ਗੁਣਵੱਤਾ ਵਾਲੇ ਤੰਦਰੁਸਤੀ ਅਤੇ ਪੋਸ਼ਣ ਉਤਪਾਦ ਦੇਣਾ।",
+    "visionTitle": "ਸਾਡੀ ਦ੍ਰਿਸ਼ਟੀ",
+    "vision": "ਨਵੇਂ ਸਿਹਤ ਹੱਲਾਂ ਅਤੇ ਮਜ਼ਬੂਤ ਉਦਯੋਗੀ ਮਾਹੌਲ ਰਾਹੀਂ ਜ਼ਿੰਦਗੀ ਬਦਲਣ ਵਾਲਾ, ਦੁਨੀਆ ਭਰ ਵਿੱਚ ਪਛਾਣਿਆ ਜਾਣ ਵਾਲਾ ਤੰਦਰੁਸਤੀ ਬ੍ਰਾਂਡ ਬਣਨਾ।"
+  },
+  "philosophy": {
+    "eyebrow": "ਸਾਡੇ ਵਿਸ਼ਵਾਸ",
+    "heading": "ਸਾਡਾ ਦਰਸ਼ਨ",
+    "intro": "Kalonlife ਵਿੱਚ, ਅਸੀਂ ਜੋ ਕੁਝ ਵੀ ਕਰਦੇ ਹਾਂ ਉਹ ਕੁਝ ਮੂਲ ਸਿਧਾਂਤਾਂ ਨਾਲ ਚੱਲਦਾ ਹੈ।",
+    "health": {
+      "title": "ਸਿਹਤ ਪਹਿਲਾਂ",
+      "description": "ਸਿਹਤ ਹੀ ਸਫਲਤਾ ਦੀ ਨੀਂਹ ਹੈ",
+      "imageAlt": "ਬਾਗ਼ ਵਿੱਚ ਬਾਹਰ ਯੋਗਾ ਕਰਦੀ ਇੱਕ ਭਾਰਤੀ ਔਰਤ"
+    },
+    "integrity": {
+      "title": "ਇਮਾਨਦਾਰੀ",
+      "description": "ਗੁਣਵੱਤਾ ਅਤੇ ਇਮਾਨਦਾਰੀ ਲੰਮੇ ਸਮੇਂ ਦਾ ਭਰੋਸਾ ਬਣਾਉਂਦੇ ਹਨ",
+      "imageAlt": "ਤਾਜ਼ੇ ਪੋਸ਼ਣ ਤੱਤ ਵੇਖਦਾ ਇੱਕ ਭਾਰਤੀ ਤੰਦਰੁਸਤੀ ਪੇਸ਼ੇਵਰ"
+    },
+    "community": {
+      "title": "ਭਾਈਚਾਰਾ",
+      "description": "ਸਮਰੱਥ ਵਿਅਕਤੀ ਮਜ਼ਬੂਤ ਭਾਈਚਾਰੇ ਬਣਾਉਂਦੇ ਹਨ",
+      "imageAlt": "ਪਾਰਕ ਵਿੱਚ ਇਕੱਠੇ ਤੁਰਦੇ ਭਾਰਤੀ ਬਾਲਗਾਂ ਦਾ ਸਮੂਹ"
+    },
+    "growth": {
+      "title": "ਵਾਧਾ",
+      "description": "ਉਦਯੋਗਿਕਤਾ ਜ਼ਿੰਦਗੀ ਬਦਲ ਸਕਦੀ ਹੈ",
+      "imageAlt": "ਘਰ ਦੀ ਕੰਮ ਵਾਲੀ ਥਾਂ ਉੱਤੇ ਨੋਟ ਵੇਖਦਾ ਇੱਕ ਭਾਰਤੀ ਉਦਯੋਗੀ"
+    },
+    "closing": "ਆਧੁਨਿਕ ਜੀਵਨਸ਼ੈਲੀ ਦਾ ਸਮਰਥਨ ਕਰਨ ਅਤੇ ਸਮੁੱਚੀ ਤੰਦਰੁਸਤੀ ਵਧਾਉਣ ਲਈ, ਸਾਡੇ ਉਤਪਾਦ ਧਿਆਨ ਨਾਲ ਚੁਣੇ ਤੱਤਾਂ ਅਤੇ ਉੱਨਤ ਫਾਰਮੂਲਿਆਂ ਨਾਲ ਤਿਆਰ ਹੁੰਦੇ ਹਨ।"
+  },
+  "offers": {
+    "eyebrow": "ਉਤਪਾਦ ਅਤੇ ਸੇਵਾਵਾਂ",
+    "heading": "ਅਸੀਂ ਕੀ ਦਿੰਦੇ ਹਾਂ",
+    "intro": "Kalonlife ਤੰਦਰੁਸਤੀ ਹੱਲਾਂ ਦੀ ਵਿਸ਼ਾਲ ਸ਼੍ਰੇਣੀ ਦੇਣ ਉੱਤੇ ਧਿਆਨ ਦਿੰਦੀ ਹੈ:",
+    "previous": "ਪਿਛਲੀਆਂ ਸੇਵਾਵਾਂ",
+    "next": "ਅਗਲੀਆਂ ਸੇਵਾਵਾਂ",
+    "carousel": "ਤੰਦਰੁਸਤੀ ਸੇਵਾਵਾਂ",
+    "supplements": {
+      "title": "ਪੋਸ਼ਣ ਸਪਲੀਮੈਂਟ",
+      "description": "ਬਿਹਤਰ ਸਿਹਤ ਅਤੇ ਊਰਜਾ ਲਈ ਵਿਗਿਆਨ-ਅਧਾਰਿਤ ਸਪਲੀਮੈਂਟ",
+      "imageAlt": "ਨਾਸ਼ਤੇ ਵੇਲੇ ਪਾਣੀ ਨਾਲ ਪੋਸ਼ਣ ਸਪਲੀਮੈਂਟ ਲੈਂਦੀ ਇੱਕ ਭਾਰਤੀ ਔਰਤ"
+    },
+    "meal": {
+      "title": "ਭੋਜਨ ਬਦਲ ਪੋਸ਼ਣ",
+      "description": "ਸਰਗਰਮ ਜੀਵਨਸ਼ੈਲੀ ਲਈ ਸੰਤੁਲਿਤ, ਸੌਖਾ ਪੋਸ਼ਣ",
+      "imageAlt": "ਰੌਸ਼ਨ ਰਸੋਈ ਵਿੱਚ ਹਰਾ ਸਮੂਦੀ ਪਾ ਰਿਹਾ ਇੱਕ ਭਾਰਤੀ ਪੁਰਸ਼"
+    },
+    "herbal": {
+      "title": "ਜੜੀ-ਬੂਟੀ ਤੰਦਰੁਸਤੀ ਉਤਪਾਦ",
+      "description": "ਸਮੁੱਚੀ ਤੰਦਰੁਸਤੀ ਲਈ ਕੁਦਰਤੀ ਜੜੀ-ਬੂਟੀ ਅਰਕ",
+      "imageAlt": "ਕੱਪੜੇ ਉੱਤੇ ਸਜੀਆਂ ਤਾਜ਼ੀਆਂ ਜੜੀਆਂ, ਹਲਦੀ ਅਤੇ ਬੂਟੇ ਦੇ ਤੱਤ"
+    },
+    "care": {
+      "title": "ਨਿੱਜੀ ਦੇਖਭਾਲ ਹੱਲ",
+      "description": "ਉੱਚ ਗੁਣਵੱਤਾ ਵਾਲੀ ਚਮੜੀ ਦੀ ਦੇਖਭਾਲ ਅਤੇ ਨਿੱਜੀ ਦੇਖਭਾਲ ਦੀਆਂ ਲੋੜਾਂ",
+      "imageAlt": "ਸਧਾਰਨ ਚਮੜੀ ਦੇਖਭਾਲ ਰੁਟੀਨ ਦੇ ਹਿੱਸੇ ਵਜੋਂ ਕਰੀਮ ਲਾਉਂਦੀ ਇੱਕ ਭਾਰਤੀ ਔਰਤ"
+    },
+    "programs": {
+      "title": "ਤੰਦਰੁਸਤੀ ਜੀਵਨਸ਼ੈਲੀ ਪ੍ਰੋਗਰਾਮ",
+      "description": "ਸਭ ਤੋਂ ਸਿਹਤਮੰਦ ਜ਼ਿੰਦਗੀ ਜਿਊਣ ਵਿੱਚ ਮਦਦ ਕਰਨ ਵਾਲੇ ਮਾਰਗਦਰਸ਼ਿਤ ਪ੍ਰੋਗਰਾਮ",
+      "imageAlt": "ਪਾਰਕ ਵਿੱਚ ਇਕੱਠੇ ਸਰੀਰ ਖਿੱਚਦੇ ਦੋ ਭਾਰਤੀ ਬਾਲਗ"
+    },
+    "guidance": {
+      "title": "ਖੁਰਾਕ ਅਤੇ ਪੋਸ਼ਣ ਮਾਰਗਦਰਸ਼ਨ",
+      "description": "ਤੁਹਾਡੇ ਨਿੱਜੀ ਸਿਹਤ ਟੀਚਿਆਂ ਅਨੁਸਾਰ ਮਾਹਰ ਸਲਾਹ",
+      "imageAlt": "ਫਲਾਂ ਦੇ ਕਟੋਰੇ ਨਾਲ ਇੱਕ ਗਾਹਕ ਨਾਲ ਗੱਲ ਕਰਦਾ ਇੱਕ ਭਾਰਤੀ ਪੋਸ਼ਣ ਪੇਸ਼ੇਵਰ"
+    }
+  },
+  "commitment": {
+    "eyebrow": "ਸਾਡਾ ਵਾਅਦਾ",
+    "heading": "ਸਾਡੀ ਵਚਨਬੱਧਤਾ",
+    "intro": "ਹਰ ਕਦਮ ਉੱਤੇ ਉੱਤਮਤਾ ਦੇਣ ਲਈ Kalonlife ਵਚਨਬੱਧ ਹੈ।",
+    "imageAlt": "ਰੌਸ਼ਨ, ਸ਼ਾਂਤ ਮਾਹੌਲ ਵਿੱਚ ਮੁਸਕਰਾਉਂਦਾ ਇੱਕ ਭਾਰਤੀ ਤੰਦਰੁਸਤੀ ਪੇਸ਼ੇਵਰ",
+    "standards": { "title": "ਉੱਚ ਮਿਆਰ", "description": "ਉਤਪਾਦ ਗੁਣਵੱਤਾ ਅਤੇ ਸੁਰੱਖਿਆ ਦੇ ਉੱਚ ਮਿਆਰ ਬਣਾਈ ਰੱਖਣਾ।" },
+    "ethics": { "title": "ਨੈਤਿਕ ਅਭਿਆਸ", "description": "ਸਾਰੇ ਕੰਮਾਂ ਵਿੱਚ ਨੈਤਿਕ ਕਾਰੋਬਾਰੀ ਅਭਿਆਸਾਂ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨਾ।" },
+    "community": { "title": "ਭਾਈਚਾਰਕ ਵਾਧਾ", "description": "ਭਾਈਚਾਰਕ ਵਾਧੇ ਅਤੇ ਤੰਦਰੁਸਤੀ ਸਿੱਖਿਆ ਦਾ ਸਮਰਥਨ ਕਰਨਾ।" },
+    "opportunities": { "title": "ਲੰਮੇ ਸਮੇਂ ਦੇ ਮੌਕੇ", "description": "ਉਦਯੋਗੀਆਂ ਲਈ ਲੰਮੇ ਸਮੇਂ ਦੇ ਮੌਕੇ ਬਣਾਉਣਾ।" }
+  },
+  "choose": {
+    "eyebrow": "ਸਾਡਾ ਫ਼ਰਕ",
+    "heading": "Kalonlife ਕਿਉਂ ਚੁਣੋ?",
+    "intro": "Kalonlife ਚੁਣਨਾ ਇੱਕ ਅਜਿਹੇ ਬ੍ਰਾਂਡ ਦਾ ਹਿੱਸਾ ਬਣਨਾ ਹੈ ਜੋ ਸਿਹਤ, ਨਵੀਨਤਾ ਅਤੇ ਜ਼ਿੰਦਗੀ ਬਦਲਣ ਵਾਲੇ ਮੌਕਿਆਂ ਲਈ ਵਚਨਬੱਧ ਹੈ।",
+    "quality": {
+      "title": "ਉੱਤਮ ਗੁਣਵੱਤਾ",
+      "description": "ਉੱਚ ਗੁਣਵੱਤਾ ਵਾਲੇ ਤੱਤਾਂ ਅਤੇ ਉੱਨਤ ਪੋਸ਼ਣ ਵਿਗਿਆਨ ਨਾਲ ਧਿਆਨ ਨਾਲ ਤਿਆਰ ਉਤਪਾਦ।",
+      "imageAlt": "ਹਲਦੀ ਅਤੇ ਪੋਸ਼ਣ ਕੈਪਸੂਲ ਵੇਖਦਾ ਇੱਕ ਭਾਰਤੀ ਪੁਰਸ਼"
+    },
+    "science": {
+      "title": "ਵਿਗਿਆਨ ਅਤੇ ਕੁਦਰਤ",
+      "description": "ਸੁਰੱਖਿਅਤ, ਪ੍ਰਭਾਵੀ ਨਤੀਜਿਆਂ ਲਈ ਆਧੁਨਿਕ ਪੋਸ਼ਣ ਵਿਗਿਆਨ ਅਤੇ ਕੁਦਰਤੀ ਜੜੀ-ਬੂਟੀ ਅਰਕ ਦਾ ਮੇਲ।",
+      "imageAlt": "ਤੁਲਸੀ, ਹਲਦੀ, ਸੁਹਾਂਜਣਾ ਅਤੇ ਜੜੀ-ਬੂਟੀ ਪੀਣ ਵਾਲੇ ਪਦਾਰਥ ਦਾ ਗਲਾਸ"
+    },
+    "ethics": {
+      "title": "ਨੈਤਿਕ ਕਾਰੋਬਾਰ",
+      "description": "ਲੰਮੇ ਸਮੇਂ ਦਾ ਭਰੋਸਾ ਬਣਾਉਣ ਵਾਲੀਆਂ ਪਾਰਦਰਸ਼ੀ ਪ੍ਰਣਾਲੀਆਂ ਅਤੇ ਨਿਰਪੱਖ ਇਨਾਮ ਢਾਂਚੇ।",
+      "imageAlt": "ਚਾਹ ਪੀਂਦੇ ਗੱਲ ਕਰਦੇ ਦੋ ਭਾਰਤੀ ਪੇਸ਼ੇਵਰ"
+    },
+    "platform": {
+      "title": "ਉਦਯੋਗੀ ਪਲੇਟਫਾਰਮ",
+      "description": "ਆਪਣਾ ਕਾਰੋਬਾਰ ਬਣਾਓ, ਅਗਵਾਈ ਦੇ ਹੁਨਰ ਵਧਾਓ ਅਤੇ ਸਥਿਰ ਆਮਦਨ ਦੇ ਰਾਹ ਬਣਾਓ।",
+      "imageAlt": "ਲੱਕੜ ਦੀ ਮੇਜ਼ ਉੱਤੇ ਕਾਰੋਬਾਰੀ ਯੋਜਨਾ ਲਿਖਦੀ ਇੱਕ ਭਾਰਤੀ ਔਰਤ"
+    },
+    "global": {
+      "title": "ਵਿਸ਼ਵਵਿਆਪੀ ਦ੍ਰਿਸ਼ਟੀ",
+      "description": "ਸਿਹਤ ਅਤੇ ਖੁਸ਼ਹਾਲੀ ਲਈ ਸਮਰਪਿਤ ਆਗੂਆਂ ਦਾ ਮਜ਼ਬੂਤ ਭਾਈਚਾਰਾ ਪਾਲਦੇ ਹੋਏ ਵਿਸ਼ਵ ਭਰ ਵਿੱਚ ਫੈਲਾਅ।",
+      "imageAlt": "ਰੌਸ਼ਨ ਖਿੜਕੀ ਕੋਲ ਗੱਲ ਕਰਦੇ ਤਿੰਨ ਭਾਰਤੀ ਬਾਲਗ"
+    },
+    "community": {
+      "title": "ਭਾਈਚਾਰਕ ਅਸਰ",
+      "description": "ਇੱਕ ਕਾਰੋਬਾਰ ਤੋਂ ਵੱਧ — ਸਿਹਤ ਸੁਧਾਰਨ ਅਤੇ ਭਾਈਚਾਰਿਆਂ ਨੂੰ ਉੱਚਾ ਚੁੱਕਣ ਲਈ ਵਚਨਬੱਧ ਇੱਕ ਲਹਿਰ।",
+      "imageAlt": "ਬਾਗ਼ ਵਿੱਚ ਤਾਜ਼ੀਆਂ ਤੋੜੀਆਂ ਸਬਜ਼ੀਆਂ ਵੰਡਦਾ ਇੱਕ ਭਾਰਤੀ ਪਰਿਵਾਰ"
+    }
+  },
+  "nav": {
+    "skip": "ਮੁੱਖ ਸਮੱਗਰੀ ਉੱਤੇ ਜਾਓ",
+    "language": "ਭਾਸ਼ਾ",
+    "openMenu": "ਮੀਨੂ ਖੋਲ੍ਹੋ",
+    "closeMenu": "ਮੀਨੂ ਬੰਦ ਕਰੋ",
+    "primary": "ਮੁੱਖ",
+    "home": "ਹੋਮ",
+    "shop": "ਦੁਕਾਨ",
+    "company": "ਕੰਪਨੀ",
+    "about": "ਸਾਡੇ ਬਾਰੇ",
+    "whyChooseUs": "ਸਾਨੂੰ ਕਿਉਂ ਚੁਣੋ",
+    "chairmanMessage": "ਚੇਅਰਮੈਨ ਦਾ ਸੁਨੇਹਾ",
+    "consultDietician": "ਆਪਣੇ ਡਾਈਟੀਸ਼ੀਅਨ ਨਾਲ ਸਲਾਹ ਕਰੋ",
+    "articles": "ਲੇਖ",
+    "login": "ਲਾਗਇਨ",
+    "cart": "ਕਾਰਟ"
+  },
+  "footer": {
+    "tagline": "ਜ਼ਿੰਦਗੀਆਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣਾ, ਸਿਹਤ ਨੂੰ ਅਮੀਰ ਬਣਾਉਣਾ।",
+    "company": "ਕੰਪਨੀ",
+    "about": "ਸਾਡੇ ਬਾਰੇ",
+    "whyChooseUs": "ਸਾਨੂੰ ਕਿਉਂ ਚੁਣੋ",
+    "chairmanMessage": "ਚੇਅਰਮੈਨ ਦਾ ਸੁਨੇਹਾ",
+    "products": "ਉਤਪਾਦ",
+    "contact": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
+    "dieticianLogin": "ਡਾਈਟੀਸ਼ੀਅਨ ਲਾਗਇਨ",
+    "wellnessHub": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ",
+    "quickLinks": "ਤੇਜ਼ ਲਿੰਕ",
+    "terms": "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ",
+    "privacy": "ਪਰਦੇਦਾਰੀ ਨੀਤੀ",
+    "disclaimer": "ਉਤਪਾਦ ਬੇਦਾਅਵਾ",
+    "shipping": "ਸ਼ਿਪਿੰਗ ਨੀਤੀ",
+    "returns": "ਵਾਪਸੀ ਅਤੇ ਰਿਫੰਡ ਨੀਤੀ",
+    "addressHeading": "ਕੰਪਨੀ ਦਾ ਪਤਾ",
+    "rights": "Kalonlife International India Pvt Ltd. ਸਾਰੇ ਅਧਿਕਾਰ ਰਾਖਵੇਂ ਹਨ।"
+  },
+  "notFound": { "title": "ਪੰਨਾ ਨਹੀਂ ਮਿਲਿਆ" },
+  "routes": {
+    "home": { "title": "ਹੋਮ", "description": "Kalonlife International ਤੰਦਰੁਸਤੀ ਅਤੇ ਪੋਸ਼ਣ।" },
+    "shop": { "title": "ਦੁਕਾਨ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਅਤੇ ਪੋਸ਼ਣ ਉਤਪਾਦ ਖਰੀਦੋ।" },
+    "about": { "title": "ਸਾਡੇ ਬਾਰੇ", "description": "Kalonlife International India Private Limited ਬਾਰੇ।" },
+    "whyChooseUs": { "title": "ਸਾਨੂੰ ਕਿਉਂ ਚੁਣੋ", "description": "ਲੋਕ Kalonlife ਕਿਉਂ ਚੁਣਦੇ ਹਨ।" },
+    "chairmanMessage": { "title": "ਚੇਅਰਮੈਨ ਦਾ ਸੁਨੇਹਾ", "description": "Kalonlife International ਦੇ ਚੇਅਰਮੈਨ ਦਾ ਸੁਨੇਹਾ।" },
+    "contact": { "title": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ", "description": "Kalonlife International ਨਾਲ ਸੰਪਰਕ ਕਰੋ।" },
+    "terms": { "title": "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ", "description": "Kalonlife International ਦੀਆਂ ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ।" },
+    "privacy": { "title": "ਪਰਦੇਦਾਰੀ ਨੀਤੀ", "description": "Kalonlife International ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ।" },
+    "shipping": { "title": "ਸ਼ਿਪਿੰਗ ਨੀਤੀ", "description": "Kalonlife ਆਰਡਰਾਂ ਲਈ ਸ਼ਿਪਿੰਗ ਨੀਤੀ।" },
+    "returns": { "title": "ਵਾਪਸੀ ਅਤੇ ਰਿਫੰਡ ਨੀਤੀ", "description": "Kalonlife ਆਰਡਰਾਂ ਲਈ ਵਾਪਸੀ ਅਤੇ ਰਿਫੰਡ ਨੀਤੀ।" },
+    "disclaimer": { "title": "ਉਤਪਾਦ ਬੇਦਾਅਵਾ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਉਤਪਾਦਾਂ ਦਾ ਬੇਦਾਅਵਾ।" },
+    "cart": { "title": "ਕਾਰਟ", "description": "ਤੁਹਾਡੀ Kalonlife ਖਰੀਦ ਕਾਰਟ।" },
+    "categories": { "title": "ਸ਼੍ਰੇਣੀਆਂ", "description": "Kalonlife ਉਤਪਾਦ ਸ਼੍ਰੇਣੀਆਂ।" },
+    "product": { "title": "ਉਤਪਾਦ", "description": "Kalonlife ਉਤਪਾਦ ਵੇਰਵੇ।" },
+    "articles": { "title": "ਲੇਖ", "description": "Kalonlife ਦੇ ਤੰਦਰੁਸਤੀ ਲੇਖ।" },
+    "article": { "title": "ਲੇਖ", "description": "ਇੱਕ Kalonlife ਤੰਦਰੁਸਤੀ ਲੇਖ।" },
+    "orderForm": { "title": "ਆਰਡਰ ਫਾਰਮ", "description": "Kalonlife ਆਰਡਰ ਫਾਰਮ।" },
+    "connectWithAssociate": { "title": "ਇੱਕ ਐਸੋਸੀਏਟ ਨਾਲ ਜੁੜੋ", "description": "ਇੱਕ Kalonlife ਐਸੋਸੀਏਟ ਨਾਲ ਜੁੜੋ।" },
+    "consultDietician": { "title": "ਆਪਣੇ ਡਾਈਟੀਸ਼ੀਅਨ ਨਾਲ ਸਲਾਹ ਕਰੋ", "description": "ਇੱਕ Kalonlife ਡਾਈਟੀਸ਼ੀਅਨ ਨਾਲ ਸਲਾਹ ਕਰੋ।" },
+    "login": { "title": "ਲਾਗਇਨ", "description": "Kalonlife ਵਿੱਚ ਲਾਗਇਨ ਕਰੋ।" },
+    "forgotPassword": { "title": "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ", "description": "ਆਪਣਾ Kalonlife ਪਾਸਵਰਡ ਰੀਸੈੱਟ ਕਰੋ।" },
+    "customerRegister": { "title": "ਖਾਤਾ ਬਣਾਓ", "description": "ਇੱਕ Kalonlife ਗਾਹਕ ਖਾਤਾ ਬਣਾਓ।" },
+    "paymentSuccess": { "title": "ਭੁਗਤਾਨ ਸਫਲ", "description": "Kalonlife ਭੁਗਤਾਨ ਪੁਸ਼ਟੀ।" },
+    "paymentFailure": { "title": "ਭੁਗਤਾਨ ਅਸਫਲ", "description": "Kalonlife ਭੁਗਤਾਨ ਪੂਰਾ ਨਹੀਂ ਹੋ ਸਕਿਆ।" },
+    "dieticianLogin": { "title": "ਡਾਈਟੀਸ਼ੀਅਨ ਲਾਗਇਨ", "description": "Kalonlife ਡਾਈਟੀਸ਼ੀਅਨ ਲਾਗਇਨ।" },
+    "wellnessHub": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ।" },
+    "wellnessHubAbout": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਬਾਰੇ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਬਾਰੇ।" },
+    "wellnessHubConcept": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀ ਧਾਰਨਾ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀ ਧਾਰਨਾ।" },
+    "wellnessHubServices": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੇਵਾਵਾਂ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀਆਂ ਸੇਵਾਵਾਂ।" },
+    "wellnessHubService": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੇਵਾ", "description": "ਇੱਕ Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੇਵਾ।" },
+    "wellnessHubProducts": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਉਤਪਾਦ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੇ ਉਤਪਾਦ।" },
+    "wellnessHubConsultation": { "title": "ਸਲਾਹ", "description": "Kalonlife ਵਿਖੇ ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸਲਾਹ।" },
+    "wellnessHubFranchise": { "title": "ਫ੍ਰੈਂਚਾਈਜ਼", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਫ੍ਰੈਂਚਾਈਜ਼।" },
+    "wellnessHubDistributor": { "title": "ਵਿਤਰਕ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਵਿਤਰਕ।" },
+    "wellnessHubLocate": { "title": "ਇੱਕ ਕੇਂਦਰ ਲੱਭੋ", "description": "ਇੱਕ Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਲੱਭੋ।" },
+    "wellnessHubStories": { "title": "ਕਹਾਣੀਆਂ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀਆਂ ਕਹਾਣੀਆਂ।" },
+    "wellnessHubEvents": { "title": "ਸਮਾਗਮ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੇ ਸਮਾਗਮ।" },
+    "wellnessHubTraining": { "title": "ਸਿਖਲਾਈ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀ ਸਿਖਲਾਈ।" },
+    "wellnessHubBlog": { "title": "ਬਲੌਗ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਬਲੌਗ।" },
+    "wellnessHubContact": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੰਪਰਕ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।" },
+    "wellnessHubLogin": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਲਾਗਇਨ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਵਿੱਚ ਲਾਗਇਨ ਕਰੋ।" }
+  }
+}
