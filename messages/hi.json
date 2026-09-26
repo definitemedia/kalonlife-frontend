@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "siteName": "Kalonlife International",
+    "defaultDescription": "Kalonlife International एक वेलनेस कंपनी है, जो पोषण उत्पाद और वेलनेस कार्यक्रम प्रदान करती है।"
+  },
+  "hero": {
+    "eyebrow": "वेलनेस समुदाय",
+    "heading": "साथ मिलकर वेलनेस समुदाय बनाना",
+    "description": "हजारों लोगों के साथ जुड़ें जो एक साथ स्वस्थ जीवन बना रहे हैं। हमारा समुदाय आपकी वेलनेस यात्रा के हर कदम पर साथ है।",
+    "primaryCta": "Kalonlife को जानें",
+    "secondaryCta": "हमारे उत्पाद देखें",
+    "portraitAlt": "पेड़ों से घिरी राह पर साथ चलता एक भारतीय जोड़ा, पास में आराम करती एक परिवार"
+  },
+  "about": {
+    "eyebrow": "हम कौन हैं",
+    "heading": "Kalonlife के बारे में",
+    "lead": "Kalonlife International India Private Limited एक वेलनेस-केंद्रित संगठन है, जो उच्च गुणवत्ता वाले पोषण सप्लीमेंट, नवीन वेलनेस उत्पाद और सार्थक व्यावसायिक अवसरों के माध्यम से जीवन को बेहतर बनाने के लिए समर्पित है।",
+    "belief": "इस विश्वास पर आधारित कि सच्ची सफलता स्वास्थ्य, आर्थिक वृद्धि और व्यक्तिगत विकास के संतुलित जीवन से आती है, Kalonlife व्यक्तियों और समुदायों पर सकारात्मक प्रभाव बनाना चाहता है।",
+    "images": {
+      "stretch": "पेड़ों के बीच बाहर स्ट्रेच करती एक भारतीय महिला",
+      "family": "घर पर साथ भोजन साझा करता एक भारतीय परिवार",
+      "nutrition": "ताज़े फल, साग और मेवे परोसते हाथ",
+      "conversation": "पार्क की बेंच पर बात करती दो भारतीय महिलाएँ",
+      "walk": "ताज़ी सब्ज़ियों का बैग लेकर चलता एक भारतीय पुरुष"
+    }
+  },
+  "purpose": {
+    "eyebrow": "हमारा उद्देश्य",
+    "heading": "मिशन और विज़न",
+    "missionTitle": "हमारा मिशन",
+    "mission": "प्रीमियम वेलनेस और पोषण उत्पाद प्रदान करना, और एक ऐसा मंच बनाना जो व्यक्तियों को बेहतर स्वास्थ्य, आर्थिक स्वतंत्रता और व्यक्तिगत विकास प्राप्त करने के लिए सशक्त बनाए।",
+    "visionTitle": "हमारा विज़न",
+    "vision": "नवीन स्वास्थ्य समाधानों और एक सशक्त उद्यमशील पारिस्थितिकी तंत्र के माध्यम से जीवन बदलने वाला, विश्व स्तर पर मान्यता प्राप्त वेलनेस ब्रांड बनना।"
+  },
+  "philosophy": {
+    "eyebrow": "हमारे विश्वास",
+    "heading": "हमारा दर्शन",
+    "intro": "Kalonlife में, हम उन मूल सिद्धांतों में विश्वास करते हैं जो हमारे हर काम का मार्गदर्शन करते हैं।",
+    "health": {
+      "title": "स्वास्थ्य पहले",
+      "description": "स्वास्थ्य सफलता की नींव है",
+      "imageAlt": "बगीचे में बाहर योग करती एक भारतीय महिला"
+    },
+    "integrity": {
+      "title": "निष्ठा",
+      "description": "गुणवत्ता और निष्ठा दीर्घकालिक विश्वास बनाती हैं",
+      "imageAlt": "ताज़े पोषक अवयवों की जाँच करती एक भारतीय वेलनेस विशेषज्ञ"
+    },
+    "community": {
+      "title": "समुदाय",
+      "description": "सशक्त व्यक्ति अधिक मजबूत समुदाय बनाते हैं",
+      "imageAlt": "पार्क में साथ चलते भारतीय वयस्क"
+    },
+    "growth": {
+      "title": "विकास",
+      "description": "उद्यमशीलता जीवन को बदल सकती है",
+      "imageAlt": "घर के कार्यस्थल पर नोट्स देखता एक भारतीय उद्यमी"
+    },
+    "closing": "हमारे उत्पाद सावधानी से चुने गए अवयवों और उन्नत फॉर्मूलेशन से विकसित किए जाते हैं, जो आधुनिक जीवनशैली का समर्थन करने और समग्र कल्याण को बढ़ावा देने के लिए डिज़ाइन किए गए हैं।"
+  },
+  "offers": {
+    "eyebrow": "उत्पाद और सेवाएँ",
+    "heading": "हम क्या प्रदान करते हैं",
+    "intro": "Kalonlife वेलनेस समाधानों की एक विस्तृत श्रृंखला प्रदान करने पर केंद्रित है:",
+    "previous": "पिछली सेवाएँ",
+    "next": "अगली सेवाएँ",
+    "carousel": "वेलनेस सेवाएँ",
+    "supplements": {
+      "title": "पोषण सप्लीमेंट",
+      "description": "इष्टतम स्वास्थ्य और जीवनशक्ति के लिए विज्ञान-समर्थित सप्लीमेंट",
+      "imageAlt": "नाश्ते में पानी के साथ पोषण सप्लीमेंट लेती एक भारतीय महिला"
+    },
+    "meal": {
+      "title": "मील रिप्लेसमेंट पोषण",
+      "description": "सक्रिय जीवनशैली के लिए संतुलित, सुविधाजनक पोषण",
+      "imageAlt": "उजली रसोई में हरा स्मूदी डालता एक भारतीय पुरुष"
+    },
+    "herbal": {
+      "title": "हर्बल वेलनेस उत्पाद",
+      "description": "समग्र कल्याण के लिए प्राकृतिक हर्बल अर्क",
+      "imageAlt": "लिनेन पर सजे ताज़े हर्ब, हल्दी और वनस्पति सामग्री"
+    },
+    "care": {
+      "title": "पर्सनल केयर समाधान",
+      "description": "प्रीमियम स्किनकेयर और पर्सनल केयर आवश्यकताएँ",
+      "imageAlt": "सरल स्किनकेयर दिनचर्या में क्रीम लगाती एक भारतीय महिला"
+    },
+    "programs": {
+      "title": "वेलनेस लाइफस्टाइल कार्यक्रम",
+      "description": "आपके सबसे स्वस्थ जीवन के लिए मार्गदर्शित कार्यक्रम",
+      "imageAlt": "पार्क में साथ स्ट्रेच करते दो भारतीय वयस्क"
+    },
+    "guidance": {
+      "title": "आहार और पोषण मार्गदर्शन",
+      "description": "आपके व्यक्तिगत स्वास्थ्य लक्ष्यों के अनुरूप विशेषज्ञ सलाह",
+      "imageAlt": "फलों के कटोरे पर एक ग्राहक से बात करती भारतीय पोषण विशेषज्ञ"
+    }
+  },
+  "commitment": {
+    "eyebrow": "हमारा वादा",
+    "heading": "हमारी प्रतिबद्धता",
+    "intro": "Kalonlife हर कदम पर उत्कृष्टता देने के लिए प्रतिबद्ध है।",
+    "imageAlt": "उजले, शांत माहौल में मुस्कुराती एक भारतीय वेलनेस विशेषज्ञ",
+    "standards": {
+      "title": "उच्च मानक",
+      "description": "उत्पाद की गुणवत्ता और सुरक्षा के उच्च मानक बनाए रखना।"
+    },
+    "ethics": {
+      "title": "नैतिक अभ्यास",
+      "description": "सभी कार्यों में नैतिक व्यावसायिक प्रथाओं को बढ़ावा देना।"
+    },
+    "community": {
+      "title": "सामुदायिक विकास",
+      "description": "सामुदायिक विकास और वेलनेस शिक्षा का समर्थन करना।"
+    },
+    "opportunities": {
+      "title": "दीर्घकालिक अवसर",
+      "description": "उद्यमियों के लिए दीर्घकालिक अवसर बनाना।"
+    }
+  },
+  "choose": {
+    "eyebrow": "हमारा अंतर",
+    "heading": "Kalonlife को क्यों चुनें?",
+    "intro": "Kalonlife को चुनना एक ऐसे ब्रांड का हिस्सा बनना है जो स्वास्थ्य, नवाचार और जीवन बदलने वाले अवसरों के लिए प्रतिबद्ध है।",
+    "quality": {
+      "title": "प्रीमियम गुणवत्ता",
+      "description": "उच्च गुणवत्ता वाले अवयवों और उन्नत पोषण विज्ञान से सावधानीपूर्वक तैयार उत्पाद।",
+      "imageAlt": "हल्दी और पोषण कैप्सूल की जाँच करता एक भारतीय पुरुष"
+    },
+    "science": {
+      "title": "विज्ञान और प्रकृति",
+      "description": "सुरक्षित, प्रभावी परिणामों के लिए आधुनिक पोषण विज्ञान और प्राकृतिक हर्बल अर्क का मेल।",
+      "imageAlt": "तुलसी, हल्दी, मोरिंगा और हर्बल पेय का गिलास"
+    },
+    "ethics": {
+      "title": "नैतिक व्यवसाय",
+      "description": "पारदर्शी प्रणालियाँ और निष्पक्ष पुरस्कार संरचनाएँ जो दीर्घकालिक विश्वास बनाती हैं।",
+      "imageAlt": "चाय पर बात करते दो भारतीय पेशेवर"
+    },
+    "platform": {
+      "title": "उद्यमशील मंच",
+      "description": "अपना व्यवसाय बनाएँ, नेतृत्व कौशल विकसित करें, और स्थायी आय के स्रोत बनाएँ।",
+      "imageAlt": "लकड़ी की मेज पर व्यवसाय योजना लिखती एक भारतीय महिला"
+    },
+    "global": {
+      "title": "वैश्विक दृष्टि",
+      "description": "स्वास्थ्य और समृद्धि के लिए समर्पित नेताओं के एक मजबूत समुदाय को संवारते हुए वैश्विक विस्तार।",
+      "imageAlt": "उजली खिड़की के पास बात करते तीन भारतीय वयस्क"
+    },
+    "community": {
+      "title": "सामुदायिक प्रभाव",
+      "description": "एक व्यवसाय से बढ़कर — स्वास्थ्य सुधारने और समुदायों को ऊपर उठाने के लिए प्रतिबद्ध एक आंदोलन।",
+      "imageAlt": "बगीचे में ताज़ी हरी सब्ज़ियाँ बाँटता एक भारतीय परिवार"
+    }
+  },
+  "nav": {
+    "skip": "मुख्य सामग्री पर जाएँ",
+    "language": "भाषा",
+    "openMenu": "मेनू खोलें",
+    "closeMenu": "मेनू बंद करें",
+    "primary": "मुख्य",
+    "home": "होम",
+    "shop": "शॉप",
+    "company": "कंपनी",
+    "about": "हमारे बारे में",
+    "whyChooseUs": "हमें क्यों चुनें",
+    "chairmanMessage": "चेयरमैन का संदेश",
+    "consultDietician": "आहार विशेषज्ञ से परामर्श",
+    "articles": "लेख",
+    "login": "लॉगिन",
+    "cart": "कार्ट"
+  },
+  "footer": {
+    "tagline": "जीवन को सशक्त बनाना, स्वास्थ्य को समृद्ध बनाना।",
+    "company": "कंपनी",
+    "about": "हमारे बारे में",
+    "whyChooseUs": "हमें क्यों चुनें",
+    "chairmanMessage": "चेयरमैन का संदेश",
+    "products": "उत्पाद",
+    "contact": "संपर्क करें",
+    "dieticianLogin": "आहार विशेषज्ञ लॉगिन",
+    "wellnessHub": "वेलनेस हब",
+    "quickLinks": "त्वरित लिंक",
+    "terms": "उपयोग की शर्तें",
+    "privacy": "गोपनीयता नीति",
+    "disclaimer": "उत्पाद अस्वीकरण",
+    "shipping": "शिपिंग नीति",
+    "returns": "वापसी और रिफंड नीति",
+    "addressHeading": "कंपनी का पता",
+    "rights": "Kalonlife International India Pvt Ltd. सर्वाधिकार सुरक्षित।"
+  },
+  "notFound": {
+    "title": "पेज नहीं मिला"
+  },
+  "routes": {
+    "home": {
+      "title": "होम",
+      "description": "Kalonlife International वेलनेस और पोषण।"
+    },
+    "shop": {
+      "title": "शॉप",
+      "description": "Kalonlife के वेलनेस और पोषण उत्पाद खरीदें।"
+    },
+    "about": {
+      "title": "हमारे बारे में",
+      "description": "Kalonlife International India Private Limited के बारे में।"
+    },
+    "whyChooseUs": {
+      "title": "हमें क्यों चुनें",
+      "description": "लोग Kalonlife को क्यों चुनते हैं।"
+    },
+    "chairmanMessage": {
+      "title": "चेयरमैन का संदेश",
+      "description": "Kalonlife International के चेयरमैन का संदेश।"
+    },
+    "contact": {
+      "title": "संपर्क करें",
+      "description": "Kalonlife International से संपर्क करें।"
+    },
+    "terms": {
+      "title": "उपयोग की शर्तें",
+      "description": "Kalonlife International की उपयोग शर्तें।"
+    },
+    "privacy": {
+      "title": "गोपनीयता नीति",
+      "description": "Kalonlife International की गोपनीयता नीति।"
+    },
+    "shipping": {
+      "title": "शिपिंग नीति",
+      "description": "Kalonlife ऑर्डर की शिपिंग नीति।"
+    },
+    "returns": {
+      "title": "वापसी और रिफंड नीति",
+      "description": "Kalonlife ऑर्डर की वापसी और रिफंड नीति।"
+    },
+    "disclaimer": {
+      "title": "उत्पाद अस्वीकरण",
+      "description": "Kalonlife वेलनेस उत्पादों का अस्वीकरण।"
+    },
+    "cart": {
+      "title": "कार्ट",
+      "description": "आपकी Kalonlife शॉपिंग कार्ट।"
+    },
+    "categories": {
+      "title": "श्रेणियाँ",
+      "description": "Kalonlife उत्पाद श्रेणियाँ।"
+    },
+    "product": {
+      "title": "उत्पाद",
+      "description": "Kalonlife उत्पाद विवरण।"
+    },
+    "articles": {
+      "title": "लेख",
+      "description": "Kalonlife के वेलनेस लेख।"
+    },
+    "article": {
+      "title": "लेख",
+      "description": "Kalonlife का एक वेलनेस लेख।"
+    },
+    "orderForm": {
+      "title": "ऑर्डर फॉर्म",
+      "description": "Kalonlife ऑर्डर फॉर्म।"
+    },
+    "connectWithAssociate": {
+      "title": "एसोसिएट से जुड़ें",
+      "description": "Kalonlife एसोसिएट से संपर्क करें।"
+    },
+    "consultDietician": {
+      "title": "आहार विशेषज्ञ से परामर्श",
+      "description": "Kalonlife आहार विशेषज्ञ से परामर्श करें।"
+    },
+    "login": {
+      "title": "लॉगिन",
+      "description": "Kalonlife में लॉगिन करें।"
+    },
+    "forgotPassword": {
+      "title": "पासवर्ड भूल गए",
+      "description": "अपना Kalonlife पासवर्ड रीसेट करें।"
+    },
+    "customerRegister": {
+      "title": "खाता बनाएँ",
+      "description": "Kalonlife ग्राहक खाता बनाएँ।"
+    },
+    "paymentSuccess": {
+      "title": "भुगतान सफल",
+      "description": "Kalonlife भुगतान की पुष्टि।"
+    },
+    "paymentFailure": {
+      "title": "भुगतान असफल",
+      "description": "Kalonlife भुगतान पूरा नहीं हो सका।"
+    },
+    "dieticianLogin": {
+      "title": "आहार विशेषज्ञ लॉगिन",
+      "description": "Kalonlife आहार विशेषज्ञ लॉगिन।"
+    },
+    "wellnessHub": {
+      "title": "वेलनेस हब",
+      "description": "Kalonlife वेलनेस हब।"
+    },
+    "wellnessHubAbout": {
+      "title": "वेलनेस हब के बारे में",
+      "description": "Kalonlife वेलनेस हब के बारे में।"
+    },
+    "wellnessHubConcept": {
+      "title": "वेलनेस हब अवधारणा",
+      "description": "Kalonlife वेलनेस हब की अवधारणा।"
+    },
+    "wellnessHubServices": {
+      "title": "वेलनेस हब सेवाएँ",
+      "description": "Kalonlife वेलनेस हब की सेवाएँ।"
+    },
+    "wellnessHubService": {
+      "title": "वेलनेस हब सेवा",
+      "description": "Kalonlife वेलनेस हब की एक सेवा।"
+    },
+    "wellnessHubProducts": {
+      "title": "वेलनेस हब उत्पाद",
+      "description": "Kalonlife वेलनेस हब के उत्पाद।"
+    },
+    "wellnessHubConsultation": {
+      "title": "परामर्श",
+      "description": "Kalonlife वेलनेस हब परामर्श।"
+    },
+    "wellnessHubFranchise": {
+      "title": "फ्रैंचाइज़",
+      "description": "Kalonlife वेलनेस हब फ्रैंचाइज़।"
+    },
+    "wellnessHubDistributor": {
+      "title": "डिस्ट्रीब्यूटर",
+      "description": "Kalonlife वेलनेस हब डिस्ट्रीब्यूटर।"
+    },
+    "wellnessHubLocate": {
+      "title": "हब खोजें",
+      "description": "Kalonlife वेलनेस हब खोजें।"
+    },
+    "wellnessHubStories": {
+      "title": "कहानियाँ",
+      "description": "Kalonlife वेलनेस हब की कहानियाँ।"
+    },
+    "wellnessHubEvents": {
+      "title": "कार्यक्रम",
+      "description": "Kalonlife वेलनेस हब के कार्यक्रम।"
+    },
+    "wellnessHubTraining": {
+      "title": "प्रशिक्षण",
+      "description": "Kalonlife वेलनेस हब प्रशिक्षण।"
+    },
+    "wellnessHubBlog": {
+      "title": "ब्लॉग",
+      "description": "Kalonlife वेलनेस हब ब्लॉग।"
+    },
+    "wellnessHubContact": {
+      "title": "वेलनेस हब संपर्क",
+      "description": "Kalonlife वेलनेस हब से संपर्क करें।"
+    },
+    "wellnessHubLogin": {
+      "title": "वेलनेस हब लॉगिन",
+      "description": "Kalonlife वेलनेस हब में लॉगिन करें।"
+    }
+  }
+}

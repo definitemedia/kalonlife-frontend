@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "siteName": "Kalonlife International",
+    "defaultDescription": "Kalonlife International is a wellness company offering nutrition products and wellness programs."
+  },
+  "hero": {
+    "eyebrow": "Wellness Communities",
+    "heading": "Creating Wellness Communities Together",
+    "description": "Join thousands of people building healthier lives together. Our community supports every step of your wellness journey.",
+    "primaryCta": "Explore Kalonlife",
+    "secondaryCta": "Discover Our Products",
+    "portraitAlt": "An Indian couple walking together on a tree-lined path, with a family resting nearby"
+  },
+  "about": {
+    "eyebrow": "Who We Are",
+    "heading": "About Kalonlife",
+    "lead": "Kalonlife International India Private Limited is a wellness-driven organization dedicated to improving lives through high-quality nutritional supplements, innovative wellness products, and meaningful business opportunities.",
+    "belief": "Built on the belief that true success comes from a balanced life of health, financial growth, and personal development, Kalonlife aims to create a positive impact on individuals and communities.",
+    "images": {
+      "stretch": "An Indian woman stretching outdoors among trees",
+      "family": "An Indian family sharing a meal together at home",
+      "nutrition": "Hands arranging a plate of fresh fruit, greens, and nuts",
+      "conversation": "Two Indian women talking together on a park bench",
+      "walk": "An Indian man walking with a bag of fresh vegetables"
+    }
+  },
+  "purpose": {
+    "eyebrow": "OUR PURPOSE",
+    "heading": "Mission & Vision",
+    "missionTitle": "Our Mission",
+    "mission": "To provide premium wellness and nutrition products while creating a platform that empowers individuals to achieve better health, financial independence, and personal growth.",
+    "visionTitle": "Our Vision",
+    "vision": "To become a globally recognized wellness brand that transforms lives through innovative health solutions and a powerful entrepreneurial ecosystem."
+  },
+  "philosophy": {
+    "eyebrow": "OUR BELIEFS",
+    "heading": "Our Philosophy",
+    "intro": "At Kalonlife, we believe in a set of core principles that guide everything we do.",
+    "health": {
+      "title": "Health First",
+      "description": "Health is the foundation of success",
+      "imageAlt": "An Indian woman practicing yoga outdoors in a garden"
+    },
+    "integrity": {
+      "title": "Integrity",
+      "description": "Quality and integrity build long-term trust",
+      "imageAlt": "An Indian wellness professional examining fresh nutritional ingredients"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Empowered individuals create stronger communities",
+      "imageAlt": "A group of Indian adults walking together in a park"
+    },
+    "growth": {
+      "title": "Growth",
+      "description": "Entrepreneurship can transform lives",
+      "imageAlt": "An Indian entrepreneur reviewing notes at a home workspace"
+    },
+    "closing": "Our products are developed using carefully selected ingredients and advanced formulations, designed to support modern lifestyles and promote overall well-being."
+  },
+  "offers": {
+    "eyebrow": "PRODUCTS & SERVICES",
+    "heading": "What We Offer",
+    "intro": "Kalonlife focuses on delivering a wide range of wellness solutions:",
+    "previous": "Previous services",
+    "next": "Next services",
+    "carousel": "Wellness services",
+    "supplements": {
+      "title": "Nutritional Supplements",
+      "description": "Science-backed supplements for optimal health and vitality",
+      "imageAlt": "An Indian woman taking nutritional supplements with water at breakfast"
+    },
+    "meal": {
+      "title": "Meal Replacement Nutrition",
+      "description": "Balanced, convenient nutrition for active lifestyles",
+      "imageAlt": "An Indian man pouring a green smoothie in a bright kitchen"
+    },
+    "herbal": {
+      "title": "Herbal Wellness Products",
+      "description": "Natural herbal extracts for holistic well-being",
+      "imageAlt": "Fresh herbs, turmeric, and botanical ingredients arranged on linen"
+    },
+    "care": {
+      "title": "Personal Care Solutions",
+      "description": "Premium skincare and personal care essentials",
+      "imageAlt": "An Indian woman applying cream as part of a simple skincare routine"
+    },
+    "programs": {
+      "title": "Wellness Lifestyle Programs",
+      "description": "Guided programs to help you live your healthiest life",
+      "imageAlt": "Two Indian adults stretching together in a park"
+    },
+    "guidance": {
+      "title": "Dietary & Nutrition Guidance",
+      "description": "Expert advice tailored to your individual health goals",
+      "imageAlt": "An Indian nutrition professional talking with a client over a bowl of fruit"
+    }
+  },
+  "commitment": {
+    "eyebrow": "OUR PROMISE",
+    "heading": "Our Commitment",
+    "intro": "Kalonlife is committed to delivering excellence at every step.",
+    "imageAlt": "An Indian wellness professional smiling in a bright, calm setting",
+    "standards": {
+      "title": "High Standards",
+      "description": "Maintaining high standards of product quality and safety."
+    },
+    "ethics": {
+      "title": "Ethical Practices",
+      "description": "Promoting ethical business practices across all operations."
+    },
+    "community": {
+      "title": "Community Growth",
+      "description": "Supporting community growth and wellness education."
+    },
+    "opportunities": {
+      "title": "Long-Term Opportunities",
+      "description": "Creating long-term opportunities for entrepreneurs."
+    }
+  },
+  "choose": {
+    "eyebrow": "OUR DIFFERENCE",
+    "heading": "Why Choose Kalonlife?",
+    "intro": "Choosing Kalonlife means becoming part of a brand committed to health, innovation, and life-changing opportunities.",
+    "quality": {
+      "title": "Premium Quality",
+      "description": "Carefully formulated products using high-quality ingredients and advanced nutritional science.",
+      "imageAlt": "An Indian man examining turmeric and nutritional capsules"
+    },
+    "science": {
+      "title": "Science Meets Nature",
+      "description": "Modern nutrition science combined with natural herbal extracts for safe, effective results.",
+      "imageAlt": "Tulsi, turmeric, moringa, and a glass of herbal infusion"
+    },
+    "ethics": {
+      "title": "Ethical Business",
+      "description": "Transparent systems and fair reward structures that build long-term trust.",
+      "imageAlt": "Two Indian professionals talking over tea"
+    },
+    "platform": {
+      "title": "Entrepreneurial Platform",
+      "description": "Build your own business, develop leadership skills, and create sustainable income streams.",
+      "imageAlt": "An Indian woman writing a business plan at a wooden desk"
+    },
+    "global": {
+      "title": "Global Vision",
+      "description": "Expanding globally while nurturing a strong community of leaders dedicated to health and prosperity.",
+      "imageAlt": "Three Indian adults talking together beside a bright window"
+    },
+    "community": {
+      "title": "Community Impact",
+      "description": "More than a business — a movement committed to improving health and uplifting communities.",
+      "imageAlt": "An Indian family sharing freshly picked greens in a garden"
+    }
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "primary": "Primary",
+    "home": "Home",
+    "shop": "Shop",
+    "company": "Company",
+    "about": "About Us",
+    "whyChooseUs": "Why Choose Us",
+    "chairmanMessage": "Chairman's Message",
+    "consultDietician": "Consult your Dietician",
+    "articles": "Articles",
+    "login": "Login",
+    "cart": "Cart"
+  },
+  "footer": {
+    "tagline": "Empowering Lives, Enriching Health.",
+    "company": "Company",
+    "about": "About Us",
+    "whyChooseUs": "Why Choose Us",
+    "chairmanMessage": "Chairman's Message",
+    "products": "Products",
+    "contact": "Contact Us",
+    "dieticianLogin": "Dietician Login",
+    "wellnessHub": "Wellness Hub",
+    "quickLinks": "Quick Links",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "disclaimer": "Product Disclaimer",
+    "shipping": "Shipping Policy",
+    "returns": "Return & Refund Policy",
+    "addressHeading": "Company Address",
+    "rights": "Kalonlife International India Pvt Ltd. All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found"
+  },
+  "routes": {
+    "home": {
+      "title": "Home",
+      "description": "Kalonlife International wellness and nutrition."
+    },
+    "shop": {
+      "title": "Shop",
+      "description": "Shop Kalonlife wellness and nutrition products."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "About Kalonlife International India Private Limited."
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "description": "Why people choose Kalonlife."
+    },
+    "chairmanMessage": {
+      "title": "Chairman's Message",
+      "description": "Message from the Chairman of Kalonlife International."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Contact Kalonlife International."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Terms of use for Kalonlife International."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Privacy policy for Kalonlife International."
+    },
+    "shipping": {
+      "title": "Shipping Policy",
+      "description": "Shipping policy for Kalonlife orders."
+    },
+    "returns": {
+      "title": "Return & Refund Policy",
+      "description": "Return and refund policy for Kalonlife orders."
+    },
+    "disclaimer": {
+      "title": "Product Disclaimer",
+      "description": "Product disclaimer for Kalonlife wellness products."
+    },
+    "cart": {
+      "title": "Cart",
+      "description": "Your Kalonlife shopping cart."
+    },
+    "categories": {
+      "title": "Categories",
+      "description": "Kalonlife product categories."
+    },
+    "product": {
+      "title": "Product",
+      "description": "Kalonlife product details."
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Wellness articles from Kalonlife."
+    },
+    "article": {
+      "title": "Article",
+      "description": "A Kalonlife wellness article."
+    },
+    "orderForm": {
+      "title": "Order Form",
+      "description": "Kalonlife order form."
+    },
+    "connectWithAssociate": {
+      "title": "Connect with an Associate",
+      "description": "Connect with a Kalonlife associate."
+    },
+    "consultDietician": {
+      "title": "Consult your Dietician",
+      "description": "Consult a Kalonlife dietician."
+    },
+    "login": {
+      "title": "Login",
+      "description": "Log in to Kalonlife."
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "description": "Reset your Kalonlife password."
+    },
+    "customerRegister": {
+      "title": "Create Account",
+      "description": "Create a Kalonlife customer account."
+    },
+    "paymentSuccess": {
+      "title": "Payment Successful",
+      "description": "Kalonlife payment confirmation."
+    },
+    "paymentFailure": {
+      "title": "Payment Unsuccessful",
+      "description": "Kalonlife payment could not be completed."
+    },
+    "dieticianLogin": {
+      "title": "Dietician Login",
+      "description": "Dietician login for Kalonlife."
+    },
+    "wellnessHub": {
+      "title": "Wellness Hub",
+      "description": "Kalonlife Wellness Hub."
+    },
+    "wellnessHubAbout": {
+      "title": "About the Wellness Hub",
+      "description": "About the Kalonlife Wellness Hub."
+    },
+    "wellnessHubConcept": {
+      "title": "Wellness Hub Concept",
+      "description": "The Kalonlife Wellness Hub concept."
+    },
+    "wellnessHubServices": {
+      "title": "Wellness Hub Services",
+      "description": "Services at the Kalonlife Wellness Hub."
+    },
+    "wellnessHubService": {
+      "title": "Wellness Hub Service",
+      "description": "A Kalonlife Wellness Hub service."
+    },
+    "wellnessHubProducts": {
+      "title": "Wellness Hub Products",
+      "description": "Products at the Kalonlife Wellness Hub."
+    },
+    "wellnessHubConsultation": {
+      "title": "Consultation",
+      "description": "Wellness Hub consultation at Kalonlife."
+    },
+    "wellnessHubFranchise": {
+      "title": "Franchise",
+      "description": "Kalonlife Wellness Hub franchise."
+    },
+    "wellnessHubDistributor": {
+      "title": "Distributor",
+      "description": "Kalonlife Wellness Hub distributor."
+    },
+    "wellnessHubLocate": {
+      "title": "Find a Hub",
+      "description": "Find a Kalonlife Wellness Hub."
+    },
+    "wellnessHubStories": {
+      "title": "Stories",
+      "description": "Stories from the Kalonlife Wellness Hub."
+    },
+    "wellnessHubEvents": {
+      "title": "Events",
+      "description": "Events at the Kalonlife Wellness Hub."
+    },
+    "wellnessHubTraining": {
+      "title": "Training",
+      "description": "Training at the Kalonlife Wellness Hub."
+    },
+    "wellnessHubBlog": {
+      "title": "Blog",
+      "description": "Kalonlife Wellness Hub blog."
+    },
+    "wellnessHubContact": {
+      "title": "Wellness Hub Contact",
+      "description": "Contact the Kalonlife Wellness Hub."
+    },
+    "wellnessHubLogin": {
+      "title": "Wellness Hub Login",
+      "description": "Log in to the Kalonlife Wellness Hub."
+    }
+  }
+}

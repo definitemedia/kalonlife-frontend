@@ -1,0 +1,299 @@
+.choose {
+  background: var(--color-surface);
+  padding-block: var(--space-10);
+}
+
+.choose-layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.choose-intro {
+  max-width: 40rem;
+  margin-inline: auto;
+  text-align: center;
+  animation: choose-rise 700ms ease backwards;
+}
+
+.choose-eyebrow {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.choose-mark {
+  display: block;
+  width: 2.75rem;
+  height: 0.22rem;
+  margin-block: var(--space-4);
+  margin-inline: auto;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-primary);
+}
+
+.choose-title {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: clamp(2.1rem, 1.35rem + 1.8vw, 3.35rem);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-display);
+}
+
+.choose-lead {
+  max-width: 36rem;
+  margin: var(--space-4) auto 0;
+  color: var(--color-dark);
+  font-size: var(--text-lg);
+  line-height: var(--leading-body);
+}
+
+.choose-mosaic {
+  display: grid;
+  grid-template-columns: 0.96fr 1.18fr 1.02fr 1.1fr;
+  grid-template-rows: 17.25rem 17.25rem;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.choose-card {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  background: var(--color-primary);
+  box-shadow: var(--shadow-overlay);
+  animation: choose-rise 760ms ease backwards;
+  transition:
+    transform 280ms ease,
+    box-shadow 280ms ease;
+}
+
+.choose-card-quality {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.choose-card-science {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.choose-card-ethics {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.choose-card-platform {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.choose-card-global {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.choose-card-community {
+  grid-column: 3 / span 2;
+  grid-row: 2;
+}
+
+.choose-photo img,
+.choose-split-photo img {
+  object-fit: cover;
+  object-position: center 32%;
+  transition: transform 520ms ease;
+}
+
+.choose-card-ethics img {
+  object-position: center 42%;
+}
+
+.choose-card-global img {
+  object-position: center 28%;
+}
+
+.choose-shade {
+  position: absolute;
+  inset: auto 0 0;
+  height: 68%;
+  background: linear-gradient(
+    to top,
+    rgb(4 47 52 / 92%) 0%,
+    rgb(4 47 52 / 62%) 48%,
+    rgb(4 47 52 / 0%) 100%
+  );
+}
+
+.choose-photo .choose-copy {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 1;
+  padding: var(--space-5);
+}
+
+.choose-card-global .choose-copy {
+  max-width: 24rem;
+}
+
+.choose-panel {
+  display: flex;
+  background: var(--color-neutral);
+}
+
+.choose-panel-dark {
+  background: var(--color-primary);
+}
+
+.choose-panel .choose-copy,
+.choose-split .choose-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--space-5);
+}
+
+.choose-split {
+  display: grid;
+  grid-template-columns: 0.92fr 1.08fr;
+  background: var(--color-secondary);
+}
+
+.choose-split-photo {
+  position: relative;
+  min-height: 100%;
+}
+
+.choose-card h3 {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 1.125rem;
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-heading);
+}
+
+.choose-card p {
+  margin: var(--space-3) 0 0;
+  color: var(--color-dark);
+  font-size: var(--text-sm);
+  line-height: 1.55;
+}
+
+.choose-photo h3,
+.choose-panel-dark h3 {
+  color: var(--kl-white);
+}
+
+.choose-photo p,
+.choose-panel-dark p {
+  color: var(--color-neutral);
+}
+
+.choose-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgb(22 35 43 / 12%);
+}
+
+.choose-card:hover img {
+  transform: scale(1.05);
+}
+
+@keyframes choose-rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .choose-layout {
+    gap: var(--space-6);
+  }
+
+  .choose-mosaic {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: none;
+  }
+
+  .choose-card,
+  .choose-card-quality,
+  .choose-card-science,
+  .choose-card-ethics,
+  .choose-card-platform,
+  .choose-card-global,
+  .choose-card-community {
+    grid-column: auto;
+    grid-row: auto;
+    min-height: 18rem;
+  }
+
+  .choose-card-global,
+  .choose-card-community {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .choose {
+    padding-block: var(--space-8);
+  }
+
+  .choose-mosaic {
+    grid-template-columns: 1fr;
+  }
+
+  .choose-card,
+  .choose-card-quality,
+  .choose-card-science,
+  .choose-card-ethics,
+  .choose-card-platform,
+  .choose-card-global,
+  .choose-card-community {
+    grid-column: auto;
+    min-height: 0;
+  }
+
+  .choose-photo {
+    min-height: 20rem;
+  }
+
+  .choose-split {
+    grid-template-columns: 1fr;
+  }
+
+  .choose-split-photo {
+    min-height: 16rem;
+  }
+
+  .choose-title {
+    font-size: clamp(2rem, 8vw, 2.6rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .choose-intro,
+  .choose-card,
+  .choose-card img {
+    animation: none;
+    transition: none;
+  }
+
+  .choose-card:hover,
+  .choose-card:hover img {
+    transform: none;
+  }
+}

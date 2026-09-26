@@ -1,0 +1,184 @@
+.about {
+  background: var(--color-surface);
+  padding-block: var(--space-10);
+}
+
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: var(--space-8);
+  align-items: center;
+}
+
+.about-copy {
+  max-width: 38rem;
+  animation: about-rise 700ms ease both;
+}
+
+.about-eyebrow {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.about-mark {
+  display: block;
+  width: 2.75rem;
+  height: 0.22rem;
+  margin-block: var(--space-4);
+  border-radius: var(--radius-pill);
+  background: var(--gradient-primary);
+}
+
+.about-title {
+  margin: 0 0 var(--space-5);
+  color: var(--color-primary);
+  font-size: clamp(2.1rem, 1.35rem + 1.8vw, 3.35rem);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-display);
+}
+
+.about-copy p {
+  margin: 0 0 var(--space-4);
+  color: var(--color-dark);
+  font-size: var(--text-lg);
+  line-height: var(--leading-body);
+}
+
+.about-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.about-collage {
+  display: grid;
+  grid-template-columns: 1.15fr 0.95fr 0.9fr;
+  grid-template-rows: 9.5rem 11rem 8.5rem;
+  gap: var(--space-3);
+}
+
+.about-frame {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--color-neutral);
+  animation: about-rise 800ms ease both;
+}
+
+.about-frame img {
+  object-fit: cover;
+}
+
+.about-stretch img,
+.about-walk img {
+  object-position: center 18%;
+}
+
+.about-conversation img {
+  object-position: center 28%;
+}
+
+.about-stretch {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  border-radius: var(--radius-lg) var(--radius-md) var(--radius-lg)
+    var(--radius-md);
+}
+
+.about-family {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+}
+
+.about-nutrition {
+  grid-column: 2;
+  grid-row: 2;
+  border-radius: var(--radius-md);
+  animation-delay: 80ms;
+}
+
+.about-conversation {
+  grid-column: 3;
+  grid-row: 2 / span 2;
+  animation-delay: 140ms;
+}
+
+.about-walk {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  animation-delay: 180ms;
+}
+
+@keyframes about-rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 901px) {
+  .about-layout {
+    gap: var(--space-6);
+  }
+
+  .about-collage {
+    grid-template-rows: 8rem 9rem 7rem;
+    gap: var(--space-2);
+  }
+
+  .about-copy p {
+    font-size: var(--text-body);
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    padding-block: var(--space-8);
+  }
+
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .about-collage {
+    grid-template-columns: 1.05fr 0.95fr;
+    grid-template-rows: 13rem 11rem;
+  }
+
+  .about-nutrition,
+  .about-walk {
+    display: none;
+  }
+
+  .about-stretch {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  .about-family {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .about-conversation {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-copy,
+  .about-frame {
+    animation: none;
+  }
+}

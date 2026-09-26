@@ -1,0 +1,18 @@
+:root {
+  --color-primary: var(--kl-deep-teal);
+  --color-on-primary: var(--kl-white);
+  --color-secondary: var(--kl-mint);
+  --color-on-secondary: var(--kl-deep-teal);
+  --color-neutral: var(--kl-pale-blue-gray);
+  --color-surface: var(--kl-white);
+  --color-accent: var(--kl-warm-yellow);
+  --color-on-accent: var(--kl-charcoal-teal);
+  --color-dark: var(--kl-charcoal-teal);
+  --color-on-dark: var(--kl-white);
+  --color-text: var(--kl-deep-teal);
+  --color-text-muted: var(--kl-charcoal-teal);
+  --color-border: var(--kl-pale-blue-gray);
+  --color-footer: var(--kl-deep-teal);
+  --color-footer-text: var(--kl-white);
+  --gradient-primary: var(--kl-gradient-1);
+}

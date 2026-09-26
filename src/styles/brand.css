@@ -1,0 +1,17 @@
+:root {
+  --kl-deep-teal: #042f34;
+  --kl-mint: #b5f2db;
+  --kl-pale-blue-gray: #e4eef0;
+  --kl-white: #ffffff;
+  --kl-warm-yellow: #ffc933;
+  --kl-charcoal-teal: #16232b;
+
+  /* Gradient 1 — the only primary brand gradient. Stops are locked palette colors. */
+  --kl-gradient-1: linear-gradient(
+    118deg,
+    var(--kl-charcoal-teal) 0%,
+    var(--kl-deep-teal) 42%,
+    var(--kl-deep-teal) 68%,
+    rgb(181 242 219 / 38%) 100%
+  );
+}

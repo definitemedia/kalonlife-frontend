@@ -1,0 +1,26 @@
+---
+description: Locked Kalonlife brand colors and Gradient 1 usage
+alwaysApply: true
+---
+
+# Kalonlife brand colors
+
+These values are the visual source of truth. Do not introduce other brand colors.
+
+| Role | Name | Hex |
+| --- | --- | --- |
+| Primary | Deep Teal | `#042F34` |
+| Secondary | Mint Green | `#B5F2DB` |
+| Neutral | Pale Blue Gray | `#E4EEF0` |
+| Neutral | White | `#FFFFFF` |
+| Accent | Warm Yellow | `#FFC933` |
+| Dark | Charcoal Teal | `#16232B` |
+
+- Primary gradient is **Gradient 1** only, defined once as `--kl-gradient-1` in `src/styles/brand.css`. Do not invent or swap in another primary gradient.
+- `#042F34` for strong primary text and dark UI.
+- `#FFFFFF` for clean backgrounds and contrast.
+- `#B5F2DB` for secondary highlights and soft sections.
+- `#E4EEF0` for subtle backgrounds.
+- `#FFC933` only as a sparse accent.
+- `#16232B` for deep contrast.
+- Style: premium, clean, modern, wellness. Avoid excessive gradients and excessive yellow.
