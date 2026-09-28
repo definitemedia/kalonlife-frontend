@@ -27,6 +27,7 @@ export default async function Page({ params }: Props) {
 
   return (
     <LegalDocument
+      currentHref="/privacy"
       title={routes("title")}
       subtitle={routes("description")}
       intro={body("intro")}

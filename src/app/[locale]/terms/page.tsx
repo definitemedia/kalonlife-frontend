@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { LegalDocument } from "@/components/layout/LegalDocument";
 import { buildMetadata } from "@/lib/seo";
-import "./terms.css";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -18,42 +18,43 @@ export default async function Page({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "terms" });
 
   return (
-    <div className="container page-shell">
-      <article className="terms-of-use">
-        <h1>{t("title")}</h1>
-        <p className="terms-of-use-subtitle">{t("subtitle")}</p>
-        <p className="terms-of-use-intro">{t("intro")}</p>
-
-        <section>
-          <h2>{t("acceptance.title")}</h2>
-          <p>{t("acceptance.body")}</p>
-        </section>
-
-        <section>
-          <h2>{t("usage.title")}</h2>
-          <p>{t("usage.body")}</p>
-        </section>
-
-        <section>
-          <h2>{t("productInformation.title")}</h2>
-          <p>{t("productInformation.body")}</p>
-        </section>
-
-        <section>
-          <h2>{t("intellectualProperty.title")}</h2>
-          <p>{t("intellectualProperty.body")}</p>
-        </section>
-
-        <section>
-          <h2>{t("liability.title")}</h2>
-          <p>{t("liability.body")}</p>
-        </section>
-
-        <section>
-          <h2>{t("modifications.title")}</h2>
-          <p>{t("modifications.body")}</p>
-        </section>
-      </article>
-    </div>
+    <LegalDocument
+      currentHref="/terms"
+      title={t("title")}
+      subtitle={t("subtitle")}
+      intro={t("intro")}
+      sections={[
+        {
+          id: "acceptance",
+          title: t("acceptance.title"),
+          paragraphs: [t("acceptance.body")],
+        },
+        {
+          id: "usage",
+          title: t("usage.title"),
+          paragraphs: [t("usage.body")],
+        },
+        {
+          id: "product-information",
+          title: t("productInformation.title"),
+          paragraphs: [t("productInformation.body")],
+        },
+        {
+          id: "intellectual-property",
+          title: t("intellectualProperty.title"),
+          paragraphs: [t("intellectualProperty.body")],
+        },
+        {
+          id: "liability",
+          title: t("liability.title"),
+          paragraphs: [t("liability.body")],
+        },
+        {
+          id: "modifications",
+          title: t("modifications.title"),
+          paragraphs: [t("modifications.body")],
+        },
+      ]}
+    />
   );
 }

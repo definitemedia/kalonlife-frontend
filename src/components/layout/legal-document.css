@@ -1,0 +1,122 @@
+.legal-page {
+  background: var(--color-neutral);
+}
+
+.legal-document {
+  width: min(100% - var(--space-8), 44rem);
+  margin-inline: auto;
+  padding-block: clamp(2.5rem, 6vw, var(--space-10));
+  overflow-wrap: break-word;
+}
+
+.legal-document h1 {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: var(--text-h1);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-heading);
+}
+
+.legal-document-subtitle {
+  margin: var(--space-4) 0 0;
+  color: var(--color-dark);
+  font-size: var(--text-lg);
+  line-height: 1.7;
+}
+
+.legal-document-intro {
+  margin: var(--space-5) 0 0;
+  color: var(--color-dark);
+  font-size: var(--text-body);
+  line-height: 1.75;
+}
+
+.legal-document-paragraphs,
+.legal-document-sections {
+  margin-top: var(--space-8);
+}
+
+.legal-document-paragraphs > p,
+.legal-document-section {
+  margin: 0;
+  padding-block: var(--space-6);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-dark);
+  font-size: var(--text-body);
+  line-height: 1.75;
+}
+
+.legal-document h2 {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  margin: 0;
+  color: var(--color-primary);
+  font-size: var(--text-h3);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-heading);
+}
+
+.legal-document-index {
+  flex: 0 0 auto;
+  min-width: 1.75rem;
+  color: var(--color-primary);
+  font-variant-numeric: tabular-nums;
+  font-weight: var(--weight-semibold);
+}
+
+.legal-document-heading {
+  min-width: 0;
+}
+
+.legal-document-section p,
+.legal-document-section li {
+  color: var(--color-dark);
+  font-size: var(--text-body);
+  line-height: 1.75;
+}
+
+.legal-document-section p {
+  margin: var(--space-3) 0 0;
+}
+
+.legal-document-lead {
+  font-weight: var(--weight-medium);
+}
+
+.legal-document-section ul {
+  margin: var(--space-3) 0 0;
+  padding-inline-start: 1.25rem;
+  list-style: disc;
+}
+
+.legal-document-section li + li {
+  margin-top: var(--space-2);
+}
+
+.legal-document-related {
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--color-border);
+}
+
+.legal-document-related ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.legal-document-related a {
+  color: var(--color-primary);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+}
+
+.legal-document-related a:hover {
+  text-decoration: underline;
+}

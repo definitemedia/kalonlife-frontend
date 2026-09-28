@@ -3,7 +3,7 @@
 import { useLocale } from "next-intl";
 import type { MouseEvent } from "react";
 import { localeNames } from "@/i18n/locale-labels";
-import { Link, usePathname, useRouter } from "@/i18n/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 
 const languageChoices = [
@@ -22,7 +22,6 @@ const languageChoices = [
 
 export function LanguageChoices() {
   const locale = useLocale();
-  const pathname = usePathname();
   const router = useRouter();
 
   function selectLocale(event: MouseEvent<HTMLAnchorElement>, nextLocale: Locale) {
@@ -37,9 +36,7 @@ export function LanguageChoices() {
     }
 
     event.preventDefault();
-    if (nextLocale === locale) return;
-
-    router.replace(`${pathname}${window.location.search}`, { locale: nextLocale });
+    router.replace("/", { locale: nextLocale });
   }
 
   return (
@@ -49,7 +46,7 @@ export function LanguageChoices() {
         return (
           <li key={choice.code}>
             <Link
-              href={pathname}
+              href="/"
               locale={choice.code}
               lang={choice.code}
               className="language-choice"

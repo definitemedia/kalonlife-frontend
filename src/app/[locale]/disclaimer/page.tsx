@@ -31,6 +31,7 @@ export default async function Page({ params }: Props) {
 
   return (
     <LegalDocument
+      currentHref="/disclaimer"
       title={routes("title")}
       subtitle={routes("description")}
       paragraphs={PARAGRAPH_KEYS.map((key) => body(key))}
