@@ -4,19 +4,18 @@ import { notFound } from "next/navigation";
 import * as rootParams from "next/root-params";
 import { routing } from "./routing";
 
-type MessageTree = { [key: string]: string | MessageTree };
+type MessageTree = { [key: string]: string | string[] | MessageTree };
+
+function isMessageTree(value: string | string[] | MessageTree): value is MessageTree {
+  return typeof value === "object" && !Array.isArray(value);
+}
 
 function mergeMessages(base: MessageTree, overlay: MessageTree): MessageTree {
   const merged: MessageTree = { ...base };
 
   for (const [key, value] of Object.entries(overlay)) {
     const current = merged[key];
-    if (
-      value &&
-      typeof value === "object" &&
-      current &&
-      typeof current === "object"
-    ) {
+    if (isMessageTree(value) && current && isMessageTree(current)) {
       merged[key] = mergeMessages(current, value);
     } else {
       merged[key] = value;

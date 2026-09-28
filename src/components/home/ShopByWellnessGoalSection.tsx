@@ -60,7 +60,7 @@ export async function ShopByWellnessGoalSection() {
                     src={goal.src}
                     alt={t(`${goal.id}.imageAlt`)}
                     fill
-                    sizes="(max-width: 560px) 100vw, (max-width: 960px) 50vw, 25vw"
+                    sizes="(max-width: 960px) 50vw, 25vw"
                   />
                 </span>
                 <span className="goals-pill">{t(`${goal.id}.pill`)}</span>

@@ -1,17 +1,43 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { companyLinks, headerLinks } from "@/config/navigation";
 import { Link, usePathname } from "@/i18n/navigation";
+import { useIsMobile, useOverlay } from "@/lib/overlay";
 
 export function Header() {
   const t = useTranslations("nav");
+  const footer = useTranslations("footer");
   const pathname = usePathname();
+  const mobile = useIsMobile();
   const [open, setOpen] = useState(false);
-  const close = () => setOpen(false);
+  const drawerRef = useRef<HTMLElement>(null);
+  const menuRef = useRef<HTMLButtonElement>(null);
+  const wasOpen = useRef(false);
+  const close = useCallback(() => setOpen(false), []);
+  const closeSoon = useCallback(() => {
+    window.setTimeout(() => setOpen(false), 0);
+  }, []);
   const companyActive = companyLinks.some((item) => item.href === pathname);
+
+  useOverlay(open, close, drawerRef);
+
+  useEffect(() => {
+    if (!mobile) setOpen(false);
+  }, [mobile]);
+
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (wasOpen.current && !open) {
+      menuRef.current?.focus();
+    }
+    wasOpen.current = open;
+  }, [open]);
 
   return (
     <header className="site-header">
@@ -19,7 +45,7 @@ export function Header() {
         {t("skip")}
       </a>
       <div className="container header-bar">
-        <Link href="/" className="brand" aria-label="Kalonlife" onClick={close}>
+        <Link href="/" className="brand" aria-label="Kalonlife" onClick={closeSoon}>
           <Image
             src="/brand/kalonlife-logo.png"
             alt="Kalonlife"
@@ -29,23 +55,13 @@ export function Header() {
             className="brand-logo"
           />
         </Link>
-        <nav
-          id="site-nav"
-          className="site-nav"
-          data-open={open}
-          aria-label={t("primary")}
-        >
-          <Link
-            href="/"
-            aria-current={pathname === "/" ? "page" : undefined}
-            onClick={close}
-          >
+        <nav className="site-nav" aria-label={t("primary")}>
+          <Link href="/" aria-current={pathname === "/" ? "page" : undefined}>
             {t("home")}
           </Link>
           <Link
             href="/shop"
             aria-current={pathname === "/shop" ? "page" : undefined}
-            onClick={close}
           >
             {t("shop")}
           </Link>
@@ -59,7 +75,6 @@ export function Header() {
                   key={item.href}
                   href={item.href}
                   aria-current={pathname === item.href ? "page" : undefined}
-                  onClick={close}
                 >
                   {t(item.label)}
                 </Link>
@@ -79,7 +94,6 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 aria-current={pathname === item.href ? "page" : undefined}
-                onClick={close}
               >
                 {t(item.label)}
               </Link>
@@ -91,7 +105,7 @@ export function Header() {
             className="header-icon-link"
             aria-label={t("login")}
             aria-current={pathname === "/login" ? "page" : undefined}
-            onClick={close}
+            onClick={closeSoon}
           >
             <LoginIcon />
             <span className="visually-hidden">{t("login")}</span>
@@ -101,16 +115,17 @@ export function Header() {
             className="header-icon-link"
             aria-label={t("cart")}
             aria-current={pathname === "/cart" ? "page" : undefined}
-            onClick={close}
+            onClick={closeSoon}
           >
             <CartIcon />
             <span className="visually-hidden">{t("cart")}</span>
           </Link>
           <button
+            ref={menuRef}
             type="button"
             className="menu-toggle"
             aria-expanded={open}
-            aria-controls="site-nav"
+            aria-controls="site-drawer"
             aria-label={open ? t("closeMenu") : t("openMenu")}
             onClick={() => setOpen((value) => !value)}
           >
@@ -121,6 +136,99 @@ export function Header() {
           </button>
         </div>
       </div>
+      <button
+        type="button"
+        className="nav-backdrop"
+        data-open={open ? "true" : "false"}
+        tabIndex={open ? 0 : -1}
+        aria-label={t("closeMenu")}
+        onClick={close}
+      />
+      <nav
+        ref={drawerRef}
+        id="site-drawer"
+        className="site-drawer"
+        data-open={open ? "true" : "false"}
+        aria-label={t("primary")}
+        aria-modal={open ? true : undefined}
+        role="dialog"
+        inert={!open ? true : undefined}
+      >
+        <button type="button" className="drawer-close" onClick={close}>
+          <CloseIcon />
+          <span>{t("closeMenu")}</span>
+        </button>
+        <Link
+          href="/"
+          aria-current={pathname === "/" ? "page" : undefined}
+          onClick={closeSoon}
+        >
+          {t("home")}
+        </Link>
+        <Link
+          href="/shop"
+          aria-current={pathname === "/shop" ? "page" : undefined}
+          onClick={closeSoon}
+        >
+          {t("shop")}
+        </Link>
+        <details className="nav-group">
+          <summary aria-current={companyActive ? "page" : undefined}>
+            {t("company")}
+          </summary>
+          <div className="nav-group-panel">
+            {companyLinks.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                aria-current={pathname === item.href ? "page" : undefined}
+                onClick={closeSoon}
+              >
+                {t(item.label)}
+              </Link>
+            ))}
+          </div>
+        </details>
+        {headerLinks
+          .filter(
+            (item) =>
+              item.href !== "/" &&
+              item.href !== "/shop" &&
+              item.href !== "/login" &&
+              item.href !== "/cart",
+          )
+          .map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              aria-current={pathname === item.href ? "page" : undefined}
+              onClick={closeSoon}
+            >
+              {t(item.label)}
+            </Link>
+          ))}
+        <Link
+          href="/contact"
+          aria-current={pathname === "/contact" ? "page" : undefined}
+          onClick={closeSoon}
+        >
+          {footer("contact")}
+        </Link>
+        <Link
+          href="/login"
+          aria-current={pathname === "/login" ? "page" : undefined}
+          onClick={closeSoon}
+        >
+          {t("login")}
+        </Link>
+        <Link
+          href="/cart"
+          aria-current={pathname === "/cart" ? "page" : undefined}
+          onClick={closeSoon}
+        >
+          {t("cart")}
+        </Link>
+      </nav>
     </header>
   );
 }

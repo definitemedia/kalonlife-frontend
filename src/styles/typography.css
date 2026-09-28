@@ -1,4 +1,5 @@
 :root {
+  /* Indic faces are bundled. Other scripts fall back to the operating system via system-ui. */
   --font-sans:
     var(--font-inter), var(--font-devanagari), var(--font-telugu), var(--font-tamil),
     var(--font-kannada), var(--font-malayalam), var(--font-bengali), var(--font-gujarati),

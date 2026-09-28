@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import {
   flavourOf,
@@ -17,6 +17,7 @@ import {
   type PriceBand,
   type ShopCategoryId,
 } from "@/config/products";
+import { useIsMobile, useOverlay } from "@/lib/overlay";
 import "./product-catalog.css";
 
 type FilterOption = {
@@ -272,6 +273,25 @@ export function ProductCatalog() {
     size: false,
   });
   const [categoriesOpen, setCategoriesOpen] = useState(false);
+  const [sheetOpen, setSheetOpen] = useState(false);
+  const mobile = useIsMobile();
+  const sheetRef = useRef<HTMLDivElement>(null);
+  const launchRef = useRef<HTMLButtonElement>(null);
+  const closeSheet = useCallback(() => setSheetOpen(false), []);
+  const wasSheetOpen = useRef(false);
+  useOverlay(sheetOpen, closeSheet, sheetRef);
+
+  useEffect(() => {
+    if (!mobile) setSheetOpen(false);
+  }, [mobile]);
+
+  useEffect(() => {
+    if (wasSheetOpen.current && !sheetOpen) {
+      launchRef.current?.focus();
+    }
+    wasSheetOpen.current = sheetOpen;
+  }, [sheetOpen]);
+
   function toggleGroup(id: FilterGroupId) {
     setOpenGroups((current) => ({ ...current, [id]: !current[id] }));
   }
@@ -306,12 +326,45 @@ export function ProductCatalog() {
 
   return (
     <div className="shop-layout">
-      <div className="shop-sidebar">
+      <button
+        ref={launchRef}
+        type="button"
+        className="shop-filter-launch"
+        aria-expanded={sheetOpen}
+        aria-controls="shop-filters-sheet"
+        onClick={() => setSheetOpen(true)}
+      >
+        <FilterSlidersIcon />
+        <span>{filters("filter")}</span>
+      </button>
+      <button
+        type="button"
+        className="shop-sheet-backdrop"
+        data-open={sheetOpen ? "true" : "false"}
+        tabIndex={-1}
+        aria-hidden="true"
+        onClick={closeSheet}
+      />
+      <div
+        ref={sheetRef}
+        id="shop-filters-sheet"
+        className="shop-sidebar"
+        data-open={sheetOpen ? "true" : "false"}
+        role={sheetOpen ? "dialog" : undefined}
+        aria-modal={sheetOpen ? true : undefined}
+        aria-label={filters("filter")}
+        inert={mobile && !sheetOpen ? true : undefined}
+      >
         <div className="shop-filters">
-          <p className="shop-filter-pill">
-            <FilterSlidersIcon />
-            <span>{filters("filter")}</span>
-          </p>
+          <div className="shop-sheet-bar">
+            <p className="shop-filter-pill">
+              <FilterSlidersIcon />
+              <span>{filters("filter")}</span>
+            </p>
+            <button type="button" className="shop-sheet-close" onClick={closeSheet}>
+              {filters("close")}
+            </button>
+          </div>
           <FilterGroup
             headingId="shop-filter-flavour"
             heading={filters("flavour")}
@@ -385,12 +438,8 @@ export function ProductCatalog() {
                 </div>
                 <div className="product-copy">
                   <h2 className="product-name">{product.name}</h2>
-                  <p className="product-meta-label">{catalog("packSize")}</p>
                   <p className="product-pack">{product.packSize}</p>
-                  <p className="product-price">
-                    <span className="product-meta-label">{catalog("mrp")}</span>
-                    {formatMrp(product.mrp)}
-                  </p>
+                  <p className="product-price">{formatMrp(product.mrp)}</p>
                 </div>
               </li>
             ))}

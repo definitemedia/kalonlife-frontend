@@ -232,16 +232,18 @@
     margin-bottom: var(--space-6);
   }
 
-  .philosophy-grid {
-    grid-template-columns: 1fr;
-  }
-
   .philosophy-title {
-    font-size: clamp(2rem, 8vw, 2.6rem);
+    font-size: clamp(1.625rem, 6.4vw, 2rem);
   }
 
   .philosophy-close {
     margin-top: var(--space-6);
+  }
+}
+
+@media (max-width: 22.4375rem) {
+  .philosophy-grid {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 

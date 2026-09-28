@@ -67,6 +67,7 @@ export const routeCatalog = [
   { key: "complaintsTracker", path: "/complaints-tracker", index: true },
   { key: "rulesOfConduct", path: "/rules-of-conduct", index: true },
   { key: "termsAndConditions", path: "/terms-and-conditions", index: true },
+  { key: "languages", path: "/languages", index: true },
 ] as const;
 
 export type RouteKey = (typeof routeCatalog)[number]["key"];

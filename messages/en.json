@@ -248,7 +248,9 @@
     "consultDietician": "Consult your Dietician",
     "articles": "Articles",
     "login": "Login",
-    "cart": "Cart"
+    "cart": "Cart",
+    "consultShort": "Consult",
+    "account": "Account"
   },
   "footer": {
     "tagline": "Empowering Lives, Enriching Health.",
@@ -516,20 +518,26 @@
       "description": "This page will be published soon."
     },
     "languages": {
-      "title": "Choose your language",
-      "description": "Choose a country and language for the Kalonlife International website."
+      "title": "Choose Your Language",
+      "description": "Choose a language for the Kalonlife International website."
     }
   },
   "languages": {
-    "heading": "Choose your language",
+    "heading": "Choose Your Language",
+    "ariaLabel": "Choose Your Language",
     "current": "Current language",
-    "noSingleOfficial": "No single official language",
     "regions": {
-      "asia": "Asia & Middle East",
-      "europe": "Europe",
-      "africa": "Africa",
-      "americas": "Americas",
-      "pacific": "Pacific"
+      "en": "Pan India",
+      "hi": "North and Central India",
+      "te": "Andhra Pradesh, Telangana",
+      "ta": "Tamil Nadu",
+      "kn": "Karnataka",
+      "ml": "Kerala",
+      "mr": "Maharashtra",
+      "bn": "West Bengal",
+      "gu": "Gujarat",
+      "or": "Odisha",
+      "pa": "Punjab"
     }
   },
   "guidance": {
@@ -608,6 +616,7 @@
   },
   "shopFilters": {
     "filter": "Filter",
+    "close": "Close",
     "flavour": "Flavour",
     "mrp": "MRP (incl. of all taxes)",
     "size": "Size",

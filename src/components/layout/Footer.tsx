@@ -4,6 +4,7 @@ import { footerLegal } from "@/config/footer-legal";
 import { footerCompanyLinks, footerQuickLinks } from "@/config/navigation";
 import { site } from "@/config/site";
 import { Link } from "@/i18n/navigation";
+import { FooterAccordion } from "./FooterAccordion";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 
 export async function Footer() {
@@ -24,8 +25,7 @@ export async function Footer() {
           </Link>
           <LocaleSwitcher />
         </div>
-        <nav aria-label={t("company")}>
-          <h2>{t("company")}</h2>
+        <FooterAccordion title={t("company")}>
           <ul>
             {footerCompanyLinks.map((item) => (
               <li key={item.href}>
@@ -33,9 +33,8 @@ export async function Footer() {
               </li>
             ))}
           </ul>
-        </nav>
-        <nav aria-label={t("quickLinks")}>
-          <h2>{t("quickLinks")}</h2>
+        </FooterAccordion>
+        <FooterAccordion title={t("quickLinks")}>
           <ul>
             {footerQuickLinks.map((item) => (
               <li key={item.href}>
@@ -43,7 +42,7 @@ export async function Footer() {
               </li>
             ))}
           </ul>
-        </nav>
+        </FooterAccordion>
         <div className="footer-address">
           <h2>{t("addressHeading")}</h2>
           <p className="footer-contact-line">

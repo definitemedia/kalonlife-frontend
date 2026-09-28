@@ -63,7 +63,7 @@ export async function FeaturedProductsSection() {
                         src={product.src}
                         alt={t(`${product.id}.imageAlt`)}
                         fill
-                        sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 30vw"
+                        sizes="(max-width: 1024px) 46vw, 30vw"
                       />
                     </span>
                     <span className="featured-tall-body">
@@ -82,7 +82,7 @@ export async function FeaturedProductsSection() {
                         src={product.src}
                         alt={t(`${product.id}.imageAlt`)}
                         fill
-                        sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 42vw"
+                        sizes="(max-width: 1024px) 46vw, 42vw"
                       />
                     </span>
                     <span className="featured-overlay-copy">
@@ -106,7 +106,7 @@ export async function FeaturedProductsSection() {
                         src={product.src}
                         alt={t(`${product.id}.imageAlt`)}
                         fill
-                        sizes="(max-width: 640px) 92vw, (max-width: 1024px) 40vw, 22vw"
+                        sizes="(max-width: 1024px) 46vw, 22vw"
                       />
                     </span>
                   </>
@@ -125,7 +125,7 @@ export async function FeaturedProductsSection() {
                         src={product.src}
                         alt={t(`${product.id}.imageAlt`)}
                         fill
-                        sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 36vw"
+                        sizes="(max-width: 1024px) 46vw, 36vw"
                       />
                     </span>
                   </>

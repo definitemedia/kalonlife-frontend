@@ -7,16 +7,17 @@ import {
   Noto_Sans_Gurmukhi,
   Noto_Sans_Kannada,
   Noto_Sans_Malayalam,
-  Noto_Sans_Oriya,
   Noto_Sans_Tamil,
   Noto_Sans_Telugu,
 } from "next/font/google";
+import localFont from "next/font/local";
 import { hasLocale } from "next-intl";
 import { NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { MobileTabBar } from "@/components/layout/MobileTabBar";
 import { OrganizationJsonLd } from "@/components/seo/OrganizationJsonLd";
 import { site } from "@/config/site";
 import { routing } from "@/i18n/routing";
@@ -77,11 +78,23 @@ const gujarati = Noto_Sans_Gujarati({
   display: "swap",
 });
 
-const odia = Noto_Sans_Oriya({
-  subsets: ["oriya"],
-  weight: ["400", "500", "600", "700"],
+const odia = localFont({
+  src: [
+    { path: "../../fonts/noto-sans-oriya-400.woff2", weight: "400", style: "normal" },
+    { path: "../../fonts/noto-sans-oriya-500.woff2", weight: "500", style: "normal" },
+    { path: "../../fonts/noto-sans-oriya-600.woff2", weight: "600", style: "normal" },
+    { path: "../../fonts/noto-sans-oriya-700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-odia",
   display: "swap",
+  adjustFontFallback: false,
+  declarations: [
+    {
+      prop: "unicode-range",
+      value:
+        "U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC",
+    },
+  ],
 });
 
 const gurmukhi = Noto_Sans_Gurmukhi({
@@ -108,6 +121,7 @@ export const viewport: Viewport = {
   themeColor: "#042F34",
   width: "device-width",
   initialScale: 1,
+  viewportFit: "cover",
 };
 
 export function generateStaticParams() {
@@ -170,6 +184,7 @@ export default async function LocaleLayout({
               {children}
             </main>
             <Footer />
+            <MobileTabBar />
           </div>
         </NextIntlClientProvider>
         <OrganizationJsonLd />

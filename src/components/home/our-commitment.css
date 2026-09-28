@@ -208,6 +208,16 @@
     flex-direction: column;
     gap: var(--space-2);
   }
+
+  .commitment-title {
+    font-size: clamp(1.625rem, 6.4vw, 2rem);
+  }
+}
+
+@media (max-width: 22.4375rem) {
+  .commitment-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

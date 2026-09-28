@@ -253,7 +253,7 @@
   }
 
   .choose-mosaic {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .choose-card,
@@ -268,7 +268,7 @@
   }
 
   .choose-photo {
-    min-height: 20rem;
+    min-height: 11rem;
   }
 
   .choose-split {
@@ -280,7 +280,13 @@
   }
 
   .choose-title {
-    font-size: clamp(2rem, 8vw, 2.6rem);
+    font-size: clamp(1.625rem, 6.4vw, 2rem);
+  }
+}
+
+@media (max-width: 22.4375rem) {
+  .choose-mosaic {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 

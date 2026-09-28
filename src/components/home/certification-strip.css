@@ -1,43 +1,23 @@
 .cert-strip {
   width: 100%;
   max-width: 100%;
-  overflow: hidden;
   background: var(--color-surface);
   color: var(--color-primary);
   border-block: 1px solid var(--color-secondary);
 }
 
-.cert-strip:focus-visible {
-  outline-offset: -3px;
-}
-
-.cert-strip-viewport {
-  overflow: hidden;
-  width: 100%;
-  max-width: 100%;
-}
-
-.cert-strip-track {
-  display: flex;
-  width: max-content;
-  animation: cert-strip-marquee 64s linear infinite;
-}
-
-.cert-strip-half {
-  display: flex;
-  flex: none;
-  align-items: center;
-}
-
 .cert-strip-list {
   display: flex;
-  flex: none;
+  flex-wrap: wrap;
   align-items: center;
-  gap: clamp(2.75rem, 4.5vw, 4.5rem);
-  margin: 0;
+  justify-content: center;
+  width: 100%;
+  max-width: var(--page-width);
+  margin: 0 auto;
   padding-block: var(--space-4);
-  padding-inline: 0;
-  padding-inline-end: clamp(2.75rem, 4.5vw, 4.5rem);
+  padding-inline: var(--space-5);
+  row-gap: var(--space-3);
+  column-gap: clamp(1.75rem, 4vw, 3rem);
   list-style: none;
 }
 
@@ -48,51 +28,12 @@
   font-weight: var(--weight-semibold);
   letter-spacing: 0.02em;
   line-height: 1.4;
+  text-align: center;
   white-space: nowrap;
 }
 
-.cert-strip:hover .cert-strip-track,
-.cert-strip:focus-within .cert-strip-track {
-  animation-play-state: paused;
-}
-
-@keyframes cert-strip-marquee {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .cert-strip-track {
-    animation: none;
-    width: 100%;
-    max-width: 100%;
-    transform: none;
-    justify-content: center;
-  }
-
-  .cert-strip-half[aria-hidden="true"],
-  .cert-strip-list--repeat {
-    display: none;
-  }
-
-  .cert-strip-half {
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
-  }
-
-  .cert-strip-list {
-    width: 100%;
-    max-width: var(--page-width);
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-inline: var(--space-5);
-    row-gap: var(--space-3);
-    column-gap: clamp(1.75rem, 4vw, 3rem);
+@media (max-width: 480px) {
+  .cert-strip-list li {
+    white-space: normal;
   }
 }
