@@ -235,6 +235,7 @@
   "nav": {
     "skip": "Skip to content",
     "language": "Language",
+    "chooseLanguage": "Choose your language",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "primary": "Primary",
@@ -285,6 +286,20 @@
       "copyright": "© 2026 Kalonlife International India Private Limited. All rights reserved. All trademarks, product names and images displayed on this website are the property of Kalonlife International India Private Limited, unless otherwise indicated.",
       "fssai": "FSSAI License No.: {license}",
       "disclaimer": "*Before engaging in any physical activity, please consult your physician. Kalonlife products are not intended to diagnose, treat, prevent or cure any disease. Please see individual product labels for detailed information."
+    },
+    "chooseLanguage": "Choose your language",
+    "regions": {
+      "en": "Pan India",
+      "hi": "North and Central India",
+      "te": "Andhra Pradesh, Telangana",
+      "ta": "Tamil Nadu",
+      "kn": "Karnataka",
+      "ml": "Kerala",
+      "mr": "Maharashtra",
+      "bn": "West Bengal",
+      "gu": "Gujarat",
+      "or": "Odisha",
+      "pa": "Punjab"
     }
   },
   "notFound": {
@@ -317,23 +332,23 @@
     },
     "terms": {
       "title": "Terms of Use",
-      "description": "Terms of use for Kalonlife International."
+      "description": "Please read these terms carefully before using our website."
     },
     "privacy": {
       "title": "Privacy Policy",
-      "description": "Privacy policy for Kalonlife International."
+      "description": "How we collect, use, and protect your information."
     },
     "shipping": {
       "title": "Shipping Policy",
-      "description": "Shipping policy for Kalonlife orders."
+      "description": "Everything you need to know about our shipping and delivery process."
     },
     "returns": {
       "title": "Return & Refund Policy",
-      "description": "Return and refund policy for Kalonlife orders."
+      "description": "Our policy on returns, refunds, and replacements."
     },
     "disclaimer": {
       "title": "Product Disclaimer",
-      "description": "Product disclaimer for Kalonlife wellness products."
+      "description": "Important information about our products and your responsibilities."
     },
     "cart": {
       "title": "Cart",
@@ -499,6 +514,22 @@
     "termsAndConditions": {
       "title": "Terms and Conditions",
       "description": "This page will be published soon."
+    },
+    "languages": {
+      "title": "Choose your language",
+      "description": "Choose a country and language for the Kalonlife International website."
+    }
+  },
+  "languages": {
+    "heading": "Choose your language",
+    "current": "Current language",
+    "noSingleOfficial": "No single official language",
+    "regions": {
+      "asia": "Asia & Middle East",
+      "europe": "Europe",
+      "africa": "Africa",
+      "americas": "Americas",
+      "pacific": "Pacific"
     }
   },
   "guidance": {
@@ -554,7 +585,165 @@
     }
   },
   "catalog": {
+    "packSize": "Pack size",
+    "mrp": "MRP",
     "imageComingSoon": "Image coming soon",
     "productsLabel": "Products"
+  },
+  "shopCategories": {
+    "label": "Product categories",
+    "empty": "No products in this category yet.",
+    "all": "All Products",
+    "accessories": "Accessories",
+    "antiAging": "Anti-Aging & Longevity",
+    "boneHealth": "Bone Health",
+    "heartDiabetes": "Heart & Diabetes Care",
+    "kidsNutrition": "Kids\u2019 Nutrition & Growth Support",
+    "mealReplacements": "Meal Replacements & Functional Nutrition",
+    "mensHealth": "Men\u2019s Health & Performance",
+    "sportsNutrition": "Sports Nutrition & Performance",
+    "weightManagement": "Weight Management & Metabolism Boosters",
+    "womensHealth": "Women\u2019s Health & Wellness",
+    "personalCare": "Personal Care"
+  },
+  "shopFilters": {
+    "filter": "Filter",
+    "flavour": "Flavour",
+    "mrp": "MRP (incl. of all taxes)",
+    "size": "Size",
+    "packSize": "Pack Size",
+    "priceRange": "Price Range",
+    "any": "Any",
+    "flavours": {
+      "Vanilla": "Vanilla",
+      "Strawberry": "Strawberry"
+    },
+    "priceUnder": "Under {amount}",
+    "priceBetween": "{min}–{max}",
+    "priceAbove": "{amount} and above"
+  },
+  "shippingBody": {
+    "processing": {
+      "title": "1. Order Processing",
+      "body": "Orders are processed within 2–3 business days after payment confirmation, excluding weekends and public holidays."
+    },
+    "timeline": {
+      "title": "2. Delivery Timeline",
+      "lead": "Standard Delivery: 5–7 business days",
+      "body": "Delivery timelines may vary based on location and courier partner."
+    },
+    "charges": {
+      "title": "3. Shipping Charges",
+      "body": "Shipping charges, if applicable, will be clearly mentioned at checkout or on the invoice."
+    },
+    "address": {
+      "title": "4. Address Accuracy",
+      "body": "Customers are responsible for providing accurate shipping details. Kalonlife is not responsible for delays or losses due to incorrect addresses."
+    },
+    "issues": {
+      "title": "5. Delivery Issues",
+      "body": "If your order is delayed, damaged, or missing, please contact customer support within 48 hours of delivery."
+    }
+  },
+  "privacy": {
+    "intro": "At Kalonlife, your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information.",
+    "collect": {
+      "title": "1. Information We Collect",
+      "items": [
+        "Personal details such as name, email, phone number, address",
+        "Order and payment information",
+        "Account and KYC-related information (for associates)"
+      ]
+    },
+    "use": {
+      "title": "2. Use of Information",
+      "lead": "Your information is used to:",
+      "items": [
+        "Process orders and payments",
+        "Deliver products and services",
+        "Communicate updates, offers, and support",
+        "Maintain legal and regulatory compliance"
+      ]
+    },
+    "protection": {
+      "title": "3. Data Protection",
+      "body": "We implement appropriate security measures to protect your personal data against unauthorized access, alteration, or disclosure."
+    },
+    "sharing": {
+      "title": "4. Information Sharing",
+      "body": "We do not sell or rent personal information. Data may be shared only with trusted service providers for order fulfillment, payment processing, or legal compliance."
+    },
+    "rights": {
+      "title": "5. User Rights",
+      "body": "You may request access, correction, or deletion of your personal data by contacting us."
+    }
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "subtitle": "Please read these terms carefully before using our website.",
+    "intro": "Welcome to Kalonlife International India Private Limited. By accessing or using our website, products, or services, you agree to comply with and be bound by the following Terms of Use.",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "body": "By using this website, you confirm that you are at least 18 years of age and legally capable of entering into a binding agreement."
+    },
+    "usage": {
+      "title": "Website Usage",
+      "body": "You agree to use this website only for lawful purposes and in a manner that does not infringe the rights of others or restrict their use of the website."
+    },
+    "productInformation": {
+      "title": "Product Information",
+      "body": "All product descriptions, images, prices, and availability are subject to change without prior notice. Products are sold as nutraceuticals and not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "body": "All content on this website, including text, images, logos, videos, designs, and trademarks, is the property of Kalonlife and may not be reproduced without written permission."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "body": "Kalonlife shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of this website or products."
+    },
+    "modifications": {
+      "title": "Modifications",
+      "body": "We reserve the right to modify these Terms of Use at any time. Continued use of the website constitutes acceptance of the updated terms."
+    }
+  },
+  "returnsBody": {
+    "noReturn": {
+      "title": "1. No Return / No Refund Policy",
+      "body": "Due to the nature of wellness and nutraceutical products, all sales are final. Products once sold are not returnable or refundable."
+    },
+    "damaged": {
+      "title": "2. Damaged or Incorrect Products",
+      "intro": "In case of damaged or wrong product delivery:",
+      "items": [
+        "Notify us within 24 hours of receiving the order",
+        "Share clear images and invoice details",
+        "Replacement may be provided at the company's discretion after verification."
+      ]
+    },
+    "ineligible": {
+      "title": "3. Non-Eligibility for Refund",
+      "intro": "Refunds will not be issued for:",
+      "items": [
+        "Change of mind",
+        "Improper usage",
+        "Opened or used products",
+        "Delays caused by courier partners"
+      ]
+    },
+    "associate": {
+      "title": "4. Associate & Promotional Purchases",
+      "body": "Products purchased under offers, discounts, rewards, or business volumes are non-refundable and non-returnable."
+    }
+  },
+  "disclaimerBody": {
+    "results": "Results may vary from person to person. All Kalonlife Products are not intended to treat, cure, diagnose or prevent any diseases or illness.",
+    "purchase": "By purchasing any products through links provided on this Website, you acknowledge and agree to carefully review all instructions, service descriptions, and warnings provided on the product packaging. You are advised to conduct independent research regarding the ingredients, recommended dosages, and potential effects of the products and to consult with a licensed healthcare professional before using any product referenced on this Website, especially if you have pre-existing medical conditions, allergies, sensitivities, or other health concerns.",
+    "diet": "Our products should not be considered a substitute for a healthy, balanced diet or lifestyle. The information provided on this Website is for general informational purposes only and is not intended as a replacement for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare professional before starting any new health regimen or treatment plan.",
+    "outcomes": "While the products on this Website are formulated to support health and wellbeing, individual results may vary based on personal health conditions and lifestyle factors. The Company does not guarantee specific outcomes and strongly recommends that products be used as part of a healthy lifestyle and balanced diet.",
+    "accuracy": "We make every effort to provide accurate and reliable information regarding our products, including ingredients, benefits, and usage instructions. However, we cannot guarantee that all information presented on this Website is accurate, complete, or up-to-date. You are encouraged to verify any information obtained from this Website with other reliable sources and consult with a healthcare professional regarding any medical concerns.",
+    "liability": "The Company expressly disclaims any liability arising from your use of the information provided on this Website, including any misunderstanding or misinterpretation of such information, or any adverse outcomes resulting from the use of our products. By using this Website and purchasing products, you agree to hold the Company harmless from any claims, losses, or damages.",
+    "changes": "The Company reserves the right to make changes to the products and information available on this Website at any time, without prior notice. This includes, but is not limited to, changes in product ingredients, formulation, and packaging.",
+    "agreement": "By using this Website and purchasing products from it, you acknowledge and agree to be bound by the terms of this Product Disclaimer."
   }
 }
