@@ -153,6 +153,85 @@
       "imageAlt": "An Indian family sharing freshly picked greens in a garden"
     }
   },
+  "certifications": {
+    "label": "Certifications"
+  },
+  "choices": {
+    "eyebrow": "Nutrition • Guidance • Everyday Wellness",
+    "heading": "Make Better Wellness Choices, Every Day.",
+    "body": "Discover Kalonlife products, practical nutrition support and professional guidance designed to make everyday wellness simpler, more informed and easier to follow.",
+    "shopCta": "Shop Wellness Products",
+    "consultCta": "Consult a Dietician",
+    "startLabel": "Start here",
+    "cardTitle": "What would you like to do today?",
+    "cardSupport": "Choose a simple path and go directly to the service or category you need.",
+    "imageAlt": "An Indian woman drinking a glass of water in a bright kitchen with plants and fresh fruit",
+    "actions": {
+      "products": "Explore Products",
+      "productsAria": "Explore products",
+      "dietician": "Talk to a Dietician",
+      "dieticianAria": "Talk to a dietician",
+      "hub": "Find a Wellness Hub",
+      "hubAria": "Find a wellness hub",
+      "articles": "Read Wellness Articles",
+      "articlesAria": "Read wellness articles"
+    }
+  },
+  "goals": {
+    "eyebrow": "SHOP BY WELLNESS GOAL",
+    "heading": "Find the Right Place to Begin",
+    "description": "Explore products by everyday wellness need instead of searching through a long catalog.",
+    "dailyNutrition": {
+      "title": "Daily Nutrition",
+      "description": "Everyday nutritional support for modern routines.",
+      "pill": "Nutrition",
+      "imageAlt": "Papaya, berries, nuts, greens, and a glass of water on a sunlit wooden table"
+    },
+    "digestive": {
+      "title": "Digestive Wellness",
+      "description": "Nutrition-focused options for digestive well-being.",
+      "pill": "Digestion",
+      "imageAlt": "Herbal tea, ginger, mint, and a bowl of warm porridge on linen"
+    },
+    "active": {
+      "title": "Active Lifestyle",
+      "description": "Protein and nutrition solutions for active days.",
+      "pill": "Active",
+      "imageAlt": "An Indian man jogging on a tree-lined path in morning light"
+    },
+    "foods": {
+      "title": "Healthy Foods",
+      "description": "Millets, seeds and wholesome food choices.",
+      "pill": "Foods",
+      "imageAlt": "Bowls of millets, seeds, and whole grains arranged on linen"
+    }
+  },
+  "featured": {
+    "eyebrow": "FEATURED AT KALONLIFE",
+    "heading": "Wellness Essentials for Everyday Living",
+    "description": "A focused selection across nutrition, protein, healthy foods and personal care. Product details, directions and applicable warnings should be reviewed before use.",
+    "explore": "Explore Products",
+    "supplements": {
+      "title": "Wellness Supplements",
+      "description": "Explore thoughtfully developed nutritional formulations.",
+      "imageAlt": "Indian adults at a home table with nutritional supplements, fruit, and a glass of water"
+    },
+    "protein": {
+      "title": "Protein & Nutrition",
+      "description": "Convenient nutrition options for active lifestyles.",
+      "imageAlt": "An Indian adult in athletic wear beside a protein shaker, jar, banana, and oats"
+    },
+    "foods": {
+      "title": "Millets, Seeds & Foods",
+      "description": "Wholesome ingredients for better everyday food choices.",
+      "imageAlt": "Ceramic bowls of millets, seeds, and whole grains on linen"
+    },
+    "care": {
+      "title": "Personal Care",
+      "description": "Simple everyday skin, hair and personal-care solutions.",
+      "imageAlt": "Unbranded bottles, a cream jar, and a wooden comb on a bathroom counter"
+    }
+  },
   "nav": {
     "skip": "Skip to content",
     "language": "Language",
@@ -187,7 +266,26 @@
     "shipping": "Shipping Policy",
     "returns": "Return & Refund Policy",
     "addressHeading": "Company Address",
-    "rights": "Kalonlife International India Pvt Ltd. All rights reserved."
+    "rights": "Kalonlife International India Pvt Ltd. All rights reserved.",
+    "legal": {
+      "navLabel": "Legal",
+      "sitemap": "Sitemap",
+      "termsOfUse": "Terms of Use",
+      "privacyPolicy": "Privacy Policy",
+      "complianceDocuments": "Compliance Documents",
+      "directSellerPolicy": "Direct Seller Policy",
+      "cautionNotice": "Caution Notice",
+      "productQuality": "Product Quality",
+      "csrProjectDetails": "Project Details of CSR",
+      "csrPolicy": "CSR Policy",
+      "typicalEarnings": "Statement of Typical Distributed Earnings",
+      "complaintsTracker": "Complaints Tracker",
+      "rulesOfConduct": "Rules of Conduct",
+      "termsAndConditions": "Terms and Conditions",
+      "copyright": "© 2026 Kalonlife International India Private Limited. All rights reserved. All trademarks, product names and images displayed on this website are the property of Kalonlife International India Private Limited, unless otherwise indicated.",
+      "fssai": "FSSAI License No.: {license}",
+      "disclaimer": "*Before engaging in any physical activity, please consult your physician. Kalonlife products are not intended to diagnose, treat, prevent or cure any disease. Please see individual product labels for detailed information."
+    }
   },
   "notFound": {
     "title": "Page not found"
@@ -356,6 +454,107 @@
     "wellnessHubLogin": {
       "title": "Wellness Hub Login",
       "description": "Log in to the Kalonlife Wellness Hub."
+    },
+    "publishedSoon": "This page will be published soon.",
+    "sitemap": {
+      "title": "Sitemap",
+      "description": "This page will be published soon."
+    },
+    "complianceDocuments": {
+      "title": "Compliance Documents",
+      "description": "This page will be published soon."
+    },
+    "directSellerPolicy": {
+      "title": "Direct Seller Policy",
+      "description": "This page will be published soon."
+    },
+    "cautionNotice": {
+      "title": "Caution Notice",
+      "description": "This page will be published soon."
+    },
+    "productQuality": {
+      "title": "Product Quality",
+      "description": "This page will be published soon."
+    },
+    "csrProjectDetails": {
+      "title": "Project Details of CSR",
+      "description": "This page will be published soon."
+    },
+    "csrPolicy": {
+      "title": "CSR Policy",
+      "description": "This page will be published soon."
+    },
+    "typicalDistributedEarnings": {
+      "title": "Statement of Typical Distributed Earnings",
+      "description": "This page will be published soon."
+    },
+    "complaintsTracker": {
+      "title": "Complaints Tracker",
+      "description": "This page will be published soon."
+    },
+    "rulesOfConduct": {
+      "title": "Rules of Conduct",
+      "description": "This page will be published soon."
+    },
+    "termsAndConditions": {
+      "title": "Terms and Conditions",
+      "description": "This page will be published soon."
     }
+  },
+  "guidance": {
+    "consult": {
+      "eyebrow": "Personalized Nutrition Guidance",
+      "heading": "Not Sure What Fits Your Routine?",
+      "description": "Speak with a qualified nutrition professional for practical guidance built around your food habits, lifestyle and wellness goals.",
+      "support": {
+        "plan": "Diet planning",
+        "followUp": "Follow-up guidance",
+        "food": "Food recommendations",
+        "lifestyle": "Lifestyle support"
+      },
+      "cta": "Consult Your Dietician"
+    },
+    "articles": {
+      "eyebrow": "Wellness Education",
+      "heading": "Understand Before You Choose.",
+      "description": "Explore easy-to-understand articles on nutrition, healthy food choices, digestive wellness, protein, active living and responsible supplement use.",
+      "cta": "Explore Wellness Articles"
+    }
+  },
+  "journey": {
+    "eyebrow": "A smarter homepage journey",
+    "heading": "From Question to Next Step",
+    "description": "This homepage is intentionally action-led: visitors can shop, consult, locate a Hub or learn. Company history, mission, vision, philosophy and corporate story remain on the dedicated About Us page.",
+    "cards": {
+      "product": {
+        "title": "Need a product?",
+        "description": "Go directly to Shop or a wellness category.",
+        "action": "Explore Products"
+      },
+      "guidance": {
+        "title": "Need guidance?",
+        "description": "Connect with diet consultation.",
+        "action": "Consult Your Dietician"
+      },
+      "hub": {
+        "title": "Prefer in-person support?",
+        "description": "Locate a Kalonlife Wellness Hub.",
+        "action": "Find a Wellness Hub"
+      },
+      "learn": {
+        "title": "Want to learn first?",
+        "description": "Browse practical wellness education.",
+        "action": "Explore Articles"
+      }
+    },
+    "banner": {
+      "heading": "Better Choices Can Start Today.",
+      "description": "Explore nutrition, healthy foods, professional guidance and everyday wellness solutions through Kalonlife.",
+      "action": "Explore Kalonlife"
+    }
+  },
+  "catalog": {
+    "imageComingSoon": "Image coming soon",
+    "productsLabel": "Products"
   }
 }

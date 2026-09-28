@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { renderRoute } from "@/lib/render-route";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { ProductCatalog } from "@/components/shop/ProductCatalog";
 import { buildMetadata } from "@/lib/seo";
 
 type Props = {
@@ -13,5 +14,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { locale } = await params;
-  return renderRoute(locale, "shop");
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "routes" });
+
+  return (
+    <div className="container page-shell">
+      <h1>{t("shop.title")}</h1>
+      <ProductCatalog />
+    </div>
+  );
 }

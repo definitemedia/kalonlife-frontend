@@ -1,0 +1,376 @@
+.featured {
+  background: var(--color-neutral);
+  color: var(--color-primary);
+  padding-block: var(--space-10);
+  overflow-x: clip;
+}
+
+.featured-layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.featured-header {
+  max-width: 42rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.featured-eyebrow {
+  margin: 0 0 var(--space-3);
+  color: var(--color-primary);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.featured-title {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: clamp(2rem, 1.35rem + 1.6vw, 2.9rem);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-display);
+  text-wrap: balance;
+}
+
+.featured-lead {
+  max-width: 38rem;
+  margin: var(--space-4) auto 0;
+  color: var(--color-dark);
+  font-size: var(--text-lg);
+  line-height: var(--leading-body);
+}
+
+.featured-bento {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.22fr) minmax(0, 0.96fr);
+  grid-template-areas:
+    "supplements protein foods"
+    "supplements care care";
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.featured-cell {
+  display: flex;
+  min-width: 0;
+}
+
+.featured-cell-supplements {
+  grid-area: supplements;
+}
+
+.featured-cell-protein {
+  grid-area: protein;
+}
+
+.featured-cell-foods {
+  grid-area: foods;
+}
+
+.featured-cell-care {
+  grid-area: care;
+}
+
+.featured-card {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  color: var(--color-primary);
+  text-decoration: none;
+  box-shadow: 0 10px 28px rgb(22 35 43 / 7%);
+  transition:
+    transform 280ms ease,
+    box-shadow 280ms ease;
+}
+
+.featured-card:hover {
+  z-index: 1;
+  box-shadow: 0 16px 34px rgb(22 35 43 / 12%);
+  transform: translateY(-4px);
+  text-decoration: none;
+}
+
+.featured-card:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.featured-photo {
+  object-fit: cover;
+  transition: transform 480ms ease;
+}
+
+.featured-card:hover .featured-photo {
+  transform: scale(1.05);
+}
+
+.featured-card-title {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: clamp(1.15rem, 1.05rem + 0.25vw, 1.35rem);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-heading);
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.featured-card-text {
+  margin: 0.4rem 0 0;
+  color: var(--color-dark);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.featured-cta {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 0.55rem;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 0.95rem;
+  padding: 0.28rem 0.28rem 0.28rem 0.85rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-neutral);
+  color: var(--color-primary);
+}
+
+.featured-cta-label {
+  padding-block: 0.28rem;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  line-height: 1.3;
+}
+
+.featured-cta-icon {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 2.05rem;
+  height: 2.05rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  transition: transform 280ms ease;
+}
+
+.featured-cta-icon svg {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+.featured-card:hover .featured-cta-icon {
+  transform: translateX(3px);
+}
+
+.featured-card-tall {
+  flex-direction: column;
+  gap: 0.85rem;
+  height: 100%;
+  padding: 0.7rem 0.7rem 1.05rem;
+  background: var(--color-surface);
+}
+
+.featured-tall-media {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 14rem;
+  overflow: hidden;
+  border-radius: 0.95rem;
+}
+
+.featured-tall-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.15rem 0.45rem 0.2rem;
+}
+
+.featured-card-overlay {
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 17.5rem;
+  height: 100%;
+  background: var(--color-dark);
+  color: var(--color-on-dark);
+}
+
+.featured-overlay-media {
+  position: absolute;
+  inset: 0;
+}
+
+.featured-photo-protein {
+  object-position: center 22%;
+}
+
+.featured-overlay-copy {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.25rem 1.15rem 1.15rem;
+  background: linear-gradient(
+    to top,
+    rgb(22 35 43 / 88%) 0%,
+    rgb(22 35 43 / 55%) 52%,
+    rgb(22 35 43 / 0%) 100%
+  );
+}
+
+.featured-card-overlay .featured-card-title {
+  color: var(--color-on-dark);
+}
+
+.featured-card-overlay .featured-card-text {
+  color: var(--color-neutral);
+}
+
+.featured-card-overlay .featured-cta {
+  background: var(--color-surface);
+}
+
+.featured-card-aside {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 7.25rem;
+  align-items: stretch;
+  gap: 0.75rem;
+  height: 100%;
+  min-height: 17.5rem;
+  padding: 1.15rem 0.85rem 1.15rem 1.15rem;
+  background: var(--color-surface);
+}
+
+.featured-aside-copy,
+.featured-split-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
+}
+
+.featured-aside-media {
+  position: relative;
+  min-height: 11rem;
+  overflow: hidden;
+  border-radius: 0.95rem;
+}
+
+.featured-card-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  align-items: stretch;
+  height: 100%;
+  min-height: 14.5rem;
+  background: var(--color-surface);
+}
+
+.featured-split-copy {
+  padding: 1.25rem 1.2rem;
+}
+
+.featured-split-media {
+  position: relative;
+  min-height: 12.5rem;
+}
+
+.featured-photo-care {
+  object-position: center 40%;
+}
+
+@media (max-width: 1024px) {
+  .featured-bento {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "supplements protein"
+      "foods care";
+  }
+
+  .featured-card-tall {
+    min-height: 100%;
+  }
+
+  .featured-tall-media {
+    min-height: 13rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .featured-card-aside,
+  .featured-card-split {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-aside-media,
+  .featured-split-media {
+    min-height: 13rem;
+  }
+
+  .featured-aside-copy {
+    padding: 0;
+  }
+
+  .featured-split-copy {
+    padding: 1.15rem 1.15rem 0.35rem;
+  }
+
+  .featured-card-aside {
+    padding: 1.1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .featured {
+    padding-block: var(--space-8);
+  }
+
+  .featured-layout {
+    gap: var(--space-6);
+  }
+
+  .featured-bento {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "supplements"
+      "protein"
+      "foods"
+      "care";
+  }
+
+  .featured-title {
+    font-size: clamp(1.85rem, 8vw, 2.4rem);
+  }
+
+  .featured-tall-media,
+  .featured-card-overlay,
+  .featured-aside-media,
+  .featured-split-media {
+    min-height: 14.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .featured-card,
+  .featured-photo,
+  .featured-cta-icon {
+    transition: none;
+  }
+
+  .featured-card:hover,
+  .featured-card:hover .featured-photo,
+  .featured-card:hover .featured-cta-icon {
+    transform: none;
+  }
+}

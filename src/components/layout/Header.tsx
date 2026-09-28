@@ -5,7 +5,6 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { companyLinks, headerLinks } from "@/config/navigation";
 import { Link, usePathname } from "@/i18n/navigation";
-import { LocaleSwitcher } from "./LocaleSwitcher";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -68,7 +67,13 @@ export function Header() {
             </div>
           </details>
           {headerLinks
-            .filter((item) => item.href !== "/" && item.href !== "/shop")
+            .filter(
+              (item) =>
+                item.href !== "/" &&
+                item.href !== "/shop" &&
+                item.href !== "/login" &&
+                item.href !== "/cart",
+            )
             .map((item) => (
               <Link
                 key={item.href}
@@ -79,20 +84,113 @@ export function Header() {
                 {t(item.label)}
               </Link>
             ))}
-          <LocaleSwitcher onSelect={close} />
         </nav>
         <div className="header-tools">
+          <Link
+            href="/login"
+            className="header-icon-link"
+            aria-label={t("login")}
+            aria-current={pathname === "/login" ? "page" : undefined}
+            onClick={close}
+          >
+            <LoginIcon />
+            <span className="visually-hidden">{t("login")}</span>
+          </Link>
+          <Link
+            href="/cart"
+            className="header-icon-link"
+            aria-label={t("cart")}
+            aria-current={pathname === "/cart" ? "page" : undefined}
+            onClick={close}
+          >
+            <CartIcon />
+            <span className="visually-hidden">{t("cart")}</span>
+          </Link>
           <button
             type="button"
             className="menu-toggle"
             aria-expanded={open}
             aria-controls="site-nav"
+            aria-label={open ? t("closeMenu") : t("openMenu")}
             onClick={() => setOpen((value) => !value)}
           >
-            {open ? t("closeMenu") : t("openMenu")}
+            {open ? <CloseIcon /> : <MenuIcon />}
+            <span className="visually-hidden">
+              {open ? t("closeMenu") : t("openMenu")}
+            </span>
           </button>
         </div>
       </div>
     </header>
+  );
+}
+
+function LoginIcon() {
+  return (
+    <svg
+      className="header-icon"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <circle cx="12" cy="8" r="3.25" />
+      <path d="M5.75 19.25v-.35a4.4 4.4 0 0 1 4.4-4.4h3.7a4.4 4.4 0 0 1 4.4 4.4v.35" />
+    </svg>
+  );
+}
+
+function CartIcon() {
+  return (
+    <svg
+      className="header-icon"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M6.75 8.25h10.5l-.85 10.15a1.25 1.25 0 0 1-1.24 1.15H8.84a1.25 1.25 0 0 1-1.24-1.15L6.75 8.25Z" />
+      <path d="M9 8.25V7a3 3 0 0 1 6 0v1.25" />
+    </svg>
+  );
+}
+
+function MenuIcon() {
+  return (
+    <svg
+      className="header-icon"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M4.5 7h15M4.5 12h15M4.5 17h15" />
+    </svg>
+  );
+}
+
+function CloseIcon() {
+  return (
+    <svg
+      className="header-icon"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M6.5 6.5 17.5 17.5M17.5 6.5 6.5 17.5" />
+    </svg>
   );
 }

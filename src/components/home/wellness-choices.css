@@ -1,0 +1,316 @@
+.choices-band {
+  overflow: hidden;
+  background: var(--color-surface);
+  color: var(--color-primary);
+}
+
+.choices-band-layout {
+  display: grid;
+  grid-template-columns:
+    minmax(var(--space-4), 0.65fr)
+    minmax(0, 34rem)
+    minmax(22rem, 1.35fr);
+  align-items: stretch;
+}
+
+.choices-band-copy {
+  grid-column: 2;
+  align-self: center;
+  max-width: 34rem;
+  padding-block: var(--space-10);
+  padding-inline-end: var(--space-6);
+  animation: choices-band-rise 700ms ease both;
+}
+
+.choices-band-eyebrow {
+  margin: 0 0 var(--space-4);
+  color: var(--color-primary);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.14em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.choices-band-title {
+  margin: 0;
+  max-width: 11em;
+  color: var(--color-primary);
+  font-size: clamp(2.35rem, 1.35rem + 2.3vw, 3.7rem);
+  font-weight: var(--weight-bold);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  text-wrap: balance;
+}
+
+.choices-band-body {
+  max-width: 34rem;
+  margin: var(--space-5) 0 0;
+  color: var(--color-dark);
+  font-size: var(--text-lg);
+  line-height: var(--leading-body);
+}
+
+.choices-band-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.choices-band-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 3.15rem;
+  padding: 0.85rem 1.4rem;
+  border: 1.5px solid var(--color-primary);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.choices-band-cta-primary {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+.choices-band-cta-primary:hover {
+  background: var(--color-dark);
+  border-color: var(--color-dark);
+  color: var(--color-on-dark);
+  text-decoration: none;
+}
+
+.choices-band-cta-secondary {
+  background: var(--color-surface);
+  color: var(--color-primary);
+}
+
+.choices-band-cta-secondary:hover {
+  background: var(--color-neutral);
+  text-decoration: none;
+}
+
+.choices-band-visual {
+  position: relative;
+  display: flex;
+  grid-column: 3;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 36rem;
+  padding: var(--space-8) clamp(var(--space-4), 3vw, var(--space-8))
+    var(--space-8) var(--space-5);
+}
+
+.choices-band-media {
+  position: absolute;
+  inset: 0;
+}
+
+.choices-band-photo {
+  object-fit: cover;
+  object-position: 70% 42%;
+}
+
+.choices-band-card {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 27.5rem);
+  padding: 1.45rem 1.3rem 1.25rem;
+  border-radius: 1.35rem;
+  background: var(--color-surface);
+  box-shadow: 0 18px 42px rgb(22 35 43 / 12%);
+  animation: choices-band-rise 760ms ease both;
+}
+
+.choices-band-kicker {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 0.72rem;
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.choices-band-card-title {
+  margin: 0.45rem 0 0;
+  color: var(--color-primary);
+  font-size: clamp(1.25rem, 1.08rem + 0.45vw, 1.55rem);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-heading);
+}
+
+.choices-band-card-support {
+  margin: 0.45rem 0 0;
+  color: var(--color-dark);
+  font-size: var(--text-sm);
+  line-height: var(--leading-body);
+}
+
+.choices-band-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin: 1.1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.choices-band-actions li {
+  min-width: 0;
+  margin: 0;
+}
+
+.choices-band-action {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  height: 100%;
+  min-height: 4.35rem;
+  padding: 0.7rem 0.75rem;
+  border: 1px solid var(--color-neutral);
+  border-radius: 0.95rem;
+  background: var(--color-neutral);
+  color: var(--color-primary);
+  font-size: 0.95rem;
+  font-weight: var(--weight-semibold);
+  line-height: 1.25;
+  text-decoration: none;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+
+.choices-band-action:hover {
+  border-color: var(--color-secondary);
+  background: var(--color-surface);
+  text-decoration: none;
+}
+
+.choices-band-action-icon {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 2.45rem;
+  height: 2.45rem;
+  border-radius: 50%;
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.choices-band-action-icon svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.choices-band-action-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.choices-band-arrow {
+  flex: 0 0 auto;
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+.choices-band a:focus-visible {
+  outline-color: var(--color-primary);
+}
+
+@keyframes choices-band-rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 1040px) {
+  .choices-band-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .choices-band-copy {
+    width: min(100% - var(--space-8), var(--page-width));
+    max-width: none;
+    margin-inline: auto;
+    padding-block: var(--space-8) var(--space-6);
+    padding-inline-end: 0;
+  }
+
+  .choices-band-title {
+    max-width: 12em;
+    font-size: clamp(2.15rem, 7vw, 2.9rem);
+  }
+
+  .choices-band-visual {
+    width: 100%;
+    min-height: 34rem;
+    align-items: flex-end;
+    justify-content: center;
+    padding: var(--space-6) var(--space-4) var(--space-6);
+  }
+
+  .choices-band-photo {
+    object-position: 68% 22%;
+  }
+
+  .choices-band-card {
+    width: min(100%, 36rem);
+  }
+}
+
+@media (max-width: 560px) {
+  .choices-band-copy {
+    width: min(100% - var(--space-6), var(--page-width));
+  }
+
+  .choices-band-body {
+    font-size: var(--text-body);
+  }
+
+  .choices-band-ctas {
+    align-items: stretch;
+  }
+
+  .choices-band-cta {
+    width: 100%;
+  }
+
+  .choices-band-visual {
+    min-height: 36rem;
+    padding-inline: var(--space-3);
+  }
+
+  .choices-band-action {
+    font-size: 0.9rem;
+  }
+
+  .choices-band-card {
+    padding: 1.2rem 1rem 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .choices-band-copy,
+  .choices-band-card {
+    animation: none;
+  }
+}

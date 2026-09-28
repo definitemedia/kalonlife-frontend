@@ -52,6 +52,21 @@ export const routeCatalog = [
   { key: "wellnessHubBlog", path: "/wellness-hub/blog", index: true },
   { key: "wellnessHubContact", path: "/wellness-hub/contact", index: true },
   { key: "wellnessHubLogin", path: "/wellness-hub/login", index: true },
+  { key: "sitemap", path: "/sitemap", index: true },
+  { key: "complianceDocuments", path: "/compliance-documents", index: true },
+  { key: "directSellerPolicy", path: "/direct-seller-policy", index: true },
+  { key: "cautionNotice", path: "/caution-notice", index: true },
+  { key: "productQuality", path: "/product-quality", index: true },
+  { key: "csrProjectDetails", path: "/csr-project-details", index: true },
+  { key: "csrPolicy", path: "/csr-policy", index: true },
+  {
+    key: "typicalDistributedEarnings",
+    path: "/typical-distributed-earnings",
+    index: true,
+  },
+  { key: "complaintsTracker", path: "/complaints-tracker", index: true },
+  { key: "rulesOfConduct", path: "/rules-of-conduct", index: true },
+  { key: "termsAndConditions", path: "/terms-and-conditions", index: true },
 ] as const;
 
 export type RouteKey = (typeof routeCatalog)[number]["key"];
