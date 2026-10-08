@@ -20,7 +20,7 @@ export async function GuidanceEducationSection() {
             ))}
           </ul>
           <div className="guidance-action">
-            <Link className="guidance-cta guidance-cta-filled" href="/consult-dietician">
+            <Link className="guidance-cta guidance-cta-filled" href="/consult-your-dietician">
               {t("consult.cta")}
             </Link>
           </div>

@@ -4,7 +4,7 @@ import "./homepage-journey.css";
 
 const cards = [
   { id: "product", href: "/shop" },
-  { id: "guidance", href: "/consult-dietician" },
+  { id: "guidance", href: "/consult-your-dietician" },
   { id: "hub", href: "/wellness-hub/locate" },
   { id: "learn", href: "/articles" },
 ] as const;

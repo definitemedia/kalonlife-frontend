@@ -11,9 +11,9 @@ const tabs = [
     match: (path: string) => path === "/shop" || path.startsWith("/product"),
   },
   {
-    href: "/consult-dietician",
+    href: "/consult-your-dietician",
     key: "consult",
-    match: (path: string) => path.startsWith("/consult-dietician"),
+    match: (path: string) => path.startsWith("/consult-your-dietician"),
   },
   {
     href: "/articles",

@@ -118,7 +118,7 @@ const localeFonts = [
 ].join(" ");
 
 export const viewport: Viewport = {
-  themeColor: "#042F34",
+  themeColor: "#014750",
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",

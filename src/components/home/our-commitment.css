@@ -29,7 +29,7 @@
   height: 0.22rem;
   margin-block: var(--space-4);
   border-radius: var(--radius-pill);
-  background: var(--gradient-primary);
+  background: var(--gradient-accent);
 }
 
 .commitment-title {
@@ -142,7 +142,7 @@
 
 .commitment-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 14px 28px rgb(22 35 43 / 12%);
+  box-shadow: 0 14px 28px rgb(1 71 80 / 12%);
 }
 
 .commitment-photo {

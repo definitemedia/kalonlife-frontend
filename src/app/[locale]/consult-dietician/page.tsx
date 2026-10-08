@@ -1,17 +1,12 @@
-import type { Metadata } from "next";
-import { renderPublishedSoon } from "@/lib/render-route";
-import { buildMetadata } from "@/lib/seo";
+import { setRequestLocale } from "next-intl/server";
+import { permanentRedirect } from "@/i18n/navigation";
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
-  return buildMetadata(locale, "consultDietician");
-}
-
 export default async function Page({ params }: Props) {
   const { locale } = await params;
-  return renderPublishedSoon(locale, "consultDietician");
+  setRequestLocale(locale);
+  permanentRedirect({ href: "/consult-your-dietician", locale });
 }

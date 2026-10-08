@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { renderPublishedSoon } from "@/lib/render-route";
+import { setRequestLocale } from "next-intl/server";
+import { WhyChoosePage } from "@/components/why-choose/WhyChoosePage";
 import { buildMetadata } from "@/lib/seo";
 
 type Props = {
@@ -8,10 +9,15 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return buildMetadata(locale, "whyChooseUs");
+  const metadata = await buildMetadata(locale, "whyChooseUs");
+  const title = typeof metadata.title === "string" ? metadata.title : undefined;
+
+  return title ? { ...metadata, title: { absolute: title } } : metadata;
 }
 
 export default async function Page({ params }: Props) {
   const { locale } = await params;
-  return renderPublishedSoon(locale, "whyChooseUs");
+  setRequestLocale(locale);
+
+  return <WhyChoosePage />;
 }

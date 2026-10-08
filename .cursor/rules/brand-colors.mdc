@@ -1,26 +1,27 @@
 ---
-description: Locked Kalonlife brand colors and Gradient 1 usage
+description: Locked Kalonlife brand palette (Golden Rush + #014750)
 alwaysApply: true
 ---
 
 # Kalonlife brand colors
 
-These values are the visual source of truth. Do not introduce other brand colors.
+These values are the visual source of truth. Tokens live in `src/styles/brand.css` and `src/styles/colors.css`. Do not introduce other brand colors, and do not revert to the retired teal/mint/yellow palette or the rejected Deep Forest greens (`#0D2818`, `#1B4332`).
 
-| Role | Name | Hex |
+| Role | Name | Value |
 | --- | --- | --- |
-| Primary | Deep Teal | `#042F34` |
-| Secondary | Mint Green | `#B5F2DB` |
-| Neutral | Pale Blue Gray | `#E4EEF0` |
+| Primary dark | Brand Dark | `#014750` (`--color-brand-dark`) |
+| Accent | Golden Rush gradient | `linear-gradient(135deg, #FFD700 0%, #FF9800 100%)` |
 | Neutral | White | `#FFFFFF` |
-| Accent | Warm Yellow | `#FFC933` |
-| Dark | Charcoal Teal | `#16232B` |
+| Neutral | Light Neutral | `#F7F8F6` |
+| Soft | Light Tint | `#EAF2ED` |
+| Text | Dark Text | `#16231B` |
 
-- Primary gradient is **Gradient 1** only, defined once as `--kl-gradient-1` in `src/styles/brand.css`. Do not invent or swap in another primary gradient.
-- `#042F34` for strong primary text and dark UI.
-- `#FFFFFF` for clean backgrounds and contrast.
-- `#B5F2DB` for secondary highlights and soft sections.
-- `#E4EEF0` for subtle backgrounds.
-- `#FFC933` only as a sparse accent.
-- `#16232B` for deep contrast.
-- Style: premium, clean, modern, wellness. Avoid excessive gradients and excessive yellow.
+- `#014750` is the only dark brand shade: dark sections, footer, legal strip, hero/product overlays, headings, nav text, icons, links. Use it solid; do not add a second dark shade or a dark gradient. Hover on dark buttons uses opacity/shadow, not a new hex.
+- White text on `#014750`.
+- Golden Rush (`--kl-gradient-golden-rush`) is the primary accent: CTAs, chips, selected states, small labels, icons, accent lines. Use sparingly.
+- Golden Rush backgrounds always use `#014750` text. Never white text on Golden Rush.
+- `#F7F8F6` for soft section/page backgrounds; `#EAF2ED` sparingly for soft cards, hover, borders.
+- `#16231B` for body text. Links: `#014750` default, `#FF9800` hover.
+- Cards stay white; do not fill cards with gradients.
+- No random blue, purple, pink, or cyan. Error/success semantic colors are exempt.
+- Do not use Tailwind; use the token CSS.

@@ -1,17 +1,12 @@
-import type { Metadata } from "next";
-import { renderPublishedSoon } from "@/lib/render-route";
-import { buildMetadata } from "@/lib/seo";
+import { setRequestLocale } from "next-intl/server";
+import { permanentRedirect } from "@/i18n/navigation";
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export default async function ChairmanMessageRedirect({ params }: Props) {
   const { locale } = await params;
-  return buildMetadata(locale, "chairmanMessage");
-}
-
-export default async function Page({ params }: Props) {
-  const { locale } = await params;
-  return renderPublishedSoon(locale, "chairmanMessage");
+  setRequestLocale(locale);
+  permanentRedirect({ href: "/chairmans-message", locale });
 }

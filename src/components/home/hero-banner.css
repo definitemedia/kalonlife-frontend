@@ -99,15 +99,16 @@
 }
 
 .hero-cta-primary {
-  background: var(--color-secondary);
-  border-color: var(--color-secondary);
-  color: var(--color-on-secondary);
+  background: var(--btn-primary-bg);
+  border-color: var(--btn-primary-border);
+  color: var(--btn-primary-text);
 }
 
 .hero-cta-primary:hover {
-  background: var(--color-surface);
-  border-color: var(--color-surface);
-  color: var(--color-primary);
+  background: var(--btn-primary-bg-hover);
+  border-color: var(--btn-primary-border-hover);
+  box-shadow: var(--btn-primary-shadow-hover);
+  color: var(--btn-primary-text);
   text-decoration: none;
 }
 

@@ -29,7 +29,7 @@
   height: 0.22rem;
   margin-block: var(--space-4);
   border-radius: var(--radius-pill);
-  background: var(--gradient-primary);
+  background: var(--gradient-accent);
 }
 
 .offer-title {
@@ -136,9 +136,9 @@
   height: 58%;
   background: linear-gradient(
     to top,
-    rgb(4 47 52 / 94%) 0%,
-    rgb(4 47 52 / 72%) 42%,
-    rgb(4 47 52 / 0%) 100%
+    rgb(1 71 80 / 94%) 0%,
+    rgb(1 71 80 / 72%) 42%,
+    rgb(1 71 80 / 0%) 100%
   );
 }
 
@@ -184,7 +184,7 @@
 
 .offer-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 32px rgb(22 35 43 / 12%);
+  box-shadow: 0 16px 32px rgb(1 71 80 / 12%);
 }
 
 .offer-card:hover img {

@@ -1,0 +1,598 @@
+.wcu {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.wcu h1,
+.wcu h2,
+.wcu h3,
+.wcu p {
+  overflow-wrap: break-word;
+}
+
+.wcu-eyebrow {
+  margin: 0 0 var(--space-3);
+  color: var(--color-primary);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.wcu h1,
+.wcu h2,
+.wcu h3 {
+  margin: 0;
+  color: var(--color-primary);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-heading);
+}
+
+.wcu h1 {
+  max-width: 12em;
+  font-size: clamp(2.4rem, 1.2rem + 3vw, 4.15rem);
+  line-height: var(--leading-display);
+}
+
+.wcu h2 {
+  font-size: clamp(2rem, 1.25rem + 1.8vw, 3.15rem);
+}
+
+.wcu h3 {
+  font-size: var(--text-h3);
+}
+
+.wcu-lead {
+  margin: var(--space-4) 0 0;
+  color: var(--color-dark);
+  font-size: var(--text-lg);
+  line-height: var(--leading-body);
+}
+
+.wcu-hero {
+  position: relative;
+  padding-block: clamp(2.5rem, 6vw, 5.25rem);
+}
+
+.wcu-hero-shapes {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.wcu-shape {
+  position: absolute;
+  display: block;
+}
+
+.wcu-shape-mint {
+  top: -5rem;
+  right: -3rem;
+  width: 22rem;
+  height: 22rem;
+  border-radius: 50%;
+  background: var(--color-secondary);
+  opacity: 0.55;
+}
+
+.wcu-shape-teal {
+  bottom: -3rem;
+  left: -2rem;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 46% 54% 62% 38%;
+  background: var(--color-primary);
+  opacity: 0.06;
+}
+
+.wcu-shape-gold {
+  top: 18%;
+  left: 46%;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.wcu-hero-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
+  align-items: center;
+}
+
+.wcu-hero-copy .wcu-lead {
+  max-width: 38rem;
+}
+
+.wcu-hero-media,
+.wcu-card-photo,
+.wcu-final-media,
+.wcu-statement-media {
+  position: relative;
+  overflow: hidden;
+}
+
+.wcu-hero-media {
+  min-height: 28rem;
+  border-radius: 1.75rem;
+  background: var(--color-neutral);
+  box-shadow: 0 16px 40px rgb(1 71 80 / 8%);
+}
+
+.wcu-photo {
+  object-fit: cover;
+}
+
+.wcu-hero-media .wcu-photo {
+  object-position: center 28%;
+}
+
+.wcu-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.wcu-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 3.15rem;
+  padding: 0.85rem 1.4rem;
+  border: 1.5px solid var(--color-primary);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease;
+}
+
+.wcu-btn-arrow {
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-shrink: 0;
+}
+
+.wcu-btn-primary {
+  border-color: var(--btn-primary-border);
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+}
+
+.wcu-btn-primary:hover {
+  background: var(--btn-primary-bg-hover);
+  border-color: var(--btn-primary-border-hover);
+  box-shadow: var(--btn-primary-shadow-hover);
+  color: var(--btn-primary-text);
+  text-decoration: none;
+}
+
+.wcu-btn-secondary {
+  background: var(--color-surface);
+  color: var(--color-primary);
+}
+
+.wcu-btn-secondary:hover {
+  background: var(--color-neutral);
+  text-decoration: none;
+}
+
+.wcu-btn:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.wcu-difference,
+.wcu-reasons,
+.wcu-promise,
+.wcu-final-wrap {
+  padding-block: clamp(3.25rem, 7vw, 5.5rem);
+}
+
+.wcu-difference {
+  background: var(--color-neutral);
+}
+
+.wcu-center {
+  max-width: 46rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.wcu-center .wcu-lead {
+  margin-inline: auto;
+}
+
+.wcu-reasons-intro {
+  max-width: 42rem;
+  margin-bottom: var(--space-8);
+}
+
+.wcu-reasons-intro .wcu-lead {
+  max-width: 40rem;
+}
+
+.wcu-grid,
+.wcu-promise-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wcu-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.wcu-card-quality,
+.wcu-card-opportunity,
+.wcu-card-global {
+  grid-column: span 7;
+}
+
+.wcu-card-science,
+.wcu-card-ethics,
+.wcu-card-leadership {
+  grid-column: span 5;
+}
+
+.wcu-card-community {
+  grid-column: 1 / -1;
+}
+
+.wcu-card,
+.wcu-promise-card {
+  min-width: 0;
+  border: 1px solid rgb(1 71 80 / 10%);
+  border-radius: 1.5rem;
+  background: var(--color-surface);
+  box-shadow: 0 8px 24px rgb(1 71 80 / 6%);
+}
+
+.wcu-card {
+  padding: clamp(1.35rem, 2vw, 1.85rem);
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.wcu-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgb(1 71 80 / 10%);
+}
+
+.wcu-card-mint {
+  background: var(--color-secondary);
+}
+
+.wcu-card-pale {
+  background: var(--color-neutral);
+}
+
+.wcu-card-opportunity {
+  box-shadow:
+    inset 4px 0 0 var(--color-secondary),
+    0 8px 24px rgb(1 71 80 / 6%);
+}
+
+.wcu-card-opportunity:hover {
+  box-shadow:
+    inset 4px 0 0 var(--color-secondary),
+    0 16px 32px rgb(1 71 80 / 10%);
+}
+
+.wcu-card-has-photo {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.9fr);
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.wcu-card-leadership.wcu-card-has-photo {
+  grid-template-columns: 1fr;
+}
+
+.wcu-card-community.wcu-card-has-photo {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  align-items: center;
+  padding: clamp(1.25rem, 2vw, 1.5rem);
+}
+
+.wcu-kicker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.wcu-num {
+  color: var(--color-primary);
+  font-size: clamp(2rem, 1.4rem + 1.4vw, 2.75rem);
+  font-weight: var(--weight-bold);
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.wcu-card-quality .wcu-num {
+  padding-bottom: 0.2rem;
+  border-bottom: 3px solid var(--color-secondary);
+}
+
+.wcu-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.9rem;
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.wcu-icon svg {
+  width: 1.45rem;
+  height: 1.45rem;
+}
+
+.wcu-card-mint .wcu-icon,
+.wcu-promise-card-mint .wcu-icon {
+  background: var(--color-surface);
+}
+
+.wcu-card-copy h3,
+.wcu-promise-card h3 {
+  margin-bottom: var(--space-3);
+}
+
+.wcu-card-copy p,
+.wcu-promise-card p {
+  margin: 0;
+  color: var(--color-dark);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+}
+
+.wcu-card-photo {
+  height: 100%;
+  min-height: 13.5rem;
+  border-radius: 1.1rem;
+  background: var(--color-neutral);
+}
+
+.wcu-card-leadership .wcu-card-photo {
+  order: -1;
+  min-height: 12rem;
+  margin-bottom: 0.25rem;
+}
+
+.wcu-card-community .wcu-card-photo {
+  min-height: 16rem;
+}
+
+.wcu-statement {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 26rem;
+  color: var(--color-surface);
+  isolation: isolate;
+}
+
+.wcu-statement-media,
+.wcu-statement-scrim {
+  position: absolute;
+  inset: 0;
+}
+
+.wcu-statement-scrim {
+  background:
+    linear-gradient(
+      180deg,
+      rgb(from var(--kl-deep-teal) r g b / 38%) 0%,
+      rgb(from var(--kl-deep-teal) r g b / 72%) 46%,
+      rgb(from var(--kl-deep-teal) r g b / 92%) 100%
+    );
+}
+
+.wcu-statement-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 44rem;
+  padding-block: clamp(3.5rem, 8vw, 6.5rem);
+}
+
+.wcu-statement h2,
+.wcu-statement p {
+  color: var(--color-surface);
+}
+
+.wcu-statement p {
+  max-width: 38rem;
+  margin: var(--space-4) 0 0;
+  color: var(--color-neutral);
+  font-size: var(--text-lg);
+  line-height: var(--leading-body);
+}
+
+.wcu-promise {
+  background: var(--color-surface);
+}
+
+.wcu-promise-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.86fr) minmax(0, 1.14fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  align-items: start;
+}
+
+.wcu-promise-intro .wcu-lead {
+  max-width: 28rem;
+}
+
+.wcu-promise-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.wcu-promise-card {
+  padding: 1.35rem 1.25rem 1.45rem;
+}
+
+.wcu-promise-card .wcu-icon {
+  margin-bottom: var(--space-4);
+}
+
+.wcu-promise-card-teal {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.wcu-promise-card-teal h3,
+.wcu-promise-card-teal p {
+  color: var(--color-surface);
+}
+
+.wcu-promise-card-teal .wcu-icon {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.wcu-promise-card-accent {
+  box-shadow:
+    inset 0 3px 0 var(--color-accent),
+    0 8px 24px rgb(1 71 80 / 6%);
+}
+
+.wcu-final-wrap {
+  background: var(--color-neutral);
+}
+
+.wcu-final {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: center;
+}
+
+.wcu-final-copy .wcu-lead {
+  max-width: 36rem;
+}
+
+.wcu-final-media {
+  min-height: 18rem;
+  border-radius: 1.5rem;
+  background: var(--color-surface);
+}
+
+.wcu-final-media .wcu-photo {
+  object-position: center 40%;
+}
+
+@media (max-width: 900px) {
+  .wcu-hero-grid,
+  .wcu-promise-layout,
+  .wcu-final,
+  .wcu-card-has-photo,
+  .wcu-card-community.wcu-card-has-photo {
+    grid-template-columns: 1fr;
+  }
+
+  .wcu-hero-media {
+    min-height: 16.5rem;
+  }
+
+  .wcu-card-quality,
+  .wcu-card-science,
+  .wcu-card-ethics,
+  .wcu-card-opportunity,
+  .wcu-card-global,
+  .wcu-card-leadership,
+  .wcu-card-community {
+    grid-column: 1 / -1;
+  }
+
+  .wcu-card-leadership .wcu-card-photo {
+    order: 0;
+    max-height: 13rem;
+  }
+
+  .wcu-card-photo {
+    height: 13.5rem;
+    min-height: 0;
+    max-height: none;
+  }
+
+  .wcu-card-community .wcu-card-photo {
+    min-height: 13rem;
+    max-height: 16rem;
+  }
+
+  .wcu-promise-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wcu-shape-gold {
+    left: auto;
+    right: 12%;
+  }
+}
+
+@media (max-width: 699px) {
+  .wcu h1 {
+    max-width: none;
+    font-size: clamp(2.05rem, 8.4vw, 2.6rem);
+  }
+
+  .wcu-lead,
+  .wcu-statement p {
+    font-size: var(--text-body);
+  }
+
+  .wcu-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .wcu-btn {
+    width: 100%;
+    min-height: 2.75rem;
+  }
+
+  .wcu-hero-media {
+    min-height: 14.5rem;
+  }
+
+  .wcu-statement {
+    min-height: 22rem;
+  }
+
+  .wcu-final-media {
+    min-height: 13.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wcu-card,
+  .wcu-btn {
+    transition: none;
+  }
+
+  .wcu-card:hover,
+  .wcu-card-opportunity:hover {
+    transform: none;
+  }
+}

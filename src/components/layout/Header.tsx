@@ -13,12 +13,17 @@ export function Header() {
   const pathname = usePathname();
   const mobile = useIsMobile();
   const [open, setOpen] = useState(false);
+  const [companyOpen, setCompanyOpen] = useState(false);
   const drawerRef = useRef<HTMLElement>(null);
   const menuRef = useRef<HTMLButtonElement>(null);
+  const companyRef = useRef<HTMLDetailsElement>(null);
+  const companyTriggerRef = useRef<HTMLElement>(null);
   const wasOpen = useRef(false);
   const close = useCallback(() => setOpen(false), []);
-  const closeSoon = useCallback(() => {
-    window.setTimeout(() => setOpen(false), 0);
+  const closeCompany = useCallback(() => setCompanyOpen(false), []);
+  const closeAll = useCallback(() => {
+    setCompanyOpen(false);
+    setOpen(false);
   }, []);
   const companyActive = companyLinks.some((item) => item.href === pathname);
 
@@ -26,11 +31,34 @@ export function Header() {
 
   useEffect(() => {
     if (!mobile) setOpen(false);
+    setCompanyOpen(false);
   }, [mobile]);
 
   useEffect(() => {
     setOpen(false);
+    setCompanyOpen(false);
   }, [pathname]);
+
+  useEffect(() => {
+    if (!companyOpen || open) return;
+    const onPointerDown = (event: PointerEvent) => {
+      if (!companyRef.current?.contains(event.target as Node)) {
+        setCompanyOpen(false);
+      }
+    };
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setCompanyOpen(false);
+        companyTriggerRef.current?.focus();
+      }
+    };
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [companyOpen, open]);
 
   useEffect(() => {
     if (wasOpen.current && !open) {
@@ -45,7 +73,7 @@ export function Header() {
         {t("skip")}
       </a>
       <div className="container header-bar">
-        <Link href="/" className="brand" aria-label="Kalonlife" onClick={closeSoon}>
+        <Link href="/" className="brand" aria-label="Kalonlife" onClick={closeAll}>
           <Image
             src="/brand/kalonlife-logo.png"
             alt="Kalonlife"
@@ -56,17 +84,32 @@ export function Header() {
           />
         </Link>
         <nav className="site-nav" aria-label={t("primary")}>
-          <Link href="/" aria-current={pathname === "/" ? "page" : undefined}>
+          <Link
+            href="/"
+            aria-current={pathname === "/" ? "page" : undefined}
+            onClick={closeCompany}
+          >
             {t("home")}
           </Link>
           <Link
             href="/shop"
             aria-current={pathname === "/shop" ? "page" : undefined}
+            onClick={closeCompany}
           >
             {t("shop")}
           </Link>
-          <details className="nav-group">
-            <summary aria-current={companyActive ? "page" : undefined}>
+          <details
+            ref={companyRef}
+            className="nav-group"
+            open={companyOpen}
+            onToggle={(event) => setCompanyOpen(event.currentTarget.open)}
+          >
+            <summary
+              ref={companyTriggerRef}
+              aria-haspopup="menu"
+              aria-expanded={companyOpen}
+              aria-current={companyActive ? "page" : undefined}
+            >
               {t("company")}
             </summary>
             <div className="nav-group-panel">
@@ -75,6 +118,7 @@ export function Header() {
                   key={item.href}
                   href={item.href}
                   aria-current={pathname === item.href ? "page" : undefined}
+                  onClick={closeCompany}
                 >
                   {t(item.label)}
                 </Link>
@@ -94,6 +138,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 aria-current={pathname === item.href ? "page" : undefined}
+                onClick={closeCompany}
               >
                 {t(item.label)}
               </Link>
@@ -105,7 +150,7 @@ export function Header() {
             className="header-icon-link"
             aria-label={t("login")}
             aria-current={pathname === "/login" ? "page" : undefined}
-            onClick={closeSoon}
+            onClick={closeAll}
           >
             <LoginIcon />
             <span className="visually-hidden">{t("login")}</span>
@@ -115,7 +160,7 @@ export function Header() {
             className="header-icon-link"
             aria-label={t("cart")}
             aria-current={pathname === "/cart" ? "page" : undefined}
-            onClick={closeSoon}
+            onClick={closeAll}
           >
             <CartIcon />
             <span className="visually-hidden">{t("cart")}</span>
@@ -161,19 +206,26 @@ export function Header() {
         <Link
           href="/"
           aria-current={pathname === "/" ? "page" : undefined}
-          onClick={closeSoon}
+          onClick={closeAll}
         >
           {t("home")}
         </Link>
         <Link
           href="/shop"
           aria-current={pathname === "/shop" ? "page" : undefined}
-          onClick={closeSoon}
+          onClick={closeAll}
         >
           {t("shop")}
         </Link>
-        <details className="nav-group">
-          <summary aria-current={companyActive ? "page" : undefined}>
+        <details
+          className="nav-group"
+          open={companyOpen}
+          onToggle={(event) => setCompanyOpen(event.currentTarget.open)}
+        >
+          <summary
+            aria-expanded={companyOpen}
+            aria-current={companyActive ? "page" : undefined}
+          >
             {t("company")}
           </summary>
           <div className="nav-group-panel">
@@ -182,7 +234,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 aria-current={pathname === item.href ? "page" : undefined}
-                onClick={closeSoon}
+                onClick={closeAll}
               >
                 {t(item.label)}
               </Link>
@@ -202,7 +254,7 @@ export function Header() {
               key={item.href}
               href={item.href}
               aria-current={pathname === item.href ? "page" : undefined}
-              onClick={closeSoon}
+              onClick={closeAll}
             >
               {t(item.label)}
             </Link>
@@ -210,21 +262,21 @@ export function Header() {
         <Link
           href="/contact"
           aria-current={pathname === "/contact" ? "page" : undefined}
-          onClick={closeSoon}
+          onClick={closeAll}
         >
           {footer("contact")}
         </Link>
         <Link
           href="/login"
           aria-current={pathname === "/login" ? "page" : undefined}
-          onClick={closeSoon}
+          onClick={closeAll}
         >
           {t("login")}
         </Link>
         <Link
           href="/cart"
           aria-current={pathname === "/cart" ? "page" : undefined}
-          onClick={closeSoon}
+          onClick={closeAll}
         >
           {t("cart")}
         </Link>

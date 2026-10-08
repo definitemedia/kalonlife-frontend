@@ -30,7 +30,7 @@
   height: 0.22rem;
   margin-block: var(--space-4);
   border-radius: var(--radius-pill);
-  background: var(--gradient-primary);
+  background: var(--gradient-accent);
 }
 
 .about-title {

@@ -1,0 +1,232 @@
+{
+  "title": "Book Your Consultation | Kalonlife",
+  "description": "Book a personalized 1-on-1 wellness consultation with a Kalonlife wellness expert. Single consultation ₹999.00.",
+  "consultation": {
+    "hero": {
+      "eyebrow": "PERSONALIZED WELLNESS GUIDANCE",
+      "heading": "Transform Your Health With a Personal Wellness Coach",
+      "description": "Tailored nutritional science and lifestyle habit-building delivered through 1-on-1 private online consultations with certified experts who truly care.",
+      "feeLabel": "Consultation Fee",
+      "price": "₹999.00",
+      "support": "One private 1-on-1 wellness consultation with a certified wellness expert.",
+      "primaryCta": "Book My Consultation",
+      "microcopy": "No pressure. Cancel anytime.",
+      "secondaryCta": "See How It Works",
+      "imageAlt": "An Indian wellness coach and client in a private online consultation"
+    },
+    "trustStats": {
+      "rating": { "value": "4.9", "label": "Member Rating" },
+      "private": { "value": "100%", "label": "Private Sessions" },
+      "certified": { "value": "Certified", "label": "Wellness Coaches" },
+      "members": { "value": "5,000+", "label": "Members" }
+    },
+    "trustHighlights": {
+      "available": { "title": "Available Now", "detail": "" },
+      "rating": { "title": "4.9 Rating", "detail": "From 2,300+ reviews" },
+      "private": { "title": "100% Private", "detail": "Secure & confidential" },
+      "certified": { "title": "Certified Experts", "detail": "Personalised plans" },
+      "members": { "title": "Trusted by 5,000+", "detail": "Personal health journeys started" }
+    },
+    "how": {
+      "eyebrow": "HOW IT WORKS",
+      "heading": "From hello to a plan you'll actually love — in 4 simple steps",
+      "description": "No clinics. No paperwork. Just a warm, guided experience — start to finish in under a week.",
+      "steps": {
+        "details": {
+          "time": "2 min",
+          "title": "Share your details",
+          "body": "Tell us a little about you — your goals, lifestyle and what you'd like help with. Your information stays fully private.",
+          "features": {
+            "f1": "Quick 6-field form",
+            "f2": "No medical jargon",
+            "f3": "100% confidential"
+          }
+        },
+        "slot": {
+          "time": "Within 2 hours",
+          "title": "We confirm your slot",
+          "body": "Our wellness team reaches out on WhatsApp or call to lock in a time that works for you — including evenings and weekends.",
+          "features": {
+            "f1": "Flexible scheduling",
+            "f2": "Reschedule anytime",
+            "f3": "Reminder on WhatsApp"
+          }
+        },
+        "meet": {
+          "time": "30–45 min",
+          "title": "Meet your expert 1-on-1",
+          "body": "Hop on a secure video call with a certified coach. They'll listen, understand your routine and answer everything you've been wondering about.",
+          "features": {
+            "f1": "Secure video session",
+            "f2": "Judgement-free space",
+            "f3": "Ask anything"
+          }
+        },
+        "plan": {
+          "time": "Lifetime access",
+          "title": "Get your personalised plan",
+          "body": "Receive a tailored wellness roadmap — nutrition, habits, sleep and follow-up — designed around your body and your day.",
+          "features": {
+            "f1": "Custom nutrition plan",
+            "f2": "Daily habit guide",
+            "f3": "Free follow-up check-in"
+          }
+        }
+      }
+    },
+    "strip": {
+      "private": "100% Private & Confidential",
+      "certified": "Certified Wellness Coaches",
+      "payu": "Secure PayU Payments"
+    },
+    "cta": {
+      "heading": "Ready to take the first step?",
+      "description": "Start with one private wellness consultation designed around your goals and routine.",
+      "button": "Start Step 1 — Book Your Slot",
+      "microcopy": "Takes 2 minutes • ₹999.00 • Cancel anytime"
+    },
+    "benefits": {
+      "eyebrow": "WHY PEOPLE LOVE US",
+      "heading": "Wellness, done the way you deserve",
+      "description": "Real coaches. Real plans. Real change — without the overwhelm.",
+      "cards": {
+        "plans": {
+          "title": "Personalised plans",
+          "body": "Built around your body, lifestyle and goals."
+        },
+        "guidance": {
+          "title": "Expert guidance",
+          "body": "Certified nutrition & wellness coaches."
+        },
+        "flexible": {
+          "title": "Flexible online sessions",
+          "body": "Meet from anywhere — at your pace."
+        },
+        "holistic": {
+          "title": "Holistic approach",
+          "body": "Nutrition, stress, sleep and habits — together."
+        }
+      }
+    },
+    "recap": {
+      "heading": "How it works",
+      "steps": {
+        "details": {
+          "title": "Share your details",
+          "body": "Fill the short booking form."
+        },
+        "slot": {
+          "title": "Confirm your slot",
+          "body": "Our team calls you to schedule."
+        },
+        "meet": {
+          "title": "Meet your expert",
+          "body": "Get guidance and a wellness plan."
+        }
+      }
+    },
+    "questions": {
+      "heading": "Have questions first?",
+      "description": "Our wellness team is happy to help before you book.",
+      "phone": "+91 89777 23492",
+      "email": "care@mykalonlife.com",
+      "cta": "Book Your Slot"
+    },
+    "booking": {
+      "heading": "Book Your Consultation",
+      "description": "Complete the short form to request your ₹999 consultation.",
+      "summaryEyebrow": "YOUR CONSULTATION",
+      "packageName": "Single Consultation",
+      "price": "₹999.00",
+      "packageDetail": "First-time consultation and basic health guidance.",
+      "secure": "Secure via PayU"
+    },
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Your full name",
+      "age": "Age",
+      "gender": "Gender",
+      "genderPlaceholder": "Select",
+      "genderFemale": "Female",
+      "genderMale": "Male",
+      "genderUnspecified": "Prefer not to say",
+      "mobile": "Mobile Number",
+      "mobilePlaceholder": "10-digit number",
+      "email": "Email",
+      "date": "Preferred Date",
+      "datePlaceholder": "dd-mm-yyyy",
+      "concern": "Health concern",
+      "concernPlaceholder": "Briefly describe what you'd like help with",
+      "required": "Required",
+      "optional": "Optional",
+      "submit": "Pay ₹999.00 & Book Single Consultation",
+      "paySupport": "Secured by PayU • 100% encrypted • UPI, Cards, NetBanking, Wallets",
+      "errors": {
+        "summary": "Please correct the highlighted fields.",
+        "fullName": "Enter your full name.",
+        "age": "Enter a whole number for age, or leave this blank.",
+        "gender": "Choose Female, Male, or Prefer not to say, or leave this blank.",
+        "mobile": "Enter a 10-digit mobile number starting with 6, 7, 8, or 9.",
+        "email": "Enter a valid email address, or leave this blank.",
+        "preferredDate": "Choose a valid date that is today or later.",
+        "healthConcern": "Please use 2,000 characters or fewer."
+      },
+      "status": {
+        "submitting": "Checking the payment connection…",
+        "notConnected": "Online payment is not connected yet. Your details were checked on this page, but no booking was sent and no payment was taken.",
+        "unavailable": "Checkout could not be started. No payment was taken. Please try again later, or contact the wellness team."
+      }
+    },
+    "disclaimer": "Information provided is not a substitute for professional medical advice and is not intended to treat, cure, diagnose or prevent any diseases or illness.",
+    "testimonials": {
+      "eyebrow": "LOVED BY OUR COMMUNITY",
+      "heading": "Real stories from real members",
+      "items": {
+        "ananya": {
+          "quote": "My energy levels changed in two weeks. The plan actually fits my routine.",
+          "name": "Ananya R.",
+          "city": "Bengaluru"
+        },
+        "rahul": {
+          "quote": "Felt genuinely heard. No fad diets, just clear, doable changes.",
+          "name": "Rahul M.",
+          "city": "Mumbai"
+        },
+        "sneha": {
+          "quote": "Loved the privacy and warmth. My coach felt like a friend with answers.",
+          "name": "Sneha P.",
+          "city": "Pune"
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FREQUENTLY ASKED",
+      "heading": "Questions, answered",
+      "items": {
+        "length": {
+          "question": "How long is a consultation?",
+          "answer": "A private 1-on-1 session with a certified coach lasts 30–45 minutes."
+        },
+        "privacy": {
+          "question": "Is my information private?",
+          "answer": "Yes. Sessions are 100% private, and the details you share stay fully confidential."
+        },
+        "after": {
+          "question": "What do I get after the call?",
+          "answer": "You receive a personalised wellness plan — nutrition, habits, sleep and follow-up — with lifetime access, including a custom nutrition plan, a daily habit guide and a free follow-up check-in."
+        },
+        "reschedule": {
+          "question": "Can I reschedule?",
+          "answer": "Yes. You can reschedule anytime. Our wellness team reaches out within 2 hours to confirm a time that works for you."
+        }
+      }
+    },
+    "aria": {
+      "trustStats": "Trust indicators",
+      "trustHighlights": "Why members trust Kalonlife",
+      "trustStrip": "Privacy, coaches and payments",
+      "bookForm": "Book your consultation",
+      "summary": "Your consultation"
+    }
+  }
+}

@@ -1,13 +1,13 @@
 export const companyLinks = [
   { href: "/about", label: "about" },
   { href: "/why-choose-us", label: "whyChooseUs" },
-  { href: "/chairman-message", label: "chairmanMessage" },
+  { href: "/chairmans-message", label: "chairmanMessage" },
 ] as const;
 
 export const headerLinks = [
   { href: "/", label: "home" },
   { href: "/shop", label: "shop" },
-  { href: "/consult-dietician", label: "consultDietician" },
+  { href: "/consult-your-dietician", label: "consultDietician" },
   { href: "/articles", label: "articles" },
   { href: "/login", label: "login" },
   { href: "/cart", label: "cart" },
@@ -16,7 +16,7 @@ export const headerLinks = [
 export const footerCompanyLinks = [
   { href: "/about", label: "about" },
   { href: "/why-choose-us", label: "whyChooseUs" },
-  { href: "/chairman-message", label: "chairmanMessage" },
+  { href: "/chairmans-message", label: "chairmanMessage" },
   { href: "/shop", label: "products" },
   { href: "/contact", label: "contact" },
   { href: "/dietician/login", label: "dieticianLogin" },

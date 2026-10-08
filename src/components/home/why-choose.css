@@ -32,7 +32,7 @@
   margin-block: var(--space-4);
   margin-inline: auto;
   border-radius: var(--radius-pill);
-  background: var(--gradient-primary);
+  background: var(--gradient-accent);
 }
 
 .choose-title {
@@ -127,9 +127,9 @@
   height: 68%;
   background: linear-gradient(
     to top,
-    rgb(4 47 52 / 92%) 0%,
-    rgb(4 47 52 / 62%) 48%,
-    rgb(4 47 52 / 0%) 100%
+    rgb(1 71 80 / 92%) 0%,
+    rgb(1 71 80 / 62%) 48%,
+    rgb(1 71 80 / 0%) 100%
   );
 }
 
@@ -200,7 +200,7 @@
 
 .choose-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 16px 32px rgb(22 35 43 / 12%);
+  box-shadow: 0 16px 32px rgb(1 71 80 / 12%);
 }
 
 .choose-card:hover img {

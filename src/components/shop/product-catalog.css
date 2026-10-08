@@ -123,7 +123,7 @@
   max-width: 100%;
   margin: 0;
   padding: 0.55rem 0.75rem;
-  border: 1px solid var(--kl-pale-blue-gray);
+  border: 1px solid var(--color-light-forest);
   border-radius: var(--radius-sm);
   background: var(--kl-white);
   color: var(--kl-deep-teal);
@@ -136,8 +136,8 @@
 }
 
 .shop-filter-option[aria-pressed="true"] {
-  border-color: var(--kl-warm-yellow);
-  background: var(--kl-warm-yellow);
+  border-color: var(--color-golden-rush-start);
+  background: var(--kl-gradient-golden-rush);
   color: var(--kl-deep-teal);
   font-weight: var(--weight-semibold);
 }
@@ -196,14 +196,14 @@
 }
 
 .shop-category[aria-pressed="true"] {
-  background: var(--kl-warm-yellow);
+  background: var(--kl-gradient-golden-rush);
   color: var(--kl-deep-teal);
   font-weight: var(--weight-semibold);
 }
 
 .shop-empty {
   margin: 0;
-  color: var(--kl-charcoal-teal);
+  color: var(--color-dark-text);
   font-size: var(--text-body);
   line-height: var(--leading-body);
 }
@@ -277,7 +277,7 @@
   gap: 0.4rem;
   margin: 0;
   padding: 1.1rem 1.15rem 1.2rem;
-  background: rgb(4 47 52 / 0.88);
+  background: rgb(1 71 80 / 0.88);
   color: var(--kl-white);
   opacity: 0;
   pointer-events: none;
@@ -317,7 +317,7 @@
   margin: 0;
   padding: 0.12rem 0.45rem;
   border-radius: 0.3rem;
-  background: var(--kl-warm-yellow);
+  background: var(--kl-gradient-golden-rush);
   color: var(--kl-deep-teal);
   font-size: var(--text-xs);
   font-weight: var(--weight-semibold);
@@ -351,7 +351,7 @@
   margin: 0;
   padding: 0.16rem 0.5rem;
   border-radius: 0.3rem;
-  background: var(--kl-warm-yellow);
+  background: var(--kl-gradient-golden-rush);
   color: var(--kl-deep-teal);
   font-size: var(--text-sm);
   font-weight: var(--weight-semibold);
@@ -374,28 +374,28 @@
 
 @media (hover: hover) {
   .shop-filter-toggle:hover {
-    background: var(--kl-pale-blue-gray);
+    background: var(--color-light-forest);
     color: var(--kl-deep-teal);
   }
 
   .shop-category:hover,
   .shop-filter-option:hover {
-    background: var(--kl-pale-blue-gray);
+    background: var(--color-light-forest);
     color: var(--kl-deep-teal);
   }
 
   .shop-filter-option:hover {
-    border-color: var(--kl-pale-blue-gray);
+    border-color: var(--color-light-forest);
   }
 
   .shop-category[aria-pressed="true"]:hover {
-    background: var(--kl-warm-yellow);
+    background: var(--kl-gradient-golden-rush);
     color: var(--kl-deep-teal);
   }
 
   .shop-filter-option[aria-pressed="true"]:hover {
-    border-color: var(--kl-warm-yellow);
-    background: var(--kl-warm-yellow);
+    border-color: var(--color-golden-rush-start);
+    background: var(--kl-gradient-golden-rush);
     color: var(--kl-deep-teal);
   }
 

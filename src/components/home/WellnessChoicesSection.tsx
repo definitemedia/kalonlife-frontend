@@ -7,7 +7,7 @@ const lifestyleImage = "/images/wellness-choices-kitchen.png";
 
 const actions = [
   { id: "products", href: "/shop", icon: "bag" },
-  { id: "dietician", href: "/consult-dietician", icon: "person" },
+  { id: "dietician", href: "/consult-your-dietician", icon: "person" },
   { id: "hub", href: "/wellness-hub/locate", icon: "pin" },
   { id: "articles", href: "/articles", icon: "document" },
 ] as const;
@@ -31,7 +31,7 @@ export async function WellnessChoicesSection() {
             </Link>
             <Link
               className="choices-band-cta choices-band-cta-secondary"
-              href="/consult-dietician"
+              href="/consult-your-dietician"
             >
               {t("consultCta")}
             </Link>

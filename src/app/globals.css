@@ -41,6 +41,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  text-decoration-color: var(--color-link-hover);
 }
 
 :focus-visible {
@@ -123,7 +124,7 @@ select {
   z-index: var(--z-header);
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
-  box-shadow: 0 1px 8px rgb(22 35 43 / 6%);
+  box-shadow: 0 1px 8px rgb(1 71 80 / 6%);
 }
 
 .header-bar {
@@ -176,12 +177,13 @@ select {
 .header-icon-link:focus-visible,
 .menu-toggle:hover,
 .menu-toggle:focus-visible {
-  background: var(--color-neutral);
+  background: var(--color-light-forest);
   text-decoration: none;
 }
 
 .header-icon-link[aria-current="page"] {
-  background: var(--color-secondary);
+  background: var(--color-light-forest);
+  box-shadow: inset 0 -2px 0 var(--color-golden-rush-end);
   text-decoration: none;
 }
 
@@ -210,14 +212,21 @@ select {
 }
 
 .site-nav a {
-  color: var(--color-text);
+  color: var(--color-primary);
   font-size: var(--text-sm);
   font-weight: var(--weight-medium);
   text-decoration: none;
 }
 
+.site-nav a:hover {
+  color: var(--color-primary-hover);
+  text-decoration-color: var(--color-golden-rush-end);
+}
+
 .site-nav a[aria-current="page"] {
   text-decoration: underline;
+  text-decoration-color: var(--color-golden-rush-end);
+  text-decoration-thickness: 2px;
 }
 
 .nav-group {
@@ -225,7 +234,7 @@ select {
 }
 
 .nav-group summary {
-  color: var(--color-text);
+  color: var(--color-primary);
   font-size: var(--text-sm);
   font-weight: var(--weight-medium);
   list-style: none;
@@ -254,9 +263,19 @@ select {
   border-radius: var(--radius-sm);
 }
 
-.nav-group-panel a:hover {
-  background: var(--color-neutral);
+.nav-group-panel a {
+  color: var(--color-dark-text);
+}
+
+.nav-group-panel a:hover,
+.nav-group-panel a[aria-current="page"] {
+  background: var(--color-light-forest);
+  color: var(--color-primary);
   text-decoration: none;
+}
+
+.nav-group-panel a[aria-current="page"] {
+  box-shadow: inset 3px 0 0 var(--color-golden-rush-end);
 }
 
 .nav-group:not([open]) > .nav-group-panel,
@@ -266,6 +285,7 @@ select {
 
 .site-footer {
   background: var(--color-footer);
+  background-image: var(--kl-gradient-brand-dark);
   color: var(--color-footer-text);
   overflow-x: clip;
 }
@@ -292,7 +312,7 @@ select {
 .footer-locale-chevron {
   flex: 0 0 auto;
   fill: none;
-  stroke: var(--kl-mint);
+  stroke: var(--color-golden-rush-start);
   stroke-width: 1.75;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -319,11 +339,11 @@ select {
 }
 
 .footer-locale-link:hover {
-  color: var(--kl-mint);
+  color: var(--color-golden-rush-start);
 }
 
 .footer-locale-link:focus-visible {
-  outline: 2px solid var(--kl-mint);
+  outline: 2px solid var(--color-golden-rush-start);
   outline-offset: 2px;
 }
 
@@ -393,12 +413,12 @@ select {
 }
 
 .footer-grid a {
-  color: var(--color-footer-text);
+  color: var(--color-light-neutral);
   text-decoration: none;
 }
 
 .footer-grid a:hover {
-  color: var(--color-secondary);
+  color: var(--color-golden-rush-start);
 }
 
 .footer-base {
@@ -409,6 +429,7 @@ select {
 
 .footer-legal {
   background: var(--color-footer);
+  background-image: var(--kl-gradient-brand-dark);
   color: var(--color-footer-text);
   border-top: 1px solid rgb(255 255 255 / 16%);
   overflow-x: clip;
@@ -455,7 +476,7 @@ select {
 }
 
 .footer-legal-links a:hover {
-  color: var(--color-secondary);
+  color: var(--color-golden-rush-start);
   text-decoration: underline;
 }
 
@@ -480,7 +501,7 @@ select {
 .footer-legal-note {
   margin: var(--space-5) 0 0;
   padding: var(--space-3) var(--space-4);
-  border-inline-start: 3px solid var(--kl-mint);
+  border-inline-start: 3px solid var(--color-golden-rush-start);
   background: transparent;
   font-weight: var(--weight-medium);
 }
@@ -542,7 +563,7 @@ select {
     display: block;
     padding: 0;
     border: 0;
-    background: rgb(22 35 43 / 42%);
+    background: rgb(1 71 80 / 42%);
     opacity: 0;
     cursor: pointer;
     pointer-events: none;
@@ -616,7 +637,7 @@ select {
 
   .site-drawer > a[aria-current="page"],
   .site-drawer .nav-group summary[aria-current="page"] {
-    background: var(--kl-warm-yellow);
+    background: var(--kl-gradient-golden-rush);
     color: var(--kl-deep-teal);
     text-decoration: none;
   }
@@ -752,7 +773,7 @@ select {
     padding-bottom: env(safe-area-inset-bottom, 0px);
     border-top: 1px solid var(--kl-pale-blue-gray);
     background: var(--kl-white);
-    box-shadow: 0 -6px 20px rgb(22 35 43 / 6%);
+    box-shadow: 0 -6px 20px rgb(1 71 80 / 6%);
   }
 
   .mobile-tab {
@@ -784,7 +805,7 @@ select {
   }
 
   .mobile-tab[aria-current="page"] {
-    background: var(--kl-warm-yellow);
+    background: var(--kl-gradient-golden-rush);
     color: var(--kl-deep-teal);
     font-weight: var(--weight-semibold);
     text-decoration: none;

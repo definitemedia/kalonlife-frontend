@@ -31,7 +31,7 @@
   min-height: 2.75rem;
   height: 100%;
   padding: var(--space-4);
-  border: 1px solid var(--kl-pale-blue-gray);
+  border: 1px solid var(--color-light-forest);
   border-radius: var(--radius-md);
   background: var(--kl-white);
   color: var(--kl-deep-teal);
@@ -40,7 +40,7 @@
 
 .language-choice:hover {
   border-color: var(--kl-deep-teal);
-  background: var(--kl-pale-blue-gray);
+  background: var(--color-light-forest);
   text-decoration: none;
 }
 
@@ -51,8 +51,8 @@
 
 .language-choice[aria-current="page"],
 .language-choice[aria-current="page"]:hover {
-  background: var(--kl-mint);
-  border-color: var(--kl-mint);
+  background: var(--color-light-forest);
+  border-color: var(--color-golden-rush-end);
   color: var(--kl-deep-teal);
 }
 

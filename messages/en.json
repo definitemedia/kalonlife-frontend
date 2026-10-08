@@ -153,6 +153,90 @@
       "imageAlt": "An Indian family sharing freshly picked greens in a garden"
     }
   },
+  "whyChoose": {
+    "hero": {
+      "eyebrow": "OUR DIFFERENCE",
+      "title": "Why Choose Kalonlife?",
+      "description": "Choosing Kalonlife means becoming part of a brand committed to health, innovation, and life-changing opportunities. We believe success is built on strong values, quality products, and empowering people to achieve their full potential.",
+      "primaryCta": "Explore Our Products",
+      "secondaryCta": "Join Our Community",
+      "imageAlt": "An Indian couple walking together on a tree-lined path, with another adult resting nearby"
+    },
+    "difference": {
+      "eyebrow": "OUR DIFFERENCE",
+      "heading": "What Sets Us Apart",
+      "description": "At Kalonlife, we believe that meaningful wellness goes beyond products. It is about combining quality, knowledge, opportunity, leadership, and community to create a better path forward for individuals and families."
+    },
+    "reasons": {
+      "eyebrow": "WHY KALONLIFE",
+      "heading": "7 Reasons to Choose Kalonlife",
+      "description": "From product quality and innovation to ethical business practices and community development, Kalonlife is built around principles designed to create long-term value.",
+      "quality": {
+        "title": "Premium Quality Wellness Products",
+        "description": "Kalonlife offers carefully formulated nutritional supplements, wellness products, and personal care solutions developed using high-quality ingredients and advanced formulations to support healthier lifestyles.",
+        "imageAlt": "Turmeric roots, tulsi, moringa, and herbal powder on a stone surface"
+      },
+      "science": {
+        "title": "Science Meets Nature",
+        "description": "Our products combine modern nutritional science with natural herbal extracts, ensuring effective and safe solutions that support overall well-being."
+      },
+      "ethics": {
+        "title": "Ethical and Transparent Business",
+        "description": "Integrity is at the heart of Kalonlife. We follow ethical business practices, transparent systems, and fair reward structures that build long-term trust with our customers and associates."
+      },
+      "opportunity": {
+        "title": "Powerful Entrepreneurial Opportunity",
+        "description": "Kalonlife provides a dynamic platform for individuals to build their own business, develop leadership skills, and create sustainable income streams through a structured growth system."
+      },
+      "global": {
+        "title": "Global Vision",
+        "description": "With a forward-thinking approach, Kalonlife aims to expand its presence globally while creating a strong community of leaders dedicated to health and prosperity."
+      },
+      "leadership": {
+        "title": "Leadership Development",
+        "description": "We focus on empowering individuals through training, mentorship, and leadership programs that help associates grow both personally and professionally.",
+        "imageAlt": "Three Indian adults in a training conversation around a table"
+      },
+      "community": {
+        "title": "Community Impact",
+        "description": "Kalonlife is more than a business — it is a movement committed to improving health, creating opportunities, and uplifting communities.",
+        "imageAlt": "An Indian family sharing greens and tea in a courtyard garden"
+      }
+    },
+    "statement": {
+      "heading": "Wellness. Opportunity. Community.",
+      "description": "A stronger future begins when people have access to better choices, better support, and meaningful opportunities to grow.",
+      "imageAlt": "Indian adults of different ages walking together on a park path"
+    },
+    "promise": {
+      "eyebrow": "OUR PROMISE",
+      "heading": "A Promise You Can Trust",
+      "description": "At Kalonlife, we are committed to delivering quality, opportunity, and trust — helping people live healthier lives while building a brighter future.",
+      "quality": {
+        "title": "Quality Wellness Products You Can Trust",
+        "description": "We are committed to maintaining high standards across our wellness and personal care products."
+      },
+      "ethics": {
+        "title": "Transparent and Ethical Business Practices",
+        "description": "We believe long-term relationships are built through integrity, transparency, and responsible business practices."
+      },
+      "community": {
+        "title": "A Community That Grows Together",
+        "description": "We believe individuals and communities become stronger when people learn, support, and grow together."
+      },
+      "independence": {
+        "title": "Real Opportunities for Financial Independence",
+        "description": "Kalonlife provides an entrepreneurial platform for individuals who want to build skills, develop leadership capabilities, and pursue business opportunities."
+      }
+    },
+    "cta": {
+      "heading": "Choose a Better Way Forward",
+      "description": "Discover quality wellness products, meaningful guidance, and a community built around growth and well-being.",
+      "primaryCta": "Explore Our Products",
+      "secondaryCta": "Join Our Community",
+      "imageAlt": "An Indian couple preparing a fresh salad in a bright kitchen"
+    }
+  },
   "certifications": {
     "label": "Certifications"
   },
@@ -321,12 +405,12 @@
       "description": "About Kalonlife International India Private Limited."
     },
     "whyChooseUs": {
-      "title": "Why Choose Us",
-      "description": "Why people choose Kalonlife."
+      "title": "Why Choose Kalonlife? | Our Difference",
+      "description": "Discover what sets Kalonlife apart — premium wellness products, science-backed formulations, ethical business practices, leadership development, entrepreneurial opportunities, and community impact."
     },
     "chairmanMessage": {
-      "title": "Chairman's Message",
-      "description": "Message from the Chairman of Kalonlife International."
+      "title": "Leadership | Chairman's Message | Kalonlife",
+      "description": "Meet the leadership behind Kalonlife International India Private Limited and discover the vision, values, and wellness philosophy guiding the company."
     },
     "contact": {
       "title": "Contact Us",
@@ -381,8 +465,8 @@
       "description": "Connect with a Kalonlife associate."
     },
     "consultDietician": {
-      "title": "Consult your Dietician",
-      "description": "Consult a Kalonlife dietician."
+      "title": "Book Your Consultation | Kalonlife",
+      "description": "Book a personalized 1-on-1 wellness consultation with a Kalonlife wellness expert. Single consultation ₹999.00."
     },
     "login": {
       "title": "Login",
@@ -788,6 +872,361 @@
     "acceptance": {
       "title": "Acceptance",
       "body": "Use of this website or purchase of products indicates acceptance of this disclaimer."
+    }
+  },
+  "consultation": {
+    "hero": {
+      "eyebrow": "PERSONALIZED WELLNESS GUIDANCE",
+      "heading": "Transform Your Health With a Personal Wellness Coach",
+      "description": "Tailored nutritional science and lifestyle habit-building delivered through 1-on-1 private online consultations with certified experts who truly care.",
+      "feeLabel": "Consultation Fee",
+      "price": "₹999.00",
+      "support": "One private 1-on-1 wellness consultation with a certified wellness expert.",
+      "primaryCta": "Book My Consultation",
+      "microcopy": "No pressure. Cancel anytime.",
+      "secondaryCta": "See How It Works",
+      "imageAlt": "An Indian wellness coach and client in a private online consultation"
+    },
+    "trustStats": {
+      "rating": {
+        "value": "4.9",
+        "label": "Member Rating"
+      },
+      "private": {
+        "value": "100%",
+        "label": "Private Sessions"
+      },
+      "certified": {
+        "value": "Certified",
+        "label": "Wellness Coaches"
+      },
+      "members": {
+        "value": "5,000+",
+        "label": "Members"
+      }
+    },
+    "trustHighlights": {
+      "available": {
+        "title": "Available Now",
+        "detail": ""
+      },
+      "rating": {
+        "title": "4.9 Rating",
+        "detail": "From 2,300+ reviews"
+      },
+      "private": {
+        "title": "100% Private",
+        "detail": "Secure & confidential"
+      },
+      "certified": {
+        "title": "Certified Experts",
+        "detail": "Personalised plans"
+      },
+      "members": {
+        "title": "Trusted by 5,000+",
+        "detail": "Personal health journeys started"
+      }
+    },
+    "how": {
+      "eyebrow": "HOW IT WORKS",
+      "heading": "From hello to a plan you'll actually love — in 4 simple steps",
+      "description": "No clinics. No paperwork. Just a warm, guided experience — start to finish in under a week.",
+      "steps": {
+        "details": {
+          "time": "2 min",
+          "title": "Share your details",
+          "body": "Tell us a little about you — your goals, lifestyle and what you'd like help with. Your information stays fully private.",
+          "features": {
+            "f1": "Quick 6-field form",
+            "f2": "No medical jargon",
+            "f3": "100% confidential"
+          }
+        },
+        "slot": {
+          "time": "Within 2 hours",
+          "title": "We confirm your slot",
+          "body": "Our wellness team reaches out on WhatsApp or call to lock in a time that works for you — including evenings and weekends.",
+          "features": {
+            "f1": "Flexible scheduling",
+            "f2": "Reschedule anytime",
+            "f3": "Reminder on WhatsApp"
+          }
+        },
+        "meet": {
+          "time": "30–45 min",
+          "title": "Meet your expert 1-on-1",
+          "body": "Hop on a secure video call with a certified coach. They'll listen, understand your routine and answer everything you've been wondering about.",
+          "features": {
+            "f1": "Secure video session",
+            "f2": "Judgement-free space",
+            "f3": "Ask anything"
+          }
+        },
+        "plan": {
+          "time": "Lifetime access",
+          "title": "Get your personalised plan",
+          "body": "Receive a tailored wellness roadmap — nutrition, habits, sleep and follow-up — designed around your body and your day.",
+          "features": {
+            "f1": "Custom nutrition plan",
+            "f2": "Daily habit guide",
+            "f3": "Free follow-up check-in"
+          }
+        }
+      }
+    },
+    "strip": {
+      "private": "100% Private & Confidential",
+      "certified": "Certified Wellness Coaches",
+      "payu": "Secure PayU Payments"
+    },
+    "cta": {
+      "heading": "Ready to take the first step?",
+      "description": "Start with one private wellness consultation designed around your goals and routine.",
+      "button": "Start Step 1 — Book Your Slot",
+      "microcopy": "Takes 2 minutes • ₹999.00 • Cancel anytime"
+    },
+    "benefits": {
+      "eyebrow": "WHY PEOPLE LOVE US",
+      "heading": "Wellness, done the way you deserve",
+      "description": "Real coaches. Real plans. Real change — without the overwhelm.",
+      "cards": {
+        "plans": {
+          "title": "Personalised plans",
+          "body": "Built around your body, lifestyle and goals."
+        },
+        "guidance": {
+          "title": "Expert guidance",
+          "body": "Certified nutrition & wellness coaches."
+        },
+        "flexible": {
+          "title": "Flexible online sessions",
+          "body": "Meet from anywhere — at your pace."
+        },
+        "holistic": {
+          "title": "Holistic approach",
+          "body": "Nutrition, stress, sleep and habits — together."
+        }
+      }
+    },
+    "recap": {
+      "heading": "How it works",
+      "steps": {
+        "details": {
+          "title": "Share your details",
+          "body": "Fill the short booking form."
+        },
+        "slot": {
+          "title": "Confirm your slot",
+          "body": "Our team calls you to schedule."
+        },
+        "meet": {
+          "title": "Meet your expert",
+          "body": "Get guidance and a wellness plan."
+        }
+      }
+    },
+    "questions": {
+      "heading": "Have questions first?",
+      "description": "Our wellness team is happy to help before you book.",
+      "phone": "+91 89777 23492",
+      "email": "care@mykalonlife.com",
+      "cta": "Book Your Slot"
+    },
+    "booking": {
+      "heading": "Book Your Consultation",
+      "description": "Complete the short form to request your ₹999 consultation.",
+      "summaryEyebrow": "YOUR CONSULTATION",
+      "packageName": "Single Consultation",
+      "price": "₹999.00",
+      "packageDetail": "First-time consultation and basic health guidance.",
+      "secure": "Secure via PayU"
+    },
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Your full name",
+      "age": "Age",
+      "gender": "Gender",
+      "genderPlaceholder": "Select",
+      "genderFemale": "Female",
+      "genderMale": "Male",
+      "genderUnspecified": "Prefer not to say",
+      "mobile": "Mobile Number",
+      "mobilePlaceholder": "10-digit number",
+      "email": "Email",
+      "date": "Preferred Date",
+      "datePlaceholder": "dd-mm-yyyy",
+      "concern": "Health concern",
+      "concernPlaceholder": "Briefly describe what you'd like help with",
+      "required": "Required",
+      "optional": "Optional",
+      "submit": "Pay ₹999.00 & Book Single Consultation",
+      "paySupport": "Secured by PayU • 100% encrypted • UPI, Cards, NetBanking, Wallets",
+      "errors": {
+        "summary": "Please correct the highlighted fields.",
+        "fullName": "Enter your full name.",
+        "age": "Enter a whole number for age, or leave this blank.",
+        "gender": "Choose Female, Male, or Prefer not to say, or leave this blank.",
+        "mobile": "Enter a 10-digit mobile number starting with 6, 7, 8, or 9.",
+        "email": "Enter a valid email address, or leave this blank.",
+        "preferredDate": "Choose a valid date that is today or later.",
+        "healthConcern": "Please use 2,000 characters or fewer."
+      },
+      "status": {
+        "submitting": "Checking the payment connection…",
+        "notConnected": "Online payment is not connected yet. Your details were checked on this page, but no booking was sent and no payment was taken.",
+        "unavailable": "Checkout could not be started. No payment was taken. Please try again later, or contact the wellness team."
+      }
+    },
+    "disclaimer": "Information provided is not a substitute for professional medical advice and is not intended to treat, cure, diagnose or prevent any diseases or illness.",
+    "testimonials": {
+      "eyebrow": "LOVED BY OUR COMMUNITY",
+      "heading": "Real stories from real members",
+      "items": {
+        "ananya": {
+          "quote": "My energy levels changed in two weeks. The plan actually fits my routine.",
+          "name": "Ananya R.",
+          "city": "Bengaluru"
+        },
+        "rahul": {
+          "quote": "Felt genuinely heard. No fad diets, just clear, doable changes.",
+          "name": "Rahul M.",
+          "city": "Mumbai"
+        },
+        "sneha": {
+          "quote": "Loved the privacy and warmth. My coach felt like a friend with answers.",
+          "name": "Sneha P.",
+          "city": "Pune"
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FREQUENTLY ASKED",
+      "heading": "Questions, answered",
+      "items": {
+        "length": {
+          "question": "How long is a consultation?",
+          "answer": "A private 1-on-1 session with a certified coach lasts 30–45 minutes."
+        },
+        "privacy": {
+          "question": "Is my information private?",
+          "answer": "Yes. Sessions are 100% private, and the details you share stay fully confidential."
+        },
+        "after": {
+          "question": "What do I get after the call?",
+          "answer": "You receive a personalised wellness plan — nutrition, habits, sleep and follow-up — with lifetime access, including a custom nutrition plan, a daily habit guide and a free follow-up check-in."
+        },
+        "reschedule": {
+          "question": "Can I reschedule?",
+          "answer": "Yes. You can reschedule anytime. Our wellness team reaches out within 2 hours to confirm a time that works for you."
+        }
+      }
+    },
+    "aria": {
+      "trustStats": "Trust indicators",
+      "trustHighlights": "Why members trust Kalonlife",
+      "trustStrip": "Privacy, coaches and payments",
+      "bookForm": "Book your consultation",
+      "summary": "Your consultation"
+    }
+  },
+  "leadership": {
+    "hero": {
+      "eyebrow": "Leadership",
+      "title": "Who We Are",
+      "subheading": "Kalonlife International India Private Limited",
+      "description": "Leadership at Kalonlife is built on a commitment to health, integrity, empowerment, and meaningful opportunities.",
+      "exploreProducts": "Explore Our Products",
+      "whyChoose": "Why Choose Kalonlife",
+      "imageAlt": "Indian families walking together and sharing a simple meal outdoors in a leafy community space"
+    },
+    "chairman": {
+      "eyebrow": "Leadership",
+      "heading": "Message from the Chairman & Managing Director",
+      "title": "Chairman & Managing Director",
+      "portraitAlt": "Initials placeholder for Mr. Tulasi Venkatesh Samidala, Chairman and Managing Director. No photograph is shown.",
+      "p1": "At Kalonlife International India Private Limited, our journey is driven by a simple yet powerful belief — that true prosperity begins with good health, strong values, and meaningful opportunities. Kalonlife was founded with a vision to create a platform where wellness and entrepreneurship come together to transform lives.",
+      "p2": "In today's fast-changing world, people are looking not only for better health solutions but also for sustainable opportunities that allow them to grow, lead, and build a secure future. Kalonlife was established to address both these needs by offering high-quality nutritional and wellness products while empowering individuals with a transparent and rewarding business model.",
+      "p3": "Our commitment is rooted in three core pillars: quality, integrity, and empowerment. We strive to deliver products developed with carefully selected ingredients and advanced formulations that support healthier lifestyles. At the same time, we are dedicated to creating a community where individuals can develop leadership skills, achieve financial independence, and build lasting success.",
+      "p4": "The success of Kalonlife is built on the passion and dedication of our associates, customers, and leadership teams who believe in our mission of creating positive change. Together, we are building not just a company, but a movement that encourages people to dream bigger, live healthier, and achieve more.",
+      "p5": "As we move forward, our focus remains on innovation, ethical practices, and global expansion while continuing to uphold the trust placed in us by thousands of people who are part of the Kalonlife family.",
+      "p6": "I extend my sincere gratitude to everyone who believes in our vision and contributes to our growth. Let us continue this journey together and create a future defined by health, opportunity, and success.",
+      "regards": "Warm regards,",
+      "number": "01",
+      "name": "Mr. Tulasi Venkatesh Samidala",
+      "company": "Kalonlife International India Private Limited",
+      "initials": "TVS",
+      "compactCompany": "Kalonlife International India Pvt. Ltd."
+    },
+    "pillars": {
+      "eyebrow": "Our Three Core Pillars",
+      "quality": {
+        "title": "Quality",
+        "description": "Products crafted with carefully selected ingredients and advanced formulations.",
+        "number": "01"
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "Transparent, ethical business practices that build lasting trust.",
+        "number": "02"
+      },
+      "empowerment": {
+        "title": "Empowerment",
+        "description": "A platform to develop leadership skills and achieve financial independence.",
+        "number": "03"
+      }
+    },
+    "chairmanCta": {
+      "text": "Join thousands of people transforming their health and building a brighter future with Kalonlife.",
+      "button": "Explore Products"
+    },
+    "advisor": {
+      "eyebrow": "Nutrition & Wellness Leadership",
+      "heading": "Message from Dr. Tulasi Anagha",
+      "credential": "PhD, Food Science & Nutrition",
+      "role": "Nutrition Advisory Board Member",
+      "portraitAlt": "Initials placeholder for Dr. Tulasi Anagha, Nutrition Advisory Board Member. No photograph is shown.",
+      "p1": "At Kalonlife, we believe that true well-being goes beyond physical health — it includes confidence, balance, and the opportunity to grow. Our mission is to inspire healthier lifestyles while empowering individuals and families to build a better future.",
+      "p2": "Every product we create and every initiative we undertake is guided by our commitment to quality, care, and community. We are proud to be part of a movement that encourages people to take charge of their health and unlock their potential.",
+      "p3": "Together, let us continue to spread positivity, wellness, and opportunity through the Kalonlife family.",
+      "regards": "With warmth,",
+      "number": "02",
+      "name": "Dr. Tulasi Anagha",
+      "company": "Kalonlife International India Private Limited",
+      "initials": "TA",
+      "compactCompany": "Kalonlife International India Pvt. Ltd."
+    },
+    "beliefs": {
+      "eyebrow": "Our Core Beliefs",
+      "wellbeing": {
+        "title": "Holistic Well-being",
+        "description": "True health includes confidence, balance, and growth — not just physical fitness.",
+        "number": "01"
+      },
+      "care": {
+        "title": "Quality & Care",
+        "description": "Every product reflects our unwavering commitment to quality and community.",
+        "number": "02"
+      },
+      "positivity": {
+        "title": "Positivity",
+        "description": "Spreading wellness and opportunity through the Kalonlife family.",
+        "number": "03"
+      }
+    },
+    "visual": {
+      "heading": "Leading With Purpose",
+      "description": "Building a healthier future requires more than products. It requires vision, integrity, knowledge, and people who are committed to making a positive difference.",
+      "imageAlt": "Indian adults and a child preparing a home meal of grains, greens, and fruit together"
+    },
+    "closing": {
+      "heading": "Building the Future of Wellness Together",
+      "description": "At Kalonlife, leadership means creating an environment where people can pursue better health, develop their potential, and contribute to stronger communities."
+    },
+    "finalCta": {
+      "heading": "Be Part of the Kalonlife Journey",
+      "description": "Explore our wellness products and discover the values, people, and vision behind Kalonlife.",
+      "explore": "Explore Products",
+      "whyChoose": "Why Choose Kalonlife"
     }
   }
 }

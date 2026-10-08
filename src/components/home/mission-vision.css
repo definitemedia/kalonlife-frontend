@@ -86,7 +86,7 @@
 }
 
 .mission-goal {
-  stroke: var(--kl-mint);
+  stroke: var(--color-golden-rush-start);
 }
 
 .mission-head,
@@ -95,7 +95,7 @@
 }
 
 .mission-mark {
-  fill: var(--kl-mint);
+  fill: var(--color-golden-rush-start);
 }
 
 .vision-brow,

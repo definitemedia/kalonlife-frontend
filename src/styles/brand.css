@@ -1,17 +1,35 @@
 :root {
-  --kl-deep-teal: #042f34;
-  --kl-mint: #b5f2db;
-  --kl-pale-blue-gray: #e4eef0;
-  --kl-white: #ffffff;
-  --kl-warm-yellow: #ffc933;
-  --kl-charcoal-teal: #16232b;
+  --color-golden-rush-start: #ffd700;
+  --color-golden-rush-end: #ff9800;
+  --color-brand-dark: #014750;
+  --color-white: #ffffff;
+  --color-light-neutral: #f7f8f6;
+  --color-light-forest: #eaf2ed;
+  --color-dark-text: #16231b;
 
-  /* Gradient 1 — the only primary brand gradient. Stops are locked palette colors. */
-  --kl-gradient-1: linear-gradient(
-    118deg,
-    var(--kl-charcoal-teal) 0%,
-    var(--kl-deep-teal) 42%,
-    var(--kl-deep-teal) 68%,
-    rgb(181 242 219 / 38%) 100%
+  --kl-gradient-golden-rush: linear-gradient(
+    135deg,
+    var(--color-golden-rush-start) 0%,
+    var(--color-golden-rush-end) 100%
   );
+  --kl-gradient-golden-rush-hover: linear-gradient(
+    135deg,
+    var(--color-golden-rush-start) -25%,
+    var(--color-golden-rush-end) 70%
+  );
+  /* Dark surfaces are a single solid shade; both stops stay #014750. */
+  --kl-gradient-brand-dark: linear-gradient(
+    135deg,
+    var(--color-brand-dark) 0%,
+    var(--color-brand-dark) 100%
+  );
+
+  /* Legacy names kept as aliases so existing component CSS resolves to the new palette. */
+  --kl-deep-teal: var(--color-brand-dark);
+  --kl-mint: var(--color-light-forest);
+  --kl-pale-blue-gray: var(--color-light-neutral);
+  --kl-white: var(--color-white);
+  --kl-warm-yellow: var(--color-golden-rush-start);
+  --kl-charcoal-teal: var(--color-dark-text);
+  --kl-gradient-1: var(--kl-gradient-brand-dark);
 }
