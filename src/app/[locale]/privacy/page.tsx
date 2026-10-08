@@ -7,13 +7,6 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-function messageList(value: unknown): string[] {
-  if (!Array.isArray(value) || value.some((item) => typeof item !== "string")) {
-    throw new Error("Privacy list messages must be strings");
-  }
-  return value;
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   return buildMetadata(locale, "privacy");
@@ -29,19 +22,17 @@ export default async function Page({ params }: Props) {
     <LegalDocument
       currentHref="/privacy"
       title={routes("title")}
-      subtitle={routes("description")}
       intro={body("intro")}
       sections={[
         {
           id: "information-we-collect",
           title: body("collect.title"),
-          items: messageList(body.raw("collect.items")),
+          paragraphs: [body("collect.body")],
         },
         {
           id: "use-of-information",
           title: body("use.title"),
-          lead: body("use.lead"),
-          items: messageList(body.raw("use.items")),
+          paragraphs: [body("use.body")],
         },
         {
           id: "data-protection",

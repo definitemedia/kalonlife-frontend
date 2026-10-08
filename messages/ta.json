@@ -333,11 +333,11 @@
     },
     "terms": {
       "title": "பயன்பாட்டு விதிமுறைகள்",
-      "description": "எங்கள் வலைத்தளத்தைப் பயன்படுத்துவதற்கு முன் இந்த விதிமுறைகளை கவனமாகப் படிக்கவும்."
+      "description": "Please read these terms carefully before using this website."
     },
     "privacy": {
       "title": "தனியுரிமைக் கொள்கை",
-      "description": "உங்கள் தகவலை நாங்கள் எவ்வாறு சேகரிக்கிறோம், பயன்படுத்துகிறோம் மற்றும் பாதுகாக்கிறோம்."
+      "description": "Our policy on how we collect, use, and protect your information."
     },
     "shipping": {
       "title": "அனுப்புதல் கொள்கை",
@@ -349,7 +349,7 @@
     },
     "disclaimer": {
       "title": "தயாரிப்பு மறுப்பு",
-      "description": "எங்கள் தயாரிப்புகள் மற்றும் உங்கள் பொறுப்புகள் பற்றிய முக்கிய தகவல்."
+      "description": "Important information about our products and website content."
     },
     "cart": {
       "title": "கூடை",
@@ -514,7 +514,7 @@
     },
     "termsAndConditions": {
       "title": "விதிமுறைகளும் நிபந்தனைகளும்",
-      "description": "இந்தப் பக்கம் விரைவில் வெளியிடப்படும்."
+      "description": "Please read these terms carefully before using this website."
     }
   },
   "guidance": {
@@ -632,74 +632,72 @@
     }
   },
   "privacy": {
-    "intro": "Kalonlife-இல் உங்கள் தனியுரிமை எங்களுக்கு முக்கியம். இந்த தனியுரிமைக் கொள்கை உங்கள் தகவலை நாங்கள் எவ்வாறு சேகரிக்கிறோம், பயன்படுத்துகிறோம் மற்றும் பாதுகாக்கிறோம் என்பதை விளக்குகிறது.",
+    "intro": "Our policy on how we collect, use, and protect your information.",
     "collect": {
-      "title": "1. நாங்கள் சேகரிக்கும் தகவல்",
-      "items": [
-        "பெயர், மின்னஞ்சல், தொலைபேசி எண், முகவரி போன்ற தனிப்பட்ட விவரங்கள்",
-        "ஆர்டர் மற்றும் கட்டணத் தகவல்",
-        "கணக்கு மற்றும் KYC தொடர்பான தகவல் (அசோசியேட்டுகளுக்கு)"
-      ]
+      "title": "Information We Collect",
+      "body": "We may collect personal details such as name, contact number, email address, shipping address, and order information."
     },
     "use": {
-      "title": "2. தகவலின் பயன்பாடு",
-      "lead": "உங்கள் தகவல் இதற்காகப் பயன்படுத்தப்படுகிறது:",
-      "items": [
-        "ஆர்டர்களையும் கட்டணங்களையும் செயலாக்குதல்",
-        "தயாரிப்புகளையும் சேவைகளையும் வழங்குதல்",
-        "புதுப்பிப்புகள், சலுகைகள் மற்றும் ஆதரவைத் தெரிவித்தல்",
-        "சட்ட மற்றும் ஒழுங்குமுறை இணக்கத்தைப் பேணுதல்"
-      ]
+      "title": "Use of Information",
+      "body": "Information is used for order processing, customer support, service improvement, and communication related to purchases."
     },
     "protection": {
-      "title": "3. தரவுப் பாதுகாப்பு",
-      "body": "அங்கீகரிக்கப்படாத அணுகல், மாற்றம் அல்லது வெளிப்படுத்தலில் இருந்து உங்கள் தனிப்பட்ட தரவைப் பாதுகாக்க பொருத்தமான பாதுகாப்பு நடவடிக்கைகளை நாங்கள் செயல்படுத்துகிறோம்."
+      "title": "Data Protection",
+      "body": "Reasonable security measures are implemented to protect user information. However, no online transmission is completely secure."
     },
     "sharing": {
-      "title": "4. தகவல் பகிர்வு",
-      "body": "நாங்கள் தனிப்பட்ட தகவலை விற்பதில்லை அல்லது வாடகைக்கு விடுவதில்லை. ஆர்டர் நிறைவேற்றம், கட்டணச் செயலாக்கம் அல்லது சட்ட இணக்கத்திற்காக மட்டுமே நம்பகமான சேவை வழங்குநர்களுடன் தரவு பகிரப்படலாம்."
+      "title": "Information Sharing",
+      "body": "We do not sell or rent personal information. Information may be shared only with service providers required to fulfill orders or legal obligations."
     },
     "rights": {
-      "title": "5. பயனர் உரிமைகள்",
-      "body": "எங்களைத் தொடர்பு கொள்வதன் மூலம் உங்கள் தனிப்பட்ட தரவிற்கான அணுகல், திருத்தம் அல்லது நீக்கத்தை நீங்கள் கோரலாம்."
+      "title": "User Rights",
+      "body": "Users may request access, correction, or deletion of their personal information by contacting customer support."
     }
   },
   "terms": {
-    "title": "பயன்பாட்டு விதிமுறைகள்",
-    "subtitle": "எங்கள் வலைத்தளத்தைப் பயன்படுத்துவதற்கு முன் இந்த விதிமுறைகளை கவனமாகப் படிக்கவும்.",
-    "intro": "Kalonlife International India Private Limited-க்கு வரவேற்கிறோம். எங்கள் வலைத்தளம், தயாரிப்புகள் அல்லது சேவைகளை அணுகுவதன் மூலமோ அல்லது பயன்படுத்துவதன் மூலமோ, பின்வரும் பயன்பாட்டு விதிமுறைகளைப் பின்பற்றி அவற்றுக்குக் கட்டுப்படுவதற்கு நீங்கள் ஒப்புக்கொள்கிறீர்கள்.",
+    "title": "Terms of Use",
+    "intro": "Please read these terms carefully before using this website.",
     "acceptance": {
-      "title": "விதிமுறைகளை ஏற்றல்",
-      "body": "இந்த வலைத்தளத்தைப் பயன்படுத்துவதன் மூலம், உங்களுக்கு குறைந்தது 18 வயது நிறைந்துள்ளது என்றும், ஒரு பிணைப்பு ஒப்பந்தத்தில் நுழைய சட்டப்படி தகுதியுடையவர் என்றும் நீங்கள் உறுதிப்படுத்துகிறீர்கள்."
+      "title": "Acceptance of Terms",
+      "body": "By accessing or using this website, you agree to these Terms of Use."
+    },
+    "eligibility": {
+      "title": "Eligibility",
+      "body": "Users must be 18 years or older to place orders or register."
     },
     "usage": {
-      "title": "வலைத்தளப் பயன்பாடு",
-      "body": "இந்த வலைத்தளத்தை சட்டப்பூர்வ நோக்கங்களுக்காக மட்டுமே, மற்றவர்களின் உரிமைகளை மீறாத வகையிலும் அவர்களின் வலைத்தளப் பயன்பாட்டைக் கட்டுப்படுத்தாத வகையிலும் பயன்படுத்துவதற்கு நீங்கள் ஒப்புக்கொள்கிறீர்கள்."
+      "title": "Use of Website",
+      "body": "You agree to use the website only for lawful purposes and not to misuse content, services, or systems."
     },
     "productInformation": {
-      "title": "தயாரிப்புத் தகவல்",
-      "body": "அனைத்து தயாரிப்பு விளக்கங்கள், படங்கள், விலைகள் மற்றும் கிடைக்கும் நிலை முன்னறிவிப்பின்றி மாறலாம். தயாரிப்புகள் நியூட்ராசூட்டிக்கல்களாக விற்கப்படுகின்றன; எந்த நோயையும் கண்டறியவோ, சிகிச்சையளிக்கவோ, குணப்படுத்தவோ அல்லது தடுக்கவோ அவை நோக்கப்படவில்லை."
+      "title": "Product Information",
+      "body": "Product descriptions, images, and details are provided for general information and may be updated without notice."
+    },
+    "health": {
+      "title": "Health Disclaimer",
+      "body": "Nutraceutical products are not intended to diagnose, treat, cure, or prevent any disease. Results may vary."
     },
     "intellectualProperty": {
-      "title": "அறிவுசார் சொத்து",
-      "body": "உரை, படங்கள், சின்னங்கள், காணொளிகள், வடிவமைப்புகள் மற்றும் வர்த்தகமுத்திரைகள் உட்பட இந்த வலைத்தளத்தின் அனைத்து உள்ளடக்கமும் Kalonlife-இன் சொத்து. எழுத்துப்பூர்வ அனுமதி இல்லாமல் அதை மறுஉருவாக்கம் செய்யக்கூடாது."
+      "title": "Intellectual Property",
+      "body": "All website content, trademarks, logos, and materials belong to Kalonlife International India Private Limited unless otherwise stated."
     },
     "liability": {
-      "title": "பொறுப்பின் வரம்பு",
-      "body": "இந்த வலைத்தளம் அல்லது தயாரிப்புகளின் பயன்பாட்டினால் ஏற்படும் எந்த நேரடி, மறைமுக, தற்செயலான அல்லது விளைவு சேதங்களுக்கும் Kalonlife பொறுப்பேற்காது."
+      "title": "Limitation of Liability",
+      "body": "The company is not liable for indirect, incidental, or consequential damages arising from website use or product usage."
     },
     "modifications": {
-      "title": "மாற்றங்கள்",
-      "body": "இந்த பயன்பாட்டு விதிமுறைகளை எந்த நேரத்திலும் மாற்றும் உரிமையை நாங்கள் கொண்டுள்ளோம். வலைத்தளத்தைத் தொடர்ந்து பயன்படுத்துவது புதுப்பிக்கப்பட்ட விதிமுறைகளை ஏற்றதாகக் கருதப்படும்."
+      "title": "Changes to Terms",
+      "body": "Terms may be updated at any time. Continued use of the website constitutes acceptance of revised terms."
     }
   },
   "returnsBody": {
+    "intro": "திரும்பப்பெறுதல், பணத்திரும்பம் மற்றும் மாற்றீடு குறித்த எங்கள் கொள்கை.",
     "noReturn": {
-      "title": "1. திரும்பப்பெறுதல் இல்லை / பணத்திரும்பம் இல்லை கொள்கை",
+      "title": "திரும்பப்பெறுதல் இல்லை / பணத்திரும்பம் இல்லை கொள்கை",
       "body": "ஆரோக்கியம் மற்றும் நியூட்ராசூட்டிகல் பொருட்களின் தன்மை காரணமாக, அனைத்து விற்பனைகளும் இறுதியானவை. ஒருமுறை விற்கப்பட்ட பொருட்களைத் திருப்பித் தரவோ, பணத்தைத் திருப்பிப் பெறவோ முடியாது."
     },
     "damaged": {
-      "title": "2. சேதமடைந்த அல்லது தவறான பொருட்கள்",
+      "title": "சேதமடைந்த அல்லது தவறான பொருட்கள்",
       "intro": "சேதமடைந்த அல்லது தவறான பொருள் வழங்கப்பட்டால்:",
       "items": [
         "ஆர்டர் கிடைத்த 24 மணி நேரத்திற்குள் எங்களுக்குத் தெரிவிக்கவும்",
@@ -708,7 +706,7 @@
       ]
     },
     "ineligible": {
-      "title": "3. பணத்திரும்பத்திற்கு தகுதியின்மை",
+      "title": "பணத்திரும்பத்திற்கு தகுதியின்மை",
       "intro": "இவற்றுக்கு பணத்திரும்பம் வழங்கப்படாது:",
       "items": [
         "மனம் மாறுதல்",
@@ -718,19 +716,56 @@
       ]
     },
     "associate": {
-      "title": "4. அசோசியேட் மற்றும் விளம்பர கொள்முதல்கள்",
+      "title": "அசோசியேட் மற்றும் விளம்பர கொள்முதல்கள்",
       "body": "சலுகைகள், தள்ளுபடிகள், வெகுமதிகள் அல்லது வணிக அளவுகளின் கீழ் வாங்கிய பொருட்களுக்கு பணத்திரும்பம் இல்லை; அவற்றைத் திருப்பித் தரவும் முடியாது."
     }
   },
   "disclaimerBody": {
-    "results": "முடிவுகள் நபருக்கு நபர் மாறுபடலாம். அனைத்து Kalonlife தயாரிப்புகளும் எந்த நோயையும் அல்லது உடல்நலக் குறைவையும் சிகிச்சையளிக்க, குணப்படுத்த, கண்டறிய அல்லது தடுக்க உத்தேசிக்கப்படவில்லை.",
-    "purchase": "இந்த வலைத்தளத்தில் வழங்கப்பட்ட இணைப்புகள் வழியாக ஏதேனும் தயாரிப்புகளை வாங்குவதன் மூலம், தயாரிப்பு பொதியில் வழங்கப்பட்ட அனைத்து அறிவுறுத்தல்கள், சேவை விளக்கங்கள் மற்றும் எச்சரிக்கைகளையும் கவனமாக மதிப்பாய்வு செய்வதற்கு நீங்கள் ஒப்புக்கொள்கிறீர்கள். தயாரிப்புகளின் மூலப்பொருள்கள், பரிந்துரைக்கப்பட்ட அளவுகள் மற்றும் சாத்தியமான விளைவுகள் குறித்து சுயமாக ஆய்வு செய்யவும், இந்த வலைத்தளத்தில் குறிப்பிடப்பட்ட எந்தத் தயாரிப்பையும் பயன்படுத்துவதற்கு முன் உரிமம் பெற்ற சுகாதார நிபுணரை அணுகவும் உங்களுக்கு அறிவுறுத்தப்படுகிறது, குறிப்பாக உங்களுக்கு முன்பே இருக்கும் மருத்துவ நிலைகள், ஒவ்வாமைகள், உணர்திறன்கள் அல்லது பிற சுகாதார கவலைகள் இருந்தால்.",
-    "diet": "எங்கள் தயாரிப்புகளை ஆரோக்கியமான, சமச்சீர் உணவு அல்லது வாழ்க்கைமுறைக்கு மாற்றாகக் கருதக்கூடாது. இந்த வலைத்தளத்தில் வழங்கப்பட்ட தகவல் பொதுவான தகவல் நோக்கங்களுக்காக மட்டுமே, மேலும் இது தொழில்முறை மருத்துவ ஆலோசனை, கண்டறிதல் அல்லது சிகிச்சைக்கு மாற்றாக உத்தேசிக்கப்படவில்லை. ஏதேனும் புதிய சுகாதார முறை அல்லது சிகிச்சைத் திட்டத்தைத் தொடங்குவதற்கு முன் எப்போதும் தகுதிவாய்ந்த சுகாதார நிபுணரை அணுகவும்.",
-    "outcomes": "இந்த வலைத்தளத்தில் உள்ள தயாரிப்புகள் ஆரோக்கியம் மற்றும் நல்வாழ்வை ஆதரிக்கும் வகையில் தயாரிக்கப்பட்டிருந்தாலும், தனிப்பட்ட முடிவுகள் தனிப்பட்ட சுகாதார நிலைகள் மற்றும் வாழ்க்கைமுறை காரணிகளின் அடிப்படையில் மாறுபடலாம். நிறுவனம் குறிப்பிட்ட விளைவுகளுக்கு உத்தரவாதம் அளிக்காது, மேலும் தயாரிப்புகளை ஆரோக்கியமான வாழ்க்கைமுறை மற்றும் சமச்சீர் உணவின் ஒரு பகுதியாகப் பயன்படுத்த வேண்டும் என்று வலுவாகப் பரிந்துரைக்கிறது.",
-    "accuracy": "மூலப்பொருள்கள், நன்மைகள் மற்றும் பயன்பாட்டு அறிவுறுத்தல்கள் உட்பட எங்கள் தயாரிப்புகள் குறித்த துல்லியமான மற்றும் நம்பகமான தகவலை வழங்க நாங்கள் எல்லா முயற்சியும் செய்கிறோம். இருப்பினும், இந்த வலைத்தளத்தில் வழங்கப்பட்ட அனைத்து தகவலும் துல்லியமானது, முழுமையானது அல்லது புதுப்பித்த நிலையில் உள்ளது என்று நாங்கள் உத்தரவாதம் அளிக்க முடியாது. இந்த வலைத்தளத்திலிருந்து பெறப்பட்ட எந்தத் தகவலையும் பிற நம்பகமான ஆதாரங்களுடன் சரிபார்க்கவும், ஏதேனும் மருத்துவ கவலைகள் குறித்து சுகாதார நிபுணரை அணுகவும் நீங்கள் ஊக்குவிக்கப்படுகிறீர்கள்.",
-    "liability": "இந்த வலைத்தளத்தில் வழங்கப்பட்ட தகவலை நீங்கள் பயன்படுத்துவதால் ஏற்படும் எந்தப் பொறுப்பையும், அத்தகைய தகவலின் தவறான புரிதல் அல்லது தவறான விளக்கம் அல்லது எங்கள் தயாரிப்புகளின் பயன்பாட்டினால் ஏற்படும் எதிர்மறை விளைவுகள் உட்பட, நிறுவனம் வெளிப்படையாக மறுக்கிறது. இந்த வலைத்தளத்தைப் பயன்படுத்துவதன் மூலமும் தயாரிப்புகளை வாங்குவதன் மூலமும், எந்தக் கோரிக்கைகள், இழப்புகள் அல்லது சேதங்களிலிருந்தும் நிறுவனத்தை பாதிப்பில்லாமல் வைத்திருக்க நீங்கள் ஒப்புக்கொள்கிறீர்கள்.",
-    "changes": "இந்த வலைத்தளத்தில் கிடைக்கும் தயாரிப்புகள் மற்றும் தகவலில் எந்த நேரத்திலும், முன்னறிவிப்பு இல்லாமல் மாற்றங்கள் செய்யும் உரிமையை நிறுவனம் கொண்டுள்ளது. இதில் தயாரிப்பு மூலப்பொருள்கள், உருவாக்கம் மற்றும் பொதியிடல் ஆகியவற்றில் மாற்றங்கள் அடங்கும், ஆனால் இவை மட்டும் அல்ல.",
-    "agreement": "இந்த வலைத்தளத்தைப் பயன்படுத்துவதன் மூலமும் அதிலிருந்து தயாரிப்புகளை வாங்குவதன் மூலமும், இந்த தயாரிப்பு மறுப்பின் விதிமுறைகளுக்குக் கட்டுப்படுவதற்கு நீங்கள் ஒப்புக்கொள்கிறீர்கள்."
+    "intro": "Important information about our products and website content.",
+    "general": {
+      "title": "General Information",
+      "body": "Information on this website is provided for general wellness education and product awareness."
+    },
+    "results": {
+      "title": "Individual Results",
+      "body": "Results may vary from person to person. No specific outcome is guaranteed."
+    },
+    "medical": {
+      "title": "Not a Medical Claim",
+      "body": "Products are not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    "label": {
+      "title": "Label Information",
+      "body": "Always review product packaging, ingredients, usage directions, and warnings before use."
+    },
+    "advice": {
+      "title": "Professional Advice",
+      "body": "Consult a qualified healthcare or nutrition professional before using any nutraceutical product, especially if pregnant, nursing, under medication, or managing a medical condition."
+    },
+    "lifestyle": {
+      "title": "Lifestyle Responsibility",
+      "body": "Products are not a substitute for a balanced diet, healthy lifestyle, or medical advice."
+    },
+    "outcomes": {
+      "title": "No Guaranteed Outcomes",
+      "body": "Weight management, wellness, or performance-related outcomes depend on multiple individual factors."
+    },
+    "accuracy": {
+      "title": "Accuracy of Information",
+      "body": "While care is taken to keep information accurate, content may contain errors or omissions and may change without notice."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "body": "Kalonlife International India Private Limited is not responsible for misuse of products or reliance on website information."
+    },
+    "changes": {
+      "title": "Changes",
+      "body": "The company reserves the right to modify products, formulations, packaging, and website content without prior notice."
+    },
+    "acceptance": {
+      "title": "Acceptance",
+      "body": "Use of this website or purchase of products indicates acceptance of this disclaimer."
+    }
   },
   "languages": {
     "heading": "உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்",

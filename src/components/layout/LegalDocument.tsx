@@ -13,7 +13,7 @@ export type LegalSection = {
 
 type LegalDocumentProps = {
   title: string;
-  currentHref: (typeof footerQuickLinks)[number]["href"];
+  currentHref: string;
   subtitle?: string;
   intro?: string;
   paragraphs?: string[];
@@ -41,13 +41,14 @@ export async function LegalDocument({
 
   return (
     <div className="legal-page">
-      <article className="legal-document">
-        <header className="legal-document-header">
+      <div className="legal-document-band">
+        <header className="legal-document legal-document-header">
           <h1>{title}</h1>
           {subtitle ? <p className="legal-document-subtitle">{subtitle}</p> : null}
           {intro ? <p className="legal-document-intro">{intro}</p> : null}
         </header>
-
+      </div>
+      <article className="legal-document">
         {paragraphs.length ? (
           <div className="legal-document-paragraphs">
             {paragraphs.map((paragraph, index) => (

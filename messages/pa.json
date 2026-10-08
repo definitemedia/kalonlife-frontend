@@ -101,10 +101,22 @@
     "heading": "ਸਾਡੀ ਵਚਨਬੱਧਤਾ",
     "intro": "ਹਰ ਕਦਮ ਉੱਤੇ ਉੱਤਮਤਾ ਦੇਣ ਲਈ Kalonlife ਵਚਨਬੱਧ ਹੈ।",
     "imageAlt": "ਰੌਸ਼ਨ, ਸ਼ਾਂਤ ਮਾਹੌਲ ਵਿੱਚ ਮੁਸਕਰਾਉਂਦਾ ਇੱਕ ਭਾਰਤੀ ਤੰਦਰੁਸਤੀ ਪੇਸ਼ੇਵਰ",
-    "standards": { "title": "ਉੱਚ ਮਿਆਰ", "description": "ਉਤਪਾਦ ਗੁਣਵੱਤਾ ਅਤੇ ਸੁਰੱਖਿਆ ਦੇ ਉੱਚ ਮਿਆਰ ਬਣਾਈ ਰੱਖਣਾ।" },
-    "ethics": { "title": "ਨੈਤਿਕ ਅਭਿਆਸ", "description": "ਸਾਰੇ ਕੰਮਾਂ ਵਿੱਚ ਨੈਤਿਕ ਕਾਰੋਬਾਰੀ ਅਭਿਆਸਾਂ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨਾ।" },
-    "community": { "title": "ਭਾਈਚਾਰਕ ਵਾਧਾ", "description": "ਭਾਈਚਾਰਕ ਵਾਧੇ ਅਤੇ ਤੰਦਰੁਸਤੀ ਸਿੱਖਿਆ ਦਾ ਸਮਰਥਨ ਕਰਨਾ।" },
-    "opportunities": { "title": "ਲੰਮੇ ਸਮੇਂ ਦੇ ਮੌਕੇ", "description": "ਉਦਯੋਗੀਆਂ ਲਈ ਲੰਮੇ ਸਮੇਂ ਦੇ ਮੌਕੇ ਬਣਾਉਣਾ।" }
+    "standards": {
+      "title": "ਉੱਚ ਮਿਆਰ",
+      "description": "ਉਤਪਾਦ ਗੁਣਵੱਤਾ ਅਤੇ ਸੁਰੱਖਿਆ ਦੇ ਉੱਚ ਮਿਆਰ ਬਣਾਈ ਰੱਖਣਾ।"
+    },
+    "ethics": {
+      "title": "ਨੈਤਿਕ ਅਭਿਆਸ",
+      "description": "ਸਾਰੇ ਕੰਮਾਂ ਵਿੱਚ ਨੈਤਿਕ ਕਾਰੋਬਾਰੀ ਅਭਿਆਸਾਂ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨਾ।"
+    },
+    "community": {
+      "title": "ਭਾਈਚਾਰਕ ਵਾਧਾ",
+      "description": "ਭਾਈਚਾਰਕ ਵਾਧੇ ਅਤੇ ਤੰਦਰੁਸਤੀ ਸਿੱਖਿਆ ਦਾ ਸਮਰਥਨ ਕਰਨਾ।"
+    },
+    "opportunities": {
+      "title": "ਲੰਮੇ ਸਮੇਂ ਦੇ ਮੌਕੇ",
+      "description": "ਉਦਯੋਗੀਆਂ ਲਈ ਲੰਮੇ ਸਮੇਂ ਦੇ ਮੌਕੇ ਬਣਾਉਣਾ।"
+    }
   },
   "choose": {
     "eyebrow": "ਸਾਡਾ ਫ਼ਰਕ",
@@ -291,61 +303,219 @@
       "pa": "ਪੰਜਾਬ"
     }
   },
-  "notFound": { "title": "ਪੰਨਾ ਨਹੀਂ ਮਿਲਿਆ" },
+  "notFound": {
+    "title": "ਪੰਨਾ ਨਹੀਂ ਮਿਲਿਆ"
+  },
   "routes": {
-    "home": { "title": "ਹੋਮ", "description": "Kalonlife International ਤੰਦਰੁਸਤੀ ਅਤੇ ਪੋਸ਼ਣ।" },
-    "shop": { "title": "ਦੁਕਾਨ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਅਤੇ ਪੋਸ਼ਣ ਉਤਪਾਦ ਖਰੀਦੋ।" },
-    "about": { "title": "ਸਾਡੇ ਬਾਰੇ", "description": "Kalonlife International India Private Limited ਬਾਰੇ।" },
-    "whyChooseUs": { "title": "ਸਾਨੂੰ ਕਿਉਂ ਚੁਣੋ", "description": "ਲੋਕ Kalonlife ਕਿਉਂ ਚੁਣਦੇ ਹਨ।" },
-    "chairmanMessage": { "title": "ਚੇਅਰਮੈਨ ਦਾ ਸੁਨੇਹਾ", "description": "Kalonlife International ਦੇ ਚੇਅਰਮੈਨ ਦਾ ਸੁਨੇਹਾ।" },
-    "contact": { "title": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ", "description": "Kalonlife International ਨਾਲ ਸੰਪਰਕ ਕਰੋ।" },
-    "terms": { "title": "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ", "description": "ਸਾਡੀ ਵੈੱਬਸਾਈਟ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਸ਼ਰਤਾਂ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ।" },
-    "privacy": { "title": "ਪਰਦੇਦਾਰੀ ਨੀਤੀ", "description": "ਅਸੀਂ ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਕਿਵੇਂ ਇਕੱਠੀ ਕਰਦੇ ਹਾਂ, ਵਰਤਦੇ ਹਾਂ ਅਤੇ ਸੁਰੱਖਿਅਤ ਰੱਖਦੇ ਹਾਂ।" },
-    "shipping": { "title": "ਸ਼ਿਪਿੰਗ ਨੀਤੀ", "description": "ਸਾਡੀ ਸ਼ਿਪਿੰਗ ਅਤੇ ਡਿਲੀਵਰੀ ਪ੍ਰਕਿਰਿਆ ਬਾਰੇ ਤੁਹਾਨੂੰ ਜਾਣਨ ਵਾਲੀ ਹਰ ਗੱਲ।" },
-    "returns": { "title": "ਵਾਪਸੀ ਅਤੇ ਰਿਫੰਡ ਨੀਤੀ", "description": "ਵਾਪਸੀ, ਰਿਫੰਡ ਅਤੇ ਬਦਲਾਅ ਬਾਰੇ ਸਾਡੀ ਨੀਤੀ।" },
-    "disclaimer": { "title": "ਉਤਪਾਦ ਬੇਦਾਅਵਾ", "description": "ਸਾਡੇ ਉਤਪਾਦਾਂ ਅਤੇ ਤੁਹਾਡੀਆਂ ਜ਼ਿੰਮੇਵਾਰੀਆਂ ਬਾਰੇ ਮਹੱਤਵਪੂਰਨ ਜਾਣਕਾਰੀ।" },
-    "cart": { "title": "ਕਾਰਟ", "description": "ਤੁਹਾਡੀ Kalonlife ਖਰੀਦ ਕਾਰਟ।" },
-    "categories": { "title": "ਸ਼੍ਰੇਣੀਆਂ", "description": "Kalonlife ਉਤਪਾਦ ਸ਼੍ਰੇਣੀਆਂ।" },
-    "product": { "title": "ਉਤਪਾਦ", "description": "Kalonlife ਉਤਪਾਦ ਵੇਰਵੇ।" },
-    "articles": { "title": "ਲੇਖ", "description": "Kalonlife ਦੇ ਤੰਦਰੁਸਤੀ ਲੇਖ।" },
-    "article": { "title": "ਲੇਖ", "description": "ਇੱਕ Kalonlife ਤੰਦਰੁਸਤੀ ਲੇਖ।" },
-    "orderForm": { "title": "ਆਰਡਰ ਫਾਰਮ", "description": "Kalonlife ਆਰਡਰ ਫਾਰਮ।" },
-    "connectWithAssociate": { "title": "ਇੱਕ ਐਸੋਸੀਏਟ ਨਾਲ ਜੁੜੋ", "description": "ਇੱਕ Kalonlife ਐਸੋਸੀਏਟ ਨਾਲ ਜੁੜੋ।" },
-    "consultDietician": { "title": "ਆਪਣੇ ਡਾਈਟੀਸ਼ੀਅਨ ਨਾਲ ਸਲਾਹ ਕਰੋ", "description": "ਇੱਕ Kalonlife ਡਾਈਟੀਸ਼ੀਅਨ ਨਾਲ ਸਲਾਹ ਕਰੋ।" },
-    "login": { "title": "ਲਾਗਇਨ", "description": "Kalonlife ਵਿੱਚ ਲਾਗਇਨ ਕਰੋ।" },
-    "forgotPassword": { "title": "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ", "description": "ਆਪਣਾ Kalonlife ਪਾਸਵਰਡ ਰੀਸੈੱਟ ਕਰੋ।" },
-    "customerRegister": { "title": "ਖਾਤਾ ਬਣਾਓ", "description": "ਇੱਕ Kalonlife ਗਾਹਕ ਖਾਤਾ ਬਣਾਓ।" },
-    "paymentSuccess": { "title": "ਭੁਗਤਾਨ ਸਫਲ", "description": "Kalonlife ਭੁਗਤਾਨ ਪੁਸ਼ਟੀ।" },
-    "paymentFailure": { "title": "ਭੁਗਤਾਨ ਅਸਫਲ", "description": "Kalonlife ਭੁਗਤਾਨ ਪੂਰਾ ਨਹੀਂ ਹੋ ਸਕਿਆ।" },
-    "dieticianLogin": { "title": "ਡਾਈਟੀਸ਼ੀਅਨ ਲਾਗਇਨ", "description": "Kalonlife ਡਾਈਟੀਸ਼ੀਅਨ ਲਾਗਇਨ।" },
-    "wellnessHub": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ।" },
-    "wellnessHubAbout": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਬਾਰੇ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਬਾਰੇ।" },
-    "wellnessHubConcept": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀ ਧਾਰਨਾ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀ ਧਾਰਨਾ।" },
-    "wellnessHubServices": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੇਵਾਵਾਂ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀਆਂ ਸੇਵਾਵਾਂ।" },
-    "wellnessHubService": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੇਵਾ", "description": "ਇੱਕ Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੇਵਾ।" },
-    "wellnessHubProducts": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਉਤਪਾਦ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੇ ਉਤਪਾਦ।" },
-    "wellnessHubConsultation": { "title": "ਸਲਾਹ", "description": "Kalonlife ਵਿਖੇ ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸਲਾਹ।" },
-    "wellnessHubFranchise": { "title": "ਫ੍ਰੈਂਚਾਈਜ਼", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਫ੍ਰੈਂਚਾਈਜ਼।" },
-    "wellnessHubDistributor": { "title": "ਵਿਤਰਕ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਵਿਤਰਕ।" },
-    "wellnessHubLocate": { "title": "ਇੱਕ ਕੇਂਦਰ ਲੱਭੋ", "description": "ਇੱਕ Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਲੱਭੋ।" },
-    "wellnessHubStories": { "title": "ਕਹਾਣੀਆਂ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀਆਂ ਕਹਾਣੀਆਂ।" },
-    "wellnessHubEvents": { "title": "ਸਮਾਗਮ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੇ ਸਮਾਗਮ।" },
-    "wellnessHubTraining": { "title": "ਸਿਖਲਾਈ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀ ਸਿਖਲਾਈ।" },
-    "wellnessHubBlog": { "title": "ਬਲੌਗ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਬਲੌਗ।" },
-    "wellnessHubContact": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੰਪਰਕ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।" },
-    "wellnessHubLogin": { "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਲਾਗਇਨ", "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਵਿੱਚ ਲਾਗਇਨ ਕਰੋ।" },
+    "home": {
+      "title": "ਹੋਮ",
+      "description": "Kalonlife International ਤੰਦਰੁਸਤੀ ਅਤੇ ਪੋਸ਼ਣ।"
+    },
+    "shop": {
+      "title": "ਦੁਕਾਨ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਅਤੇ ਪੋਸ਼ਣ ਉਤਪਾਦ ਖਰੀਦੋ।"
+    },
+    "about": {
+      "title": "ਸਾਡੇ ਬਾਰੇ",
+      "description": "Kalonlife International India Private Limited ਬਾਰੇ।"
+    },
+    "whyChooseUs": {
+      "title": "ਸਾਨੂੰ ਕਿਉਂ ਚੁਣੋ",
+      "description": "ਲੋਕ Kalonlife ਕਿਉਂ ਚੁਣਦੇ ਹਨ।"
+    },
+    "chairmanMessage": {
+      "title": "ਚੇਅਰਮੈਨ ਦਾ ਸੁਨੇਹਾ",
+      "description": "Kalonlife International ਦੇ ਚੇਅਰਮੈਨ ਦਾ ਸੁਨੇਹਾ।"
+    },
+    "contact": {
+      "title": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
+      "description": "Kalonlife International ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+    },
+    "terms": {
+      "title": "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ",
+      "description": "Please read these terms carefully before using this website."
+    },
+    "privacy": {
+      "title": "ਪਰਦੇਦਾਰੀ ਨੀਤੀ",
+      "description": "Our policy on how we collect, use, and protect your information."
+    },
+    "shipping": {
+      "title": "ਸ਼ਿਪਿੰਗ ਨੀਤੀ",
+      "description": "ਸਾਡੀ ਸ਼ਿਪਿੰਗ ਅਤੇ ਡਿਲੀਵਰੀ ਪ੍ਰਕਿਰਿਆ ਬਾਰੇ ਤੁਹਾਨੂੰ ਜਾਣਨ ਵਾਲੀ ਹਰ ਗੱਲ।"
+    },
+    "returns": {
+      "title": "ਵਾਪਸੀ ਅਤੇ ਰਿਫੰਡ ਨੀਤੀ",
+      "description": "ਵਾਪਸੀ, ਰਿਫੰਡ ਅਤੇ ਬਦਲਾਅ ਬਾਰੇ ਸਾਡੀ ਨੀਤੀ।"
+    },
+    "disclaimer": {
+      "title": "ਉਤਪਾਦ ਬੇਦਾਅਵਾ",
+      "description": "Important information about our products and website content."
+    },
+    "cart": {
+      "title": "ਕਾਰਟ",
+      "description": "ਤੁਹਾਡੀ Kalonlife ਖਰੀਦ ਕਾਰਟ।"
+    },
+    "categories": {
+      "title": "ਸ਼੍ਰੇਣੀਆਂ",
+      "description": "Kalonlife ਉਤਪਾਦ ਸ਼੍ਰੇਣੀਆਂ।"
+    },
+    "product": {
+      "title": "ਉਤਪਾਦ",
+      "description": "Kalonlife ਉਤਪਾਦ ਵੇਰਵੇ।"
+    },
+    "articles": {
+      "title": "ਲੇਖ",
+      "description": "Kalonlife ਦੇ ਤੰਦਰੁਸਤੀ ਲੇਖ।"
+    },
+    "article": {
+      "title": "ਲੇਖ",
+      "description": "ਇੱਕ Kalonlife ਤੰਦਰੁਸਤੀ ਲੇਖ।"
+    },
+    "orderForm": {
+      "title": "ਆਰਡਰ ਫਾਰਮ",
+      "description": "Kalonlife ਆਰਡਰ ਫਾਰਮ।"
+    },
+    "connectWithAssociate": {
+      "title": "ਇੱਕ ਐਸੋਸੀਏਟ ਨਾਲ ਜੁੜੋ",
+      "description": "ਇੱਕ Kalonlife ਐਸੋਸੀਏਟ ਨਾਲ ਜੁੜੋ।"
+    },
+    "consultDietician": {
+      "title": "ਆਪਣੇ ਡਾਈਟੀਸ਼ੀਅਨ ਨਾਲ ਸਲਾਹ ਕਰੋ",
+      "description": "ਇੱਕ Kalonlife ਡਾਈਟੀਸ਼ੀਅਨ ਨਾਲ ਸਲਾਹ ਕਰੋ।"
+    },
+    "login": {
+      "title": "ਲਾਗਇਨ",
+      "description": "Kalonlife ਵਿੱਚ ਲਾਗਇਨ ਕਰੋ।"
+    },
+    "forgotPassword": {
+      "title": "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ",
+      "description": "ਆਪਣਾ Kalonlife ਪਾਸਵਰਡ ਰੀਸੈੱਟ ਕਰੋ।"
+    },
+    "customerRegister": {
+      "title": "ਖਾਤਾ ਬਣਾਓ",
+      "description": "ਇੱਕ Kalonlife ਗਾਹਕ ਖਾਤਾ ਬਣਾਓ।"
+    },
+    "paymentSuccess": {
+      "title": "ਭੁਗਤਾਨ ਸਫਲ",
+      "description": "Kalonlife ਭੁਗਤਾਨ ਪੁਸ਼ਟੀ।"
+    },
+    "paymentFailure": {
+      "title": "ਭੁਗਤਾਨ ਅਸਫਲ",
+      "description": "Kalonlife ਭੁਗਤਾਨ ਪੂਰਾ ਨਹੀਂ ਹੋ ਸਕਿਆ।"
+    },
+    "dieticianLogin": {
+      "title": "ਡਾਈਟੀਸ਼ੀਅਨ ਲਾਗਇਨ",
+      "description": "Kalonlife ਡਾਈਟੀਸ਼ੀਅਨ ਲਾਗਇਨ।"
+    },
+    "wellnessHub": {
+      "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ।"
+    },
+    "wellnessHubAbout": {
+      "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਬਾਰੇ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਬਾਰੇ।"
+    },
+    "wellnessHubConcept": {
+      "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀ ਧਾਰਨਾ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀ ਧਾਰਨਾ।"
+    },
+    "wellnessHubServices": {
+      "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੇਵਾਵਾਂ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀਆਂ ਸੇਵਾਵਾਂ।"
+    },
+    "wellnessHubService": {
+      "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੇਵਾ",
+      "description": "ਇੱਕ Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੇਵਾ।"
+    },
+    "wellnessHubProducts": {
+      "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਉਤਪਾਦ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੇ ਉਤਪਾਦ।"
+    },
+    "wellnessHubConsultation": {
+      "title": "ਸਲਾਹ",
+      "description": "Kalonlife ਵਿਖੇ ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸਲਾਹ।"
+    },
+    "wellnessHubFranchise": {
+      "title": "ਫ੍ਰੈਂਚਾਈਜ਼",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਫ੍ਰੈਂਚਾਈਜ਼।"
+    },
+    "wellnessHubDistributor": {
+      "title": "ਵਿਤਰਕ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਵਿਤਰਕ।"
+    },
+    "wellnessHubLocate": {
+      "title": "ਇੱਕ ਕੇਂਦਰ ਲੱਭੋ",
+      "description": "ਇੱਕ Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਲੱਭੋ।"
+    },
+    "wellnessHubStories": {
+      "title": "ਕਹਾਣੀਆਂ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀਆਂ ਕਹਾਣੀਆਂ।"
+    },
+    "wellnessHubEvents": {
+      "title": "ਸਮਾਗਮ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੇ ਸਮਾਗਮ।"
+    },
+    "wellnessHubTraining": {
+      "title": "ਸਿਖਲਾਈ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਦੀ ਸਿਖਲਾਈ।"
+    },
+    "wellnessHubBlog": {
+      "title": "ਬਲੌਗ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਬਲੌਗ।"
+    },
+    "wellnessHubContact": {
+      "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਸੰਪਰਕ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+    },
+    "wellnessHubLogin": {
+      "title": "ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਲਾਗਇਨ",
+      "description": "Kalonlife ਤੰਦਰੁਸਤੀ ਕੇਂਦਰ ਵਿੱਚ ਲਾਗਇਨ ਕਰੋ।"
+    },
     "publishedSoon": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।",
-    "sitemap": { "title": "ਸਾਈਟਮੈਪ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "complianceDocuments": { "title": "ਪਾਲਣਾ ਦਸਤਾਵੇਜ਼", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "directSellerPolicy": { "title": "ਸਿੱਧੇ ਵਿਕਰੇਤਾ ਦੀ ਨੀਤੀ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "cautionNotice": { "title": "ਚੇਤਾਵਨੀ ਨੋਟਿਸ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "productQuality": { "title": "ਉਤਪਾਦ ਗੁਣਵੱਤਾ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "csrProjectDetails": { "title": "CSR ਪ੍ਰੋਜੈਕਟ ਵੇਰਵੇ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "csrPolicy": { "title": "CSR ਨੀਤੀ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "typicalDistributedEarnings": { "title": "ਪ੍ਰਤੀਨਿਧ ਵੰਡੀ ਗਈ ਕਮਾਈ ਦਾ ਬਿਆਨ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "complaintsTracker": { "title": "ਸ਼ਿਕਾਇਤ ਟ੍ਰੈਕਰ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "rulesOfConduct": { "title": "ਆਚਰਣ ਨਿਯਮ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" },
-    "termsAndConditions": { "title": "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ", "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।" }
+    "sitemap": {
+      "title": "ਸਾਈਟਮੈਪ",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "complianceDocuments": {
+      "title": "ਪਾਲਣਾ ਦਸਤਾਵੇਜ਼",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "directSellerPolicy": {
+      "title": "ਸਿੱਧੇ ਵਿਕਰੇਤਾ ਦੀ ਨੀਤੀ",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "cautionNotice": {
+      "title": "ਚੇਤਾਵਨੀ ਨੋਟਿਸ",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "productQuality": {
+      "title": "ਉਤਪਾਦ ਗੁਣਵੱਤਾ",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "csrProjectDetails": {
+      "title": "CSR ਪ੍ਰੋਜੈਕਟ ਵੇਰਵੇ",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "csrPolicy": {
+      "title": "CSR ਨੀਤੀ",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "typicalDistributedEarnings": {
+      "title": "ਪ੍ਰਤੀਨਿਧ ਵੰਡੀ ਗਈ ਕਮਾਈ ਦਾ ਬਿਆਨ",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "complaintsTracker": {
+      "title": "ਸ਼ਿਕਾਇਤ ਟ੍ਰੈਕਰ",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "rulesOfConduct": {
+      "title": "ਆਚਰਣ ਨਿਯਮ",
+      "description": "ਇਹ ਪੰਨਾ ਜਲਦੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+    },
+    "termsAndConditions": {
+      "title": "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ",
+      "description": "Please read these terms carefully before using this website."
+    }
   },
   "guidance": {
     "consult": {
@@ -439,36 +609,26 @@
     "personalCare": "ਨਿੱਜੀ ਦੇਖਭਾਲ"
   },
   "privacy": {
-    "intro": "Kalonlife ਵਿੱਚ ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਸਾਡੇ ਲਈ ਮਹੱਤਵਪੂਰਨ ਹੈ। ਇਹ ਪਰਦੇਦਾਰੀ ਨੀਤੀ ਦੱਸਦੀ ਹੈ ਕਿ ਅਸੀਂ ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਕਿਵੇਂ ਇਕੱਠੀ ਕਰਦੇ ਹਾਂ, ਵਰਤਦੇ ਹਾਂ ਅਤੇ ਸੁਰੱਖਿਅਤ ਰੱਖਦੇ ਹਾਂ।",
+    "intro": "Our policy on how we collect, use, and protect your information.",
     "collect": {
-      "title": "1. ਅਸੀਂ ਜੋ ਜਾਣਕਾਰੀ ਇਕੱਠੀ ਕਰਦੇ ਹਾਂ",
-      "items": [
-        "ਨਾਮ, ਈਮੇਲ, ਫ਼ੋਨ ਨੰਬਰ, ਪਤਾ ਵਰਗੇ ਨਿੱਜੀ ਵੇਰਵੇ",
-        "ਆਰਡਰ ਅਤੇ ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ",
-        "ਖਾਤੇ ਅਤੇ KYC ਨਾਲ ਸੰਬੰਧਿਤ ਜਾਣਕਾਰੀ (ਐਸੋਸੀਏਟਾਂ ਲਈ)"
-      ]
+      "title": "Information We Collect",
+      "body": "We may collect personal details such as name, contact number, email address, shipping address, and order information."
     },
     "use": {
-      "title": "2. ਜਾਣਕਾਰੀ ਦੀ ਵਰਤੋਂ",
-      "lead": "ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਇਸ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ:",
-      "items": [
-        "ਆਰਡਰ ਅਤੇ ਭੁਗਤਾਨ ਦੀ ਪ੍ਰਕਿਰਿਆ ਕਰਨ ਲਈ",
-        "ਉਤਪਾਦ ਅਤੇ ਸੇਵਾਵਾਂ ਪਹੁੰਚਾਉਣ ਲਈ",
-        "ਅੱਪਡੇਟ, ਪੇਸ਼ਕਸ਼ਾਂ ਅਤੇ ਸਹਾਇਤਾ ਦੀ ਜਾਣਕਾਰੀ ਦੇਣ ਲਈ",
-        "ਕਾਨੂੰਨੀ ਅਤੇ ਨਿਯੰਤਰਕ ਪਾਲਣਾ ਬਣਾਈ ਰੱਖਣ ਲਈ"
-      ]
+      "title": "Use of Information",
+      "body": "Information is used for order processing, customer support, service improvement, and communication related to purchases."
     },
     "protection": {
-      "title": "3. ਡਾਟਾ ਸੁਰੱਖਿਆ",
-      "body": "ਅਣਅਧਿਕਾਰਤ ਪਹੁੰਚ, ਬਦਲਾਅ ਜਾਂ ਖੁਲਾਸੇ ਤੋਂ ਤੁਹਾਡੇ ਨਿੱਜੀ ਡਾਟੇ ਦੀ ਰੱਖਿਆ ਲਈ ਅਸੀਂ ਢੁਕਵੇਂ ਸੁਰੱਖਿਆ ਉਪਾਅ ਲਾਗੂ ਕਰਦੇ ਹਾਂ।"
+      "title": "Data Protection",
+      "body": "Reasonable security measures are implemented to protect user information. However, no online transmission is completely secure."
     },
     "sharing": {
-      "title": "4. ਜਾਣਕਾਰੀ ਸਾਂਝੀ ਕਰਨਾ",
-      "body": "ਅਸੀਂ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨਹੀਂ ਵੇਚਦੇ ਅਤੇ ਨਾ ਹੀ ਕਿਰਾਏ ਉੱਤੇ ਦਿੰਦੇ ਹਾਂ। ਡਾਟਾ ਸਿਰਫ਼ ਭਰੋਸੇਯੋਗ ਸੇਵਾ ਪ੍ਰਦਾਤਾਵਾਂ ਨਾਲ ਆਰਡਰ ਪੂਰਤੀ, ਭੁਗਤਾਨ ਪ੍ਰਕਿਰਿਆ ਜਾਂ ਕਾਨੂੰਨੀ ਪਾਲਣਾ ਲਈ ਸਾਂਝਾ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।"
+      "title": "Information Sharing",
+      "body": "We do not sell or rent personal information. Information may be shared only with service providers required to fulfill orders or legal obligations."
     },
     "rights": {
-      "title": "5. ਵਰਤੋਂਕਾਰ ਅਧਿਕਾਰ",
-      "body": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਕੇ ਤੁਸੀਂ ਆਪਣੇ ਨਿੱਜੀ ਡਾਟੇ ਤੱਕ ਪਹੁੰਚ, ਸੁਧਾਰ ਜਾਂ ਮਿਟਾਉਣ ਦੀ ਬੇਨਤੀ ਕਰ ਸਕਦੇ ਹੋ।"
+      "title": "User Rights",
+      "body": "Users may request access, correction, or deletion of their personal information by contacting customer support."
     }
   },
   "shippingBody": {
@@ -495,41 +655,49 @@
     }
   },
   "terms": {
-    "title": "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ",
-    "subtitle": "ਸਾਡੀ ਵੈੱਬਸਾਈਟ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਸ਼ਰਤਾਂ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ।",
-    "intro": "Kalonlife International India Private Limited ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ। ਸਾਡੀ ਵੈੱਬਸਾਈਟ, ਉਤਪਾਦਾਂ ਜਾਂ ਸੇਵਾਵਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰਕੇ ਜਾਂ ਉਨ੍ਹਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ, ਤੁਸੀਂ ਹੇਠ ਲਿਖੀਆਂ ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰਨ ਅਤੇ ਉਨ੍ਹਾਂ ਨਾਲ ਬੱਝੇ ਰਹਿਣ ਲਈ ਸਹਿਮਤ ਹੁੰਦੇ ਹੋ।",
+    "title": "Terms of Use",
+    "intro": "Please read these terms carefully before using this website.",
     "acceptance": {
-      "title": "ਸ਼ਰਤਾਂ ਦੀ ਸਵੀਕ੍ਰਿਤੀ",
-      "body": "ਇਸ ਵੈੱਬਸਾਈਟ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਤੁਸੀਂ ਪੁਸ਼ਟੀ ਕਰਦੇ ਹੋ ਕਿ ਤੁਹਾਡੀ ਉਮਰ ਘੱਟੋ-ਘੱਟ 18 ਸਾਲ ਹੈ ਅਤੇ ਤੁਸੀਂ ਇੱਕ ਬੰਧਨਕਾਰੀ ਇਕਰਾਰਨਾਮੇ ਵਿੱਚ ਦਾਖ਼ਲ ਹੋਣ ਲਈ ਕਾਨੂੰਨੀ ਤੌਰ ਤੇ ਸਮਰੱਥ ਹੋ।"
+      "title": "Acceptance of Terms",
+      "body": "By accessing or using this website, you agree to these Terms of Use."
+    },
+    "eligibility": {
+      "title": "Eligibility",
+      "body": "Users must be 18 years or older to place orders or register."
     },
     "usage": {
-      "title": "ਵੈੱਬਸਾਈਟ ਦੀ ਵਰਤੋਂ",
-      "body": "ਤੁਸੀਂ ਇਸ ਵੈੱਬਸਾਈਟ ਨੂੰ ਸਿਰਫ਼ ਕਾਨੂੰਨੀ ਮਕਸਦਾਂ ਲਈ, ਅਤੇ ਇਸ ਤਰ੍ਹਾਂ ਵਰਤਣ ਲਈ ਸਹਿਮਤ ਹੋ ਕਿ ਇਸ ਨਾਲ ਦੂਜਿਆਂ ਦੇ ਅਧਿਕਾਰਾਂ ਦੀ ਉਲੰਘਣਾ ਨਾ ਹੋਵੇ ਅਤੇ ਨਾ ਹੀ ਉਨ੍ਹਾਂ ਦੀ ਵੈੱਬਸਾਈਟ ਵਰਤੋਂ ਸੀਮਤ ਹੋਵੇ।"
+      "title": "Use of Website",
+      "body": "You agree to use the website only for lawful purposes and not to misuse content, services, or systems."
     },
     "productInformation": {
-      "title": "ਉਤਪਾਦ ਜਾਣਕਾਰੀ",
-      "body": "ਸਾਰੇ ਉਤਪਾਦ ਵੇਰਵੇ, ਚਿੱਤਰ, ਕੀਮਤਾਂ ਅਤੇ ਉਪਲਬਧਤਾ ਬਿਨਾਂ ਪਹਿਲਾਂ ਸੂਚਨਾ ਦੇ ਬਦਲ ਸਕਦੇ ਹਨ। ਉਤਪਾਦ ਨਿਊਟਰਾਸਿਊਟੀਕਲ ਵਜੋਂ ਵੇਚੇ ਜਾਂਦੇ ਹਨ ਅਤੇ ਕਿਸੇ ਰੋਗ ਦੀ ਪਛਾਣ, ਇਲਾਜ, ਠੀਕ ਕਰਨ ਜਾਂ ਰੋਕਥਾਮ ਲਈ ਨਹੀਂ ਹਨ।"
+      "title": "Product Information",
+      "body": "Product descriptions, images, and details are provided for general information and may be updated without notice."
+    },
+    "health": {
+      "title": "Health Disclaimer",
+      "body": "Nutraceutical products are not intended to diagnose, treat, cure, or prevent any disease. Results may vary."
     },
     "intellectualProperty": {
-      "title": "ਬੌਧਿਕ ਸੰਪਤੀ",
-      "body": "ਲਿਖਤ, ਚਿੱਤਰ, ਲੋਗੋ, ਵੀਡੀਓ, ਡਿਜ਼ਾਈਨ ਅਤੇ ਟ੍ਰੇਡਮਾਰਕ ਸਮੇਤ ਇਸ ਵੈੱਬਸਾਈਟ ਦੀ ਸਾਰੀ ਸਮੱਗਰੀ Kalonlife ਦੀ ਮਲਕੀਅਤ ਹੈ ਅਤੇ ਲਿਖਤੀ ਇਜਾਜ਼ਤ ਤੋਂ ਬਿਨਾਂ ਇਸ ਦਾ ਪੁਨਰੁਤਪਾਦਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"
+      "title": "Intellectual Property",
+      "body": "All website content, trademarks, logos, and materials belong to Kalonlife International India Private Limited unless otherwise stated."
     },
     "liability": {
-      "title": "ਜ਼ਿੰਮੇਵਾਰੀ ਦੀ ਸੀਮਾ",
-      "body": "ਇਸ ਵੈੱਬਸਾਈਟ ਜਾਂ ਉਤਪਾਦਾਂ ਦੀ ਵਰਤੋਂ ਤੋਂ ਪੈਦਾ ਹੋਣ ਵਾਲੇ ਕਿਸੇ ਵੀ ਸਿੱਧੇ, ਅਸਿੱਧੇ, ਇਤਫਾਕੀ ਜਾਂ ਪਰਿਣਾਮੀ ਨੁਕਸਾਨ ਲਈ Kalonlife ਜ਼ਿੰਮੇਵਾਰ ਨਹੀਂ ਹੋਵੇਗਾ।"
+      "title": "Limitation of Liability",
+      "body": "The company is not liable for indirect, incidental, or consequential damages arising from website use or product usage."
     },
     "modifications": {
-      "title": "ਸੋਧਾਂ",
-      "body": "ਅਸੀਂ ਇਨ੍ਹਾਂ ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ ਨੂੰ ਕਿਸੇ ਵੀ ਸਮੇਂ ਸੋਧਣ ਦਾ ਅਧਿਕਾਰ ਰਾਖਵਾਂ ਰੱਖਦੇ ਹਾਂ। ਵੈੱਬਸਾਈਟ ਦੀ ਲਗਾਤਾਰ ਵਰਤੋਂ ਅੱਪਡੇਟ ਕੀਤੀਆਂ ਸ਼ਰਤਾਂ ਦੀ ਸਵੀਕ੍ਰਿਤੀ ਮੰਨੀ ਜਾਵੇਗੀ।"
+      "title": "Changes to Terms",
+      "body": "Terms may be updated at any time. Continued use of the website constitutes acceptance of revised terms."
     }
   },
   "returnsBody": {
+    "intro": "ਵਾਪਸੀ, ਰਿਫੰਡ ਅਤੇ ਬਦਲਾਅ ਬਾਰੇ ਸਾਡੀ ਨੀਤੀ।",
     "noReturn": {
-      "title": "1. ਕੋਈ ਵਾਪਸੀ ਨਹੀਂ / ਕੋਈ ਰਿਫੰਡ ਨਹੀਂ ਨੀਤੀ",
+      "title": "ਕੋਈ ਵਾਪਸੀ ਨਹੀਂ / ਕੋਈ ਰਿਫੰਡ ਨਹੀਂ ਨੀਤੀ",
       "body": "ਵੈਲਨੈੱਸ ਅਤੇ ਨਿਊਟਰਾਸਿਊਟੀਕਲ ਉਤਪਾਦਾਂ ਦੀ ਪ੍ਰਕਿਰਤੀ ਕਾਰਨ, ਸਾਰੀਆਂ ਵਿਕਰੀਆਂ ਅੰਤਿਮ ਹਨ। ਇੱਕ ਵਾਰ ਵਿਕੇ ਉਤਪਾਦ ਵਾਪਸ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ ਅਤੇ ਨਾ ਹੀ ਉਨ੍ਹਾਂ ਦਾ ਰਿਫੰਡ ਮਿਲਦਾ ਹੈ।"
     },
     "damaged": {
-      "title": "2. ਨੁਕਸਾਨੇ ਜਾਂ ਗਲਤ ਉਤਪਾਦ",
+      "title": "ਨੁਕਸਾਨੇ ਜਾਂ ਗਲਤ ਉਤਪਾਦ",
       "intro": "ਨੁਕਸਾਨੇ ਜਾਂ ਗਲਤ ਉਤਪਾਦ ਦੀ ਡਿਲੀਵਰੀ ਦੀ ਸੂਰਤ ਵਿੱਚ:",
       "items": [
         "ਆਰਡਰ ਮਿਲਣ ਦੇ 24 ਘੰਟਿਆਂ ਵਿੱਚ ਸਾਨੂੰ ਦੱਸੋ",
@@ -538,7 +706,7 @@
       ]
     },
     "ineligible": {
-      "title": "3. ਰਿਫੰਡ ਲਈ ਅਯੋਗਤਾ",
+      "title": "ਰਿਫੰਡ ਲਈ ਅਯੋਗਤਾ",
       "intro": "ਇਹਨਾਂ ਲਈ ਰਿਫੰਡ ਨਹੀਂ ਦਿੱਤਾ ਜਾਵੇਗਾ:",
       "items": [
         "ਮਨ ਬਦਲਣਾ",
@@ -548,19 +716,56 @@
       ]
     },
     "associate": {
-      "title": "4. ਐਸੋਸੀਏਟ ਅਤੇ ਪ੍ਰਮੋਸ਼ਨਲ ਖਰੀਦਾਂ",
+      "title": "ਐਸੋਸੀਏਟ ਅਤੇ ਪ੍ਰਮੋਸ਼ਨਲ ਖਰੀਦਾਂ",
       "body": "ਆਫ਼ਰਾਂ, ਛੋਟਾਂ, ਇਨਾਮਾਂ ਜਾਂ ਬਿਜ਼ਨਸ ਵਾਲੀਅਮ ਹੇਠ ਖਰੀਦੇ ਉਤਪਾਦ ਰਿਫੰਡਯੋਗ ਨਹੀਂ ਅਤੇ ਵਾਪਸ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ।"
     }
   },
   "disclaimerBody": {
-    "results": "ਨਤੀਜੇ ਵਿਅਕਤੀ ਤੋਂ ਵਿਅਕਤੀ ਵੱਖ ਹੋ ਸਕਦੇ ਹਨ। ਸਾਰੇ Kalonlife ਉਤਪਾਦ ਕਿਸੇ ਵੀ ਬਿਮਾਰੀ ਜਾਂ ਰੋਗ ਦੇ ਇਲਾਜ, ਠੀਕ, ਨਿਦਾਨ ਜਾਂ ਰੋਕਥਾਮ ਲਈ ਨਹੀਂ ਹਨ।",
-    "purchase": "ਇਸ ਵੈੱਬਸਾਈਟ ਉੱਤੇ ਦਿੱਤੇ ਲਿੰਕਾਂ ਰਾਹੀਂ ਕੋਈ ਵੀ ਉਤਪਾਦ ਖਰੀਦ ਕੇ, ਤੁਸੀਂ ਉਤਪਾਦ ਦੀ ਪੈਕਿੰਗ ਉੱਤੇ ਦਿੱਤੀਆਂ ਸਾਰੀਆਂ ਹਦਾਇਤਾਂ, ਸੇਵਾ ਵੇਰਵਿਆਂ ਅਤੇ ਚੇਤਾਵਨੀਆਂ ਦੀ ਧਿਆਨ ਨਾਲ ਸਮੀਖਿਆ ਕਰਨ ਲਈ ਸਵੀਕਾਰ ਕਰਦੇ ਹੋ ਅਤੇ ਸਹਿਮਤ ਹੋ। ਤੁਹਾਨੂੰ ਉਤਪਾਦਾਂ ਦੇ ਤੱਤਾਂ, ਸਿਫਾਰਸ਼ ਕੀਤੀਆਂ ਖੁਰਾਕਾਂ ਅਤੇ ਸੰਭਾਵੀ ਅਸਰਾਂ ਬਾਰੇ ਸੁਤੰਤਰ ਖੋਜ ਕਰਨ ਅਤੇ ਇਸ ਵੈੱਬਸਾਈਟ ਉੱਤੇ ਦੱਸੇ ਕਿਸੇ ਵੀ ਉਤਪਾਦ ਨੂੰ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਲਾਇਸੰਸਸ਼ੁਦਾ ਸਿਹਤ ਪੇਸ਼ੇਵਰ ਨਾਲ ਸਲਾਹ ਕਰਨ ਦੀ ਸਲਾਹ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ, ਖਾਸ ਕਰਕੇ ਜੇ ਤੁਹਾਡੀਆਂ ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਡਾਕਟਰੀ ਸਥਿਤੀਆਂ, ਐਲਰਜੀਆਂ, ਸੰਵੇਦਨਸ਼ੀਲਤਾਵਾਂ ਜਾਂ ਹੋਰ ਸਿਹਤ ਸੰਬੰਧੀ ਚਿੰਤਾਵਾਂ ਹਨ।",
-    "diet": "ਸਾਡੇ ਉਤਪਾਦਾਂ ਨੂੰ ਇੱਕ ਸਿਹਤਮੰਦ, ਸੰਤੁਲਿਤ ਖੁਰਾਕ ਜਾਂ ਜੀਵਨਸ਼ੈਲੀ ਦਾ ਬਦਲ ਨਹੀਂ ਮੰਨਿਆ ਜਾਣਾ ਚਾਹੀਦਾ। ਇਸ ਵੈੱਬਸਾਈਟ ਉੱਤੇ ਦਿੱਤੀ ਜਾਣਕਾਰੀ ਸਿਰਫ਼ ਆਮ ਜਾਣਕਾਰੀ ਦੇ ਮਕਸਦ ਲਈ ਹੈ ਅਤੇ ਇਹ ਪੇਸ਼ੇਵਰ ਡਾਕਟਰੀ ਸਲਾਹ, ਨਿਦਾਨ ਜਾਂ ਇਲਾਜ ਦੀ ਥਾਂ ਨਹੀਂ ਲੈਂਦੀ। ਕੋਈ ਵੀ ਨਵੀਂ ਸਿਹਤ ਯੋਜਨਾ ਜਾਂ ਇਲਾਜ ਯੋਜਨਾ ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਹਮੇਸ਼ਾ ਇੱਕ ਯੋਗ ਸਿਹਤ ਪੇਸ਼ੇਵਰ ਨਾਲ ਸਲਾਹ ਕਰੋ।",
-    "outcomes": "ਭਾਵੇਂ ਇਸ ਵੈੱਬਸਾਈਟ ਉੱਤੇ ਉਤਪਾਦ ਸਿਹਤ ਅਤੇ ਤੰਦਰੁਸਤੀ ਦਾ ਸਮਰਥਨ ਕਰਨ ਲਈ ਤਿਆਰ ਕੀਤੇ ਗਏ ਹਨ, ਵਿਅਕਤੀਗਤ ਨਤੀਜੇ ਵਿਅਕਤੀਗਤ ਸਿਹਤ ਸਥਿਤੀਆਂ ਅਤੇ ਜੀਵਨਸ਼ੈਲੀ ਕਾਰਕਾਂ ਦੇ ਆਧਾਰ ਉੱਤੇ ਵੱਖ ਹੋ ਸਕਦੇ ਹਨ। ਕੰਪਨੀ ਖਾਸ ਨਤੀਜਿਆਂ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ ਦਿੰਦੀ ਅਤੇ ਜ਼ੋਰ ਨਾਲ ਸਿਫਾਰਸ਼ ਕਰਦੀ ਹੈ ਕਿ ਉਤਪਾਦਾਂ ਨੂੰ ਸਿਹਤਮੰਦ ਜੀਵਨਸ਼ੈਲੀ ਅਤੇ ਸੰਤੁਲਿਤ ਖੁਰਾਕ ਦੇ ਹਿੱਸੇ ਵਜੋਂ ਵਰਤਿਆ ਜਾਵੇ।",
-    "accuracy": "ਅਸੀਂ ਆਪਣੇ ਉਤਪਾਦਾਂ ਬਾਰੇ, ਤੱਤਾਂ, ਲਾਭਾਂ ਅਤੇ ਵਰਤੋਂ ਦੀਆਂ ਹਦਾਇਤਾਂ ਸਮੇਤ, ਸਹੀ ਅਤੇ ਭਰੋਸੇਯੋਗ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਹਰ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ। ਹਾਲਾਂਕਿ, ਅਸੀਂ ਇਸ ਗੱਲ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ ਦੇ ਸਕਦੇ ਕਿ ਇਸ ਵੈੱਬਸਾਈਟ ਉੱਤੇ ਪੇਸ਼ ਕੀਤੀ ਸਾਰੀ ਜਾਣਕਾਰੀ ਸਹੀ, ਪੂਰੀ ਜਾਂ ਅੱਪ-ਟੂ-ਡੇਟ ਹੈ। ਤੁਹਾਨੂੰ ਇਸ ਵੈੱਬਸਾਈਟ ਤੋਂ ਪ੍ਰਾਪਤ ਕਿਸੇ ਵੀ ਜਾਣਕਾਰੀ ਨੂੰ ਹੋਰ ਭਰੋਸੇਯੋਗ ਸਰੋਤਾਂ ਨਾਲ ਤਸਦੀਕ ਕਰਨ ਅਤੇ ਕਿਸੇ ਵੀ ਡਾਕਟਰੀ ਚਿੰਤਾ ਬਾਰੇ ਸਿਹਤ ਪੇਸ਼ੇਵਰ ਨਾਲ ਸਲਾਹ ਕਰਨ ਲਈ ਉਤਸ਼ਾਹਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
-    "liability": "ਕੰਪਨੀ ਇਸ ਵੈੱਬਸਾਈਟ ਉੱਤੇ ਦਿੱਤੀ ਜਾਣਕਾਰੀ ਦੀ ਤੁਹਾਡੀ ਵਰਤੋਂ ਤੋਂ ਪੈਦਾ ਹੋਣ ਵਾਲੀ ਕਿਸੇ ਵੀ ਜ਼ਿੰਮੇਵਾਰੀ ਨੂੰ ਸਪੱਸ਼ਟ ਤੌਰ ਉੱਤੇ ਅਸਵੀਕਾਰ ਕਰਦੀ ਹੈ, ਜਿਸ ਵਿੱਚ ਅਜਿਹੀ ਜਾਣਕਾਰੀ ਦੀ ਕੋਈ ਗਲਤ ਸਮਝ ਜਾਂ ਗਲਤ ਵਿਆਖਿਆ, ਜਾਂ ਸਾਡੇ ਉਤਪਾਦਾਂ ਦੀ ਵਰਤੋਂ ਤੋਂ ਹੋਣ ਵਾਲੇ ਕੋਈ ਮਾੜੇ ਨਤੀਜੇ ਸ਼ਾਮਲ ਹਨ। ਇਸ ਵੈੱਬਸਾਈਟ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਅਤੇ ਉਤਪਾਦ ਖਰੀਦ ਕੇ, ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਦਾਅਵੇ, ਨੁਕਸਾਨ ਜਾਂ ਹਾਨੀ ਤੋਂ ਕੰਪਨੀ ਨੂੰ ਨੁਕਸਾਨ-ਰਹਿਤ ਰੱਖਣ ਲਈ ਸਹਿਮਤ ਹੋ।",
-    "changes": "ਕੰਪਨੀ ਕਿਸੇ ਵੀ ਸਮੇਂ, ਬਿਨਾਂ ਪਹਿਲਾਂ ਸੂਚਨਾ ਦੇ, ਇਸ ਵੈੱਬਸਾਈਟ ਉੱਤੇ ਉਪਲਬਧ ਉਤਪਾਦਾਂ ਅਤੇ ਜਾਣਕਾਰੀ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਕਰਨ ਦਾ ਅਧਿਕਾਰ ਰਾਖਵਾਂ ਰੱਖਦੀ ਹੈ। ਇਸ ਵਿੱਚ ਉਤਪਾਦ ਦੇ ਤੱਤ, ਫਾਰਮੂਲੇਸ਼ਨ ਅਤੇ ਪੈਕਿੰਗ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਸ਼ਾਮਲ ਹਨ, ਪਰ ਇਹ ਇੰਨੇ ਤੱਕ ਹੀ ਸੀਮਿਤ ਨਹੀਂ।",
-    "agreement": "ਇਸ ਵੈੱਬਸਾਈਟ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਅਤੇ ਇਸ ਤੋਂ ਉਤਪਾਦ ਖਰੀਦ ਕੇ, ਤੁਸੀਂ ਇਸ ਉਤਪਾਦ ਬੇਦਾਅਵੇ ਦੀਆਂ ਸ਼ਰਤਾਂ ਨਾਲ ਬੱਝੇ ਹੋਣ ਲਈ ਸਵੀਕਾਰ ਕਰਦੇ ਹੋ ਅਤੇ ਸਹਿਮਤ ਹੋ।"
+    "intro": "Important information about our products and website content.",
+    "general": {
+      "title": "General Information",
+      "body": "Information on this website is provided for general wellness education and product awareness."
+    },
+    "results": {
+      "title": "Individual Results",
+      "body": "Results may vary from person to person. No specific outcome is guaranteed."
+    },
+    "medical": {
+      "title": "Not a Medical Claim",
+      "body": "Products are not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    "label": {
+      "title": "Label Information",
+      "body": "Always review product packaging, ingredients, usage directions, and warnings before use."
+    },
+    "advice": {
+      "title": "Professional Advice",
+      "body": "Consult a qualified healthcare or nutrition professional before using any nutraceutical product, especially if pregnant, nursing, under medication, or managing a medical condition."
+    },
+    "lifestyle": {
+      "title": "Lifestyle Responsibility",
+      "body": "Products are not a substitute for a balanced diet, healthy lifestyle, or medical advice."
+    },
+    "outcomes": {
+      "title": "No Guaranteed Outcomes",
+      "body": "Weight management, wellness, or performance-related outcomes depend on multiple individual factors."
+    },
+    "accuracy": {
+      "title": "Accuracy of Information",
+      "body": "While care is taken to keep information accurate, content may contain errors or omissions and may change without notice."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "body": "Kalonlife International India Private Limited is not responsible for misuse of products or reliance on website information."
+    },
+    "changes": {
+      "title": "Changes",
+      "body": "The company reserves the right to modify products, formulations, packaging, and website content without prior notice."
+    },
+    "acceptance": {
+      "title": "Acceptance",
+      "body": "Use of this website or purchase of products indicates acceptance of this disclaimer."
+    }
   },
   "languages": {
     "heading": "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { renderPublishedSoon } from "@/lib/render-route";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { TermsOfUseDocument } from "@/components/layout/TermsOfUseDocument";
 import { buildMetadata } from "@/lib/seo";
 
 type Props = {
@@ -13,5 +14,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { locale } = await params;
-  return renderPublishedSoon(locale, "termsAndConditions");
+  setRequestLocale(locale);
+  const routes = await getTranslations({ locale, namespace: "routes.termsAndConditions" });
+
+  return (
+    <TermsOfUseDocument
+      locale={locale}
+      title={routes("title")}
+      currentHref="/terms-and-conditions"
+    />
+  );
 }

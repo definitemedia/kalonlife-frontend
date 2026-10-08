@@ -17,7 +17,7 @@ function PinIcon() {
 function ChevronIcon() {
   return (
     <svg className="footer-locale-chevron" viewBox="0 0 16 16" aria-hidden="true">
-      <path d="M3.5 6 8 10.5 12.5 6" />
+      <path d="M4 6.25 8 10.25 12 6.25" />
     </svg>
   );
 }

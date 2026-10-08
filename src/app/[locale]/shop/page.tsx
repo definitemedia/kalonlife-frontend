@@ -18,7 +18,7 @@ export default async function Page({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "routes" });
 
   return (
-    <div className="container page-shell">
+    <div className="shop-shell page-shell">
       <h1>{t("shop.title")}</h1>
       <ProductCatalog />
     </div>

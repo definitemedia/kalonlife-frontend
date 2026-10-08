@@ -221,12 +221,6 @@
   }
 }
 
-@media (max-width: 22.4375rem) {
-  .goals-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   .goals-card,
   .goals-photo {

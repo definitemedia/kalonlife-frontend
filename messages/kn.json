@@ -307,59 +307,215 @@
     "title": "ಪುಟ ಸಿಗಲಿಲ್ಲ"
   },
   "routes": {
-    "home": { "title": "ಮುಖಪುಟ", "description": "Kalonlife International ಕ್ಷೇಮ ಮತ್ತು ಪೋಷಣೆ." },
-    "shop": { "title": "ಅಂಗಡಿ", "description": "Kalonlife ಕ್ಷೇಮ ಮತ್ತು ಪೌಷ್ಟಿಕ ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸಿ." },
-    "about": { "title": "ನಮ್ಮ ಬಗ್ಗೆ", "description": "Kalonlife International India Private Limited ಬಗ್ಗೆ." },
-    "whyChooseUs": { "title": "ನಮ್ಮನ್ನು ಏಕೆ ಆಯ್ಕೆಮಾಡಬೇಕು", "description": "ಜನರು Kalonlife ಅನ್ನು ಏಕೆ ಆಯ್ಕೆಮಾಡುತ್ತಾರೆ." },
-    "chairmanMessage": { "title": "ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ", "description": "Kalonlife International ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ." },
-    "contact": { "title": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ", "description": "Kalonlife International ಅನ್ನು ಸಂಪರ್ಕಿಸಿ." },
-    "terms": { "title": "ಬಳಕೆಯ ನಿಯಮಗಳು", "description": "ನಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಬಳಸುವ ಮೊದಲು ದಯವಿಟ್ಟು ಈ ನಿಯಮಗಳನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಓದಿ." },
-    "privacy": { "title": "ಗೌಪ್ಯತಾ ನೀತಿ", "description": "ನಾವು ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಹೇಗೆ ಸಂಗ್ರಹಿಸುತ್ತೇವೆ, ಬಳಸುತ್ತೇವೆ ಮತ್ತು ರಕ್ಷಿಸುತ್ತೇವೆ." },
-    "shipping": { "title": "ರವಾನೆ ನೀತಿ", "description": "ನಮ್ಮ ರವಾನೆ ಮತ್ತು ವಿತರಣಾ ಪ್ರಕ್ರಿಯೆಯ ಬಗ್ಗೆ ನೀವು ತಿಳಿದುಕೊಳ್ಳಬೇಕಾದ ಎಲ್ಲಾ ವಿವರಗಳು." },
-    "returns": { "title": "ಹಿಂತಿರುಗಿಸುವಿಕೆ ಮತ್ತು ಮರುಪಾವತಿ ನೀತಿ", "description": "ಹಿಂತಿರುಗಿಸುವಿಕೆ, ಮರುಪಾವತಿ ಮತ್ತು ಬದಲಿಗಳ ಕುರಿತ ನಮ್ಮ ನೀತಿ." },
-    "disclaimer": { "title": "ಉತ್ಪನ್ನ ಹಕ್ಕುತ್ಯಾಗ", "description": "ನಮ್ಮ ಉತ್ಪನ್ನಗಳು ಮತ್ತು ನಿಮ್ಮ ಜವಾಬ್ದಾರಿಗಳ ಬಗ್ಗೆ ಮುಖ್ಯ ಮಾಹಿತಿ." },
-    "cart": { "title": "ಕಾರ್ಟ್", "description": "ನಿಮ್ಮ Kalonlife ಶಾಪಿಂಗ್ ಕಾರ್ಟ್." },
-    "categories": { "title": "ವರ್ಗಗಳು", "description": "Kalonlife ಉತ್ಪನ್ನ ವರ್ಗಗಳು." },
-    "product": { "title": "ಉತ್ಪನ್ನ", "description": "Kalonlife ಉತ್ಪನ್ನ ವಿವರಗಳು." },
-    "articles": { "title": "ಲೇಖನಗಳು", "description": "Kalonlife ನ ಕ್ಷೇಮ ಲೇಖನಗಳು." },
-    "article": { "title": "ಲೇಖನ", "description": "ಒಂದು Kalonlife ಕ್ಷೇಮ ಲೇಖನ." },
-    "orderForm": { "title": "ಆರ್ಡರ್ ಫಾರ್ಮ್", "description": "Kalonlife ಆರ್ಡರ್ ಫಾರ್ಮ್." },
-    "connectWithAssociate": { "title": "ಅಸೋಸಿಯೇಟ್ ಜೊತೆ ಸಂಪರ್ಕಿಸಿ", "description": "Kalonlife ಅಸೋಸಿಯೇಟ್ ಜೊತೆ ಸಂಪರ್ಕಿಸಿ." },
-    "consultDietician": { "title": "ನಿಮ್ಮ ಆಹಾರ ತಜ್ಞರನ್ನು ಸಂಪರ್ಕಿಸಿ", "description": "Kalonlife ಆಹಾರ ತಜ್ಞರನ್ನು ಸಂಪರ್ಕಿಸಿ." },
-    "login": { "title": "ಲಾಗಿನ್", "description": "Kalonlife ಗೆ ಲಾಗಿನ್ ಆಗಿ." },
-    "forgotPassword": { "title": "ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿರಾ", "description": "ನಿಮ್ಮ Kalonlife ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಮರುಹೊಂದಿಸಿ." },
-    "customerRegister": { "title": "ಖಾತೆ ರಚಿಸಿ", "description": "Kalonlife ಗ್ರಾಹಕ ಖಾತೆಯನ್ನು ರಚಿಸಿ." },
-    "paymentSuccess": { "title": "ಪಾವತಿ ಯಶಸ್ವಿ", "description": "Kalonlife ಪಾವತಿ ದೃಢೀಕರಣ." },
-    "paymentFailure": { "title": "ಪಾವತಿ ವಿಫಲ", "description": "Kalonlife ಪಾವತಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ." },
-    "dieticianLogin": { "title": "ಆಹಾರ ತಜ್ಞರ ಲಾಗಿನ್", "description": "Kalonlife ಆಹಾರ ತಜ್ಞರ ಲಾಗಿನ್." },
-    "wellnessHub": { "title": "ಕ್ಷೇಮ ಕೇಂದ್ರ", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರ." },
-    "wellnessHubAbout": { "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಬಗ್ಗೆ", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಬಗ್ಗೆ." },
-    "wellnessHubConcept": { "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಪರಿಕಲ್ಪನೆ", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಪರಿಕಲ್ಪನೆ." },
-    "wellnessHubServices": { "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಸೇವೆಗಳು", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಸೇವೆಗಳು." },
-    "wellnessHubService": { "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಸೇವೆ", "description": "ಒಂದು Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಸೇವೆ." },
-    "wellnessHubProducts": { "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಉತ್ಪನ್ನಗಳು", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಉತ್ಪನ್ನಗಳು." },
-    "wellnessHubConsultation": { "title": "ಸಮಾಲೋಚನೆ", "description": "Kalonlife ನಲ್ಲಿ ಕ್ಷೇಮ ಕೇಂದ್ರ ಸಮಾಲೋಚನೆ." },
-    "wellnessHubFranchise": { "title": "ಫ್ರ್ಯಾಂಚೈಸ್", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರ ಫ್ರ್ಯಾಂಚೈಸ್." },
-    "wellnessHubDistributor": { "title": "ವಿತರಕ", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರ ವಿತರಕ." },
-    "wellnessHubLocate": { "title": "ಕೇಂದ್ರವನ್ನು ಹುಡುಕಿ", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರವನ್ನು ಹುಡುಕಿ." },
-    "wellnessHubStories": { "title": "ಕಥೆಗಳು", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಕಥೆಗಳು." },
-    "wellnessHubEvents": { "title": "ಕಾರ್ಯಕ್ರಮಗಳು", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಕಾರ್ಯಕ್ರಮಗಳು." },
-    "wellnessHubTraining": { "title": "ತರಬೇತಿ", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ತರಬೇತಿ." },
-    "wellnessHubBlog": { "title": "ಬ್ಲಾಗ್", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಬ್ಲಾಗ್." },
-    "wellnessHubContact": { "title": "ಕ್ಷೇಮ ಕೇಂದ್ರ ಸಂಪರ್ಕ", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರವನ್ನು ಸಂಪರ್ಕಿಸಿ." },
-    "wellnessHubLogin": { "title": "ಕ್ಷೇಮ ಕೇಂದ್ರ ಲಾಗಿನ್", "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರಕ್ಕೆ ಲಾಗಿನ್ ಆಗಿ." },
+    "home": {
+      "title": "ಮುಖಪುಟ",
+      "description": "Kalonlife International ಕ್ಷೇಮ ಮತ್ತು ಪೋಷಣೆ."
+    },
+    "shop": {
+      "title": "ಅಂಗಡಿ",
+      "description": "Kalonlife ಕ್ಷೇಮ ಮತ್ತು ಪೌಷ್ಟಿಕ ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸಿ."
+    },
+    "about": {
+      "title": "ನಮ್ಮ ಬಗ್ಗೆ",
+      "description": "Kalonlife International India Private Limited ಬಗ್ಗೆ."
+    },
+    "whyChooseUs": {
+      "title": "ನಮ್ಮನ್ನು ಏಕೆ ಆಯ್ಕೆಮಾಡಬೇಕು",
+      "description": "ಜನರು Kalonlife ಅನ್ನು ಏಕೆ ಆಯ್ಕೆಮಾಡುತ್ತಾರೆ."
+    },
+    "chairmanMessage": {
+      "title": "ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ",
+      "description": "Kalonlife International ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ."
+    },
+    "contact": {
+      "title": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+      "description": "Kalonlife International ಅನ್ನು ಸಂಪರ್ಕಿಸಿ."
+    },
+    "terms": {
+      "title": "ಬಳಕೆಯ ನಿಯಮಗಳು",
+      "description": "Please read these terms carefully before using this website."
+    },
+    "privacy": {
+      "title": "ಗೌಪ್ಯತಾ ನೀತಿ",
+      "description": "Our policy on how we collect, use, and protect your information."
+    },
+    "shipping": {
+      "title": "ರವಾನೆ ನೀತಿ",
+      "description": "ನಮ್ಮ ರವಾನೆ ಮತ್ತು ವಿತರಣಾ ಪ್ರಕ್ರಿಯೆಯ ಬಗ್ಗೆ ನೀವು ತಿಳಿದುಕೊಳ್ಳಬೇಕಾದ ಎಲ್ಲಾ ವಿವರಗಳು."
+    },
+    "returns": {
+      "title": "ಹಿಂತಿರುಗಿಸುವಿಕೆ ಮತ್ತು ಮರುಪಾವತಿ ನೀತಿ",
+      "description": "ಹಿಂತಿರುಗಿಸುವಿಕೆ, ಮರುಪಾವತಿ ಮತ್ತು ಬದಲಿಗಳ ಕುರಿತ ನಮ್ಮ ನೀತಿ."
+    },
+    "disclaimer": {
+      "title": "ಉತ್ಪನ್ನ ಹಕ್ಕುತ್ಯಾಗ",
+      "description": "Important information about our products and website content."
+    },
+    "cart": {
+      "title": "ಕಾರ್ಟ್",
+      "description": "ನಿಮ್ಮ Kalonlife ಶಾಪಿಂಗ್ ಕಾರ್ಟ್."
+    },
+    "categories": {
+      "title": "ವರ್ಗಗಳು",
+      "description": "Kalonlife ಉತ್ಪನ್ನ ವರ್ಗಗಳು."
+    },
+    "product": {
+      "title": "ಉತ್ಪನ್ನ",
+      "description": "Kalonlife ಉತ್ಪನ್ನ ವಿವರಗಳು."
+    },
+    "articles": {
+      "title": "ಲೇಖನಗಳು",
+      "description": "Kalonlife ನ ಕ್ಷೇಮ ಲೇಖನಗಳು."
+    },
+    "article": {
+      "title": "ಲೇಖನ",
+      "description": "ಒಂದು Kalonlife ಕ್ಷೇಮ ಲೇಖನ."
+    },
+    "orderForm": {
+      "title": "ಆರ್ಡರ್ ಫಾರ್ಮ್",
+      "description": "Kalonlife ಆರ್ಡರ್ ಫಾರ್ಮ್."
+    },
+    "connectWithAssociate": {
+      "title": "ಅಸೋಸಿಯೇಟ್ ಜೊತೆ ಸಂಪರ್ಕಿಸಿ",
+      "description": "Kalonlife ಅಸೋಸಿಯೇಟ್ ಜೊತೆ ಸಂಪರ್ಕಿಸಿ."
+    },
+    "consultDietician": {
+      "title": "ನಿಮ್ಮ ಆಹಾರ ತಜ್ಞರನ್ನು ಸಂಪರ್ಕಿಸಿ",
+      "description": "Kalonlife ಆಹಾರ ತಜ್ಞರನ್ನು ಸಂಪರ್ಕಿಸಿ."
+    },
+    "login": {
+      "title": "ಲಾಗಿನ್",
+      "description": "Kalonlife ಗೆ ಲಾಗಿನ್ ಆಗಿ."
+    },
+    "forgotPassword": {
+      "title": "ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿರಾ",
+      "description": "ನಿಮ್ಮ Kalonlife ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಮರುಹೊಂದಿಸಿ."
+    },
+    "customerRegister": {
+      "title": "ಖಾತೆ ರಚಿಸಿ",
+      "description": "Kalonlife ಗ್ರಾಹಕ ಖಾತೆಯನ್ನು ರಚಿಸಿ."
+    },
+    "paymentSuccess": {
+      "title": "ಪಾವತಿ ಯಶಸ್ವಿ",
+      "description": "Kalonlife ಪಾವತಿ ದೃಢೀಕರಣ."
+    },
+    "paymentFailure": {
+      "title": "ಪಾವತಿ ವಿಫಲ",
+      "description": "Kalonlife ಪಾವತಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+    },
+    "dieticianLogin": {
+      "title": "ಆಹಾರ ತಜ್ಞರ ಲಾಗಿನ್",
+      "description": "Kalonlife ಆಹಾರ ತಜ್ಞರ ಲಾಗಿನ್."
+    },
+    "wellnessHub": {
+      "title": "ಕ್ಷೇಮ ಕೇಂದ್ರ",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರ."
+    },
+    "wellnessHubAbout": {
+      "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಬಗ್ಗೆ",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಬಗ್ಗೆ."
+    },
+    "wellnessHubConcept": {
+      "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಪರಿಕಲ್ಪನೆ",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಪರಿಕಲ್ಪನೆ."
+    },
+    "wellnessHubServices": {
+      "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಸೇವೆಗಳು",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಸೇವೆಗಳು."
+    },
+    "wellnessHubService": {
+      "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಸೇವೆ",
+      "description": "ಒಂದು Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಸೇವೆ."
+    },
+    "wellnessHubProducts": {
+      "title": "ಕ್ಷೇಮ ಕೇಂದ್ರದ ಉತ್ಪನ್ನಗಳು",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಉತ್ಪನ್ನಗಳು."
+    },
+    "wellnessHubConsultation": {
+      "title": "ಸಮಾಲೋಚನೆ",
+      "description": "Kalonlife ನಲ್ಲಿ ಕ್ಷೇಮ ಕೇಂದ್ರ ಸಮಾಲೋಚನೆ."
+    },
+    "wellnessHubFranchise": {
+      "title": "ಫ್ರ್ಯಾಂಚೈಸ್",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರ ಫ್ರ್ಯಾಂಚೈಸ್."
+    },
+    "wellnessHubDistributor": {
+      "title": "ವಿತರಕ",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರ ವಿತರಕ."
+    },
+    "wellnessHubLocate": {
+      "title": "ಕೇಂದ್ರವನ್ನು ಹುಡುಕಿ",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರವನ್ನು ಹುಡುಕಿ."
+    },
+    "wellnessHubStories": {
+      "title": "ಕಥೆಗಳು",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಕಥೆಗಳು."
+    },
+    "wellnessHubEvents": {
+      "title": "ಕಾರ್ಯಕ್ರಮಗಳು",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಕಾರ್ಯಕ್ರಮಗಳು."
+    },
+    "wellnessHubTraining": {
+      "title": "ತರಬೇತಿ",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ತರಬೇತಿ."
+    },
+    "wellnessHubBlog": {
+      "title": "ಬ್ಲಾಗ್",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರದ ಬ್ಲಾಗ್."
+    },
+    "wellnessHubContact": {
+      "title": "ಕ್ಷೇಮ ಕೇಂದ್ರ ಸಂಪರ್ಕ",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರವನ್ನು ಸಂಪರ್ಕಿಸಿ."
+    },
+    "wellnessHubLogin": {
+      "title": "ಕ್ಷೇಮ ಕೇಂದ್ರ ಲಾಗಿನ್",
+      "description": "Kalonlife ಕ್ಷೇಮ ಕೇಂದ್ರಕ್ಕೆ ಲಾಗಿನ್ ಆಗಿ."
+    },
     "publishedSoon": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು.",
-    "sitemap": { "title": "ಸೈಟ್‌ಮ್ಯಾಪ್", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "complianceDocuments": { "title": "ಅನುಸರಣೆ ದಾಖಲೆಗಳು", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "directSellerPolicy": { "title": "ನೇರ ಮಾರಾಟಗಾರ ನೀತಿ", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "cautionNotice": { "title": "ಎಚ್ಚರಿಕೆ ಸೂಚನೆ", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "productQuality": { "title": "ಉತ್ಪನ್ನ ಗುಣಮಟ್ಟ", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "csrProjectDetails": { "title": "CSR ಯೋಜನಾ ವಿವರಗಳು", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "csrPolicy": { "title": "CSR ನೀತಿ", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "typicalDistributedEarnings": { "title": "ವಿಶಿಷ್ಟವಾಗಿ ವಿತರಿಸಲಾದ ಗಳಿಕೆಯ ಹೇಳಿಕೆ", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "complaintsTracker": { "title": "ದೂರು ಟ್ರ್ಯಾಕರ್", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "rulesOfConduct": { "title": "ನಡವಳಿಕೆ ನಿಯಮಗಳು", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." },
-    "termsAndConditions": { "title": "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು", "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು." }
+    "sitemap": {
+      "title": "ಸೈಟ್‌ಮ್ಯಾಪ್",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "complianceDocuments": {
+      "title": "ಅನುಸರಣೆ ದಾಖಲೆಗಳು",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "directSellerPolicy": {
+      "title": "ನೇರ ಮಾರಾಟಗಾರ ನೀತಿ",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "cautionNotice": {
+      "title": "ಎಚ್ಚರಿಕೆ ಸೂಚನೆ",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "productQuality": {
+      "title": "ಉತ್ಪನ್ನ ಗುಣಮಟ್ಟ",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "csrProjectDetails": {
+      "title": "CSR ಯೋಜನಾ ವಿವರಗಳು",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "csrPolicy": {
+      "title": "CSR ನೀತಿ",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "typicalDistributedEarnings": {
+      "title": "ವಿಶಿಷ್ಟವಾಗಿ ವಿತರಿಸಲಾದ ಗಳಿಕೆಯ ಹೇಳಿಕೆ",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "complaintsTracker": {
+      "title": "ದೂರು ಟ್ರ್ಯಾಕರ್",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "rulesOfConduct": {
+      "title": "ನಡವಳಿಕೆ ನಿಯಮಗಳು",
+      "description": "ಈ ಪುಟವನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪ್ರಕಟಿಸಲಾಗುವುದು."
+    },
+    "termsAndConditions": {
+      "title": "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು",
+      "description": "Please read these terms carefully before using this website."
+    }
   },
   "guidance": {
     "consult": {
@@ -476,74 +632,72 @@
     }
   },
   "privacy": {
-    "intro": "Kalonlife ನಲ್ಲಿ ನಿಮ್ಮ ಗೌಪ್ಯತೆ ನಮಗೆ ಮುಖ್ಯ. ಈ ಗೌಪ್ಯತಾ ನೀತಿ ನಾವು ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಹೇಗೆ ಸಂಗ್ರಹಿಸುತ್ತೇವೆ, ಬಳಸುತ್ತೇವೆ ಮತ್ತು ರಕ್ಷಿಸುತ್ತೇವೆ ಎಂಬುದನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+    "intro": "Our policy on how we collect, use, and protect your information.",
     "collect": {
-      "title": "1. ನಾವು ಸಂಗ್ರಹಿಸುವ ಮಾಹಿತಿ",
-      "items": [
-        "ಹೆಸರು, ಇಮೇಲ್, ಫೋನ್ ಸಂಖ್ಯೆ, ವಿಳಾಸದಂತಹ ವೈಯಕ್ತಿಕ ವಿವರಗಳು",
-        "ಆರ್ಡರ್ ಮತ್ತು ಪಾವತಿ ಮಾಹಿತಿ",
-        "ಖಾತೆ ಮತ್ತು KYC ಸಂಬಂಧಿತ ಮಾಹಿತಿ (ಅಸೋಸಿಯೇಟ್‌ಗಳಿಗೆ)"
-      ]
+      "title": "Information We Collect",
+      "body": "We may collect personal details such as name, contact number, email address, shipping address, and order information."
     },
     "use": {
-      "title": "2. ಮಾಹಿತಿಯ ಬಳಕೆ",
-      "lead": "ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಇದಕ್ಕಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ:",
-      "items": [
-        "ಆರ್ಡರ್‌ಗಳು ಮತ್ತು ಪಾವತಿಗಳನ್ನು ಸಂಸ್ಕರಿಸಲು",
-        "ಉತ್ಪನ್ನಗಳು ಮತ್ತು ಸೇವೆಗಳನ್ನು ತಲುಪಿಸಲು",
-        "ನವೀಕರಣಗಳು, ಆಫರ್‌ಗಳು ಮತ್ತು ಬೆಂಬಲವನ್ನು ತಿಳಿಸಲು",
-        "ಕಾನೂನು ಮತ್ತು ನಿಯಂತ್ರಕ ಅನುಸರಣೆಯನ್ನು ಕಾಪಾಡಲು"
-      ]
+      "title": "Use of Information",
+      "body": "Information is used for order processing, customer support, service improvement, and communication related to purchases."
     },
     "protection": {
-      "title": "3. ಡೇಟಾ ರಕ್ಷಣೆ",
-      "body": "ಅನಧಿಕೃತ ಪ್ರವೇಶ, ಬದಲಾವಣೆ ಅಥವಾ ಬಹಿರಂಗಪಡಿಸುವಿಕೆಯಿಂದ ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಡೇಟಾವನ್ನು ರಕ್ಷಿಸಲು ನಾವು ಸೂಕ್ತ ಭದ್ರತಾ ಕ್ರಮಗಳನ್ನು ಜಾರಿಗೊಳಿಸುತ್ತೇವೆ."
+      "title": "Data Protection",
+      "body": "Reasonable security measures are implemented to protect user information. However, no online transmission is completely secure."
     },
     "sharing": {
-      "title": "4. ಮಾಹಿತಿ ಹಂಚಿಕೆ",
-      "body": "ನಾವು ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಮಾರಾಟ ಮಾಡುವುದಿಲ್ಲ ಅಥವಾ ಬಾಡಿಗೆಗೆ ನೀಡುವುದಿಲ್ಲ. ಆರ್ಡರ್ ನೆರವೇರಿಕೆ, ಪಾವತಿ ಸಂಸ್ಕರಣೆ ಅಥವಾ ಕಾನೂನು ಅನುಸರಣೆಗಾಗಿ ಮಾತ್ರ ವಿಶ್ವಾಸಾರ್ಹ ಸೇವಾ ಪೂರೈಕೆದಾರರೊಂದಿಗೆ ಡೇಟಾವನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದು."
+      "title": "Information Sharing",
+      "body": "We do not sell or rent personal information. Information may be shared only with service providers required to fulfill orders or legal obligations."
     },
     "rights": {
-      "title": "5. ಬಳಕೆದಾರ ಹಕ್ಕುಗಳು",
-      "body": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಡೇಟಾಗೆ ಪ್ರವೇಶ, ತಿದ್ದುಪಡಿ ಅಥವಾ ಅಳಿಸುವಿಕೆಯನ್ನು ನೀವು ಕೋರಬಹುದು."
+      "title": "User Rights",
+      "body": "Users may request access, correction, or deletion of their personal information by contacting customer support."
     }
   },
   "terms": {
-    "title": "ಬಳಕೆಯ ನಿಯಮಗಳು",
-    "subtitle": "ನಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಬಳಸುವ ಮೊದಲು ದಯವಿಟ್ಟು ಈ ನಿಯಮಗಳನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಓದಿ.",
-    "intro": "Kalonlife International India Private Limited ಗೆ ಸ್ವಾಗತ. ನಮ್ಮ ವೆಬ್‌ಸೈಟ್, ಉತ್ಪನ್ನಗಳು ಅಥವಾ ಸೇವೆಗಳನ್ನು ಪ್ರವೇಶಿಸುವ ಅಥವಾ ಬಳಸುವ ಮೂಲಕ, ನೀವು ಕೆಳಗಿನ ಬಳಕೆಯ ನಿಯಮಗಳನ್ನು ಪಾಲಿಸಲು ಮತ್ತು ಅವುಗಳಿಗೆ ಬದ್ಧರಾಗಿರಲು ಒಪ್ಪುತ್ತೀರಿ.",
+    "title": "Terms of Use",
+    "intro": "Please read these terms carefully before using this website.",
     "acceptance": {
-      "title": "ನಿಯಮಗಳ ಸ್ವೀಕೃತಿ",
-      "body": "ಈ ವೆಬ್‌ಸೈಟ್ ಬಳಸುವ ಮೂಲಕ, ನಿಮ್ಮ ವಯಸ್ಸು ಕನಿಷ್ಠ 18 ವರ್ಷ ಎಂದು ಮತ್ತು ಬಂಧನಕಾರಿ ಒಪ್ಪಂದಕ್ಕೆ ಪ್ರವೇಶಿಸಲು ನೀವು ಕಾನೂನುಬದ್ಧವಾಗಿ ಸಮರ್ಥರು ಎಂದು ನೀವು ದೃಢೀಕರಿಸುತ್ತೀರಿ."
+      "title": "Acceptance of Terms",
+      "body": "By accessing or using this website, you agree to these Terms of Use."
+    },
+    "eligibility": {
+      "title": "Eligibility",
+      "body": "Users must be 18 years or older to place orders or register."
     },
     "usage": {
-      "title": "ವೆಬ್‌ಸೈಟ್ ಬಳಕೆ",
-      "body": "ನೀವು ಈ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ಕಾನೂನುಬದ್ಧ ಉದ್ದೇಶಗಳಿಗೆ ಮಾತ್ರ, ಇತರರ ಹಕ್ಕುಗಳನ್ನು ಉಲ್ಲಂಘಿಸದ ಮತ್ತು ಅವರ ವೆಬ್‌ಸೈಟ್ ಬಳಕೆಯನ್ನು ನಿರ್ಬಂಧಿಸದ ರೀತಿಯಲ್ಲಿ ಬಳಸಲು ಒಪ್ಪುತ್ತೀರಿ."
+      "title": "Use of Website",
+      "body": "You agree to use the website only for lawful purposes and not to misuse content, services, or systems."
     },
     "productInformation": {
-      "title": "ಉತ್ಪನ್ನ ಮಾಹಿತಿ",
-      "body": "ಎಲ್ಲಾ ಉತ್ಪನ್ನ ವಿವರಣೆಗಳು, ಚಿತ್ರಗಳು, ಬೆಲೆಗಳು ಮತ್ತು ಲಭ್ಯತೆ ಪೂರ್ವ ಸೂಚನೆ ಇಲ್ಲದೆ ಬದಲಾಗಬಹುದು. ಉತ್ಪನ್ನಗಳನ್ನು ನ್ಯೂಟ್ರಾಸ್ಯೂಟಿಕಲ್‌ಗಳಾಗಿ ಮಾರಾಟ ಮಾಡಲಾಗುತ್ತದೆ; ಅವು ಯಾವುದೇ ರೋಗವನ್ನು ಪತ್ತೆಹಚ್ಚಲು, ಚಿಕಿತ್ಸೆ ನೀಡಲು, ಗುಣಪಡಿಸಲು ಅಥವಾ ತಡೆಯಲು ಉದ್ದೇಶಿಸಿಲ್ಲ."
+      "title": "Product Information",
+      "body": "Product descriptions, images, and details are provided for general information and may be updated without notice."
+    },
+    "health": {
+      "title": "Health Disclaimer",
+      "body": "Nutraceutical products are not intended to diagnose, treat, cure, or prevent any disease. Results may vary."
     },
     "intellectualProperty": {
-      "title": "ಬೌದ್ಧಿಕ ಆಸ್ತಿ",
-      "body": "ಪಠ್ಯ, ಚಿತ್ರಗಳು, ಲೋಗೋಗಳು, ವೀಡಿಯೊಗಳು, ವಿನ್ಯಾಸಗಳು ಮತ್ತು ಟ್ರೇಡ್‌ಮಾರ್ಕ್‌ಗಳು ಸೇರಿದಂತೆ ಈ ವೆಬ್‌ಸೈಟ್‌ನ ಎಲ್ಲಾ ವಿಷಯ Kalonlife ಆಸ್ತಿಯಾಗಿದೆ; ಲಿಖಿತ ಅನುಮತಿ ಇಲ್ಲದೆ ಅದನ್ನು ಪುನರುತ್ಪಾದಿಸಬಾರದು."
+      "title": "Intellectual Property",
+      "body": "All website content, trademarks, logos, and materials belong to Kalonlife International India Private Limited unless otherwise stated."
     },
     "liability": {
-      "title": "ಹೊಣೆಗಾರಿಕೆಯ ಮಿತಿ",
-      "body": "ಈ ವೆಬ್‌ಸೈಟ್ ಅಥವಾ ಉತ್ಪನ್ನಗಳ ಬಳಕೆಯಿಂದ ಉಂಟಾಗುವ ಯಾವುದೇ ನೇರ, ಪರೋಕ್ಷ, ಆಕಸ್ಮಿಕ ಅಥವಾ ಪರಿಣಾಮಕಾರಿ ಹಾನಿಗಳಿಗೆ Kalonlife ಹೊಣೆಗಾರನಾಗುವುದಿಲ್ಲ."
+      "title": "Limitation of Liability",
+      "body": "The company is not liable for indirect, incidental, or consequential damages arising from website use or product usage."
     },
     "modifications": {
-      "title": "ಮಾರ್ಪಾಡುಗಳು",
-      "body": "ಈ ಬಳಕೆಯ ನಿಯಮಗಳನ್ನು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಮಾರ್ಪಡಿಸುವ ಹಕ್ಕನ್ನು ನಾವು ಕಾಯ್ದಿರಿಸುತ್ತೇವೆ. ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ಮುಂದುವರಿಸಿ ಬಳಸುವುದು ನವೀಕರಿಸಿದ ನಿಯಮಗಳ ಸ್ವೀಕೃತಿಯಾಗಿ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ."
+      "title": "Changes to Terms",
+      "body": "Terms may be updated at any time. Continued use of the website constitutes acceptance of revised terms."
     }
   },
   "returnsBody": {
+    "intro": "ಹಿಂತಿರುಗಿಸುವಿಕೆ, ಮರುಪಾವತಿ ಮತ್ತು ಬದಲಿಗಳ ಕುರಿತ ನಮ್ಮ ನೀತಿ.",
     "noReturn": {
-      "title": "1. ಹಿಂತಿರುಗಿಸುವಿಕೆ ಇಲ್ಲ / ಮರುಪಾವತಿ ಇಲ್ಲ ನೀತಿ",
+      "title": "ಹಿಂತಿರುಗಿಸುವಿಕೆ ಇಲ್ಲ / ಮರುಪಾವತಿ ಇಲ್ಲ ನೀತಿ",
       "body": "ವೆಲ್‌ನೆಸ್ ಮತ್ತು ನ್ಯೂಟ್ರಾಸ್ಯೂಟಿಕಲ್ ಉತ್ಪನ್ನಗಳ ಸ್ವಭಾವದಿಂದಾಗಿ, ಎಲ್ಲಾ ಮಾರಾಟಗಳು ಅಂತಿಮ. ಒಮ್ಮೆ ಮಾರಾಟವಾದ ಉತ್ಪನ್ನಗಳನ್ನು ಹಿಂತಿರುಗಿಸಲಾಗುವುದಿಲ್ಲ ಮತ್ತು ಮರುಪಾವತಿ ನೀಡಲಾಗುವುದಿಲ್ಲ."
     },
     "damaged": {
-      "title": "2. ಹಾನಿಗೊಳಗಾದ ಅಥವಾ ತಪ್ಪಾದ ಉತ್ಪನ್ನಗಳು",
+      "title": "ಹಾನಿಗೊಳಗಾದ ಅಥವಾ ತಪ್ಪಾದ ಉತ್ಪನ್ನಗಳು",
       "intro": "ಹಾನಿಗೊಳಗಾದ ಅಥವಾ ತಪ್ಪು ಉತ್ಪನ್ನ ವಿತರಣೆಯ ಸಂದರ್ಭದಲ್ಲಿ:",
       "items": [
         "ಆರ್ಡರ್ ಸ್ವೀಕರಿಸಿದ 24 ಗಂಟೆಗಳೊಳಗೆ ನಮಗೆ ತಿಳಿಸಿ",
@@ -552,7 +706,7 @@
       ]
     },
     "ineligible": {
-      "title": "3. ಮರುಪಾವತಿಗೆ ಅನರ್ಹತೆ",
+      "title": "ಮರುಪಾವತಿಗೆ ಅನರ್ಹತೆ",
       "intro": "ಇವುಗಳಿಗೆ ಮರುಪಾವತಿ ನೀಡಲಾಗುವುದಿಲ್ಲ:",
       "items": [
         "ಮನಸ್ಸು ಬದಲಾಯಿಸುವುದು",
@@ -562,19 +716,56 @@
       ]
     },
     "associate": {
-      "title": "4. ಅಸೋಸಿಯೇಟ್ ಮತ್ತು ಪ್ರಚಾರ ಖರೀದಿಗಳು",
+      "title": "ಅಸೋಸಿಯೇಟ್ ಮತ್ತು ಪ್ರಚಾರ ಖರೀದಿಗಳು",
       "body": "ಆಫರ್‌ಗಳು, ರಿಯಾಯಿತಿಗಳು, ಬಹುಮಾನಗಳು ಅಥವಾ ವ್ಯಾಪಾರ ಪ್ರಮಾಣಗಳ ಅಡಿಯಲ್ಲಿ ಖರೀದಿಸಿದ ಉತ್ಪನ್ನಗಳಿಗೆ ಮರುಪಾವತಿ ಇಲ್ಲ ಮತ್ತು ಅವುಗಳನ್ನು ಹಿಂತಿರುಗಿಸಲಾಗುವುದಿಲ್ಲ."
     }
   },
   "disclaimerBody": {
-    "results": "ಫಲಿತಾಂಶಗಳು ವ್ಯಕ್ತಿಯಿಂದ ವ್ಯಕ್ತಿಗೆ ಬದಲಾಗಬಹುದು. ಎಲ್ಲಾ Kalonlife ಉತ್ಪನ್ನಗಳು ಯಾವುದೇ ರೋಗ ಅಥವಾ ಅಸ್ವಸ್ಥತೆಯನ್ನು ಚಿಕಿತ್ಸೆ ಮಾಡಲು, ಗುಣಪಡಿಸಲು, ನಿರ್ಣಯಿಸಲು ಅಥವಾ ತಡೆಯಲು ಉದ್ದೇಶಿಸಲಾಗಿಲ್ಲ.",
-    "purchase": "ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಒದಗಿಸಿದ ಲಿಂಕ್‌ಗಳ ಮೂಲಕ ಯಾವುದೇ ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸುವ ಮೂಲಕ, ಉತ್ಪನ್ನ ಪ್ಯಾಕೇಜಿಂಗ್‌ನಲ್ಲಿ ಒದಗಿಸಿದ ಎಲ್ಲಾ ಸೂಚನೆಗಳು, ಸೇವಾ ವಿವರಣೆಗಳು ಮತ್ತು ಎಚ್ಚರಿಕೆಗಳನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಪರಿಶೀಲಿಸಲು ನೀವು ಒಪ್ಪುತ್ತೀರಿ. ಉತ್ಪನ್ನಗಳ ಘಟಕಾಂಶಗಳು, ಶಿಫಾರಸು ಮಾಡಿದ ಪ್ರಮಾಣಗಳು ಮತ್ತು ಸಂಭಾವ್ಯ ಪರಿಣಾಮಗಳ ಬಗ್ಗೆ ಸ್ವತಂತ್ರ ಸಂಶೋಧನೆ ನಡೆಸಲು ಮತ್ತು ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಉಲ್ಲೇಖಿಸಲಾದ ಯಾವುದೇ ಉತ್ಪನ್ನವನ್ನು ಬಳಸುವ ಮೊದಲು ಪರವಾನಗಿ ಪಡೆದ ಆರೋಗ್ಯ ವೃತ್ತಿಪರರನ್ನು ಸಂಪರ್ಕಿಸಲು ನಿಮಗೆ ಸಲಹೆ ನೀಡಲಾಗುತ್ತದೆ, ವಿಶೇಷವಾಗಿ ನಿಮಗೆ ಮೊದಲೇ ಇರುವ ವೈದ್ಯಕೀಯ ಸ್ಥಿತಿಗಳು, ಅಲರ್ಜಿಗಳು, ಸೂಕ್ಷ್ಮತೆಗಳು ಅಥವಾ ಇತರ ಆರೋಗ್ಯ ಕಾಳಜಿಗಳಿದ್ದರೆ.",
-    "diet": "ನಮ್ಮ ಉತ್ಪನ್ನಗಳನ್ನು ಆರೋಗ್ಯಕರ, ಸಮತೋಲಿತ ಆಹಾರ ಅಥವಾ ಜೀವನಶೈಲಿಗೆ ಬದಲಿಯಾಗಿ ಪರಿಗಣಿಸಬಾರದು. ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಒದಗಿಸಿದ ಮಾಹಿತಿ ಸಾಮಾನ್ಯ ಮಾಹಿತಿ ಉದ್ದೇಶಗಳಿಗೆ ಮಾತ್ರವಾಗಿದೆ ಮತ್ತು ವೃತ್ತಿಪರ ವೈದ್ಯಕೀಯ ಸಲಹೆ, ನಿರ್ಣಯ ಅಥವಾ ಚಿಕಿತ್ಸೆಗೆ ಬದಲಿಯಾಗಿ ಉದ್ದೇಶಿಸಲಾಗಿಲ್ಲ. ಯಾವುದೇ ಹೊಸ ಆರೋಗ್ಯ ವಿಧಾನ ಅಥವಾ ಚಿಕಿತ್ಸಾ ಯೋಜನೆಯನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ಯಾವಾಗಲೂ ಅರ್ಹ ಆರೋಗ್ಯ ವೃತ್ತಿಪರರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
-    "outcomes": "ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿನ ಉತ್ಪನ್ನಗಳು ಆರೋಗ್ಯ ಮತ್ತು ಕ್ಷೇಮವನ್ನು ಬೆಂಬಲಿಸಲು ರೂಪಿಸಲಾಗಿದ್ದರೂ, ವೈಯಕ್ತಿಕ ಫಲಿತಾಂಶಗಳು ವೈಯಕ್ತಿಕ ಆರೋಗ್ಯ ಸ್ಥಿತಿಗಳು ಮತ್ತು ಜೀವನಶೈಲಿ ಅಂಶಗಳ ಆಧಾರದ ಮೇಲೆ ಬದಲಾಗಬಹುದು. ಕಂಪನಿಯು ನಿರ್ದಿಷ್ಟ ಫಲಿತಾಂಶಗಳನ್ನು ಖಾತರಿಪಡಿಸುವುದಿಲ್ಲ ಮತ್ತು ಉತ್ಪನ್ನಗಳನ್ನು ಆರೋಗ್ಯಕರ ಜೀವನಶೈಲಿ ಮತ್ತು ಸಮತೋಲಿತ ಆಹಾರದ ಭಾಗವಾಗಿ ಬಳಸಬೇಕೆಂದು ಬಲವಾಗಿ ಶಿಫಾರಸು ಮಾಡುತ್ತದೆ.",
-    "accuracy": "ಘಟಕಾಂಶಗಳು, ಪ್ರಯೋಜನಗಳು ಮತ್ತು ಬಳಕೆಯ ಸೂಚನೆಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ನಮ್ಮ ಉತ್ಪನ್ನಗಳ ಬಗ್ಗೆ ನಿಖರ ಮತ್ತು ವಿಶ್ವಾಸಾರ್ಹ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸಲು ನಾವು ಎಲ್ಲಾ ಪ್ರಯತ್ನವನ್ನು ಮಾಡುತ್ತೇವೆ. ಆದಾಗ್ಯೂ, ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಪ್ರಸ್ತುತಪಡಿಸಿದ ಎಲ್ಲಾ ಮಾಹಿತಿಯೂ ನಿಖರ, ಸಂಪೂರ್ಣ ಅಥವಾ ನವೀಕೃತವಾಗಿದೆ ಎಂದು ನಾವು ಖಾತರಿಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಈ ವೆಬ್‌ಸೈಟ್‌ನಿಂದ ಪಡೆದ ಯಾವುದೇ ಮಾಹಿತಿಯನ್ನು ಇತರ ವಿಶ್ವಾಸಾರ್ಹ ಮೂಲಗಳೊಂದಿಗೆ ಪರಿಶೀಲಿಸಲು ಮತ್ತು ಯಾವುದೇ ವೈದ್ಯಕೀಯ ಕಾಳಜಿಗಳ ಬಗ್ಗೆ ಆರೋಗ್ಯ ವೃತ್ತಿಪರರನ್ನು ಸಂಪರ್ಕಿಸಲು ನಿಮ್ಮನ್ನು ಪ್ರೋತ್ಸಾಹಿಸಲಾಗುತ್ತದೆ.",
-    "liability": "ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಒದಗಿಸಿದ ಮಾಹಿತಿಯ ನಿಮ್ಮ ಬಳಕೆಯಿಂದ ಉಂಟಾಗುವ ಯಾವುದೇ ಹೊಣೆಗಾರಿಕೆಯನ್ನು, ಅಂತಹ ಮಾಹಿತಿಯ ಯಾವುದೇ ತಪ್ಪು ತಿಳುವಳಿಕೆ ಅಥವಾ ತಪ್ಪು ವ್ಯಾಖ್ಯಾನ, ಅಥವಾ ನಮ್ಮ ಉತ್ಪನ್ನಗಳ ಬಳಕೆಯಿಂದ ಉಂಟಾಗುವ ಯಾವುದೇ ಪ್ರತಿಕೂಲ ಫಲಿತಾಂಶಗಳನ್ನು ಒಳಗೊಂಡಂತೆ, ಕಂಪನಿಯು ಸ್ಪಷ್ಟವಾಗಿ ನಿರಾಕರಿಸುತ್ತದೆ. ಈ ವೆಬ್‌ಸೈಟ್‌ನ್ನು ಬಳಸುವ ಮೂಲಕ ಮತ್ತು ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸುವ ಮೂಲಕ, ಯಾವುದೇ ಕ್ಲೈಮ್‌ಗಳು, ನಷ್ಟಗಳು ಅಥವಾ ಹಾನಿಗಳಿಂದ ಕಂಪನಿಯನ್ನು ಹಾನಿರಹಿತವಾಗಿ ಇರಿಸಲು ನೀವು ಒಪ್ಪುತ್ತೀರಿ.",
-    "changes": "ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಲಭ್ಯವಿರುವ ಉತ್ಪನ್ನಗಳು ಮತ್ತು ಮಾಹಿತಿಯಲ್ಲಿ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ, ಪೂರ್ವ ಸೂಚನೆ ಇಲ್ಲದೆ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡುವ ಹಕ್ಕನ್ನು ಕಂಪನಿಯು ಕಾಯ್ದಿರಿಸಿಕೊಂಡಿದೆ. ಇದರಲ್ಲಿ ಉತ್ಪನ್ನ ಘಟಕಾಂಶಗಳು, ಸೂತ್ರೀಕರಣ ಮತ್ತು ಪ್ಯಾಕೇಜಿಂಗ್‌ನಲ್ಲಿನ ಬದಲಾವಣೆಗಳು ಸೇರಿವೆ, ಆದರೆ ಇವುಗಳಿಗೆ ಮಾತ್ರ ಸೀಮಿತವಾಗಿಲ್ಲ.",
-    "agreement": "ಈ ವೆಬ್‌ಸೈಟ್‌ನ್ನು ಬಳಸುವ ಮೂಲಕ ಮತ್ತು ಅದರಿಂದ ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸುವ ಮೂಲಕ, ಈ ಉತ್ಪನ್ನ ಹಕ್ಕುತ್ಯಾಗದ ನಿಯಮಗಳಿಗೆ ಬದ್ಧರಾಗಲು ನೀವು ಒಪ್ಪುತ್ತೀರಿ."
+    "intro": "Important information about our products and website content.",
+    "general": {
+      "title": "General Information",
+      "body": "Information on this website is provided for general wellness education and product awareness."
+    },
+    "results": {
+      "title": "Individual Results",
+      "body": "Results may vary from person to person. No specific outcome is guaranteed."
+    },
+    "medical": {
+      "title": "Not a Medical Claim",
+      "body": "Products are not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    "label": {
+      "title": "Label Information",
+      "body": "Always review product packaging, ingredients, usage directions, and warnings before use."
+    },
+    "advice": {
+      "title": "Professional Advice",
+      "body": "Consult a qualified healthcare or nutrition professional before using any nutraceutical product, especially if pregnant, nursing, under medication, or managing a medical condition."
+    },
+    "lifestyle": {
+      "title": "Lifestyle Responsibility",
+      "body": "Products are not a substitute for a balanced diet, healthy lifestyle, or medical advice."
+    },
+    "outcomes": {
+      "title": "No Guaranteed Outcomes",
+      "body": "Weight management, wellness, or performance-related outcomes depend on multiple individual factors."
+    },
+    "accuracy": {
+      "title": "Accuracy of Information",
+      "body": "While care is taken to keep information accurate, content may contain errors or omissions and may change without notice."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "body": "Kalonlife International India Private Limited is not responsible for misuse of products or reliance on website information."
+    },
+    "changes": {
+      "title": "Changes",
+      "body": "The company reserves the right to modify products, formulations, packaging, and website content without prior notice."
+    },
+    "acceptance": {
+      "title": "Acceptance",
+      "body": "Use of this website or purchase of products indicates acceptance of this disclaimer."
+    }
   },
   "languages": {
     "heading": "ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",

@@ -1,12 +1,23 @@
 .legal-page {
+  background: var(--color-surface);
+}
+
+.legal-document-band {
   background: var(--color-neutral);
 }
 
 .legal-document {
   width: min(100% - var(--space-8), 44rem);
   margin-inline: auto;
-  padding-block: clamp(2.5rem, 6vw, var(--space-10));
   overflow-wrap: break-word;
+}
+
+.legal-document-header {
+  padding-block: clamp(2.5rem, 6vw, var(--space-10)) var(--space-8);
+}
+
+.legal-document:not(.legal-document-header) {
+  padding-bottom: clamp(2.5rem, 6vw, var(--space-10));
 }
 
 .legal-document h1 {
@@ -26,15 +37,10 @@
 }
 
 .legal-document-intro {
-  margin: var(--space-5) 0 0;
+  margin: var(--space-4) 0 0;
   color: var(--color-dark);
-  font-size: var(--text-body);
-  line-height: 1.75;
-}
-
-.legal-document-paragraphs,
-.legal-document-sections {
-  margin-top: var(--space-8);
+  font-size: var(--text-lg);
+  line-height: 1.7;
 }
 
 .legal-document-paragraphs > p,
@@ -61,7 +67,7 @@
 
 .legal-document-index {
   flex: 0 0 auto;
-  min-width: 1.75rem;
+  min-width: 2.5rem;
   color: var(--color-primary);
   font-variant-numeric: tabular-nums;
   font-weight: var(--weight-semibold);

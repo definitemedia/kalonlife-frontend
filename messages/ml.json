@@ -101,10 +101,22 @@
     "heading": "ഞങ്ങളുടെ പ്രതിബദ്ധത",
     "intro": "ഓരോ ഘട്ടത്തിലും മികവ് നൽകാൻ Kalonlife പ്രതിജ്ഞാബദ്ധമാണ്.",
     "imageAlt": "തെളിഞ്ഞ, ശാന്തമായ അന്തരീക്ഷത്തിൽ പുഞ്ചിരിക്കുന്ന ഒരു ഇന്ത്യൻ ആരോഗ്യ വിദഗ്ധൻ",
-    "standards": { "title": "ഉയർന്ന നിലവാരം", "description": "ഉൽപ്പന്ന ഗുണനിലവാരത്തിന്റെയും സുരക്ഷയുടെയും ഉയർന്ന നിലവാരം നിലനിർത്തുക." },
-    "ethics": { "title": "ധാർമിക രീതികൾ", "description": "എല്ലാ പ്രവർത്തനങ്ങളിലും ധാർമിക ബിസിനസ് രീതികൾ പ്രോത്സാഹിപ്പിക്കുക." },
-    "community": { "title": "സമൂഹ വളർച്ച", "description": "സമൂഹ വളർച്ചയെയും ആരോഗ്യ വിദ്യാഭ്യാസത്തെയും പിന്തുണയ്ക്കുക." },
-    "opportunities": { "title": "ദീർഘകാല അവസരങ്ങൾ", "description": "സംരംഭകർക്ക് ദീർഘകാല അവസരങ്ങൾ സൃഷ്ടിക്കുക." }
+    "standards": {
+      "title": "ഉയർന്ന നിലവാരം",
+      "description": "ഉൽപ്പന്ന ഗുണനിലവാരത്തിന്റെയും സുരക്ഷയുടെയും ഉയർന്ന നിലവാരം നിലനിർത്തുക."
+    },
+    "ethics": {
+      "title": "ധാർമിക രീതികൾ",
+      "description": "എല്ലാ പ്രവർത്തനങ്ങളിലും ധാർമിക ബിസിനസ് രീതികൾ പ്രോത്സാഹിപ്പിക്കുക."
+    },
+    "community": {
+      "title": "സമൂഹ വളർച്ച",
+      "description": "സമൂഹ വളർച്ചയെയും ആരോഗ്യ വിദ്യാഭ്യാസത്തെയും പിന്തുണയ്ക്കുക."
+    },
+    "opportunities": {
+      "title": "ദീർഘകാല അവസരങ്ങൾ",
+      "description": "സംരംഭകർക്ക് ദീർഘകാല അവസരങ്ങൾ സൃഷ്ടിക്കുക."
+    }
   },
   "choose": {
     "eyebrow": "ഞങ്ങളുടെ വ്യത്യാസം",
@@ -291,61 +303,219 @@
       "pa": "പഞ്ചാബ്"
     }
   },
-  "notFound": { "title": "പേജ് കണ്ടെത്താനായില്ല" },
+  "notFound": {
+    "title": "പേജ് കണ്ടെത്താനായില്ല"
+  },
   "routes": {
-    "home": { "title": "ഹോം", "description": "Kalonlife International ആരോഗ്യവും പോഷണവും." },
-    "shop": { "title": "ഷോപ്പ്", "description": "Kalonlife ആരോഗ്യ-പോഷക ഉൽപ്പന്നങ്ങൾ വാങ്ങുക." },
-    "about": { "title": "ഞങ്ങളെക്കുറിച്ച്", "description": "Kalonlife International India Private Limitedയെക്കുറിച്ച്." },
-    "whyChooseUs": { "title": "ഞങ്ങളെ എന്തുകൊണ്ട് തിരഞ്ഞെടുക്കണം", "description": "ആളുകൾ Kalonlife തിരഞ്ഞെടുക്കുന്നത് എന്തുകൊണ്ട്." },
-    "chairmanMessage": { "title": "ചെയർമാന്റെ സന്ദേശം", "description": "Kalonlife International ചെയർമാന്റെ സന്ദേശം." },
-    "contact": { "title": "ഞങ്ങളെ ബന്ധപ്പെടുക", "description": "Kalonlife Internationalനെ ബന്ധപ്പെടുക." },
-    "terms": { "title": "ഉപയോഗ നിബന്ധനകൾ", "description": "ഞങ്ങളുടെ വെബ്‌സൈറ്റ് ഉപയോഗിക്കുന്നതിന് മുമ്പ് ഈ നിബന്ധനകൾ ശ്രദ്ധയോടെ വായിക്കുക." },
-    "privacy": { "title": "സ്വകാര്യതാ നയം", "description": "ഞങ്ങൾ നിങ്ങളുടെ വിവരങ്ങൾ എങ്ങനെ ശേഖരിക്കുന്നു, ഉപയോഗിക്കുന്നു, സംരക്ഷിക്കുന്നു." },
-    "shipping": { "title": "ഷിപ്പിംഗ് നയം", "description": "ഞങ്ങളുടെ ഷിപ്പിംഗ്, ഡെലിവറി പ്രക്രിയയെക്കുറിച്ച് നിങ്ങൾ അറിയേണ്ടതെല്ലാം." },
-    "returns": { "title": "റിട്ടേൺ ആൻഡ് റീഫണ്ട് നയം", "description": "റിട്ടേണുകൾ, റീഫണ്ടുകൾ, പകരം നൽകൽ എന്നിവയെക്കുറിച്ചുള്ള ഞങ്ങളുടെ നയം." },
-    "disclaimer": { "title": "ഉൽപ്പന്ന നിരാകരണം", "description": "ഞങ്ങളുടെ ഉൽപ്പന്നങ്ങളെക്കുറിച്ചും നിങ്ങളുടെ ഉത്തരവാദിത്തങ്ങളെക്കുറിച്ചും പ്രധാന വിവരം." },
-    "cart": { "title": "കാർട്ട്", "description": "നിങ്ങളുടെ Kalonlife ഷോപ്പിംഗ് കാർട്ട്." },
-    "categories": { "title": "വിഭാഗങ്ങൾ", "description": "Kalonlife ഉൽപ്പന്ന വിഭാഗങ്ങൾ." },
-    "product": { "title": "ഉൽപ്പന്നം", "description": "Kalonlife ഉൽപ്പന്ന വിശദാംശങ്ങൾ." },
-    "articles": { "title": "ലേഖനങ്ങൾ", "description": "Kalonlifeയുടെ ആരോഗ്യ ലേഖനങ്ങൾ." },
-    "article": { "title": "ലേഖനം", "description": "ഒരു Kalonlife ആരോഗ്യ ലേഖനം." },
-    "orderForm": { "title": "ഓർഡർ ഫോം", "description": "Kalonlife ഓർഡർ ഫോം." },
-    "connectWithAssociate": { "title": "ഒരു അസോസിയേറ്റുമായി ബന്ധപ്പെടുക", "description": "ഒരു Kalonlife അസോസിയേറ്റുമായി ബന്ധപ്പെടുക." },
-    "consultDietician": { "title": "നിങ്ങളുടെ ഡയറ്റീഷ്യനെ സമീപിക്കുക", "description": "ഒരു Kalonlife ഡയറ്റീഷ്യനെ സമീപിക്കുക." },
-    "login": { "title": "ലോഗിൻ", "description": "Kalonlifeയിലേക്ക് ലോഗിൻ ചെയ്യുക." },
-    "forgotPassword": { "title": "പാസ്‌വേഡ് മറന്നോ", "description": "നിങ്ങളുടെ Kalonlife പാസ്‌വേഡ് പുനഃസജ്ജമാക്കുക." },
-    "customerRegister": { "title": "അക്കൗണ്ട് സൃഷ്ടിക്കുക", "description": "ഒരു Kalonlife ഉപഭോക്തൃ അക്കൗണ്ട് സൃഷ്ടിക്കുക." },
-    "paymentSuccess": { "title": "പേയ്‌മെന്റ് വിജയിച്ചു", "description": "Kalonlife പേയ്‌മെന്റ് സ്ഥിരീകരണം." },
-    "paymentFailure": { "title": "പേയ്‌മെന്റ് പരാജയപ്പെട്ടു", "description": "Kalonlife പേയ്‌മെന്റ് പൂർത്തിയാക്കാൻ കഴിഞ്ഞില്ല." },
-    "dieticianLogin": { "title": "ഡയറ്റീഷ്യൻ ലോഗിൻ", "description": "Kalonlife ഡയറ്റീഷ്യൻ ലോഗിൻ." },
-    "wellnessHub": { "title": "ആരോഗ്യ കേന്ദ്രം", "description": "Kalonlife ആരോഗ്യ കേന്ദ്രം." },
-    "wellnessHubAbout": { "title": "ആരോഗ്യ കേന്ദ്രത്തെക്കുറിച്ച്", "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തെക്കുറിച്ച്." },
-    "wellnessHubConcept": { "title": "ആരോഗ്യ കേന്ദ്ര ആശയം", "description": "Kalonlife ആരോഗ്യ കേന്ദ്ര ആശയം." },
-    "wellnessHubServices": { "title": "ആരോഗ്യ കേന്ദ്ര സേവനങ്ങൾ", "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ സേവനങ്ങൾ." },
-    "wellnessHubService": { "title": "ആരോഗ്യ കേന്ദ്ര സേവനം", "description": "ഒരു Kalonlife ആരോഗ്യ കേന്ദ്ര സേവനം." },
-    "wellnessHubProducts": { "title": "ആരോഗ്യ കേന്ദ്ര ഉൽപ്പന്നങ്ങൾ", "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ ഉൽപ്പന്നങ്ങൾ." },
-    "wellnessHubConsultation": { "title": "കൺസൾട്ടേഷൻ", "description": "Kalonlifeയിലെ ആരോഗ്യ കേന്ദ്ര കൺസൾട്ടേഷൻ." },
-    "wellnessHubFranchise": { "title": "ഫ്രാഞ്ചൈസി", "description": "Kalonlife ആരോഗ്യ കേന്ദ്ര ഫ്രാഞ്ചൈസി." },
-    "wellnessHubDistributor": { "title": "വിതരണക്കാരൻ", "description": "Kalonlife ആരോഗ്യ കേന്ദ്ര വിതരണക്കാരൻ." },
-    "wellnessHubLocate": { "title": "ഒരു കേന്ദ്രം കണ്ടെത്തുക", "description": "ഒരു Kalonlife ആരോഗ്യ കേന്ദ്രം കണ്ടെത്തുക." },
-    "wellnessHubStories": { "title": "കഥകൾ", "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ കഥകൾ." },
-    "wellnessHubEvents": { "title": "പരിപാടികൾ", "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ പരിപാടികൾ." },
-    "wellnessHubTraining": { "title": "പരിശീലനം", "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ പരിശീലനം." },
-    "wellnessHubBlog": { "title": "ബ്ലോഗ്", "description": "Kalonlife ആരോഗ്യ കേന്ദ്ര ബ്ലോഗ്." },
-    "wellnessHubContact": { "title": "ആരോഗ്യ കേന്ദ്ര ബന്ധം", "description": "Kalonlife ആരോഗ്യ കേന്ദ്രവുമായി ബന്ധപ്പെടുക." },
-    "wellnessHubLogin": { "title": "ആരോഗ്യ കേന്ദ്ര ലോഗിൻ", "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലേക്ക് ലോഗിൻ ചെയ്യുക." },
+    "home": {
+      "title": "ഹോം",
+      "description": "Kalonlife International ആരോഗ്യവും പോഷണവും."
+    },
+    "shop": {
+      "title": "ഷോപ്പ്",
+      "description": "Kalonlife ആരോഗ്യ-പോഷക ഉൽപ്പന്നങ്ങൾ വാങ്ങുക."
+    },
+    "about": {
+      "title": "ഞങ്ങളെക്കുറിച്ച്",
+      "description": "Kalonlife International India Private Limitedയെക്കുറിച്ച്."
+    },
+    "whyChooseUs": {
+      "title": "ഞങ്ങളെ എന്തുകൊണ്ട് തിരഞ്ഞെടുക്കണം",
+      "description": "ആളുകൾ Kalonlife തിരഞ്ഞെടുക്കുന്നത് എന്തുകൊണ്ട്."
+    },
+    "chairmanMessage": {
+      "title": "ചെയർമാന്റെ സന്ദേശം",
+      "description": "Kalonlife International ചെയർമാന്റെ സന്ദേശം."
+    },
+    "contact": {
+      "title": "ഞങ്ങളെ ബന്ധപ്പെടുക",
+      "description": "Kalonlife Internationalനെ ബന്ധപ്പെടുക."
+    },
+    "terms": {
+      "title": "ഉപയോഗ നിബന്ധനകൾ",
+      "description": "Please read these terms carefully before using this website."
+    },
+    "privacy": {
+      "title": "സ്വകാര്യതാ നയം",
+      "description": "Our policy on how we collect, use, and protect your information."
+    },
+    "shipping": {
+      "title": "ഷിപ്പിംഗ് നയം",
+      "description": "ഞങ്ങളുടെ ഷിപ്പിംഗ്, ഡെലിവറി പ്രക്രിയയെക്കുറിച്ച് നിങ്ങൾ അറിയേണ്ടതെല്ലാം."
+    },
+    "returns": {
+      "title": "റിട്ടേൺ ആൻഡ് റീഫണ്ട് നയം",
+      "description": "റിട്ടേണുകൾ, റീഫണ്ടുകൾ, പകരം നൽകൽ എന്നിവയെക്കുറിച്ചുള്ള ഞങ്ങളുടെ നയം."
+    },
+    "disclaimer": {
+      "title": "ഉൽപ്പന്ന നിരാകരണം",
+      "description": "Important information about our products and website content."
+    },
+    "cart": {
+      "title": "കാർട്ട്",
+      "description": "നിങ്ങളുടെ Kalonlife ഷോപ്പിംഗ് കാർട്ട്."
+    },
+    "categories": {
+      "title": "വിഭാഗങ്ങൾ",
+      "description": "Kalonlife ഉൽപ്പന്ന വിഭാഗങ്ങൾ."
+    },
+    "product": {
+      "title": "ഉൽപ്പന്നം",
+      "description": "Kalonlife ഉൽപ്പന്ന വിശദാംശങ്ങൾ."
+    },
+    "articles": {
+      "title": "ലേഖനങ്ങൾ",
+      "description": "Kalonlifeയുടെ ആരോഗ്യ ലേഖനങ്ങൾ."
+    },
+    "article": {
+      "title": "ലേഖനം",
+      "description": "ഒരു Kalonlife ആരോഗ്യ ലേഖനം."
+    },
+    "orderForm": {
+      "title": "ഓർഡർ ഫോം",
+      "description": "Kalonlife ഓർഡർ ഫോം."
+    },
+    "connectWithAssociate": {
+      "title": "ഒരു അസോസിയേറ്റുമായി ബന്ധപ്പെടുക",
+      "description": "ഒരു Kalonlife അസോസിയേറ്റുമായി ബന്ധപ്പെടുക."
+    },
+    "consultDietician": {
+      "title": "നിങ്ങളുടെ ഡയറ്റീഷ്യനെ സമീപിക്കുക",
+      "description": "ഒരു Kalonlife ഡയറ്റീഷ്യനെ സമീപിക്കുക."
+    },
+    "login": {
+      "title": "ലോഗിൻ",
+      "description": "Kalonlifeയിലേക്ക് ലോഗിൻ ചെയ്യുക."
+    },
+    "forgotPassword": {
+      "title": "പാസ്‌വേഡ് മറന്നോ",
+      "description": "നിങ്ങളുടെ Kalonlife പാസ്‌വേഡ് പുനഃസജ്ജമാക്കുക."
+    },
+    "customerRegister": {
+      "title": "അക്കൗണ്ട് സൃഷ്ടിക്കുക",
+      "description": "ഒരു Kalonlife ഉപഭോക്തൃ അക്കൗണ്ട് സൃഷ്ടിക്കുക."
+    },
+    "paymentSuccess": {
+      "title": "പേയ്‌മെന്റ് വിജയിച്ചു",
+      "description": "Kalonlife പേയ്‌മെന്റ് സ്ഥിരീകരണം."
+    },
+    "paymentFailure": {
+      "title": "പേയ്‌മെന്റ് പരാജയപ്പെട്ടു",
+      "description": "Kalonlife പേയ്‌മെന്റ് പൂർത്തിയാക്കാൻ കഴിഞ്ഞില്ല."
+    },
+    "dieticianLogin": {
+      "title": "ഡയറ്റീഷ്യൻ ലോഗിൻ",
+      "description": "Kalonlife ഡയറ്റീഷ്യൻ ലോഗിൻ."
+    },
+    "wellnessHub": {
+      "title": "ആരോഗ്യ കേന്ദ്രം",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്രം."
+    },
+    "wellnessHubAbout": {
+      "title": "ആരോഗ്യ കേന്ദ്രത്തെക്കുറിച്ച്",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തെക്കുറിച്ച്."
+    },
+    "wellnessHubConcept": {
+      "title": "ആരോഗ്യ കേന്ദ്ര ആശയം",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്ര ആശയം."
+    },
+    "wellnessHubServices": {
+      "title": "ആരോഗ്യ കേന്ദ്ര സേവനങ്ങൾ",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ സേവനങ്ങൾ."
+    },
+    "wellnessHubService": {
+      "title": "ആരോഗ്യ കേന്ദ്ര സേവനം",
+      "description": "ഒരു Kalonlife ആരോഗ്യ കേന്ദ്ര സേവനം."
+    },
+    "wellnessHubProducts": {
+      "title": "ആരോഗ്യ കേന്ദ്ര ഉൽപ്പന്നങ്ങൾ",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ ഉൽപ്പന്നങ്ങൾ."
+    },
+    "wellnessHubConsultation": {
+      "title": "കൺസൾട്ടേഷൻ",
+      "description": "Kalonlifeയിലെ ആരോഗ്യ കേന്ദ്ര കൺസൾട്ടേഷൻ."
+    },
+    "wellnessHubFranchise": {
+      "title": "ഫ്രാഞ്ചൈസി",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്ര ഫ്രാഞ്ചൈസി."
+    },
+    "wellnessHubDistributor": {
+      "title": "വിതരണക്കാരൻ",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്ര വിതരണക്കാരൻ."
+    },
+    "wellnessHubLocate": {
+      "title": "ഒരു കേന്ദ്രം കണ്ടെത്തുക",
+      "description": "ഒരു Kalonlife ആരോഗ്യ കേന്ദ്രം കണ്ടെത്തുക."
+    },
+    "wellnessHubStories": {
+      "title": "കഥകൾ",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ കഥകൾ."
+    },
+    "wellnessHubEvents": {
+      "title": "പരിപാടികൾ",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ പരിപാടികൾ."
+    },
+    "wellnessHubTraining": {
+      "title": "പരിശീലനം",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലെ പരിശീലനം."
+    },
+    "wellnessHubBlog": {
+      "title": "ബ്ലോഗ്",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്ര ബ്ലോഗ്."
+    },
+    "wellnessHubContact": {
+      "title": "ആരോഗ്യ കേന്ദ്ര ബന്ധം",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്രവുമായി ബന്ധപ്പെടുക."
+    },
+    "wellnessHubLogin": {
+      "title": "ആരോഗ്യ കേന്ദ്ര ലോഗിൻ",
+      "description": "Kalonlife ആരോഗ്യ കേന്ദ്രത്തിലേക്ക് ലോഗിൻ ചെയ്യുക."
+    },
     "publishedSoon": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും.",
-    "sitemap": { "title": "സൈറ്റ്മാപ്പ്", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "complianceDocuments": { "title": "അനുസരണ രേഖകൾ", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "directSellerPolicy": { "title": "നേരിട്ടുള്ള വിൽപ്പനക്കാരുടെ നയം", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "cautionNotice": { "title": "ജാഗ്രതാ അറിയിപ്പ്", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "productQuality": { "title": "ഉൽപ്പന്ന ഗുണനിലവാരം", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "csrProjectDetails": { "title": "CSR പദ്ധതി വിശദാംശങ്ങൾ", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "csrPolicy": { "title": "CSR നയം", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "typicalDistributedEarnings": { "title": "സാധാരണ വിതരണം ചെയ്ത വരുമാന പ്രസ്താവന", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "complaintsTracker": { "title": "പരാതി ട്രാക്കർ", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "rulesOfConduct": { "title": "പെരുമാറ്റച്ചട്ടങ്ങൾ", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." },
-    "termsAndConditions": { "title": "വ്യവസ്ഥകളും നിബന്ധനകളും", "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും." }
+    "sitemap": {
+      "title": "സൈറ്റ്മാപ്പ്",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "complianceDocuments": {
+      "title": "അനുസരണ രേഖകൾ",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "directSellerPolicy": {
+      "title": "നേരിട്ടുള്ള വിൽപ്പനക്കാരുടെ നയം",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "cautionNotice": {
+      "title": "ജാഗ്രതാ അറിയിപ്പ്",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "productQuality": {
+      "title": "ഉൽപ്പന്ന ഗുണനിലവാരം",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "csrProjectDetails": {
+      "title": "CSR പദ്ധതി വിശദാംശങ്ങൾ",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "csrPolicy": {
+      "title": "CSR നയം",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "typicalDistributedEarnings": {
+      "title": "സാധാരണ വിതരണം ചെയ്ത വരുമാന പ്രസ്താവന",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "complaintsTracker": {
+      "title": "പരാതി ട്രാക്കർ",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "rulesOfConduct": {
+      "title": "പെരുമാറ്റച്ചട്ടങ്ങൾ",
+      "description": "ഈ പേജ് ഉടൻ പ്രസിദ്ധീകരിക്കും."
+    },
+    "termsAndConditions": {
+      "title": "വ്യവസ്ഥകളും നിബന്ധനകളും",
+      "description": "Please read these terms carefully before using this website."
+    }
   },
   "guidance": {
     "consult": {
@@ -462,74 +632,72 @@
     }
   },
   "privacy": {
-    "intro": "Kalonlife-ൽ നിങ്ങളുടെ സ്വകാര്യത ഞങ്ങൾക്ക് പ്രധാനമാണ്. ഈ സ്വകാര്യതാ നയം ഞങ്ങൾ നിങ്ങളുടെ വിവരങ്ങൾ എങ്ങനെ ശേഖരിക്കുന്നു, ഉപയോഗിക്കുന്നു, സംരക്ഷിക്കുന്നു എന്ന് വിശദീകരിക്കുന്നു.",
+    "intro": "Our policy on how we collect, use, and protect your information.",
     "collect": {
-      "title": "1. ഞങ്ങൾ ശേഖരിക്കുന്ന വിവരങ്ങൾ",
-      "items": [
-        "പേര്, ഇമെയിൽ, ഫോൺ നമ്പർ, വിലാസം തുടങ്ങിയ വ്യക്തിഗത വിവരങ്ങൾ",
-        "ഓർഡറും പേയ്‌മെന്റ് വിവരങ്ങളും",
-        "അക്കൗണ്ടും KYCയുമായി ബന്ധപ്പെട്ട വിവരങ്ങൾ (അസോസിയേറ്റുകൾക്ക്)"
-      ]
+      "title": "Information We Collect",
+      "body": "We may collect personal details such as name, contact number, email address, shipping address, and order information."
     },
     "use": {
-      "title": "2. വിവരങ്ങളുടെ ഉപയോഗം",
-      "lead": "നിങ്ങളുടെ വിവരങ്ങൾ ഇതിനായി ഉപയോഗിക്കുന്നു:",
-      "items": [
-        "ഓർഡറുകളും പേയ്‌മെന്റുകളും പ്രോസസ് ചെയ്യാൻ",
-        "ഉൽപ്പന്നങ്ങളും സേവനങ്ങളും എത്തിക്കാൻ",
-        "അപ്‌ഡേറ്റുകൾ, ഓഫറുകൾ, പിന്തുണ എന്നിവ അറിയിക്കാൻ",
-        "നിയമപരവും നിയന്ത്രണപരവുമായ അനുസരണം നിലനിർത്താൻ"
-      ]
+      "title": "Use of Information",
+      "body": "Information is used for order processing, customer support, service improvement, and communication related to purchases."
     },
     "protection": {
-      "title": "3. ഡാറ്റാ സംരക്ഷണം",
-      "body": "അനധികൃത പ്രവേശനം, മാറ്റം അല്ലെങ്കിൽ വെളിപ്പെടുത്തൽ എന്നിവയിൽ നിന്ന് നിങ്ങളുടെ വ്യക്തിഗത ഡാറ്റ സംരക്ഷിക്കാൻ ഞങ്ങൾ അനുയോജ്യമായ സുരക്ഷാ നടപടികൾ നടപ്പിലാക്കുന്നു."
+      "title": "Data Protection",
+      "body": "Reasonable security measures are implemented to protect user information. However, no online transmission is completely secure."
     },
     "sharing": {
-      "title": "4. വിവരങ്ങൾ പങ്കിടൽ",
-      "body": "ഞങ്ങൾ വ്യക്തിഗത വിവരങ്ങൾ വിൽക്കുകയോ വാടകയ്ക്ക് നൽകുകയോ ചെയ്യുന്നില്ല. ഓർഡർ നിറവേറ്റൽ, പേയ്‌മെന്റ് പ്രോസസിംഗ് അല്ലെങ്കിൽ നിയമപരമായ അനുസരണത്തിന് മാത്രം വിശ്വസനീയ സേവന ദാതാക്കളുമായി ഡാറ്റ പങ്കിടാം."
+      "title": "Information Sharing",
+      "body": "We do not sell or rent personal information. Information may be shared only with service providers required to fulfill orders or legal obligations."
     },
     "rights": {
-      "title": "5. ഉപയോക്തൃ അവകാശങ്ങൾ",
-      "body": "ഞങ്ങളെ ബന്ധപ്പെടുന്നതിലൂടെ നിങ്ങളുടെ വ്യക്തിഗത ഡാറ്റയിലേക്കുള്ള പ്രവേശനം, തിരുത്തൽ അല്ലെങ്കിൽ ഇല്ലാതാക്കൽ നിങ്ങൾക്ക് അഭ്യർത്ഥിക്കാം."
+      "title": "User Rights",
+      "body": "Users may request access, correction, or deletion of their personal information by contacting customer support."
     }
   },
   "terms": {
-    "title": "ഉപയോഗ നിബന്ധനകൾ",
-    "subtitle": "ഞങ്ങളുടെ വെബ്‌സൈറ്റ് ഉപയോഗിക്കുന്നതിന് മുമ്പ് ഈ നിബന്ധനകൾ ശ്രദ്ധയോടെ വായിക്കുക.",
-    "intro": "Kalonlife International India Private Limited-ലേക്ക് സ്വാഗതം. ഞങ്ങളുടെ വെബ്‌സൈറ്റ്, ഉൽപ്പന്നങ്ങൾ അല്ലെങ്കിൽ സേവനങ്ങൾ ആക്‌സസ് ചെയ്യുകയോ ഉപയോഗിക്കുകയോ ചെയ്യുന്നതിലൂടെ, താഴെ പറയുന്ന ഉപയോഗ നിബന്ധനകൾ പാലിക്കാനും അവയ്ക്ക് വിധേയമാകാനും നിങ്ങൾ സമ്മതിക്കുന്നു.",
+    "title": "Terms of Use",
+    "intro": "Please read these terms carefully before using this website.",
     "acceptance": {
-      "title": "നിബന്ധനകളുടെ സ്വീകാരം",
-      "body": "ഈ വെബ്‌സൈറ്റ് ഉപയോഗിക്കുന്നതിലൂടെ, നിങ്ങൾക്ക് കുറഞ്ഞത് 18 വയസ്സ് പൂർത്തിയായിട്ടുണ്ടെന്നും ഒരു ബന്ധന കരാറിൽ ഏർപ്പെടാൻ നിയമപരമായി കഴിവുള്ളയാളാണെന്നും നിങ്ങൾ സ്ഥിരീകരിക്കുന്നു."
+      "title": "Acceptance of Terms",
+      "body": "By accessing or using this website, you agree to these Terms of Use."
+    },
+    "eligibility": {
+      "title": "Eligibility",
+      "body": "Users must be 18 years or older to place orders or register."
     },
     "usage": {
-      "title": "വെബ്‌സൈറ്റ് ഉപയോഗം",
-      "body": "ഈ വെബ്‌സൈറ്റ് നിയമാനുസൃത ആവശ്യങ്ങൾക്ക് മാത്രം, മറ്റുള്ളവരുടെ അവകാശങ്ങൾ ലംഘിക്കാത്തതും അവരുടെ വെബ്‌സൈറ്റ് ഉപയോഗം പരിമിതപ്പെടുത്താത്തതുമായ രീതിയിൽ ഉപയോഗിക്കാൻ നിങ്ങൾ സമ്മതിക്കുന്നു."
+      "title": "Use of Website",
+      "body": "You agree to use the website only for lawful purposes and not to misuse content, services, or systems."
     },
     "productInformation": {
-      "title": "ഉൽപ്പന്ന വിവരം",
-      "body": "എല്ലാ ഉൽപ്പന്ന വിവരണങ്ങളും, ചിത്രങ്ങളും, വിലകളും, ലഭ്യതയും മുൻകൂർ അറിയിപ്പില്ലാതെ മാറാം. ഉൽപ്പന്നങ്ങൾ ന്യൂട്രാസ്യൂട്ടിക്കലുകളായി വിൽക്കുന്നു; ഏതെങ്കിലും രോഗം നിർണയിക്കാനോ ചികിത്സിക്കാനോ സുഖപ്പെടുത്താനോ തടയാനോ അവ ഉദ്ദേശിച്ചിട്ടില്ല."
+      "title": "Product Information",
+      "body": "Product descriptions, images, and details are provided for general information and may be updated without notice."
+    },
+    "health": {
+      "title": "Health Disclaimer",
+      "body": "Nutraceutical products are not intended to diagnose, treat, cure, or prevent any disease. Results may vary."
     },
     "intellectualProperty": {
-      "title": "ബൗദ്ധിക സ്വത്ത്",
-      "body": "വാചകം, ചിത്രങ്ങൾ, ലോഗോകൾ, വീഡിയോകൾ, ഡിസൈനുകൾ, വ്യാപാരമുദ്രകൾ എന്നിവ ഉൾപ്പെടെ ഈ വെബ്‌സൈറ്റിലെ എല്ലാ ഉള്ളടക്കവും Kalonlife-ന്റെ സ്വത്താണ്; രേഖാമൂലമുള്ള അനുമതിയില്ലാതെ അത് പുനർനിർമിക്കരുത്."
+      "title": "Intellectual Property",
+      "body": "All website content, trademarks, logos, and materials belong to Kalonlife International India Private Limited unless otherwise stated."
     },
     "liability": {
-      "title": "ബാധ്യതയുടെ പരിധി",
-      "body": "ഈ വെബ്‌സൈറ്റിന്റെയോ ഉൽപ്പന്നങ്ങളുടെയോ ഉപയോഗത്തിൽ നിന്ന് ഉണ്ടാകുന്ന ഏതെങ്കിലും നേരിട്ടുള്ള, പരോക്ഷമായ, ആകസ്മികമായ അല്ലെങ്കിൽ പരിണിതമായ നഷ്ടങ്ങൾക്ക് Kalonlife ബാധ്യസ്ഥമാകില്ല."
+      "title": "Limitation of Liability",
+      "body": "The company is not liable for indirect, incidental, or consequential damages arising from website use or product usage."
     },
     "modifications": {
-      "title": "മാറ്റങ്ങൾ",
-      "body": "ഈ ഉപയോഗ നിബന്ധനകൾ എപ്പോൾ വേണമെങ്കിലും പരിഷ്കരിക്കാനുള്ള അവകാശം ഞങ്ങൾ നിക്ഷിപ്തമാക്കുന്നു. വെബ്‌സൈറ്റ് തുടർന്നും ഉപയോഗിക്കുന്നത് പുതുക്കിയ നിബന്ധനകളുടെ സ്വീകാരമായി കണക്കാക്കും."
+      "title": "Changes to Terms",
+      "body": "Terms may be updated at any time. Continued use of the website constitutes acceptance of revised terms."
     }
   },
   "returnsBody": {
+    "intro": "റിട്ടേണുകൾ, റീഫണ്ടുകൾ, പകരം നൽകൽ എന്നിവയെക്കുറിച്ചുള്ള ഞങ്ങളുടെ നയം.",
     "noReturn": {
-      "title": "1. റിട്ടേൺ ഇല്ല / റീഫണ്ട് ഇല്ല നയം",
+      "title": "റിട്ടേൺ ഇല്ല / റീഫണ്ട് ഇല്ല നയം",
       "body": "വെൽനസ്, ന്യൂട്രാസ്യൂട്ടിക്കൽ ഉൽപ്പന്നങ്ങളുടെ സ്വഭാവം കാരണം, എല്ലാ വിൽപ്പനയും അന്തിമമാണ്. ഒരിക്കൽ വിൽക്കപ്പെട്ട ഉൽപ്പന്നങ്ങൾ തിരികെ നൽകാനോ റീഫണ്ട് ചെയ്യാനോ കഴിയില്ല."
     },
     "damaged": {
-      "title": "2. കേടായതോ തെറ്റായതോ ആയ ഉൽപ്പന്നങ്ങൾ",
+      "title": "കേടായതോ തെറ്റായതോ ആയ ഉൽപ്പന്നങ്ങൾ",
       "intro": "കേടായതോ തെറ്റായതോ ആയ ഉൽപ്പന്നം എത്തിച്ചാൽ:",
       "items": [
         "ഓർഡർ ലഭിച്ച് 24 മണിക്കൂറിനുള്ളിൽ ഞങ്ങളെ അറിയിക്കുക",
@@ -538,7 +706,7 @@
       ]
     },
     "ineligible": {
-      "title": "3. റീഫണ്ടിന് അയോഗ്യത",
+      "title": "റീഫണ്ടിന് അയോഗ്യത",
       "intro": "ഇവയ്ക്ക് റീഫണ്ട് നൽകില്ല:",
       "items": [
         "മനസ്സ് മാറ്റം",
@@ -548,19 +716,56 @@
       ]
     },
     "associate": {
-      "title": "4. അസോസിയേറ്റ്, പ്രമോഷണൽ വാങ്ങലുകൾ",
+      "title": "അസോസിയേറ്റ്, പ്രമോഷണൽ വാങ്ങലുകൾ",
       "body": "ഓഫറുകൾ, കിഴിവുകൾ, റിവാർഡുകൾ അല്ലെങ്കിൽ ബിസിനസ് വോള്യങ്ങൾക്ക് കീഴിൽ വാങ്ങിയ ഉൽപ്പന്നങ്ങൾ റീഫണ്ട് ചെയ്യില്ല, തിരികെ നൽകാനും കഴിയില്ല."
     }
   },
   "disclaimerBody": {
-    "results": "ഫലങ്ങൾ വ്യക്തിക്ക് വ്യക്തി വ്യത്യാസപ്പെടാം. എല്ലാ Kalonlife ഉൽപ്പന്നങ്ങളും ഏതെങ്കിലും രോഗങ്ങളോ അസുഖമോ ചികിത്സിക്കാനോ, സുഖപ്പെടുത്താനോ, നിർണയിക്കാനോ, തടയാനോ ഉദ്ദേശിച്ചിട്ടുള്ളതല്ല.",
-    "purchase": "ഈ വെബ്‌സൈറ്റിൽ നൽകിയ ലിങ്കുകൾ വഴി ഏതെങ്കിലും ഉൽപ്പന്നങ്ങൾ വാങ്ങുന്നതിലൂടെ, ഉൽപ്പന്ന പാക്കേജിംഗിൽ നൽകിയ എല്ലാ നിർദേശങ്ങളും, സേവന വിവരണങ്ങളും, മുന്നറിയിപ്പുകളും ശ്രദ്ധാപൂർവം അവലോകനം ചെയ്യാൻ നിങ്ങൾ അംഗീകരിക്കുകയും സമ്മതിക്കുകയും ചെയ്യുന്നു. ഉൽപ്പന്നങ്ങളുടെ ഘടകങ്ങൾ, ശുപാർശ ചെയ്ത അളവുകൾ, സാധ്യമായ ഫലങ്ങൾ എന്നിവയെക്കുറിച്ച് സ്വതന്ത്ര ഗവേഷണം നടത്താനും, ഈ വെബ്‌സൈറ്റിൽ പരാമർശിച്ച ഏതെങ്കിലും ഉൽപ്പന്നം ഉപയോഗിക്കുന്നതിന് മുമ്പ് ലൈസൻസുള്ള ആരോഗ്യ വിദഗ്ദ്ധനെ സമീപിക്കാനും നിങ്ങളോട് നിർദേശിക്കുന്നു, പ്രത്യേകിച്ച് നിങ്ങൾക്ക് മുൻനിലവിലുള്ള മെഡിക്കൽ അവസ്ഥകൾ, അലർജികൾ, സംവേദനക്ഷമതകൾ അല്ലെങ്കിൽ മറ്റ് ആരോഗ്യ ആശങ്കകൾ ഉണ്ടെങ്കിൽ.",
-    "diet": "ഞങ്ങളുടെ ഉൽപ്പന്നങ്ങളെ ആരോഗ്യകരവും സന്തുലിതവുമായ ഭക്ഷണത്തിനോ ജീവിതശൈലിക്കോ പകരമായി കണക്കാക്കരുത്. ഈ വെബ്‌സൈറ്റിൽ നൽകിയ വിവരം പൊതുവായ വിവര ആവശ്യങ്ങൾക്ക് മാത്രമാണ്, പ്രൊഫഷണൽ മെഡിക്കൽ ഉപദേശം, രോഗനിർണയം അല്ലെങ്കിൽ ചികിത്സ എന്നിവയ്ക്ക് പകരമായി ഉദ്ദേശിച്ചിട്ടുള്ളതല്ല. ഏതെങ്കിലും പുതിയ ആരോഗ്യ രീതിയോ ചികിത്സാ പദ്ധതിയോ ആരംഭിക്കുന്നതിന് മുമ്പ് എപ്പോഴും യോഗ്യതയുള്ള ആരോഗ്യ വിദഗ്ദ്ധനെ സമീപിക്കുക.",
-    "outcomes": "ഈ വെബ്‌സൈറ്റിലെ ഉൽപ്പന്നങ്ങൾ ആരോഗ്യത്തെയും ക്ഷേമത്തെയും പിന്തുണയ്ക്കാൻ രൂപപ്പെടുത്തിയിട്ടുണ്ടെങ്കിലും, വ്യക്തിഗത ഫലങ്ങൾ വ്യക്തിഗത ആരോഗ്യ അവസ്ഥകളും ജീവിതശൈലി ഘടകങ്ങളും അനുസരിച്ച് വ്യത്യാസപ്പെടാം. കമ്പനി നിർദിഷ്ട ഫലങ്ങൾ ഉറപ്പുനൽകുന്നില്ല, ഉൽപ്പന്നങ്ങൾ ആരോഗ്യകരമായ ജീവിതശൈലിയുടെയും സന്തുലിത ഭക്ഷണത്തിന്റെയും ഭാഗമായി ഉപയോഗിക്കണമെന്ന് ശക്തമായി ശുപാർശ ചെയ്യുന്നു.",
-    "accuracy": "ഘടകങ്ങൾ, ഗുണങ്ങൾ, ഉപയോഗ നിർദേശങ്ങൾ എന്നിവ ഉൾപ്പെടെ ഞങ്ങളുടെ ഉൽപ്പന്നങ്ങളെക്കുറിച്ച് കൃത്യവും വിശ്വസനീയവുമായ വിവരം നൽകാൻ ഞങ്ങൾ എല്ലാ ശ്രമവും നടത്തുന്നു. എന്നാൽ, ഈ വെബ്‌സൈറ്റിൽ അവതരിപ്പിച്ച എല്ലാ വിവരവും കൃത്യമോ പൂർണമോ കാലികമോ ആണെന്ന് ഞങ്ങൾക്ക് ഉറപ്പുനൽകാൻ കഴിയില്ല. ഈ വെബ്‌സൈറ്റിൽ നിന്ന് ലഭിക്കുന്ന ഏത് വിവരവും മറ്റ് വിശ്വസനീയമായ ഉറവിടങ്ങളുമായി പരിശോധിക്കാനും ഏതെങ്കിലും മെഡിക്കൽ ആശങ്കകളെക്കുറിച്ച് ആരോഗ്യ വിദഗ്ദ്ധനെ സമീപിക്കാനും നിങ്ങളെ പ്രോത്സാഹിപ്പിക്കുന്നു.",
-    "liability": "ഈ വെബ്‌സൈറ്റിൽ നൽകിയ വിവരം നിങ്ങൾ ഉപയോഗിക്കുന്നതിൽ നിന്ന് ഉണ്ടാകുന്ന ഏത് ബാധ്യതയും, അത്തരം വിവരത്തിന്റെ തെറ്റിദ്ധാരണയോ തെറ്റായ വ്യാഖ്യാനമോ അല്ലെങ്കിൽ ഞങ്ങളുടെ ഉൽപ്പന്നങ്ങളുടെ ഉപയോഗത്തിൽ നിന്നുള്ള പ്രതികൂല ഫലങ്ങളോ ഉൾപ്പെടെ, കമ്പനി വ്യക്തമായി നിരാകരിക്കുന്നു. ഈ വെബ്‌സൈറ്റ് ഉപയോഗിക്കുകയും ഉൽപ്പന്നങ്ങൾ വാങ്ങുകയും ചെയ്യുന്നതിലൂടെ, ഏതെങ്കിലും ക്ലെയിമുകൾ, നഷ്ടങ്ങൾ അല്ലെങ്കിൽ നാശനഷ്ടങ്ങൾ എന്നിവയിൽ നിന്ന് കമ്പനിയെ നിരുപദ്രവകരമായി നിലനിർത്താൻ നിങ്ങൾ സമ്മതിക്കുന്നു.",
-    "changes": "ഈ വെബ്‌സൈറ്റിൽ ലഭ്യമായ ഉൽപ്പന്നങ്ങളിലും വിവരങ്ങളിലും ഏത് സമയത്തും, മുൻകൂർ അറിയിപ്പില്ലാതെ മാറ്റങ്ങൾ വരുത്താനുള്ള അവകാശം കമ്പനി നിക്ഷിപ്തമാക്കുന്നു. ഉൽപ്പന്ന ഘടകങ്ങൾ, ഫോർമുലേഷൻ, പാക്കേജിംഗ് എന്നിവയിലെ മാറ്റങ്ങൾ ഇതിൽ ഉൾപ്പെടുന്നു, എന്നാൽ ഇവയിൽ മാത്രം പരിമിതമല്ല.",
-    "agreement": "ഈ വെബ്‌സൈറ്റ് ഉപയോഗിക്കുകയും അതിൽ നിന്ന് ഉൽപ്പന്നങ്ങൾ വാങ്ങുകയും ചെയ്യുന്നതിലൂടെ, ഈ ഉൽപ്പന്ന നിരാകരണത്തിന്റെ നിബന്ധനകൾക്ക് ബാധ്യസ്ഥരാകാൻ നിങ്ങൾ അംഗീകരിക്കുകയും സമ്മതിക്കുകയും ചെയ്യുന്നു."
+    "intro": "Important information about our products and website content.",
+    "general": {
+      "title": "General Information",
+      "body": "Information on this website is provided for general wellness education and product awareness."
+    },
+    "results": {
+      "title": "Individual Results",
+      "body": "Results may vary from person to person. No specific outcome is guaranteed."
+    },
+    "medical": {
+      "title": "Not a Medical Claim",
+      "body": "Products are not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    "label": {
+      "title": "Label Information",
+      "body": "Always review product packaging, ingredients, usage directions, and warnings before use."
+    },
+    "advice": {
+      "title": "Professional Advice",
+      "body": "Consult a qualified healthcare or nutrition professional before using any nutraceutical product, especially if pregnant, nursing, under medication, or managing a medical condition."
+    },
+    "lifestyle": {
+      "title": "Lifestyle Responsibility",
+      "body": "Products are not a substitute for a balanced diet, healthy lifestyle, or medical advice."
+    },
+    "outcomes": {
+      "title": "No Guaranteed Outcomes",
+      "body": "Weight management, wellness, or performance-related outcomes depend on multiple individual factors."
+    },
+    "accuracy": {
+      "title": "Accuracy of Information",
+      "body": "While care is taken to keep information accurate, content may contain errors or omissions and may change without notice."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "body": "Kalonlife International India Private Limited is not responsible for misuse of products or reliance on website information."
+    },
+    "changes": {
+      "title": "Changes",
+      "body": "The company reserves the right to modify products, formulations, packaging, and website content without prior notice."
+    },
+    "acceptance": {
+      "title": "Acceptance",
+      "body": "Use of this website or purchase of products indicates acceptance of this disclaimer."
+    }
   },
   "languages": {
     "heading": "നിങ്ങളുടെ ഭാഷ തിരഞ്ഞെടുക്കുക",

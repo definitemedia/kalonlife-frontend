@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import {
   flavourOf,
@@ -17,7 +17,6 @@ import {
   type PriceBand,
   type ShopCategoryId,
 } from "@/config/products";
-import { useIsMobile, useOverlay } from "@/lib/overlay";
 import "./product-catalog.css";
 
 type FilterOption = {
@@ -178,67 +177,16 @@ function categoryLabel(
   return label;
 }
 
-function CategoryGroup({
-  headingId,
-  heading,
-  expanded,
-  onToggle,
-  selected,
-  onSelect,
-  labelFor,
-}: {
-  headingId: string;
-  heading: string;
-  expanded: boolean;
-  onToggle: () => void;
-  selected: ShopCategoryId;
-  onSelect: (id: ShopCategoryId) => void;
-  labelFor: (id: ShopCategoryId) => string;
-}) {
-  const panelId = `${headingId}-options`;
-
-  return (
-    <div className="shop-filter shop-categories">
-      <button
-        type="button"
-        className="shop-filter-toggle"
-        id={headingId}
-        aria-expanded={expanded}
-        aria-controls={panelId}
-        onClick={onToggle}
-      >
-        <span className="shop-filter-toggle-label">{heading}</span>
-        <ChevronIcon open={expanded} />
-      </button>
-      <div
-        id={panelId}
-        className="shop-filter-options"
-        role="group"
-        aria-labelledby={headingId}
-        hidden={!expanded}
-      >
-        <ul className="shop-category-list">
-          {shopCategoryOrder.map((id) => {
-            const count = id === "all" ? products.length : shopCategoryCounts[id];
-
-            return (
-              <li key={id}>
-                <button
-                  type="button"
-                  className="shop-category"
-                  aria-pressed={selected === id}
-                  onClick={() => onSelect(id)}
-                >
-                  <span className="shop-category-name">{labelFor(id)}</span>
-                  <span className="shop-category-count">{count}</span>
-                </button>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-    </div>
-  );
+function categoryMenuHeading(
+  categories: ReturnType<typeof useTranslations>,
+): string {
+  if (!categories.has("label")) return "Product Categories";
+  const label = categories("label");
+  if (!label || label === "label" || label.startsWith("shopCategories.")) {
+    return "Product Categories";
+  }
+  if (label.toLowerCase() === "product categories") return "Product Categories";
+  return label;
 }
 
 function priceBandLabel(
@@ -264,6 +212,7 @@ export function ProductCatalog() {
   const categories = useTranslations("shopCategories");
   const filters = useTranslations("shopFilters");
   const [selected, setSelected] = useState<ShopCategoryId>("all");
+  const [categoriesOpen, setCategoriesOpen] = useState(false);
   const [flavour, setFlavour] = useState<string | null>(null);
   const [packSize, setPackSize] = useState<string | null>(null);
   const [priceBandId, setPriceBandId] = useState<PriceBand["id"] | null>(null);
@@ -272,25 +221,6 @@ export function ProductCatalog() {
     mrp: false,
     size: false,
   });
-  const [categoriesOpen, setCategoriesOpen] = useState(false);
-  const [sheetOpen, setSheetOpen] = useState(false);
-  const mobile = useIsMobile();
-  const sheetRef = useRef<HTMLDivElement>(null);
-  const launchRef = useRef<HTMLButtonElement>(null);
-  const closeSheet = useCallback(() => setSheetOpen(false), []);
-  const wasSheetOpen = useRef(false);
-  useOverlay(sheetOpen, closeSheet, sheetRef);
-
-  useEffect(() => {
-    if (!mobile) setSheetOpen(false);
-  }, [mobile]);
-
-  useEffect(() => {
-    if (wasSheetOpen.current && !sheetOpen) {
-      launchRef.current?.focus();
-    }
-    wasSheetOpen.current = sheetOpen;
-  }, [sheetOpen]);
 
   function toggleGroup(id: FilterGroupId) {
     setOpenGroups((current) => ({ ...current, [id]: !current[id] }));
@@ -326,45 +256,55 @@ export function ProductCatalog() {
 
   return (
     <div className="shop-layout">
-      <button
-        ref={launchRef}
-        type="button"
-        className="shop-filter-launch"
-        aria-expanded={sheetOpen}
-        aria-controls="shop-filters-sheet"
-        onClick={() => setSheetOpen(true)}
-      >
-        <FilterSlidersIcon />
-        <span>{filters("filter")}</span>
-      </button>
-      <button
-        type="button"
-        className="shop-sheet-backdrop"
-        data-open={sheetOpen ? "true" : "false"}
-        tabIndex={-1}
-        aria-hidden="true"
-        onClick={closeSheet}
-      />
-      <div
-        ref={sheetRef}
-        id="shop-filters-sheet"
-        className="shop-sidebar"
-        data-open={sheetOpen ? "true" : "false"}
-        role={sheetOpen ? "dialog" : undefined}
-        aria-modal={sheetOpen ? true : undefined}
-        aria-label={filters("filter")}
-        inert={mobile && !sheetOpen ? true : undefined}
-      >
+      <div className="shop-sidebar">
+        <button type="button" className="shop-filter-pill">
+          <FilterSlidersIcon />
+          <span>{filters("filter")}</span>
+        </button>
+
+        <div className="shop-category-menu">
+          <button
+            type="button"
+            className="shop-filter-toggle"
+            id="shop-category-toggle"
+            aria-expanded={categoriesOpen}
+            aria-controls="shop-category-options"
+            onClick={() => setCategoriesOpen((open) => !open)}
+          >
+            <span className="shop-filter-toggle-label">
+              {categoryMenuHeading(categories)}
+            </span>
+            <ChevronIcon open={categoriesOpen} />
+          </button>
+          <nav
+            id="shop-category-options"
+            className="shop-category-panel"
+            aria-label={categories("label")}
+            hidden={!categoriesOpen}
+          >
+            <ul className="shop-category-list">
+              {shopCategoryOrder.map((id) => {
+                const count = id === "all" ? products.length : shopCategoryCounts[id];
+
+                return (
+                  <li key={id}>
+                    <button
+                      type="button"
+                      className="shop-category"
+                      aria-pressed={selected === id}
+                      onClick={() => setSelected(id)}
+                    >
+                      <span className="shop-category-name">{categoryLabel(id, categories)}</span>
+                      <span className="shop-category-count">{count}</span>
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+        </div>
+
         <div className="shop-filters">
-          <div className="shop-sheet-bar">
-            <p className="shop-filter-pill">
-              <FilterSlidersIcon />
-              <span>{filters("filter")}</span>
-            </p>
-            <button type="button" className="shop-sheet-close" onClick={closeSheet}>
-              {filters("close")}
-            </button>
-          </div>
           <FilterGroup
             headingId="shop-filter-flavour"
             heading={filters("flavour")}
@@ -376,16 +316,6 @@ export function ProductCatalog() {
             onChange={setFlavour}
           />
           <FilterGroup
-            headingId="shop-filter-mrp"
-            heading={filters("mrp")}
-            anyLabel={filters("any")}
-            value={priceBandId}
-            options={priceOptions}
-            expanded={openGroups.mrp}
-            onToggle={() => toggleGroup("mrp")}
-            onChange={(next) => setPriceBandId(next as PriceBand["id"] | null)}
-          />
-          <FilterGroup
             headingId="shop-filter-size"
             heading={filters("size")}
             anyLabel={filters("any")}
@@ -395,19 +325,15 @@ export function ProductCatalog() {
             onToggle={() => toggleGroup("size")}
             onChange={setPackSize}
           />
-          <CategoryGroup
-            headingId="shop-categories"
-            heading={
-              categories.has("label") &&
-              !categories("label").startsWith("shopCategories.")
-                ? categories("label")
-                : "Product Categories"
-            }
-            expanded={categoriesOpen}
-            onToggle={() => setCategoriesOpen((open) => !open)}
-            selected={selected}
-            onSelect={setSelected}
-            labelFor={(id) => categoryLabel(id, categories)}
+          <FilterGroup
+            headingId="shop-filter-mrp"
+            heading={filters("mrp")}
+            anyLabel={filters("any")}
+            value={priceBandId}
+            options={priceOptions}
+            expanded={openGroups.mrp}
+            onToggle={() => toggleGroup("mrp")}
+            onChange={(next) => setPriceBandId(next as PriceBand["id"] | null)}
           />
         </div>
       </div>
@@ -423,24 +349,28 @@ export function ProductCatalog() {
                   className={
                     product.image ? "product-media" : "product-placeholder"
                   }
+                  tabIndex={0}
                 >
                   {product.image ? (
                     <Image
                       src={product.image}
                       alt={product.name}
                       fill
-                      sizes="(min-width: 1200px) 16rem, (min-width: 960px) 22rem, 45vw"
+                      sizes="(min-width: 1280px) 28vw, (min-width: 768px) 34vw, 92vw"
                       className="product-photo"
                     />
                   ) : (
                     <span>{catalog("imageComingSoon")}</span>
                   )}
+                  <div className="product-overlay">
+                    <p className="product-overlay-name">{product.name}</p>
+                    <p className="product-overlay-size">{product.packSize}</p>
+                    <p className="product-overlay-price">{formatMrp(product.mrp)}</p>
+                  </div>
                 </div>
-                <div className="product-copy">
-                  <h2 className="product-name">{product.name}</h2>
-                  <p className="product-pack">{product.packSize}</p>
-                  <p className="product-price">{formatMrp(product.mrp)}</p>
-                </div>
+                <h2 className="product-name">{product.name}</h2>
+                <p className="product-pack">{product.packSize}</p>
+                <p className="product-price">{formatMrp(product.mrp)}</p>
               </li>
             ))}
           </ul>

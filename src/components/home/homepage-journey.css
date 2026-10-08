@@ -203,10 +203,10 @@
   outline-offset: 3px;
 }
 
-@media (min-width: 22.5rem) {
+@media (min-width: 720px) {
   .journey-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.85rem;
+    gap: 1.5rem;
   }
 }
 
@@ -222,7 +222,7 @@
   }
 
   .journey-card {
-    padding: var(--space-4);
+    padding: var(--space-5);
   }
 
   .journey-title {

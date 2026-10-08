@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { renderRoute } from "@/lib/render-route";
+import { renderPublishedSoon } from "@/lib/render-route";
 import { buildMetadata } from "@/lib/seo";
 
 type Props = {
@@ -13,5 +13,5 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { locale } = await params;
-  return renderRoute(locale, "articles");
+  return renderPublishedSoon(locale, "articles");
 }

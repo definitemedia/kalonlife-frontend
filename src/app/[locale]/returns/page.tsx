@@ -29,7 +29,7 @@ export default async function Page({ params }: Props) {
     <LegalDocument
       currentHref="/returns"
       title={routes("title")}
-      subtitle={routes("description")}
+      intro={body("intro")}
       sections={[
         {
           id: "no-return",

@@ -333,11 +333,11 @@
     },
     "terms": {
       "title": "వినియోగ నిబంధనలు",
-      "description": "మా వెబ్‌సైట్‌ను ఉపయోగించే ముందు దయచేసి ఈ నిబంధనలను జాగ్రత్తగా చదవండి."
+      "description": "Please read these terms carefully before using this website."
     },
     "privacy": {
       "title": "గోప్యతా విధానం",
-      "description": "మేము మీ సమాచారాన్ని ఎలా సేకరిస్తాము, ఉపయోగిస్తాము మరియు రక్షిస్తాము."
+      "description": "Our policy on how we collect, use, and protect your information."
     },
     "shipping": {
       "title": "షిప్పింగ్ విధానం",
@@ -349,7 +349,7 @@
     },
     "disclaimer": {
       "title": "ఉత్పత్తి నిరాకరణ",
-      "description": "మా ఉత్పత్తుల గురించి మరియు మీ బాధ్యతల గురించి ముఖ్యమైన సమాచారం."
+      "description": "Important information about our products and website content."
     },
     "cart": {
       "title": "కార్ట్",
@@ -514,7 +514,7 @@
     },
     "termsAndConditions": {
       "title": "నియమాలు మరియు షరతులు",
-      "description": "ఈ పేజీ త్వరలో ప్రచురించబడుతుంది."
+      "description": "Please read these terms carefully before using this website."
     }
   },
   "guidance": {
@@ -632,74 +632,72 @@
     }
   },
   "privacy": {
-    "intro": "Kalonlifeలో మీ గోప్యత మాకు ముఖ్యం. ఈ గోప్యతా విధానం మేము మీ సమాచారాన్ని ఎలా సేకరిస్తాము, ఉపయోగిస్తాము మరియు రక్షిస్తామో వివరిస్తుంది.",
+    "intro": "Our policy on how we collect, use, and protect your information.",
     "collect": {
-      "title": "1. మేము సేకరించే సమాచారం",
-      "items": [
-        "పేరు, ఇమెయిల్, ఫోన్ నంబర్, చిరునామా వంటి వ్యక్తిగత వివరాలు",
-        "ఆర్డర్ మరియు చెల్లింపు సమాచారం",
-        "ఖాతా మరియు KYCకి సంబంధించిన సమాచారం (అసోసియేట్ల కోసం)"
-      ]
+      "title": "Information We Collect",
+      "body": "We may collect personal details such as name, contact number, email address, shipping address, and order information."
     },
     "use": {
-      "title": "2. సమాచార వినియోగం",
-      "lead": "మీ సమాచారం దీనికి ఉపయోగించబడుతుంది:",
-      "items": [
-        "ఆర్డర్లు మరియు చెల్లింపులను ప్రాసెస్ చేయడం",
-        "ఉత్పత్తులు మరియు సేవలను అందించడం",
-        "నవీకరణలు, ఆఫర్లు మరియు మద్దతు గురించి తెలియజేయడం",
-        "చట్టపరమైన మరియు నియంత్రణ అనుసరణను కాపాడడం"
-      ]
+      "title": "Use of Information",
+      "body": "Information is used for order processing, customer support, service improvement, and communication related to purchases."
     },
     "protection": {
-      "title": "3. డేటా రక్షణ",
-      "body": "అనధికార ప్రవేశం, మార్పు లేదా బహిర్గతం నుండి మీ వ్యక్తిగత డేటాను రక్షించడానికి మేము తగిన భద్రతా చర్యలను అమలు చేస్తాము."
+      "title": "Data Protection",
+      "body": "Reasonable security measures are implemented to protect user information. However, no online transmission is completely secure."
     },
     "sharing": {
-      "title": "4. సమాచారం పంచుకోవడం",
-      "body": "మేము వ్యక్తిగత సమాచారాన్ని అమ్మము లేదా అద్దెకు ఇవ్వము. ఆర్డర్ నెరవేర్పు, చెల్లింపు ప్రాసెసింగ్ లేదా చట్టపరమైన అనుసరణ కోసం మాత్రమే విశ్వసనీయ సేవా ప్రదాతలతో డేటా పంచుకోవచ్చు."
+      "title": "Information Sharing",
+      "body": "We do not sell or rent personal information. Information may be shared only with service providers required to fulfill orders or legal obligations."
     },
     "rights": {
-      "title": "5. వినియోగదారు హక్కులు",
-      "body": "మమ్మల్ని సంప్రదించడం ద్వారా మీరు మీ వ్యక్తిగత డేటాకు ప్రాప్యత, సవరణ లేదా తొలగింపును అభ్యర్థించవచ్చు."
+      "title": "User Rights",
+      "body": "Users may request access, correction, or deletion of their personal information by contacting customer support."
     }
   },
   "terms": {
-    "title": "వినియోగ నిబంధనలు",
-    "subtitle": "మా వెబ్‌సైట్‌ను ఉపయోగించే ముందు దయచేసి ఈ నిబంధనలను జాగ్రత్తగా చదవండి.",
-    "intro": "Kalonlife International India Private Limitedకు స్వాగతం. మా వెబ్‌సైట్, ఉత్పత్తులు లేదా సేవలను పొందడం లేదా ఉపయోగించడం ద్వారా, మీరు ఈ క్రింది వినియోగ నిబంధనలను పాటించడానికి మరియు వాటికి కట్టుబడి ఉండడానికి అంగీకరిస్తున్నారు.",
+    "title": "Terms of Use",
+    "intro": "Please read these terms carefully before using this website.",
     "acceptance": {
-      "title": "నిబంధనల అంగీకారం",
-      "body": "ఈ వెబ్‌సైట్‌ను ఉపయోగించడం ద్వారా, మీ వయస్సు కనీసం 18 సంవత్సరాలు అని మరియు బంధన ఒప్పందంలోకి ప్రవేశించడానికి మీరు చట్టబద్ధంగా సమర్థులు అని మీరు నిర్ధారిస్తున్నారు."
+      "title": "Acceptance of Terms",
+      "body": "By accessing or using this website, you agree to these Terms of Use."
+    },
+    "eligibility": {
+      "title": "Eligibility",
+      "body": "Users must be 18 years or older to place orders or register."
     },
     "usage": {
-      "title": "వెబ్‌సైట్ వినియోగం",
-      "body": "మీరు ఈ వెబ్‌సైట్‌ను చట్టబద్ధమైన ప్రయోజనాల కోసం మాత్రమే, ఇతరుల హక్కులను ఉల్లంఘించని లేదా వారి వెబ్‌సైట్ వినియోగాన్ని పరిమితం చేయని విధంగా ఉపయోగించడానికి అంగీకరిస్తున్నారు."
+      "title": "Use of Website",
+      "body": "You agree to use the website only for lawful purposes and not to misuse content, services, or systems."
     },
     "productInformation": {
-      "title": "ఉత్పత్తి సమాచారం",
-      "body": "అన్ని ఉత్పత్తి వివరణలు, చిత్రాలు, ధరలు మరియు లభ్యత ముందస్తు నోటీసు లేకుండా మారవచ్చు. ఉత్పత్తులు న్యూట్రాస్యూటికల్స్‌గా అమ్మబడతాయి మరియు ఏ వ్యాధిని నిర్ధారించడం, చికిత్స చేయడం, నయం చేయడం లేదా నివారించడం ఉద్దేశించబడలేదు."
+      "title": "Product Information",
+      "body": "Product descriptions, images, and details are provided for general information and may be updated without notice."
+    },
+    "health": {
+      "title": "Health Disclaimer",
+      "body": "Nutraceutical products are not intended to diagnose, treat, cure, or prevent any disease. Results may vary."
     },
     "intellectualProperty": {
-      "title": "మేధో సంపత్తి",
-      "body": "పాఠ్యం, చిత్రాలు, లోగోలు, వీడియోలు, డిజైన్లు మరియు ట్రేడ్‌మార్క్‌లతో సహా ఈ వెబ్‌సైట్‌లోని అన్ని విషయం Kalonlife ఆస్తి, మరియు వ్రాతపూర్వక అనుమతి లేకుండా దానిని పునరుత్పత్తి చేయకూడదు."
+      "title": "Intellectual Property",
+      "body": "All website content, trademarks, logos, and materials belong to Kalonlife International India Private Limited unless otherwise stated."
     },
     "liability": {
-      "title": "బాధ్యత పరిమితి",
-      "body": "ఈ వెబ్‌సైట్ లేదా ఉత్పత్తుల వినియోగం వల్ల కలిగే ఏ ప్రత్యక్ష, పరోక్ష, ఆకస్మిక లేదా పర్యవసాన నష్టాలకు Kalonlife బాధ్యత వహించదు."
+      "title": "Limitation of Liability",
+      "body": "The company is not liable for indirect, incidental, or consequential damages arising from website use or product usage."
     },
     "modifications": {
-      "title": "మార్పులు",
-      "body": "మేము ఈ వినియోగ నిబంధనలను ఎప్పుడైనా మార్చుకునే హక్కును కలిగి ఉన్నాము. వెబ్‌సైట్‌ను కొనసాగించి ఉపయోగించడం నవీకరించిన నిబంధనల అంగీకారంగా పరిగణించబడుతుంది."
+      "title": "Changes to Terms",
+      "body": "Terms may be updated at any time. Continued use of the website constitutes acceptance of revised terms."
     }
   },
   "returnsBody": {
+    "intro": "రిటర్న్‌లు, రీఫండ్‌లు మరియు రీప్లేస్‌మెంట్‌లపై మా విధానం.",
     "noReturn": {
-      "title": "1. రిటర్న్ లేదు / రీఫండ్ లేదు విధానం",
+      "title": "రిటర్న్ లేదు / రీఫండ్ లేదు విధానం",
       "body": "వెల్నెస్ మరియు న్యూట్రాస్యూటికల్ ఉత్పత్తుల స్వభావం వల్ల, అన్ని అమ్మకాలు తుది. ఒకసారి అమ్మిన ఉత్పత్తులు తిరిగి ఇవ్వబడవు మరియు రీఫండ్ చేయబడవు."
     },
     "damaged": {
-      "title": "2. పాడైన లేదా తప్పు ఉత్పత్తులు",
+      "title": "పాడైన లేదా తప్పు ఉత్పత్తులు",
       "intro": "పాడైన లేదా తప్పు ఉత్పత్తి డెలివరీ అయినప్పుడు:",
       "items": [
         "ఆర్డర్ అందిన 24 గంటలలోపు మాకు తెలియజేయండి",
@@ -708,7 +706,7 @@
       ]
     },
     "ineligible": {
-      "title": "3. రీఫండ్‌కు అనర్హత",
+      "title": "రీఫండ్‌కు అనర్హత",
       "intro": "వీటికి రీఫండ్ ఇవ్వబడదు:",
       "items": [
         "మనసు మారడం",
@@ -718,19 +716,56 @@
       ]
     },
     "associate": {
-      "title": "4. అసోసియేట్ మరియు ప్రమోషనల్ కొనుగోళ్లు",
+      "title": "అసోసియేట్ మరియు ప్రమోషనల్ కొనుగోళ్లు",
       "body": "ఆఫర్లు, డిస్కౌంట్లు, రివార్డులు లేదా బిజినెస్ వాల్యూమ్‌ల కింద కొనుగోలు చేసిన ఉత్పత్తులు రీఫండ్ చేయబడవు మరియు తిరిగి ఇవ్వబడవు."
     }
   },
   "disclaimerBody": {
-    "results": "ఫలితాలు వ్యక్తికి వ్యక్తి మారవచ్చు. అన్ని Kalonlife ఉత్పత్తులు ఏ వ్యాధులను లేదా అనారోగ్యాన్ని చికిత్స చేయడానికి, నయం చేయడానికి, నిర్ధారించడానికి లేదా నివారించడానికి ఉద్దేశించబడలేదు.",
-    "purchase": "ఈ వెబ్‌సైట్‌లో అందించిన లింకుల ద్వారా ఏ ఉత్పత్తులనైనా కొనుగోలు చేయడం ద్వారా, ఉత్పత్తి ప్యాకేజింగ్‌పై అందించిన అన్ని సూచనలు, సేవా వివరణలు మరియు హెచ్చరికలను జాగ్రత్తగా సమీక్షించడానికి మీరు అంగీకరిస్తారు. ఉత్పత్తుల పదార్థాలు, సిఫార్సు చేసిన మోతాదులు మరియు సంభావ్య ప్రభావాల గురించి స్వతంత్ర పరిశోధన చేయమని, మరియు ఈ వెబ్‌సైట్‌లో పేర్కొన్న ఏ ఉత్పత్తినైనా ఉపయోగించే ముందు లైసెన్స్ పొందిన ఆరోగ్య నిపుణుడిని సంప్రదించమని మీకు సలహా ఇవ్వబడుతుంది, ముఖ్యంగా మీకు ముందునుంచే ఉన్న వైద్య పరిస్థితులు, అలెర్జీలు, సున్నితత్వాలు లేదా ఇతర ఆరోగ్య ఆందోళనలు ఉంటే.",
-    "diet": "మా ఉత్పత్తులను ఆరోగ్యకరమైన, సమతుల్య ఆహారం లేదా జీవనశైలికి ప్రత్యామ్నాయంగా పరిగణించకూడదు. ఈ వెబ్‌సైట్‌లో అందించిన సమాచారం సాధారణ సమాచార ప్రయోజనాల కోసం మాత్రమే, మరియు వృత్తిపరమైన వైద్య సలహా, నిర్ధారణ లేదా చికిత్సకు బదులుగా ఉద్దేశించబడలేదు. ఏ కొత్త ఆరోగ్య నియమం లేదా చికిత్స ప్రణాళికను ప్రారంభించే ముందు ఎల్లప్పుడూ అర్హత కలిగిన ఆరోగ్య నిపుణుడిని సంప్రదించండి.",
-    "outcomes": "ఈ వెబ్‌సైట్‌లోని ఉత్పత్తులు ఆరోగ్యం మరియు శ్రేయస్సుకు తోడ్పడేలా రూపొందించబడినప్పటికీ, వ్యక్తిగత ఫలితాలు వ్యక్తిగత ఆరోగ్య పరిస్థితులు మరియు జీవనశైలి కారకాల ఆధారంగా మారవచ్చు. కంపెనీ నిర్దిష్ట ఫలితాలకు హామీ ఇవ్వదు మరియు ఉత్పత్తులను ఆరోగ్యకరమైన జీవనశైలి మరియు సమతుల్య ఆహారంలో భాగంగా ఉపయోగించాలని బలంగా సిఫార్సు చేస్తుంది.",
-    "accuracy": "మా ఉత్పత్తుల గురించి పదార్థాలు, ప్రయోజనాలు మరియు వినియోగ సూచనలతో సహా ఖచ్చితమైన మరియు నమ్మదగిన సమాచారం అందించడానికి మేము ప్రతి ప్రయత్నం చేస్తాము. అయితే, ఈ వెబ్‌సైట్‌లో అందించిన సమాచారం అంతా ఖచ్చితమైనది, పూర్తిగా ఉన్నది లేదా తాజాదని మేము హామీ ఇవ్వలేము. ఈ వెబ్‌సైట్ నుండి పొందిన ఏ సమాచారాన్నైనా ఇతర నమ్మదగిన మూలాలతో ధృవీకరించమని మరియు ఏ వైద్య ఆందోళనలైనా గురించి ఆరోగ్య నిపుణుడిని సంప్రదించమని మీకు ప్రోత్సాహం ఇవ్వబడుతుంది.",
-    "liability": "ఈ వెబ్‌సైట్‌లో అందించిన సమాచారాన్ని మీరు ఉపయోగించడం వల్ల, అటువంటి సమాచారాన్ని తప్పుగా అర్థం చేసుకోవడం లేదా తప్పుగా వ్యాఖ్యానించడం లేదా మా ఉత్పత్తుల వాడకం వల్ల ఏర్పడే ప్రతికూల ఫలితాలతో సహా, ఉత్పన్నమయ్యే ఏ బాధ్యతనైనా కంపెనీ స్పష్టంగా నిరాకరిస్తుంది. ఈ వెబ్‌సైట్‌ను ఉపయోగించడం మరియు ఉత్పత్తులను కొనుగోలు చేయడం ద్వారా, ఏవైనా వాదనలు, నష్టాలు లేదా హానుల నుండి కంపెనీని నిర్హానిగా ఉంచడానికి మీరు అంగీకరిస్తారు.",
-    "changes": "ఈ వెబ్‌సైట్‌లో అందుబాటులో ఉన్న ఉత్పత్తులు మరియు సమాచారంలో ఎప్పుడైనా, ముందస్తు నోటీసు లేకుండా మార్పులు చేసే హక్కును కంపెనీ కలిగి ఉంది. ఇందులో ఉత్పత్తి పదార్థాలు, సూత్రీకరణ మరియు ప్యాకేజింగ్‌లో మార్పులు ఉన్నాయి, కానీ వీటికే పరిమితం కాదు.",
-    "agreement": "ఈ వెబ్‌సైట్‌ను ఉపయోగించడం మరియు దాని నుండి ఉత్పత్తులను కొనుగోలు చేయడం ద్వారా, ఈ ఉత్పత్తి నిరాకరణ నిబంధనలకు కట్టుబడి ఉండటానికి మీరు అంగీకరిస్తారు."
+    "intro": "Important information about our products and website content.",
+    "general": {
+      "title": "General Information",
+      "body": "Information on this website is provided for general wellness education and product awareness."
+    },
+    "results": {
+      "title": "Individual Results",
+      "body": "Results may vary from person to person. No specific outcome is guaranteed."
+    },
+    "medical": {
+      "title": "Not a Medical Claim",
+      "body": "Products are not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    "label": {
+      "title": "Label Information",
+      "body": "Always review product packaging, ingredients, usage directions, and warnings before use."
+    },
+    "advice": {
+      "title": "Professional Advice",
+      "body": "Consult a qualified healthcare or nutrition professional before using any nutraceutical product, especially if pregnant, nursing, under medication, or managing a medical condition."
+    },
+    "lifestyle": {
+      "title": "Lifestyle Responsibility",
+      "body": "Products are not a substitute for a balanced diet, healthy lifestyle, or medical advice."
+    },
+    "outcomes": {
+      "title": "No Guaranteed Outcomes",
+      "body": "Weight management, wellness, or performance-related outcomes depend on multiple individual factors."
+    },
+    "accuracy": {
+      "title": "Accuracy of Information",
+      "body": "While care is taken to keep information accurate, content may contain errors or omissions and may change without notice."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "body": "Kalonlife International India Private Limited is not responsible for misuse of products or reliance on website information."
+    },
+    "changes": {
+      "title": "Changes",
+      "body": "The company reserves the right to modify products, formulations, packaging, and website content without prior notice."
+    },
+    "acceptance": {
+      "title": "Acceptance",
+      "body": "Use of this website or purchase of products indicates acceptance of this disclaimer."
+    }
   },
   "languages": {
     "heading": "మీ భాషను ఎంచుకోండి",
