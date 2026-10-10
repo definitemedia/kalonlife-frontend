@@ -515,6 +515,10 @@
     "termsAndConditions": {
       "title": "નિયમો અને શરતો",
       "description": "Please read these terms carefully before using this website."
+    },
+    "nutrihub": {
+      "title": "NutriHub",
+      "description": "પોષણ-કેન્દ્રિત ઉત્પાદનો, ઉપયોગી સંસાધનો અને રોજિંદા વેલનેસ વિકલ્પો માટે અમે NutriHub ને એક સમર્પિત સ્થાન તરીકે તૈયાર કરી રહ્યા છીએ."
     }
   },
   "guidance": {
@@ -1038,6 +1042,28 @@
       "trustStrip": "ગોપનીયતા, કોચ અને ચુકવણી",
       "bookForm": "તમારી સલાહ બુક કરો",
       "summary": "તમારી સલાહ"
+    }
+  },
+  "mobileShop": {
+    "categoriesLabel": "શોપ શ્રેણીઓ",
+    "launchingSoon": "ટૂંક સમયમાં શરૂ",
+    "searchLabel": "ઉત્પાદનો શોધો",
+    "searchPlaceholder": "ઉત્પાદનો, પોષણ અને વેલનેસ શોધો",
+    "wishlist": "વિશલિસ્ટ",
+    "cart": "શોપિંગ કાર્ટ",
+    "resultsFor": "“{query}” માટે પરિણામો",
+    "clearSearch": "શોધ સાફ કરો",
+    "searchSubmit": "શોધો"
+  },
+  "hubPages": {
+    "launchingSoon": "ટૂંક સમયમાં શરૂ",
+    "wellnessHub": {
+      "title": "તમારી વેલનેસ યાત્રા, બધું એક જ જગ્યાએ",
+      "description": "વેલનેસ માર્ગદર્શન, સમુદાયનો સહયોગ અને ઉપયોગી સંસાધનો તમારી વધુ નજીક લાવવા માટે અમે એક સમર્પિત વેલનેસ હબ અનુભવ તૈયાર કરી રહ્યા છીએ."
+    },
+    "nutrihub": {
+      "title": "રોજિંદા પોષણ માટે નવું સ્થાન",
+      "description": "પોષણ-કેન્દ્રિત ઉત્પાદનો, ઉપયોગી સંસાધનો અને રોજિંદા વેલનેસ વિકલ્પો માટે અમે NutriHub ને એક સમર્પિત સ્થાન તરીકે તૈયાર કરી રહ્યા છીએ."
     }
   }
 }

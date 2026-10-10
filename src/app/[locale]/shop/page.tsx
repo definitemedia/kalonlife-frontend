@@ -1,6 +1,8 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ProductCatalog } from "@/components/shop/ProductCatalog";
+import { ShopCatalog } from "@/components/shop/ShopCatalog";
 import { buildMetadata } from "@/lib/seo";
 
 type Props = {
@@ -20,7 +22,9 @@ export default async function Page({ params }: Props) {
   return (
     <div className="shop-shell page-shell">
       <h1>{t("shop.title")}</h1>
-      <ProductCatalog />
+      <Suspense fallback={<ProductCatalog />}>
+        <ShopCatalog />
+      </Suspense>
     </div>
   );
 }

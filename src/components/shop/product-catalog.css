@@ -208,6 +208,26 @@
   line-height: var(--leading-body);
 }
 
+.shop-search-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2) var(--space-4);
+  margin: 0 0 var(--space-5);
+  color: var(--color-dark-text);
+  font-size: var(--text-sm);
+  overflow-wrap: anywhere;
+}
+
+.shop-search-clear {
+  color: var(--color-brand-dark);
+  font-weight: var(--weight-semibold);
+}
+
+.shop-search-clear:hover {
+  color: var(--color-golden-rush-end);
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -446,6 +466,7 @@
     transition: none;
   }
 }
+
 
 
 

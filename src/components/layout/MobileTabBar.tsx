@@ -49,9 +49,12 @@ export function MobileTabBar() {
             href={tab.href}
             className="mobile-tab"
             aria-current={active ? "page" : undefined}
+            aria-label={labelFor(tab.key)}
           >
             <TabIcon name={tab.key} />
-            <span className="mobile-tab-label">{labelFor(tab.key)}</span>
+            <span className="mobile-tab-label" aria-hidden="true">
+              {labelFor(tab.key)}
+            </span>
           </Link>
         );
       })}
@@ -65,7 +68,7 @@ function TabIcon({ name }: { name: (typeof tabs)[number]["key"] }) {
     viewBox: "0 0 24 24",
     fill: "none",
     stroke: "currentColor",
-    strokeWidth: 1.75,
+    strokeWidth: 1.5,
     strokeLinecap: "round" as const,
     strokeLinejoin: "round" as const,
     "aria-hidden": true,

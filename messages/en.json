@@ -604,6 +604,10 @@
     "languages": {
       "title": "Choose Your Language",
       "description": "Choose a language for the Kalonlife International website."
+    },
+    "nutrihub": {
+      "title": "NutriHub",
+      "description": "We are preparing NutriHub as a dedicated destination for nutrition-focused products, helpful resources, and everyday wellness choices."
     }
   },
   "languages": {
@@ -1227,6 +1231,28 @@
       "description": "Explore our wellness products and discover the values, people, and vision behind Kalonlife.",
       "explore": "Explore Products",
       "whyChoose": "Why Choose Kalonlife"
+    }
+  },
+  "mobileShop": {
+    "categoriesLabel": "Shop categories",
+    "launchingSoon": "Launching Soon",
+    "searchLabel": "Search products",
+    "searchPlaceholder": "Search products, nutrition & wellness",
+    "wishlist": "Wishlist",
+    "cart": "Shopping cart",
+    "resultsFor": "Results for “{query}”",
+    "clearSearch": "Clear search",
+    "searchSubmit": "Search"
+  },
+  "hubPages": {
+    "launchingSoon": "Launching Soon",
+    "wellnessHub": {
+      "title": "Your Wellness Journey, All in One Place",
+      "description": "We are preparing a dedicated Wellness Hub experience to bring wellness guidance, community support, and helpful resources closer to you."
+    },
+    "nutrihub": {
+      "title": "A New Destination for Everyday Nutrition",
+      "description": "We are preparing NutriHub as a dedicated destination for nutrition-focused products, helpful resources, and everyday wellness choices."
     }
   }
 }

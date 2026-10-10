@@ -515,6 +515,10 @@
     "termsAndConditions": {
       "title": "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ",
       "description": "Please read these terms carefully before using this website."
+    },
+    "nutrihub": {
+      "title": "NutriHub",
+      "description": "ਪੋਸ਼ਣ-ਕੇਂਦਰਿਤ ਉਤਪਾਦਾਂ, ਲਾਭਦਾਇਕ ਸਰੋਤਾਂ ਅਤੇ ਰੋਜ਼ਾਨਾ ਵੈਲਨੈਸ ਚੋਣਾਂ ਲਈ ਅਸੀਂ NutriHub ਨੂੰ ਇੱਕ ਸਮਰਪਿਤ ਮੰਜ਼ਿਲ ਵਜੋਂ ਤਿਆਰ ਕਰ ਰਹੇ ਹਾਂ।"
     }
   },
   "guidance": {
@@ -1038,6 +1042,28 @@
       "trustStrip": "ਗੁਪਤਤਾ, ਕੋਚ ਅਤੇ ਭੁਗਤਾਨ",
       "bookForm": "ਆਪਣੀ ਸਲਾਹ ਬੁੱਕ ਕਰੋ",
       "summary": "ਤੁਹਾਡੀ ਸਲਾਹ"
+    }
+  },
+  "mobileShop": {
+    "categoriesLabel": "ਦੁਕਾਨ ਸ਼੍ਰੇਣੀਆਂ",
+    "launchingSoon": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ",
+    "searchLabel": "ਉਤਪਾਦ ਖੋਜੋ",
+    "searchPlaceholder": "ਉਤਪਾਦ, ਪੋਸ਼ਣ ਅਤੇ ਵੈਲਨੈਸ ਖੋਜੋ",
+    "wishlist": "ਵਿਸ਼ਲਿਸਟ",
+    "cart": "ਸ਼ਾਪਿੰਗ ਕਾਰਟ",
+    "resultsFor": "“{query}” ਲਈ ਨਤੀਜੇ",
+    "clearSearch": "ਖੋਜ ਸਾਫ਼ ਕਰੋ",
+    "searchSubmit": "ਖੋਜੋ"
+  },
+  "hubPages": {
+    "launchingSoon": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ",
+    "wellnessHub": {
+      "title": "ਤੁਹਾਡੀ ਵੈਲਨੈਸ ਯਾਤਰਾ, ਸਭ ਕੁਝ ਇੱਕੋ ਥਾਂ",
+      "description": "ਵੈਲਨੈਸ ਮਾਰਗਦਰਸ਼ਨ, ਭਾਈਚਾਰਕ ਸਹਿਯੋਗ ਅਤੇ ਲਾਭਦਾਇਕ ਸਰੋਤਾਂ ਨੂੰ ਤੁਹਾਡੇ ਹੋਰ ਨੇੜੇ ਲਿਆਉਣ ਲਈ ਅਸੀਂ ਇੱਕ ਸਮਰਪਿਤ ਵੈਲਨੈਸ ਹੱਬ ਅਨੁਭਵ ਤਿਆਰ ਕਰ ਰਹੇ ਹਾਂ।"
+    },
+    "nutrihub": {
+      "title": "ਰੋਜ਼ਾਨਾ ਪੋਸ਼ਣ ਲਈ ਇੱਕ ਨਵੀਂ ਮੰਜ਼ਿਲ",
+      "description": "ਪੋਸ਼ਣ-ਕੇਂਦਰਿਤ ਉਤਪਾਦਾਂ, ਲਾਭਦਾਇਕ ਸਰੋਤਾਂ ਅਤੇ ਰੋਜ਼ਾਨਾ ਵੈਲਨੈਸ ਚੋਣਾਂ ਲਈ ਅਸੀਂ NutriHub ਨੂੰ ਇੱਕ ਸਮਰਪਿਤ ਮੰਜ਼ਿਲ ਵਜੋਂ ਤਿਆਰ ਕਰ ਰਹੇ ਹਾਂ।"
     }
   }
 }

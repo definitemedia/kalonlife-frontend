@@ -1,16 +1,33 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { Suspense, useCallback, useEffect, useRef, useState, type FormEvent } from "react";
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { companyLinks, headerLinks } from "@/config/navigation";
-import { Link, usePathname } from "@/i18n/navigation";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { useIsMobile, useOverlay } from "@/lib/overlay";
+
+const shopTabs = [
+  { href: "/shop", label: "KALONLIFE" },
+  { href: "/wellness-hub", label: "WELLNESS HUB" },
+  { href: "/nutrihub", label: "NUTRIHUB" },
+] as const;
+
+function shopTabFor(pathname: string): (typeof shopTabs)[number]["href"] {
+  if (pathname === "/wellness-hub" || pathname.startsWith("/wellness-hub/")) {
+    return "/wellness-hub";
+  }
+  if (pathname === "/nutrihub") return "/nutrihub";
+  return "/shop";
+}
 
 export function Header() {
   const t = useTranslations("nav");
   const footer = useTranslations("footer");
+  const shop = useTranslations("mobileShop");
   const pathname = usePathname();
+  const router = useRouter();
   const mobile = useIsMobile();
   const [open, setOpen] = useState(false);
   const [companyOpen, setCompanyOpen] = useState(false);
@@ -26,6 +43,7 @@ export function Header() {
     setOpen(false);
   }, []);
   const companyActive = companyLinks.some((item) => item.href === pathname);
+  const activeShopTab = shopTabFor(pathname);
 
   useOverlay(open, close, drawerRef);
 
@@ -66,6 +84,15 @@ export function Header() {
     }
     wasOpen.current = open;
   }, [open]);
+
+  function onSearch(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const field = event.currentTarget.elements.namedItem("q") as HTMLInputElement | null;
+    const query = field?.value.trim() ?? "";
+    field?.blur();
+    closeAll();
+    router.push(query ? { pathname: "/shop", query: { q: query } } : "/shop");
+  }
 
   return (
     <header className="site-header">
@@ -157,7 +184,7 @@ export function Header() {
           </Link>
           <Link
             href="/cart"
-            className="header-icon-link"
+            className="header-icon-link header-cart-link"
             aria-label={t("cart")}
             aria-current={pathname === "/cart" ? "page" : undefined}
             onClick={closeAll}
@@ -179,6 +206,64 @@ export function Header() {
               {open ? t("closeMenu") : t("openMenu")}
             </span>
           </button>
+        </div>
+      </div>
+      <div className="mobile-shop">
+        <nav className="mobile-shop-tabs" aria-label={shop("categoriesLabel")}>
+          <ul className="mobile-shop-tab-list">
+            {shopTabs.map((tab) => (
+              <li key={tab.href}>
+                <Link
+                  href={tab.href}
+                  className={
+                    tab.href === activeShopTab ? "mobile-shop-tab is-active" : "mobile-shop-tab"
+                  }
+                  aria-current={pathname === tab.href ? "page" : undefined}
+                  onClick={closeAll}
+                >
+                  <span className="mobile-shop-tab-name">{tab.label}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <div className="mobile-shop-toolbar">
+          <form className="mobile-shop-search" role="search" onSubmit={onSearch}>
+            <label htmlFor="mobile-shop-query" className="visually-hidden">
+              {shop("searchLabel")}
+            </label>
+            <Suspense fallback={<SearchInput placeholder={shop("searchPlaceholder")} />}>
+              <SyncedSearchInput placeholder={shop("searchPlaceholder")} />
+            </Suspense>
+            <button
+              type="submit"
+              className="mobile-shop-search-submit"
+              aria-label={shop("searchSubmit")}
+            >
+              <SearchIcon />
+            </button>
+          </form>
+          <button
+            type="button"
+            className="mobile-shop-icon"
+            aria-disabled="true"
+            aria-label={shop("wishlist")}
+            aria-describedby="mobile-shop-wishlist-note"
+          >
+            <HeartIcon />
+          </button>
+          <span id="mobile-shop-wishlist-note" className="visually-hidden">
+            {shop("launchingSoon")}
+          </span>
+          <Link
+            href="/cart"
+            className="mobile-shop-icon"
+            aria-label={shop("cart")}
+            aria-current={pathname === "/cart" ? "page" : undefined}
+            onClick={closeAll}
+          >
+            <CartIcon />
+          </Link>
         </div>
       </div>
       <button
@@ -317,6 +402,63 @@ function CartIcon() {
     >
       <path d="M6.75 8.25h10.5l-.85 10.15a1.25 1.25 0 0 1-1.24 1.15H8.84a1.25 1.25 0 0 1-1.24-1.15L6.75 8.25Z" />
       <path d="M9 8.25V7a3 3 0 0 1 6 0v1.25" />
+    </svg>
+  );
+}
+
+function SearchInput({ placeholder, value = "" }: { placeholder: string; value?: string }) {
+  return (
+    <input
+      id="mobile-shop-query"
+      name="q"
+      type="search"
+      className="mobile-shop-input"
+      placeholder={placeholder}
+      defaultValue={value}
+      enterKeyHint="search"
+      autoComplete="off"
+    />
+  );
+}
+
+function SyncedSearchInput({ placeholder }: { placeholder: string }) {
+  const pathname = usePathname();
+  const query = useSearchParams().get("q") ?? "";
+  const value = pathname === "/shop" ? query : "";
+  return <SearchInput key={`${pathname}?${value}`} placeholder={placeholder} value={value} />;
+}
+
+function SearchIcon() {
+  return (
+    <svg
+      className="mobile-shop-search-icon"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <circle cx="10.75" cy="10.75" r="6" />
+      <path d="m15.25 15.25 4.5 4.5" />
+    </svg>
+  );
+}
+
+function HeartIcon() {
+  return (
+    <svg
+      className="header-icon"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M12 19.25s-7.25-4.3-7.25-9.6A4.15 4.15 0 0 1 12 7.1a4.15 4.15 0 0 1 7.25 2.55c0 5.3-7.25 9.6-7.25 9.6Z" />
     </svg>
   );
 }

@@ -599,6 +599,10 @@
     "termsAndConditions": {
       "title": "नियम और शर्तें",
       "description": "Please read these terms carefully before using this website."
+    },
+    "nutrihub": {
+      "title": "NutriHub",
+      "description": "हम NutriHub को पोषण-केंद्रित उत्पादों, उपयोगी संसाधनों और रोज़मर्रा के वेलनेस विकल्पों के लिए एक समर्पित ठिकाने के रूप में तैयार कर रहे हैं।"
     }
   },
   "guidance": {
@@ -1222,6 +1226,28 @@
       "description": "हमारे स्वास्थ्य उत्पाद देखें और Kalonlife के पीछे के मूल्यों, लोगों और दृष्टि को जानें।",
       "explore": "उत्पाद देखें",
       "whyChoose": "Kalonlife को क्यों चुनें"
+    }
+  },
+  "mobileShop": {
+    "categoriesLabel": "शॉप श्रेणियाँ",
+    "launchingSoon": "जल्द आ रहा है",
+    "searchLabel": "उत्पाद खोजें",
+    "searchPlaceholder": "उत्पाद, पोषण और वेलनेस खोजें",
+    "wishlist": "विशलिस्ट",
+    "cart": "शॉपिंग कार्ट",
+    "resultsFor": "“{query}” के परिणाम",
+    "clearSearch": "खोज साफ़ करें",
+    "searchSubmit": "खोजें"
+  },
+  "hubPages": {
+    "launchingSoon": "जल्द आ रहा है",
+    "wellnessHub": {
+      "title": "आपकी वेलनेस यात्रा, सब कुछ एक ही जगह",
+      "description": "हम एक समर्पित वेलनेस हब अनुभव तैयार कर रहे हैं, ताकि वेलनेस मार्गदर्शन, सामुदायिक सहयोग और उपयोगी संसाधन आपके और करीब आ सकें।"
+    },
+    "nutrihub": {
+      "title": "रोज़मर्रा के पोषण के लिए एक नया ठिकाना",
+      "description": "हम NutriHub को पोषण-केंद्रित उत्पादों, उपयोगी संसाधनों और रोज़मर्रा के वेलनेस विकल्पों के लिए एक समर्पित ठिकाने के रूप में तैयार कर रहे हैं।"
     }
   }
 }

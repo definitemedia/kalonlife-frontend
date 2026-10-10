@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import {
   flavourOf,
   formatMrp,
@@ -207,10 +208,12 @@ function priceBandLabel(
   return filters("priceAbove", { amount: formatRupee(band.min ?? 0) });
 }
 
-export function ProductCatalog() {
+export function ProductCatalog({ query = "" }: { query?: string }) {
   const catalog = useTranslations("catalog");
   const categories = useTranslations("shopCategories");
   const filters = useTranslations("shopFilters");
+  const search = useTranslations("mobileShop");
+  const needle = query.trim().toLocaleLowerCase();
   const [selected, setSelected] = useState<ShopCategoryId>("all");
   const [categoriesOpen, setCategoriesOpen] = useState(false);
   const [flavour, setFlavour] = useState<string | null>(null);
@@ -242,6 +245,7 @@ export function ProductCatalog() {
   }));
 
   const visible = products.filter((product) => {
+    if (needle && !product.name.toLocaleLowerCase().includes(needle)) return false;
     if (selected !== "all" && product.category !== selected) return false;
     if (flavour && flavourOf(product) !== flavour) return false;
     if (packSize && product.packSize !== packSize) return false;
@@ -339,6 +343,14 @@ export function ProductCatalog() {
       </div>
 
       <div className="shop-products">
+        {needle ? (
+          <p className="shop-search-status" role="status">
+            <span>{search("resultsFor", { query: query.trim() })}</span>
+            <Link href="/shop" className="shop-search-clear">
+              {search("clearSearch")}
+            </Link>
+          </p>
+        ) : null}
         {visible.length === 0 ? (
           <p className="shop-empty">{categories("empty")}</p>
         ) : (

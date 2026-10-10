@@ -515,6 +515,10 @@
     "termsAndConditions": {
       "title": "নিয়ম ও শর্তাবলি",
       "description": "Please read these terms carefully before using this website."
+    },
+    "nutrihub": {
+      "title": "NutriHub",
+      "description": "পুষ্টি-কেন্দ্রিক পণ্য, দরকারি রিসোর্স এবং প্রতিদিনের সুস্থতার পছন্দের জন্য আমরা NutriHub-কে একটি নিবেদিত ঠিকানা হিসেবে প্রস্তুত করছি।"
     }
   },
   "guidance": {
@@ -1038,6 +1042,28 @@
       "trustStrip": "গোপনীয়তা, কোচ ও পেমেন্ট",
       "bookForm": "আপনার পরামর্শ বুক করুন",
       "summary": "আপনার পরামর্শ"
+    }
+  },
+  "mobileShop": {
+    "categoriesLabel": "শপ বিভাগ",
+    "launchingSoon": "শীঘ্রই আসছে",
+    "searchLabel": "পণ্য খুঁজুন",
+    "searchPlaceholder": "পণ্য, পুষ্টি ও সুস্থতা খুঁজুন",
+    "wishlist": "উইশলিস্ট",
+    "cart": "শপিং কার্ট",
+    "resultsFor": "“{query}”-এর ফলাফল",
+    "clearSearch": "অনুসন্ধান মুছুন",
+    "searchSubmit": "খুঁজুন"
+  },
+  "hubPages": {
+    "launchingSoon": "শীঘ্রই আসছে",
+    "wellnessHub": {
+      "title": "আপনার সুস্থতার যাত্রা, সবকিছু এক জায়গায়",
+      "description": "সুস্থতার নির্দেশনা, কমিউনিটির সহায়তা এবং দরকারি রিসোর্স আপনার আরও কাছে আনতে আমরা একটি নিবেদিত ওয়েলনেস হাব অভিজ্ঞতা প্রস্তুত করছি।"
+    },
+    "nutrihub": {
+      "title": "প্রতিদিনের পুষ্টির জন্য এক নতুন ঠিকানা",
+      "description": "পুষ্টি-কেন্দ্রিক পণ্য, দরকারি রিসোর্স এবং প্রতিদিনের সুস্থতার পছন্দের জন্য আমরা NutriHub-কে একটি নিবেদিত ঠিকানা হিসেবে প্রস্তুত করছি।"
     }
   }
 }

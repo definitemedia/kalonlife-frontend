@@ -515,6 +515,10 @@
     "termsAndConditions": {
       "title": "ନିୟମ ଏବଂ ସର୍ତ୍ତାବଳୀ",
       "description": "Please read these terms carefully before using this website."
+    },
+    "nutrihub": {
+      "title": "NutriHub",
+      "description": "ପୁଷ୍ଟି-କେନ୍ଦ୍ରିତ ଉତ୍ପାଦ, ଉପଯୋଗୀ ସମ୍ବଳ ଏବଂ ଦୈନନ୍ଦିନ ସୁସ୍ଥତା ପସନ୍ଦ ପାଇଁ ଆମେ NutriHub କୁ ଏକ ସମର୍ପିତ ଗନ୍ତବ୍ୟ ଭାବେ ପ୍ରସ୍ତୁତ କରୁଛୁ।"
     }
   },
   "guidance": {
@@ -1038,6 +1042,28 @@
       "trustStrip": "ଗୋପନୀୟତା, କୋଚ୍ ଓ ପେମେଣ୍ଟ",
       "bookForm": "ଆପଣଙ୍କ ପରାମର୍ଶ ବୁକ୍ କରନ୍ତୁ",
       "summary": "ଆପଣଙ୍କ ପରାମର୍ଶ"
+    }
+  },
+  "mobileShop": {
+    "categoriesLabel": "ଦୋକାନ ବର୍ଗ",
+    "launchingSoon": "ଶୀଘ୍ର ଆସୁଛି",
+    "searchLabel": "ଉତ୍ପାଦ ଖୋଜନ୍ତୁ",
+    "searchPlaceholder": "ଉତ୍ପାଦ, ପୁଷ୍ଟି ଓ ସୁସ୍ଥତା ଖୋଜନ୍ତୁ",
+    "wishlist": "ୱିସଲିଷ୍ଟ",
+    "cart": "ସପିଂ କାର୍ଟ",
+    "resultsFor": "“{query}” ପାଇଁ ଫଳାଫଳ",
+    "clearSearch": "ଖୋଜ ସଫା କରନ୍ତୁ",
+    "searchSubmit": "ଖୋଜନ୍ତୁ"
+  },
+  "hubPages": {
+    "launchingSoon": "ଶୀଘ୍ର ଆସୁଛି",
+    "wellnessHub": {
+      "title": "ଆପଣଙ୍କ ସୁସ୍ଥତା ଯାତ୍ରା, ସବୁକିଛି ଗୋଟିଏ ସ୍ଥାନରେ",
+      "description": "ସୁସ୍ଥତା ମାର୍ଗଦର୍ଶନ, ସମୁଦାୟ ସହଯୋଗ ଏବଂ ଉପଯୋଗୀ ସମ୍ବଳକୁ ଆପଣଙ୍କ ପାଖକୁ ଆଣିବା ପାଇଁ ଆମେ ଏକ ସମର୍ପିତ ୱେଲନେସ୍ ହବ୍ ଅନୁଭୂତି ପ୍ରସ୍ତୁତ କରୁଛୁ।"
+    },
+    "nutrihub": {
+      "title": "ଦୈନନ୍ଦିନ ପୁଷ୍ଟି ପାଇଁ ଏକ ନୂଆ ଗନ୍ତବ୍ୟ",
+      "description": "ପୁଷ୍ଟି-କେନ୍ଦ୍ରିତ ଉତ୍ପାଦ, ଉପଯୋଗୀ ସମ୍ବଳ ଏବଂ ଦୈନନ୍ଦିନ ସୁସ୍ଥତା ପସନ୍ଦ ପାଇଁ ଆମେ NutriHub କୁ ଏକ ସମର୍ପିତ ଗନ୍ତବ୍ୟ ଭାବେ ପ୍ରସ୍ତୁତ କରୁଛୁ।"
     }
   }
 }

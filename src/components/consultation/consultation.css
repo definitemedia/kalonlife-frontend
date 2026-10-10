@@ -20,7 +20,7 @@ html:has(.consult-page) {
 
 #how-it-works,
 #book-consultation {
-  scroll-margin-top: calc(var(--header-height) + 0.75rem);
+  scroll-margin-top: 0.75rem;
 }
 
 .consult-section {

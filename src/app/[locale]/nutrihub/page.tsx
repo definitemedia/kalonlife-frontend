@@ -9,7 +9,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return buildMetadata(locale, "wellnessHub");
+  return buildMetadata(locale, "nutrihub");
 }
 
 export default async function Page({ params }: Props) {
@@ -20,8 +20,8 @@ export default async function Page({ params }: Props) {
   return (
     <LaunchingSoon
       status={t("launchingSoon")}
-      title={t("wellnessHub.title")}
-      description={t("wellnessHub.description")}
+      title={t("nutrihub.title")}
+      description={t("nutrihub.description")}
     />
   );
 }
