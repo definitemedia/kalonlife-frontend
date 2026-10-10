@@ -386,6 +386,13 @@
       "gu": "Gujarat",
       "or": "Odisha",
       "pa": "Punjab"
+    },
+    "app": {
+      "heading": "Download the Kalonlife App",
+      "launchingSoon": "Launching Soon",
+      "comingSoonOn": "Coming soon on",
+      "googlePlayLabel": "Google Play — launching soon",
+      "appStoreLabel": "App Store — launching soon"
     }
   },
   "notFound": {
@@ -494,7 +501,7 @@
     },
     "wellnessHub": {
       "title": "Wellness Hub",
-      "description": "Kalonlife Wellness Hub."
+      "description": "Discover a more personalised approach to wellness with Kalonlife Wellness Hub. Get guidance on nutrition, healthy lifestyle habits and everyday well-being, with support designed around your individual needs."
     },
     "wellnessHubAbout": {
       "title": "About the Wellness Hub",
@@ -608,6 +615,10 @@
     "nutrihub": {
       "title": "NutriHub",
       "description": "We are preparing NutriHub as a dedicated destination for nutrition-focused products, helpful resources, and everyday wellness choices."
+    },
+    "trackOrder": {
+      "title": "Track Your Order",
+      "description": "Online order tracking for Kalonlife orders is launching soon. Contact support for order updates."
     }
   },
   "languages": {
@@ -1254,5 +1265,199 @@
       "title": "A New Destination for Everyday Nutrition",
       "description": "We are preparing NutriHub as a dedicated destination for nutrition-focused products, helpful resources, and everyday wellness choices."
     }
+  },
+  "brandSwitch": {
+    "label": "Choose Kalonlife experience",
+    "kalonlife": "Main website and shopping experience.",
+    "wellnessHub": "Dedicated Wellness Hub experience.",
+    "nutrihub": "Dedicated nutrition-focused experience."
+  },
+  "trackOrder": {
+    "label": "Track Order",
+    "title": "Track Your Order",
+    "eyebrow": "KALONLIFE ORDER TRACKING",
+    "bannerDescription": "Stay updated on your Kalonlife order, from dispatch to delivery.",
+    "bannerCta": "Track My Order",
+    "appBadge": "Kalonlife App — Launching Soon",
+    "phoneAlt": "Kalonlife shop page shown on a mobile phone",
+    "contactCta": "Contact support",
+    "form": {
+      "heading": "Track your order",
+      "description": "Enter your Order ID and Phone number to get the latest delivery update",
+      "orderId": "Order ID",
+      "phone": "Phone Number",
+      "submit": "Track",
+      "errors": {
+        "orderIdRequired": "Please enter your Order ID.",
+        "orderIdInvalid": "Please enter a valid Order ID (letters, numbers and - _ / # only).",
+        "phoneRequired": "Please enter your phone number.",
+        "phoneInvalid": "Please enter a valid 10-digit Indian mobile number."
+      },
+      "notice": "Online order tracking is launching soon. For the latest update on order {orderId}, please contact our support team."
+    }
+  },
+  "wellnessHubPage": {
+    "hero": {
+      "eyebrow": "PERSONALISED WELLNESS • EXPERT GUIDANCE • HEALTHIER HABITS",
+      "heading": "Your Health. Your Goals. Your Wellness Journey.",
+      "description": "Discover a more personalised approach to wellness with Kalonlife Wellness Hub. Get guidance on nutrition, healthy lifestyle habits and everyday well-being, with support designed around your individual needs.",
+      "primaryCta": "Book a Consultation",
+      "secondaryCta": "Explore Wellness Services",
+      "imageAlt": "A woman drinking a glass of water at a kitchen table with fruit and almonds"
+    },
+    "about": {
+      "eyebrow": "WELCOME TO KALONLIFE WELLNESS HUB",
+      "heading": "A More Thoughtful Approach to Well-being",
+      "p1": "Wellness is more than a single goal. It is the combination of everyday choices, balanced nutrition, physical activity, restful sleep and sustainable habits.",
+      "p2": "Kalonlife Wellness Hub aims to make your wellness journey easier to understand and manage through personalised guidance, practical recommendations and a supportive approach to healthier living.",
+      "p3": "Whether you want to improve your eating habits, manage your weight, understand nutrition better or build a healthier routine, we help you explore the next steps that fit your needs.",
+      "imageAlt": "Two people talking at a table with a bowl of fresh fruit and a notebook"
+    },
+    "services": {
+      "eyebrow": "WELLNESS FOR EVERY STAGE OF LIFE",
+      "heading": "Find Support for Your Wellness Goals",
+      "items": {
+        "weight": {
+          "title": "Weight Management",
+          "description": "Build sustainable eating and lifestyle habits that support your personal weight-management goals."
+        },
+        "metabolic": {
+          "title": "Nutrition for Metabolic Wellness",
+          "description": "Explore practical food choices and lifestyle guidance relevant to blood sugar management and metabolic health, alongside appropriate clinical care."
+        },
+        "women": {
+          "title": "Women's Wellness",
+          "description": "Get nutrition and lifestyle guidance tailored to women's changing needs and individual wellness goals."
+        },
+        "family": {
+          "title": "Family and Child Nutrition",
+          "description": "Encourage balanced food choices and positive eating habits for growing children and families."
+        },
+        "active": {
+          "title": "Sports and Active Lifestyle Nutrition",
+          "description": "Learn about everyday nutrition, hydration and recovery habits that support an active lifestyle."
+        },
+        "ageing": {
+          "title": "Healthy Ageing",
+          "description": "Explore balanced nutrition and practical lifestyle habits that support well-being as you age."
+        }
+      }
+    },
+    "personal": {
+      "eyebrow": "GUIDANCE THAT STARTS WITH YOU",
+      "heading": "Wellness Is Personal. Your Guidance Should Be Too.",
+      "description": "Your routine, food preferences, lifestyle and goals are unique. Our approach begins by understanding these individual factors before exploring practical next steps.",
+      "benefits": {
+        "discussions": "Individual nutrition and lifestyle discussions",
+        "preferences": "Guidance shaped around your preferences and routine",
+        "meals": "Practical food and meal-planning suggestions",
+        "habits": "Support for building sustainable everyday habits",
+        "followUp": "Follow-up guidance where included in your selected service"
+      },
+      "cta": "Book Your Consultation",
+      "imageAlt": "A man preparing a green smoothie with spinach, bananas and oats"
+    },
+    "steps": {
+      "heading": "Your Wellness Journey in Three Steps",
+      "items": {
+        "goals": {
+          "title": "Share Your Goals",
+          "description": "Tell us about your wellness priorities, lifestyle and the areas where you would like guidance."
+        },
+        "expert": {
+          "title": "Connect with an Expert",
+          "description": "Discuss your needs with an appropriately qualified nutrition or wellness professional, subject to service availability."
+        },
+        "next": {
+          "title": "Take Practical Next Steps",
+          "description": "Explore realistic recommendations and everyday habits that fit your goals and circumstances."
+        }
+      }
+    },
+    "tools": {
+      "eyebrow": "A SMARTER WELLNESS EXPERIENCE",
+      "heading": "Make Everyday Wellness Easier to Navigate",
+      "comingSoon": "Coming soon",
+      "items": {
+        "meals": {
+          "title": "Nutrition and Meal Planning",
+          "description": "Organise meal ideas and explore balanced food choices that suit your preferences and routine."
+        },
+        "awareness": {
+          "title": "Nutrition Awareness",
+          "description": "Learn about food portions, nutrients and everyday meal choices using accessible educational resources."
+        },
+        "habits": {
+          "title": "Healthy Habit Tracking",
+          "description": "Build awareness of routines such as meals, hydration, movement and sleep using available tracking features."
+        }
+      }
+    },
+    "why": {
+      "heading": "A Wellness Experience Built Around You",
+      "items": {
+        "personal": {
+          "title": "Personalised Approach",
+          "description": "Guidance shaped around your individual goals and everyday routine."
+        },
+        "qualified": {
+          "title": "Qualified Guidance",
+          "description": "Access to appropriately qualified professionals where available."
+        },
+        "practical": {
+          "title": "Practical Support",
+          "description": "Realistic recommendations that respect your preferences and lifestyle."
+        },
+        "responsible": {
+          "title": "Responsible Wellness",
+          "description": "A thoughtful approach that recognises the importance of appropriate medical care."
+        }
+      }
+    },
+    "pricing": {
+      "eyebrow": "START YOUR WELLNESS JOURNEY",
+      "heading": "One Consultation. A Clearer Next Step.",
+      "packageName": "Single Consultation",
+      "description": "A one-time consultation for discussing your wellness goals and receiving initial nutrition and lifestyle guidance.",
+      "includedLabel": "Included",
+      "included": {
+        "session": "One consultation session",
+        "goals": "Discussion of your wellness goals",
+        "guidance": "Initial nutrition and lifestyle guidance"
+      },
+      "cta": "Book Your Consultation — {price}"
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": {
+        "what": {
+          "question": "What is Kalonlife Wellness Hub?",
+          "answer": "Kalonlife Wellness Hub is a wellness-focused experience designed to help people explore nutrition, healthy lifestyle habits and personalised guidance."
+        },
+        "plan": {
+          "question": "Can I receive a personalised diet plan?",
+          "answer": "Recommendations depend on the consultation service and the professional's assessment. Any plan should account for your individual needs and relevant health considerations."
+        },
+        "online": {
+          "question": "Can I consult online?",
+          "answer": "Online consultations can be offered where the relevant service and professional are available. Please confirm the available booking options when scheduling."
+        },
+        "medical": {
+          "question": "Is wellness guidance a substitute for medical care?",
+          "answer": "No. General nutrition and wellness guidance does not replace diagnosis, treatment or advice from a qualified medical practitioner."
+        },
+        "cost": {
+          "question": "How much does a consultation cost?",
+          "answer": "The single consultation is priced at {price}."
+        }
+      }
+    },
+    "finalCta": {
+      "eyebrow": "YOUR WELLNESS JOURNEY STARTS HERE",
+      "heading": "Small Steps. Healthier Habits. A More Informed You.",
+      "description": "Take the next step towards understanding your wellness goals and exploring practical guidance that fits your life.",
+      "cta": "Book a Consultation — {price}"
+    },
+    "disclaimer": "Content on this website is for general educational purposes and is not a substitute for professional medical advice, diagnosis or treatment. Individual results vary. Consult an appropriately qualified healthcare professional regarding medical conditions or treatment decisions."
   }
 }

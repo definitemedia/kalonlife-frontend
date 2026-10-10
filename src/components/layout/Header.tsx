@@ -1,36 +1,46 @@
 "use client";
 
-import { Suspense, useCallback, useEffect, useRef, useState, type FormEvent } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type KeyboardEvent as ReactKeyboardEvent,
+} from "react";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
+import { activeBrandFor, brandNames, type BrandId } from "@/config/brands";
 import { companyLinks, headerLinks } from "@/config/navigation";
-import { Link, usePathname, useRouter } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { useIsMobile, useOverlay } from "@/lib/overlay";
+import { HeaderSearch } from "./HeaderSearch";
 
-const shopTabs = [
-  { href: "/shop", label: "KALONLIFE" },
-  { href: "/wellness-hub", label: "WELLNESS HUB" },
-  { href: "/nutrihub", label: "NUTRIHUB" },
-] as const;
+const shopTabs: { brand: BrandId; href: string; label: string }[] = [
+  { brand: "kalonlife", href: "/shop", label: "KALONLIFE" },
+  { brand: "wellnessHub", href: "/wellness-hub", label: "WELLNESS HUB" },
+  { brand: "nutrihub", href: "/nutrihub", label: "NUTRIHUB" },
+];
 
-function shopTabFor(pathname: string): (typeof shopTabs)[number]["href"] {
-  if (pathname === "/wellness-hub" || pathname.startsWith("/wellness-hub/")) {
-    return "/wellness-hub";
-  }
-  if (pathname === "/nutrihub") return "/nutrihub";
-  return "/shop";
-}
+const brandOptions: { brand: BrandId; href: string }[] = [
+  { brand: "kalonlife", href: "/" },
+  { brand: "wellnessHub", href: "/wellness-hub" },
+  { brand: "nutrihub", href: "/nutrihub" },
+];
 
 export function Header() {
   const t = useTranslations("nav");
   const footer = useTranslations("footer");
   const shop = useTranslations("mobileShop");
+  const brandText = useTranslations("brandSwitch");
+  const track = useTranslations("trackOrder");
   const pathname = usePathname();
-  const router = useRouter();
   const mobile = useIsMobile();
   const [open, setOpen] = useState(false);
   const [companyOpen, setCompanyOpen] = useState(false);
+  const [brandOpen, setBrandOpen] = useState(false);
+  const brandRef = useRef<HTMLDivElement>(null);
+  const brandTriggerRef = useRef<HTMLButtonElement>(null);
+  const brandFocusFirst = useRef(false);
   const drawerRef = useRef<HTMLElement>(null);
   const menuRef = useRef<HTMLButtonElement>(null);
   const companyRef = useRef<HTMLDetailsElement>(null);
@@ -43,19 +53,69 @@ export function Header() {
     setOpen(false);
   }, []);
   const companyActive = companyLinks.some((item) => item.href === pathname);
-  const activeShopTab = shopTabFor(pathname);
+  const activeBrand = activeBrandFor(pathname);
 
   useOverlay(open, close, drawerRef);
 
   useEffect(() => {
     if (!mobile) setOpen(false);
     setCompanyOpen(false);
+    setBrandOpen(false);
   }, [mobile]);
 
   useEffect(() => {
     setOpen(false);
     setCompanyOpen(false);
+    setBrandOpen(false);
   }, [pathname]);
+
+  useEffect(() => {
+    if (!brandOpen) return;
+    if (brandFocusFirst.current) {
+      brandFocusFirst.current = false;
+      brandRef.current?.querySelector<HTMLElement>(".brand-switch-option")?.focus();
+    }
+    const onPointerDown = (event: PointerEvent) => {
+      if (!brandRef.current?.contains(event.target as Node)) {
+        setBrandOpen(false);
+      }
+    };
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setBrandOpen(false);
+        brandTriggerRef.current?.focus();
+      }
+    };
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [brandOpen]);
+
+  function toggleBrand() {
+    setCompanyOpen(false);
+    setBrandOpen((value) => !value);
+  }
+
+  function onBrandKeyDown(event: ReactKeyboardEvent<HTMLDivElement>) {
+    if (event.key !== "ArrowDown" && event.key !== "ArrowUp") return;
+    event.preventDefault();
+    if (!brandOpen) {
+      brandFocusFirst.current = true;
+      setCompanyOpen(false);
+      setBrandOpen(true);
+      return;
+    }
+    const options = Array.from(
+      brandRef.current?.querySelectorAll<HTMLElement>(".brand-switch-option") ?? [],
+    );
+    const index = options.indexOf(document.activeElement as HTMLElement);
+    const step = event.key === "ArrowDown" ? 1 : -1;
+    const next = index === -1 ? (step === 1 ? 0 : options.length - 1) : index + step;
+    options[(next + options.length) % options.length]?.focus();
+  }
 
   useEffect(() => {
     if (!companyOpen || open) return;
@@ -85,15 +145,6 @@ export function Header() {
     wasOpen.current = open;
   }, [open]);
 
-  function onSearch(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const field = event.currentTarget.elements.namedItem("q") as HTMLInputElement | null;
-    const query = field?.value.trim() ?? "";
-    field?.blur();
-    closeAll();
-    router.push(query ? { pathname: "/shop", query: { q: query } } : "/shop");
-  }
-
   return (
     <header className="site-header">
       <a className="skip-link" href="#main-content">
@@ -110,68 +161,54 @@ export function Header() {
             className="brand-logo"
           />
         </Link>
-        <nav className="site-nav" aria-label={t("primary")}>
-          <Link
-            href="/"
-            aria-current={pathname === "/" ? "page" : undefined}
-            onClick={closeCompany}
+        <div className="brand-switch" ref={brandRef} onKeyDown={onBrandKeyDown}>
+          <button
+            ref={brandTriggerRef}
+            type="button"
+            className="brand-switch-trigger"
+            aria-haspopup="menu"
+            aria-expanded={brandOpen}
+            aria-controls="brand-switch-menu"
+            onClick={toggleBrand}
           >
-            {t("home")}
-          </Link>
-          <Link
-            href="/shop"
-            aria-current={pathname === "/shop" ? "page" : undefined}
-            onClick={closeCompany}
-          >
-            {t("shop")}
-          </Link>
-          <details
-            ref={companyRef}
-            className="nav-group"
-            open={companyOpen}
-            onToggle={(event) => setCompanyOpen(event.currentTarget.open)}
-          >
-            <summary
-              ref={companyTriggerRef}
-              aria-haspopup="menu"
-              aria-expanded={companyOpen}
-              aria-current={companyActive ? "page" : undefined}
-            >
-              {t("company")}
-            </summary>
-            <div className="nav-group-panel">
-              {companyLinks.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  aria-current={pathname === item.href ? "page" : undefined}
-                  onClick={closeCompany}
-                >
-                  {t(item.label)}
-                </Link>
+            <span className="brand-switch-dot" aria-hidden="true" />
+            <span className="visually-hidden">{brandText("label")}: </span>
+            <span>{brandNames[activeBrand]}</span>
+            <ChevronDownIcon />
+          </button>
+          <div id="brand-switch-menu" className="brand-switch-panel" hidden={!brandOpen}>
+            <ul className="brand-switch-list">
+              {brandOptions.map((option) => (
+                <li key={option.brand}>
+                  <Link
+                    href={option.href}
+                    className="brand-switch-option"
+                    data-active={option.brand === activeBrand ? "true" : undefined}
+                    aria-current={pathname === option.href ? "page" : undefined}
+                    onClick={() => setBrandOpen(false)}
+                  >
+                    <span className="brand-switch-name">{brandNames[option.brand]}</span>
+                    <span className="brand-switch-desc">{brandText(option.brand)}</span>
+                    {option.brand === activeBrand ? <CheckIcon /> : null}
+                  </Link>
+                </li>
               ))}
-            </div>
-          </details>
-          {headerLinks
-            .filter(
-              (item) =>
-                item.href !== "/" &&
-                item.href !== "/shop" &&
-                item.href !== "/login" &&
-                item.href !== "/cart",
-            )
-            .map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                aria-current={pathname === item.href ? "page" : undefined}
-                onClick={closeCompany}
-              >
-                {t(item.label)}
-              </Link>
-            ))}
-        </nav>
+            </ul>
+          </div>
+        </div>
+        <HeaderSearch id="header-search-desktop" className="desktop-search" onSubmitted={closeAll} />
         <div className="header-tools">
+          <Link
+            href="/track-order"
+            className="header-icon-link header-track-link"
+            aria-label={track("label")}
+            title={track("label")}
+            aria-current={pathname === "/track-order" ? "page" : undefined}
+            onClick={closeAll}
+          >
+            <TruckIcon />
+            <span className="visually-hidden">{track("label")}</span>
+          </Link>
           <Link
             href="/login"
             className="header-icon-link"
@@ -208,6 +245,82 @@ export function Header() {
           </button>
         </div>
       </div>
+      <div className="header-nav-row">
+        <div className="container">
+          <nav className="site-nav" aria-label={t("primary")}>
+            <Link
+              href="/"
+              aria-current={pathname === "/" ? "page" : undefined}
+              onClick={closeCompany}
+            >
+              {t("home")}
+            </Link>
+            <Link
+              href="/shop"
+              aria-current={pathname === "/shop" ? "page" : undefined}
+              onClick={closeCompany}
+            >
+              {t("shop")}
+            </Link>
+            <details
+              ref={companyRef}
+              className="nav-group"
+              open={companyOpen}
+              onToggle={(event) => {
+                const next = event.currentTarget.open;
+                setCompanyOpen(next);
+                if (next) setBrandOpen(false);
+              }}
+            >
+              <summary
+                ref={companyTriggerRef}
+                aria-haspopup="menu"
+                aria-expanded={companyOpen}
+                aria-current={companyActive ? "page" : undefined}
+              >
+                {t("company")}
+              </summary>
+              <div className="nav-group-panel">
+                {companyLinks.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    aria-current={pathname === item.href ? "page" : undefined}
+                    onClick={closeCompany}
+                  >
+                    {t(item.label)}
+                  </Link>
+                ))}
+              </div>
+            </details>
+            {headerLinks
+              .filter(
+                (item) =>
+                  item.href !== "/" &&
+                  item.href !== "/shop" &&
+                  item.href !== "/login" &&
+                  item.href !== "/cart",
+              )
+              .map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  aria-current={pathname === item.href ? "page" : undefined}
+                  onClick={closeCompany}
+                >
+                  {t(item.label)}
+                </Link>
+              ))}
+            <Link
+              href="/contact"
+              aria-current={pathname === "/contact" ? "page" : undefined}
+              onClick={closeCompany}
+            >
+              {footer("contact")}
+            </Link>
+          </nav>
+        </div>
+      </div>
       <div className="mobile-shop">
         <nav className="mobile-shop-tabs" aria-label={shop("categoriesLabel")}>
           <ul className="mobile-shop-tab-list">
@@ -216,7 +329,7 @@ export function Header() {
                 <Link
                   href={tab.href}
                   className={
-                    tab.href === activeShopTab ? "mobile-shop-tab is-active" : "mobile-shop-tab"
+                    tab.brand === activeBrand ? "mobile-shop-tab is-active" : "mobile-shop-tab"
                   }
                   aria-current={pathname === tab.href ? "page" : undefined}
                   onClick={closeAll}
@@ -228,21 +341,11 @@ export function Header() {
           </ul>
         </nav>
         <div className="mobile-shop-toolbar">
-          <form className="mobile-shop-search" role="search" onSubmit={onSearch}>
-            <label htmlFor="mobile-shop-query" className="visually-hidden">
-              {shop("searchLabel")}
-            </label>
-            <Suspense fallback={<SearchInput placeholder={shop("searchPlaceholder")} />}>
-              <SyncedSearchInput placeholder={shop("searchPlaceholder")} />
-            </Suspense>
-            <button
-              type="submit"
-              className="mobile-shop-search-submit"
-              aria-label={shop("searchSubmit")}
-            >
-              <SearchIcon />
-            </button>
-          </form>
+          <HeaderSearch
+            id="header-search-mobile"
+            className="mobile-shop-search"
+            onSubmitted={closeAll}
+          />
           <button
             type="button"
             className="mobile-shop-icon"
@@ -352,6 +455,13 @@ export function Header() {
           {footer("contact")}
         </Link>
         <Link
+          href="/track-order"
+          aria-current={pathname === "/track-order" ? "page" : undefined}
+          onClick={closeAll}
+        >
+          {track("label")}
+        </Link>
+        <Link
           href="/login"
           aria-current={pathname === "/login" ? "page" : undefined}
           onClick={closeAll}
@@ -406,32 +516,10 @@ function CartIcon() {
   );
 }
 
-function SearchInput({ placeholder, value = "" }: { placeholder: string; value?: string }) {
-  return (
-    <input
-      id="mobile-shop-query"
-      name="q"
-      type="search"
-      className="mobile-shop-input"
-      placeholder={placeholder}
-      defaultValue={value}
-      enterKeyHint="search"
-      autoComplete="off"
-    />
-  );
-}
-
-function SyncedSearchInput({ placeholder }: { placeholder: string }) {
-  const pathname = usePathname();
-  const query = useSearchParams().get("q") ?? "";
-  const value = pathname === "/shop" ? query : "";
-  return <SearchInput key={`${pathname}?${value}`} placeholder={placeholder} value={value} />;
-}
-
-function SearchIcon() {
+function TruckIcon() {
   return (
     <svg
-      className="mobile-shop-search-icon"
+      className="header-icon"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -440,8 +528,44 @@ function SearchIcon() {
       strokeLinejoin="round"
       aria-hidden="true"
     >
-      <circle cx="10.75" cy="10.75" r="6" />
-      <path d="m15.25 15.25 4.5 4.5" />
+      <path d="M6 16.75H4.25a1 1 0 0 1-1-1v-8.5a1 1 0 0 1 1-1h9.5a1 1 0 0 1 1 1v9.5H9.5" />
+      <path d="M14.75 10h3.1a1 1 0 0 1 .83.45l1.87 2.8a1 1 0 0 1 .2.6v2.9H19" />
+      <circle cx="7.75" cy="17" r="1.75" />
+      <circle cx="17.25" cy="17" r="1.75" />
+    </svg>
+  );
+}
+
+function ChevronDownIcon() {
+  return (
+    <svg
+      className="brand-switch-chevron"
+      viewBox="0 0 16 16"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M4 6.25 8 10.25l4-4" />
+    </svg>
+  );
+}
+
+function CheckIcon() {
+  return (
+    <svg
+      className="brand-switch-check"
+      viewBox="0 0 16 16"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="m3.5 8.25 3 3 6-6.5" />
     </svg>
   );
 }

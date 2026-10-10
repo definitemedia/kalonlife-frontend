@@ -23,6 +23,36 @@ export async function Footer() {
               className="footer-logo"
             />
           </Link>
+          <div className="footer-app">
+            <p className="footer-app-heading">
+              <span>{t("app.heading")}</span>
+              <span className="footer-app-badge">{t("app.launchingSoon")}</span>
+            </p>
+            <div className="footer-app-stores">
+              <span
+                className="footer-app-store"
+                role="img"
+                aria-label={t("app.googlePlayLabel")}
+              >
+                <GooglePlayIcon />
+                <span className="footer-app-store-text" aria-hidden="true">
+                  <span className="footer-app-store-kicker">{t("app.comingSoonOn")}</span>
+                  <span className="footer-app-store-name">Google Play</span>
+                </span>
+              </span>
+              <span
+                className="footer-app-store"
+                role="img"
+                aria-label={t("app.appStoreLabel")}
+              >
+                <AppleIcon />
+                <span className="footer-app-store-text" aria-hidden="true">
+                  <span className="footer-app-store-kicker">{t("app.comingSoonOn")}</span>
+                  <span className="footer-app-store-name">App Store</span>
+                </span>
+              </span>
+            </div>
+          </div>
           <LocaleSwitcher />
         </div>
         <FooterAccordion title={t("company")}>
@@ -81,6 +111,37 @@ export async function Footer() {
         </div>
       </div>
     </footer>
+  );
+}
+
+function GooglePlayIcon() {
+  return (
+    <svg
+      className="footer-app-store-icon"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M4.2 2.4c-.25.26-.4.66-.4 1.18v16.84c0 .52.15.92.4 1.18l.06.06L13.7 12.2v-.4L4.26 2.34z" />
+      <path d="m16.85 15.35-3.15-3.15v-.4l3.15-3.15.07.04 3.73 2.12c1.07.6 1.07 1.59 0 2.2l-3.73 2.12z" opacity="0.8" />
+      <path d="M16.92 15.31 13.7 12 4.2 21.6c.35.37.93.42 1.58.05l11.14-6.34" opacity="0.65" />
+      <path d="M16.92 8.69 5.78 2.35c-.65-.37-1.23-.32-1.58.05L13.7 12z" opacity="0.9" />
+    </svg>
+  );
+}
+
+function AppleIcon() {
+  return (
+    <svg
+      className="footer-app-store-icon"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M16.37 12.62c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.77-3.32-1.8-1.41-.14-2.76.83-3.47.83-.72 0-1.82-.81-2.99-.79-1.54.02-2.96.9-3.75 2.27-1.6 2.78-.41 6.9 1.15 9.15.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.23-.02 2.01-1.12 2.76-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.38-.91-2.4-3.67zM14.1 5.86c.63-.77 1.06-1.83.94-2.89-.91.04-2.01.61-2.66 1.37-.58.67-1.1 1.76-.96 2.8 1.01.08 2.05-.52 2.68-1.28z" />
+    </svg>
   );
 }
 

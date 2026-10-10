@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
-import { LaunchingSoon } from "@/components/layout/LaunchingSoon";
+import { setRequestLocale } from "next-intl/server";
+import { WellnessHubPage } from "@/components/wellness-hub/WellnessHubPage";
 import { buildMetadata } from "@/lib/seo";
 
 type Props = {
@@ -15,13 +15,5 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: "hubPages" });
-
-  return (
-    <LaunchingSoon
-      status={t("launchingSoon")}
-      title={t("wellnessHub.title")}
-      description={t("wellnessHub.description")}
-    />
-  );
+  return <WellnessHubPage />;
 }

@@ -53,6 +53,7 @@ export const routeCatalog = [
   { key: "wellnessHubContact", path: "/wellness-hub/contact", index: true },
   { key: "wellnessHubLogin", path: "/wellness-hub/login", index: true },
   { key: "nutrihub", path: "/nutrihub", index: true },
+  { key: "trackOrder", path: "/track-order", index: true },
   { key: "sitemap", path: "/sitemap", index: true },
   { key: "complianceDocuments", path: "/compliance-documents", index: true },
   { key: "directSellerPolicy", path: "/direct-seller-policy", index: true },

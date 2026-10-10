@@ -8,7 +8,9 @@
   --space-8: 3rem;
   --space-10: 4.5rem;
   --page-width: 72rem;
-  --header-height: 5.5rem;
+  --header-row-height: 4.75rem;
+  --header-nav-height: 2.5rem;
+  --header-height: calc(var(--header-row-height) + var(--header-nav-height));
   --mobile-shop-height: 0rem;
   --header-offset: calc(var(--header-height) + var(--mobile-shop-height));
   --tab-bar-height: 4.25rem;
