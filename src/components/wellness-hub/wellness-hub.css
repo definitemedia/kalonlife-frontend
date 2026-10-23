@@ -577,7 +577,8 @@ html:not([lang="en"]) .wh-title {
     width: min(100% - var(--space-8), 80rem);
   }
 
-  .wh-step-list {
+  .wh-step-list,
+  .wh-tools .wh-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 

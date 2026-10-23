@@ -32,39 +32,6 @@ export async function LeadershipPage() {
 
   return (
     <div className="leadership">
-      <section className="leadership-hero" aria-labelledby="leadership-hero-title">
-        <div className="leadership-hero-media">
-          <Image
-            className="leadership-hero-photo"
-            src="/images/leadership/hero.jpg"
-            alt={t("hero.imageAlt")}
-            fill
-            priority
-            sizes="100vw"
-          />
-          <div className="leadership-hero-scrim" aria-hidden="true" />
-        </div>
-        <div className="leadership-hero-copy">
-          <p className="leadership-eyebrow leadership-eyebrow-on-dark">
-            {t("hero.eyebrow")}
-          </p>
-          <h1 id="leadership-hero-title">{t("hero.title")}</h1>
-          <p className="leadership-hero-sub">{t("hero.subheading")}</p>
-          <p className="leadership-hero-lead">{t("hero.description")}</p>
-          <div className="leadership-actions">
-            <Link className="leadership-btn leadership-btn-primary" href="/shop">
-              {t("hero.exploreProducts")}
-            </Link>
-            <Link
-              className="leadership-btn leadership-btn-secondary"
-              href="/why-choose-us"
-            >
-              {t("hero.whyChoose")}
-            </Link>
-          </div>
-        </div>
-      </section>
-
       <section className="leadership-chairman" aria-labelledby="leadership-chairman-title">
         <div className="container">
           <div className="leadership-profile">
@@ -77,7 +44,7 @@ export async function LeadershipPage() {
                 <span className="leadership-num">{t("chairman.number")}</span>
                 <span className="leadership-eyebrow">{t("chairman.eyebrow")}</span>
               </p>
-              <h2 id="leadership-chairman-title">{t("chairman.heading")}</h2>
+              <h1 id="leadership-chairman-title">{t("chairman.heading")}</h1>
               <p className="leadership-person">{t("chairman.name")}</p>
               <p className="leadership-role">{t("chairman.title")}</p>
               <p className="leadership-company">{t("chairman.company")}</p>

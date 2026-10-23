@@ -4,53 +4,13 @@
   color: var(--color-text);
 }
 
-.leadership-hero {
-  position: relative;
-  display: grid;
-  align-items: end;
-  min-height: clamp(32rem, 76vh, 42rem);
-  overflow: hidden;
-  background: var(--kl-deep-teal);
-  color: var(--kl-white);
-}
-
-.leadership-hero-media,
 .leadership-break-media {
   position: absolute;
   inset: 0;
 }
 
-.leadership-hero-photo,
 .leadership-break-photo {
   object-fit: cover;
-}
-
-.leadership-hero-photo {
-  object-position: 70% 42%;
-}
-
-.leadership-hero-scrim {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    90deg,
-    var(--kl-deep-teal) 0%,
-    rgb(from var(--kl-deep-teal) r g b / 88%) 24%,
-    rgb(from var(--kl-deep-teal) r g b / 55%) 48%,
-    rgb(from var(--kl-deep-teal) r g b / 18%) 100%
-  );
-}
-
-.leadership-hero-copy {
-  position: relative;
-  z-index: 1;
-  width: min(40rem, 100%);
-  margin-inline-start: max(
-    calc(var(--space-8) / 2),
-    calc((100% - var(--page-width)) / 2)
-  );
-  padding-block: var(--space-10);
-  padding-inline-end: var(--space-6);
 }
 
 .leadership h1,
@@ -69,13 +29,6 @@
   line-height: var(--leading-heading);
 }
 
-.leadership h1 {
-  max-width: 12ch;
-  color: var(--kl-white);
-  font-size: clamp(2.4rem, 1.2rem + 3vw, 4.25rem);
-  line-height: var(--leading-display);
-}
-
 .leadership-eyebrow {
   margin: 0;
   color: var(--color-primary);
@@ -90,31 +43,12 @@ html[lang="en"] .leadership-eyebrow {
   letter-spacing: 0.14em;
 }
 
-.leadership-eyebrow-on-dark {
-  margin-bottom: var(--space-4);
-  color: var(--color-secondary);
-}
-
-.leadership-hero-sub {
-  margin: var(--space-4) 0 0;
-  color: var(--color-secondary);
-  font-size: var(--text-lg);
-  font-weight: var(--weight-semibold);
-  line-height: var(--leading-heading);
-}
-
-.leadership-hero-lead,
 .leadership-break-copy p,
 .leadership-final p,
 .leadership-band p {
   margin: var(--space-4) 0 0;
   font-size: var(--text-lg);
   line-height: var(--leading-body);
-}
-
-.leadership-hero-lead {
-  max-width: 36rem;
-  color: var(--color-neutral);
 }
 
 .leadership-actions {
@@ -169,7 +103,6 @@ html[lang="en"] .leadership-eyebrow {
   text-decoration: none;
 }
 
-.leadership-hero .leadership-btn:focus-visible,
 .leadership-band .leadership-btn:focus-visible,
 .leadership-final .leadership-btn:focus-visible {
   outline-color: var(--color-accent);
@@ -180,6 +113,11 @@ html[lang="en"] .leadership-eyebrow {
 .leadership-beliefs,
 .leadership-closing {
   padding-block: var(--space-10);
+}
+
+/* Header is sticky; keep the first message clear of it on load and on anchor scroll. */
+.leadership-chairman {
+  scroll-margin-top: var(--header-offset);
 }
 
 .leadership-chairman,
@@ -247,6 +185,7 @@ html[lang="en"] .leadership-eyebrow {
   line-height: 1;
 }
 
+.leadership-prose h1,
 .leadership-prose h2,
 .leadership-closing h2,
 .leadership-break-copy h2,
@@ -543,43 +482,6 @@ html:not([lang="en"]) .leadership-belief h3 {
 }
 
 @media (max-width: 699px) {
-  .leadership-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    min-height: 0;
-  }
-
-  .leadership-hero-media {
-    position: relative;
-    height: 14rem;
-  }
-
-  .leadership-hero-scrim {
-    background: linear-gradient(
-      to top,
-      var(--kl-deep-teal) 0%,
-      rgb(from var(--kl-deep-teal) r g b / 35%) 42%,
-      transparent 70%
-    );
-  }
-
-  .leadership-hero-copy {
-    width: min(100% - var(--space-5), var(--page-width));
-    margin-inline: auto;
-    padding: var(--space-5) 0 var(--space-6);
-  }
-
-  .leadership h1 {
-    max-width: none;
-    font-size: clamp(2rem, 8vw, 2.5rem);
-  }
-
-  .leadership-hero-lead,
-  .leadership-hero-sub {
-    font-size: var(--text-body);
-  }
-
   .leadership-actions {
     flex-direction: column;
     align-items: stretch;

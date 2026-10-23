@@ -4,10 +4,11 @@ import { notFound } from "next/navigation";
 import * as rootParams from "next/root-params";
 import { routing } from "./routing";
 
-type MessageTree = { [key: string]: string | string[] | MessageTree };
+type MessageValue = string | MessageValue[] | { [key: string]: MessageValue };
+type MessageTree = { [key: string]: MessageValue };
 
-function isMessageTree(value: string | string[] | MessageTree): value is MessageTree {
-  return typeof value === "object" && !Array.isArray(value);
+function isMessageTree(value: MessageValue): value is MessageTree {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
 function mergeMessages(base: MessageTree, overlay: MessageTree): MessageTree {
@@ -35,12 +36,12 @@ export default getRequestConfig(async ({ locale }) => {
     }
   }
 
-  const messages = (await import(`../../messages/${locale}.json`)).default as MessageTree;
+  const messages = (await import(`../../messages/${locale}.json`)).default as unknown as MessageTree;
   const fallback =
     locale === routing.defaultLocale
       ? messages
       : mergeMessages(
-          (await import("../../messages/en.json")).default as MessageTree,
+          (await import("../../messages/en.json")).default as unknown as MessageTree,
           messages,
         );
 

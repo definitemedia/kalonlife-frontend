@@ -1,6 +1,8 @@
+import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
 import { footerQuickLinks } from "@/config/navigation";
 import { Link } from "@/i18n/navigation";
+import type { LegalBlock, LegalInline } from "./legal-blocks";
 import "./legal-document.css";
 
 export type LegalSection = {
@@ -18,7 +20,71 @@ type LegalDocumentProps = {
   intro?: string;
   paragraphs?: string[];
   sections?: LegalSection[];
+  preface?: LegalBlock[];
+  blocks?: LegalBlock[];
 };
+
+function richText(parts: LegalInline[]) {
+  return parts.map((part, index) => {
+    if (part === "\n") return <br key={index} />;
+    if (typeof part === "string") return <span key={index}>{part}</span>;
+    return <strong key={index}>{part.b}</strong>;
+  });
+}
+
+function blockNode(block: LegalBlock, index: number): ReactNode {
+  if (block.t === "p") {
+    return <p key={index}>{richText(block.c)}</p>;
+  }
+  if (block.t === "h2") {
+    return <h2 key={block.id} id={block.id}>{block.c}</h2>;
+  }
+  if (block.t === "h3") {
+    return <h3 key={block.id} id={block.id}>{block.c}</h3>;
+  }
+  if (block.t === "ul" || block.t === "ol") {
+    const List = block.t;
+    return (
+      <List key={index}>
+        {block.items.map((item, itemIndex) => (
+          <li key={itemIndex}>{richText(item)}</li>
+        ))}
+      </List>
+    );
+  }
+  return (
+    <div key={index} className="legal-document-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            {block.head.map((cell, cellIndex) => (
+              <th key={cellIndex} scope="col" colSpan={cell.span && cell.span > 1 ? cell.span : undefined}>
+                {richText(cell.c)}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        {block.body.length ? (
+          <tbody>
+            {block.body.map((row, rowIndex) => (
+              <tr key={rowIndex}>
+                {row.map((cell, cellIndex) => (
+                  <td key={cellIndex} colSpan={cell.span && cell.span > 1 ? cell.span : undefined}>
+                    {richText(cell.c)}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        ) : null}
+      </table>
+    </div>
+  );
+}
+
+function renderBlocks(blocks: LegalBlock[]) {
+  return blocks.map((block, index) => blockNode(block, index));
+}
 
 function sectionHeading(title: string, index: number) {
   const numbered = /^(\d+)\.\s+([\s\S]+)$/.exec(title.trim());
@@ -35,6 +101,8 @@ export async function LegalDocument({
   intro,
   paragraphs = [],
   sections = [],
+  preface = [],
+  blocks = [],
 }: LegalDocumentProps) {
   const t = await getTranslations("footer");
   const related = footerQuickLinks.filter((item) => item.href !== currentHref);
@@ -43,12 +111,15 @@ export async function LegalDocument({
     <div className="legal-page">
       <div className="legal-document-band">
         <header className="legal-document legal-document-header">
+          {preface.length ? <div className="legal-document-preface">{renderBlocks(preface)}</div> : null}
           <h1>{title}</h1>
           {subtitle ? <p className="legal-document-subtitle">{subtitle}</p> : null}
           {intro ? <p className="legal-document-intro">{intro}</p> : null}
         </header>
       </div>
       <article className="legal-document">
+        {blocks.length ? <div className="legal-document-flow">{renderBlocks(blocks)}</div> : null}
+
         {paragraphs.length ? (
           <div className="legal-document-paragraphs">
             {paragraphs.map((paragraph, index) => (

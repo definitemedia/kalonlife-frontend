@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { renderPublishedSoon } from "@/lib/render-route";
+import { setRequestLocale } from "next-intl/server";
+import { PublishedLegalPage } from "@/components/layout/PublishedLegalPage";
 import { buildMetadata } from "@/lib/seo";
 
 type Props = {
@@ -13,5 +14,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { locale } = await params;
-  return renderPublishedSoon(locale, "csrProjectDetails");
+  setRequestLocale(locale);
+
+  return (
+    <PublishedLegalPage
+      locale={locale}
+      routeKey="csrProjectDetails"
+      namespace="csrSocialImpactBody"
+      href="/csr-project-details"
+    />
+  );
 }
